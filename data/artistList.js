@@ -32,6 +32,7 @@ export const rawArtistList = [
     },
     avatar: "",
     youtubeClips: [],
+    tags: ["houseHead"],
     youtubePlaylist: "",
   },
   { 
@@ -56,7 +57,8 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [],
     youtubePlaylist: "",
-    tags: ["nycNouveau"],
+    tags: ["nycNouveau", "houseHead"],
+    discogsId: "23524-Arthur-Russell"
   },
   { 
     name: "David Axlerod",
@@ -94,70 +96,70 @@ export const rawArtistList = [
     youtubePlaylist: "",
     tags: ["nycNouveau", "houseHead"],
   },
-  { 
-    name: "",
-    from: {
-      city: "",
-      state: "",
-      country: "",
-    },
-    avatar: "",
-    youtubeClips: [],
-    youtubePlaylist: "",
-  },
-  { 
-    name: "",
-    from: {
-      city: "",
-      state: "",
-      country: "",
-    },
-    avatar: "",
-    youtubeClips: [],
-    youtubePlaylist: "",
-  },
-  { 
-    name: "",
-    from: {
-      city: "",
-      state: "",
-      country: "",
-    },
-    avatar: "",
-    youtubeClips: [],
-    youtubePlaylist: "",
-  },
-  { 
-    name: "",
-    from: {
-      city: "",
-      state: "",
-      country: "",
-    },
-    avatar: "",
-    youtubeClips: [],
-    youtubePlaylist: "",
-  },
-  { 
-    name: "",
-    from: {
-      city: "",
-      state: "",
-      country: "",
-    },
-    avatar: "",
-    youtubeClips: [],
-    youtubePlaylist: "",
-  },
-  { 
-    name: "",
-    from: {
-      city: "",
-      state: "",
-      country: "",
-    },
-    avatar: "",
-    youtubeClips: [],
-    youtubePlaylist: "",
-  }
+  // { 
+  //   name: "",
+  //   from: {
+  //     city: "",
+  //     state: "",
+  //     country: "",
+  //   },
+  //   avatar: "",
+  //   youtubeClips: [],
+  //   youtubePlaylist: "",
+  // },
+  // { 
+  //   name: "",
+  //   from: {
+  //     city: "",
+  //     state: "",
+  //     country: "",
+  //   },
+  //   avatar: "",
+  //   youtubeClips: [],
+  //   youtubePlaylist: "",
+  // },
+  // { 
+  //   name: "",
+  //   from: {
+  //     city: "",
+  //     state: "",
+  //     country: "",
+  //   },
+  //   avatar: "",
+  //   youtubeClips: [],
+  //   youtubePlaylist: "",
+  // },
+  // { 
+  //   name: "",
+  //   from: {
+  //     city: "",
+  //     state: "",
+  //     country: "",
+  //   },
+  //   avatar: "",
+  //   youtubeClips: [],
+  //   youtubePlaylist: "",
+  // },
+  // { 
+  //   name: "",
+  //   from: {
+  //     city: "",
+  //     state: "",
+  //     country: "",
+  //   },
+  //   avatar: "",
+  //   youtubeClips: [],
+  //   youtubePlaylist: "",
+  // },
+  // { 
+  //   name: "",
+  //   from: {
+  //     city: "",
+  //     state: "",
+  //     country: "",
+  //   },
+  //   avatar: "",
+  //   youtubeClips: [],
+  //   youtubePlaylist: "",
+  // }
 ];
