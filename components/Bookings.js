@@ -5,16 +5,19 @@ import {
 } from './styles/homepageStyles';
 
 
-export function HomePage ({ mixes }) {
+export function Bookings ({ mixes }) {
 
   console.log('mixes', mixes);
 
   return (
     <div id="page">
       <IntroPane>
-        <h1>
+        {/* <h1>
           random orbits
-        </h1>
+        </h1> */}
+        <div>
+          for bookings contact <a href="#">some@where.com</a>
+        </div>
         {/* <div>sounds for any vibe</div  > */}
         <CenteredLinks>
           <a href="/">Background</a>
