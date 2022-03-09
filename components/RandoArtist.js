@@ -1,71 +1,62 @@
-import { useState } from 'react';
-import useSWR from 'swr'; 
+import { useState, useEffect } from 'react';
+import { RandoArtistProfile } from './RandoArtistProfile';
+
+const LOCAL_STORAGE_KEY = 'pgu_saved';
 
 export function RandoArtist ({ artistList }) {
-
-  // const artistEndpoint = "//localhost:8080/artists"
-
-  // const getData = async () => {
-  //   const response = await fetch(artistEndpoint);
-  //   return await response.json();
-  // };
-
-  // const { data } = useSWR(artistEndpoint, getData);
-
-  // console.log('EEEE', data);
-
   const initialArtist = getRandomArtist(artistList);
   const [currentArtist, setCurrentArtist] = useState(initialArtist)
+  const [unviewedArtistList, setUnviewedArtistList] = useState(artistList);
 
-  const { 
-    name,
-    from: {
-      city,
-      state, 
-      country,
-    },
-    mightAlsoLike 
-  } = currentArtist;
+  const relatedArtistList = unviewedArtistList
+    .filter(filteredArtist => currentArtist.mightAlsoLike.includes(filteredArtist.name))
+    .map(artist => artist.name);
 
   const setNewRelatedArtist = () => {
-    const relatedArtist = getRelatedArtist({ artistList, mightAlsoLike });
+    const relatedArtist = getRelatedArtist({ unviewedArtistList, relatedArtistList }); 
     setCurrentArtist(relatedArtist);
   }
 
   const setNewArtist = () => {
-    const randomArtist = getRandomArtist(artistList)
+    const randomArtist = getRandomArtist(unviewedArtistList)
     setCurrentArtist(randomArtist);
   }
 
-  return (
-    <div id="page">
-
-      <div>
-        <span className="link--inverted" onClick={setNewArtist}>Nextguy</span>
-      </div>
-
-      <div id="artist-proflie">
-        <h1>{name}</h1>
-        <div>from: {city}, {state}, {country}</div>
-        {!!mightAlsoLike.length && (
-          <span 
-            className="link--inverted" 
-            onClick={setNewRelatedArtist}
-          >
-            more like {name}
-          </span>
-        )}
-      </div>
-    </div>
-  )
+  useEffect(() => {
+    addToViewed(currentArtist.name);
+    setUnviewedArtistList(() => getUnviewedArtistList(artistList));    
+  }, [currentArtist]);
+  
+  return <RandoArtistProfile 
+    artist={currentArtist}
+    relatedArtistList={relatedArtistList}
+    setNewArtist={setNewArtist}
+    setNewRelatedArtist={setNewRelatedArtist}
+  />;
 }
 
-function getRandomArtist(artistList) {
-  const randomIndex = Math.floor(Math.random() * artistList.length);
-  return artistList[randomIndex]
+function getRandomArtist(unviewedArtistList) {
+  const randomIndex = Math.floor(Math.random() * unviewedArtistList.length);
+  return unviewedArtistList[randomIndex];
 }
 
-function getRelatedArtist({ artistList, mightAlsoLike }) {
-  const randomRelatedArtist = getRandomArtist(mightAlsoLike);
-  return artistList.filter(artist => artist.name === randomRelatedArtist)[0];
+function getRelatedArtist({ unviewedArtistList, relatedArtistList }) {
+  const randomRelatedArtist = getRandomArtist(relatedArtistList);
+  return unviewedArtistList.filter(artist => artist.name === randomRelatedArtist)[0];
+}
+
+function addToViewed(artistName) {
+  const viewed = localStorage.getItem(LOCAL_STORAGE_KEY);
+  let json = {};
+  if ( viewed ) { json = JSON.parse(viewed); }
+  json[artistName] = true;
+  localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(json));
+}
+
+function getUnviewedArtistList (artistList) {
+  const viewed = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY));
+  const newFilteredList = artistList.filter(artist => !viewed[artist.name]);    
+  const hasRemainingArtists = newFilteredList.length > 0;
+  if ( !hasRemainingArtists ) { localStorage.removeItem(LOCAL_STORAGE_KEY); }
+  return hasRemainingArtists ? newFilteredList : artistList;
 }
