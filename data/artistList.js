@@ -1,42 +1,163 @@
-export const artistList = [
+export const rawArtistList = [
   { 
     name: "PJ Harvey" ,
-    fromCity: "Dorset",
-    fromState: "England",
-    fromCountry: "UK",
+    from: {
+      city: "Dorset",
+      state: "England",
+      country: "UK",  
+    },
     avatar: "",
     youtubeClips: [],
     youtubePlaylist: "",
-    mightAlsoLike: ["Lydia Lunch", "Lena Platanos"]
+    tags: ["femmePunk"],
   },
   { 
     name: "Lydia Lunch" ,
-    fromCity: "Rochester",
-    fromState: "NY",
-    fromCountry: "USA",
+    from: {
+      city: "Rochester",
+      state: "NY",
+      country: "USA",  
+    },
     avatar: "",
     youtubeClips: [],
     youtubePlaylist: "",
-    mightAlsoLike: []
+    tags: ["femmePunk"],
   },
   { 
     name: "Dr. Buzzard's Original Savannah Band" ,
-    fromCity: "New York City",
-    fromState: "NY",
-    fromCountry: "USA",
+    from: {
+      city: "New York City",
+      state: "NY",
+      country: "USA",
+    },
     avatar: "",
     youtubeClips: [],
     youtubePlaylist: "",
-    mightAlsoLike: []
   },
   { 
     name: "Lena Platanos",
-    fromCity: "Heraklion",
-    fromState: "Crete",
-    fromCountry: "Greece",
+    from: {
+      city: "Heraklion",
+      state: "Crete",
+      country: "Greece",
+    },
     avatar: "",
     youtubeClips: [],
     youtubePlaylist: "",
-    mightAlsoLike: []
+    tags: ["femmePunk", "nycNouveau"],
+  },
+  { 
+    name: "Arthur Russel",
+    from: {
+      city: "",
+      state: "",
+      country: "",
+    },
+    avatar: "",
+    youtubeClips: [],
+    youtubePlaylist: "",
+    tags: ["nycNouveau"],
+  },
+  { 
+    name: "David Axlerod",
+    from: {
+      city: "NYC",
+      state: "NY",
+      country: "USA",
+    },
+    avatar: "",
+    youtubeClips: [],
+    youtubePlaylist: "",
+    tags: ["hipHopSampleSources"],
+  },
+  { 
+    name: "Larry Heard",
+    from: {
+      city: "Chicago",
+      state: "IL",
+      country: "USA",
+    },
+    avatar: "",
+    youtubeClips: [],
+    youtubePlaylist: "",
+    tags: ["houseHead"],
+  },
+  { 
+    name: "ESG",
+    from: {
+      city: "NYC",
+      state: "NY",
+      country: "USA",
+    },
+    avatar: "",
+    youtubeClips: [],
+    youtubePlaylist: "",
+    tags: ["nycNouveau", "houseHead"],
+  },
+  { 
+    name: "",
+    from: {
+      city: "",
+      state: "",
+      country: "",
+    },
+    avatar: "",
+    youtubeClips: [],
+    youtubePlaylist: "",
+  },
+  { 
+    name: "",
+    from: {
+      city: "",
+      state: "",
+      country: "",
+    },
+    avatar: "",
+    youtubeClips: [],
+    youtubePlaylist: "",
+  },
+  { 
+    name: "",
+    from: {
+      city: "",
+      state: "",
+      country: "",
+    },
+    avatar: "",
+    youtubeClips: [],
+    youtubePlaylist: "",
+  },
+  { 
+    name: "",
+    from: {
+      city: "",
+      state: "",
+      country: "",
+    },
+    avatar: "",
+    youtubeClips: [],
+    youtubePlaylist: "",
+  },
+  { 
+    name: "",
+    from: {
+      city: "",
+      state: "",
+      country: "",
+    },
+    avatar: "",
+    youtubeClips: [],
+    youtubePlaylist: "",
+  },
+  { 
+    name: "",
+    from: {
+      city: "",
+      state: "",
+      country: "",
+    },
+    avatar: "",
+    youtubeClips: [],
+    youtubePlaylist: "",
   }
 ];
