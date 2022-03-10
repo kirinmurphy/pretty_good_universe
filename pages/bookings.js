@@ -1,4 +1,4 @@
-import { Bookings } from '../components/bookings';
+import { Bookings } from '../components/Bookings';
 import { mixes } from '../data/mixes';
 
 export default function BookingsPage({ mixes }) {  
