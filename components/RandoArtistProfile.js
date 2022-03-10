@@ -1,52 +1,28 @@
 import { DiscogsPreview } from './DiscogsPreview';
 import { YoutubeVids } from './YoutubePlayer';
 
-export function RandoArtistProfile (props) {
+export function RandoArtistProfile ({ artist }) {
   const { 
-    setNewArtist, 
-    setNewRelatedArtist,
-    relatedArtistList,
-    artist: { 
-      name,
-      from: {
-        city,
-        state, 
-        country,
-      },
-      discogsId,
-      youtubeClips
-    }
-  } = props; 
+    name,
+    from: {
+      city,
+      state, 
+      country,
+    },
+    discogsId,
+    youtubeClips
+  } = artist;
 
   return (
-    <div id="page">
-      <div>
-        <span 
-          className="link--inverted" 
-          onClick={setNewArtist}>
-            Nextguy
-        </span>
-      </div>
+    <div id="artist-profile">
+      <h1>{name}</h1>
+      <div>from: {city}, {state}, {country}</div>
+    
+      {discogsId && <DiscogsPreview discogsId={discogsId} />}
 
-      <div id="artist-proflie">
-        <h1>{name}</h1>
-        <div>from: {city}, {state}, {country}</div>
-        
-        {!!relatedArtistList.length && (
-          <span 
-            className="link--inverted" 
-            onClick={setNewRelatedArtist}
-          >
-            more like {name}
-          </span>
-        )}
-
-        {discogsId && <DiscogsPreview discogsId={discogsId} />}
-
-        {!!youtubeClips && !!youtubeClips.length && (
-          <YoutubeVids videos={youtubeClips} />
-        )}
-      </div>
+      {!!youtubeClips && !!youtubeClips.length && (
+        <YoutubeVids videos={youtubeClips} />
+      )}
     </div>
   )
 }

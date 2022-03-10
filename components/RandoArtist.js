@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { RandoArtistNav } from './RandoArtistNav';
 import { RandoArtistProfile } from './RandoArtistProfile';
 
 const LOCAL_STORAGE_KEY = 'pgu_saved';
@@ -27,12 +28,18 @@ export function RandoArtist ({ artistList }) {
     setUnviewedArtistList(() => getUnviewedArtistList(artistList));    
   }, [currentArtist]);
   
-  return <RandoArtistProfile 
-    artist={currentArtist}
-    relatedArtistList={relatedArtistList}
-    setNewArtist={setNewArtist}
-    setNewRelatedArtist={setNewRelatedArtist}
-  />;
+  return (
+    <div id="page">
+      <RandoArtistNav 
+        setNewArtist={setNewArtist}
+        setNewRelatedArtist={setNewRelatedArtist}
+        relatedArtistList={relatedArtistList}
+        currentArtistName={currentArtist.name}
+      />
+
+      <RandoArtistProfile artist={currentArtist} />
+    </div>
+  )
 }
 
 function getRandomArtist(unviewedArtistList) {
