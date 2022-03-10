@@ -1,4 +1,5 @@
 import { DiscogsPreview } from './DiscogsPreview';
+import { YoutubeVids } from './YoutubePlayer';
 
 export function RandoArtistProfile (props) {
   const { 
@@ -12,7 +13,8 @@ export function RandoArtistProfile (props) {
         state, 
         country,
       },
-      discogsId
+      discogsId,
+      youtubeClips
     }
   } = props; 
 
@@ -39,9 +41,11 @@ export function RandoArtistProfile (props) {
           </span>
         )}
 
-        {discogsId && <DiscogsPreview 
-          discogsId={discogsId} 
-        />}
+        {discogsId && <DiscogsPreview discogsId={discogsId} />}
+
+        {!!youtubeClips && !!youtubeClips.length && (
+          <YoutubeVids videos={youtubeClips} />
+        )}
       </div>
     </div>
   )

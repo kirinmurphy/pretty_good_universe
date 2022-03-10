@@ -50,4 +50,11 @@ export const GlobalStyles = createGlobalStyle`
       text-decoration: underline;
     }
   }
+
+  #page {
+    padding: 4vh 4vw;
+    max-width:800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 `;

@@ -48,14 +48,17 @@ export const rawArtistList = [
     tags: ["femmePunk", "nycNouveau"],
   },
   { 
-    name: "Arthur Russel",
+    name: "Arthur Russell",
     from: {
       city: "",
       state: "",
       country: "",
     },
     avatar: "",
-    youtubeClips: [],
+    youtubeClips: [
+      { videoId: "ZN5yz2koiIA" },
+      { videoId: "9hEUTIjQuTo" }
+    ],
     youtubePlaylist: "",
     tags: ["nycNouveau", "houseHead"],
     discogsId: "23524-Arthur-Russell"
