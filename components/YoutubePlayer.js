@@ -6,6 +6,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export function YoutubeVids ({ videos }) {
 
+  console.log('videos', videos);
+
   const initialVideoPlayerProps = {
     autoPlay: false, 
     activeIndex: 0,
@@ -85,16 +87,16 @@ const YoutubeVidsWrapper = styled.div`
   max-width:800px;
   margin-left: auto;
   margin-right: auto;
-  padding-top:40px;
+  padding-top:1rem;
   .video-wrapper { 
     position:relative;
     height:0; 
     padding:40px 0 56.25% 0; 
     padding-top:40px; 
     overflow:hidden;
-    box-shadow:0 0 15px #444; 
     background:#333;
   }
+
   iframe { 
     position:absolute;
     top:0; 
@@ -102,6 +104,8 @@ const YoutubeVidsWrapper = styled.div`
     width:100%; 
     height:100%;
   }
+  
+
   .video-actions { 
     display:flex;
     justify-content: space-between;
@@ -111,10 +115,10 @@ const YoutubeVidsWrapper = styled.div`
       padding:.75rem .5rem .5rem .5rem;
       text-transform:uppercase; 
       cursor:pointer;
-      font-size:1.2rem; 
-      color:#555;
+      font-size:.9rem; 
+      color:#eee;
       &:hover { 
-        color:#000; 
+        color:#fff; 
       }
       &:active,
       &:hover:active { 
@@ -147,8 +151,5 @@ const YoutubeVidsWrapper = styled.div`
         }
       }
     }
-  }
-  @media (max-width:800px) {
-    padding-top:20px; 
   }
 `;

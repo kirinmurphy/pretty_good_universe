@@ -6,6 +6,7 @@ const LOCAL_STORAGE_KEY = 'pgu_saved';
 
 export function RandoArtist ({ artistList }) {
   const initialArtist = getRandomArtist(artistList);
+  console.log('initialArtist', initialArtist);
   const [currentArtist, setCurrentArtist] = useState(initialArtist)
   const [unviewedArtistList, setUnviewedArtistList] = useState(artistList);
 
@@ -14,11 +15,13 @@ export function RandoArtist ({ artistList }) {
     .map(artist => artist.name);
 
   const setNewRelatedArtist = () => {
+    console.log('SNRA');
     const relatedArtist = getRelatedArtist({ unviewedArtistList, relatedArtistList }); 
     setCurrentArtist(relatedArtist);
   }
 
   const setNewArtist = () => {
+    console.log('SNA');
     const randomArtist = getRandomArtist(unviewedArtistList)
     setCurrentArtist(randomArtist);
   }

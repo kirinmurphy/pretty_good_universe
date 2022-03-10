@@ -1,24 +1,33 @@
+import styled from 'styled-components';
 import { DiscogsPreview } from './DiscogsPreview';
 import { YoutubeVids } from './YoutubePlayer';
 
 export function RandoArtistProfile ({ artist }) {
   const { 
     name,
-    from: {
-      city,
-      state, 
-      country,
-    },
+    from,
     discogsId,
-    youtubeClips
+    youtubeClips,
+    avatar
   } = artist;
+
+  console.log('artist', JSON.parse(JSON.stringify(artist)));
 
   return (
     <div id="artist-profile">
-      <h1>{name}</h1>
-      <div>from: {city}, {state}, {country}</div>
+      
+      <ArtistTitleBar>
+        <h1>{name}</h1>
+        <div>{from}</div>
+      </ArtistTitleBar>
     
-      {discogsId && <DiscogsPreview discogsId={discogsId} />}
+      <ArtistMarqueeWrapper>
+        <ArtistAvatarWrapper>
+          {avatar && <img src={`/images/${avatar}`} />}
+        </ArtistAvatarWrapper>
+
+        {discogsId && <DiscogsPreview discogsId={discogsId} />}
+      </ArtistMarqueeWrapper>
 
       {!!youtubeClips && !!youtubeClips.length && (
         <YoutubeVids videos={youtubeClips} />
@@ -26,3 +35,35 @@ export function RandoArtistProfile ({ artist }) {
     </div>
   )
 }
+
+const marqueeBreakpoint = '730px';
+
+const ArtistAvatarWrapper = styled.div`
+  img { width: 100%; }
+
+  @media (min-width:${marqueeBreakpoint}) {
+    max-width: 300px;
+  }  
+`;
+
+const ArtistMarqueeWrapper = styled.div`
+  > * {
+    margin-bottom: 1rem; 
+  }
+
+  @media (min-width:${marqueeBreakpoint}) {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }  
+`;
+
+const ArtistTitleBar = styled.div`
+  padding: 1rem 0;
+
+  > * { display: inline-block; 
+    &:first-of-type { margin-right: 1rem; }
+  }
+
+
+`;
