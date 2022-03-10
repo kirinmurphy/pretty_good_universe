@@ -13,7 +13,7 @@ export function RandoArtistNav (props) {
       <span 
         className="link--inverted" 
         onClick={setNewArtist}>
-          Nextguy
+          Next Artist
       </span>
 
       {!!relatedArtistList.length && (
