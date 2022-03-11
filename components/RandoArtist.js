@@ -8,24 +8,48 @@ export function RandoArtist ({ artistList }) {
   const [currentArtist, setCurrentArtist] = useState(null)
   const [unviewedArtistList, setUnviewedArtistList] = useState(artistList);
 
+  const [catalogState, setCatalogState] = useState({
+    currentArtist: null,
+    unviewedArtists: []
+  });
+
+  // if ( !currentArtist && catalogState.currentArtist ) {}
+  console.log('EEEartists', currentArtist?.name, catalogState.currentArtist?.name);
+  console.log('UVAL', unviewedArtistList, catalogState.unviewedArtists);
+
   const relatedArtistList = !!currentArtist && unviewedArtistList
     .filter(filteredArtist => currentArtist.mightAlsoLike.includes(filteredArtist.name))
     .map(artist => artist.name);
+
+  const updateCatalog = (newArtist) => {
+    addToViewed(currentArtist.name);
+    setCatalogState({
+      currentArtist: newArtist,
+      unviewedArtists: getUnviewedArtistList(artistList),
+    });
+  };
 
   const setNewRelatedArtist = () => {
     console.log('SNRA');
     const relatedArtist = getRelatedArtist({ unviewedArtistList, relatedArtistList }); 
     setCurrentArtist(relatedArtist);
+    updateCatalog(relatedArtist);
   }
 
   const setNewArtist = () => {
     console.log('SNA');
     const randomArtist = getRandomArtist(unviewedArtistList)
     setCurrentArtist(randomArtist);
+    updateCatalog(randomArtist);
   }
 
   useEffect(() => {
-    setCurrentArtist(getRandomArtist(artistList));
+    const newArtist = getRandomArtist(artistList);
+    setCatalogState({
+      unviewedArtists: getUnviewedArtistList(artistList),
+      currentArtist: newArtist
+    })
+    setCurrentArtist(newArtist);
   }, [])
 
   useEffect(() => {
@@ -70,7 +94,7 @@ function addToViewed(artistName) {
 }
 
 function getUnviewedArtistList (artistList) {
-  const viewed = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY));
+  const viewed = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY)) || {};
   const newFilteredList = artistList.filter(artist => !viewed[artist.name]);    
   const hasRemainingArtists = newFilteredList.length > 0;
   if ( !hasRemainingArtists ) { localStorage.removeItem(LOCAL_STORAGE_KEY); }
