@@ -5,24 +5,21 @@ import { RandoArtistProfile } from './RandoArtistProfile';
 const LOCAL_STORAGE_KEY = 'pgu_saved';
 
 export function RandoArtist ({ artistList }) {
-  const [currentArtist, setCurrentArtist] = useState(null)
-  const [unviewedArtistList, setUnviewedArtistList] = useState(artistList);
-
   const [catalogState, setCatalogState] = useState({
     currentArtist: null,
     unviewedArtists: []
   });
 
-  // if ( !currentArtist && catalogState.currentArtist ) {}
-  console.log('EEEartists', currentArtist?.name, catalogState.currentArtist?.name);
-  console.log('UVAL', unviewedArtistList, catalogState.unviewedArtists);
+  const relatedArtistList = !!catalogState.currentArtist 
+    && !!catalogState.unviewedArtistList
+    && catalogState.unviewedArtistList
+      .filter(filteredArtist => catalogState.currentArtist.mightAlsoLike.includes(filteredArtist.name))
+      .map(artist => artist.name);
 
-  const relatedArtistList = !!currentArtist && unviewedArtistList
-    .filter(filteredArtist => currentArtist.mightAlsoLike.includes(filteredArtist.name))
-    .map(artist => artist.name);
+  console.log('RAL', catalogState.unviewedArtistList);
 
   const updateCatalog = (newArtist) => {
-    addToViewed(currentArtist.name);
+    addToViewed(catalogState.currentArtist.name);
     setCatalogState({
       currentArtist: newArtist,
       unviewedArtists: getUnviewedArtistList(artistList),
@@ -30,47 +27,37 @@ export function RandoArtist ({ artistList }) {
   };
 
   const setNewRelatedArtist = () => {
-    console.log('SNRA');
-    const relatedArtist = getRelatedArtist({ unviewedArtistList, relatedArtistList }); 
-    setCurrentArtist(relatedArtist);
+    const relatedArtist = getRelatedArtist({ 
+      unviewedArtistList: catalogState.unviewedArtists, 
+      relatedArtistList 
+    }); 
     updateCatalog(relatedArtist);
   }
 
   const setNewArtist = () => {
-    console.log('SNA');
-    const randomArtist = getRandomArtist(unviewedArtistList)
-    setCurrentArtist(randomArtist);
+    const randomArtist = getRandomArtist(catalogState.unviewedArtists)
     updateCatalog(randomArtist);
   }
 
   useEffect(() => {
-    const newArtist = getRandomArtist(artistList);
+    const u = getUnviewedArtistList(artistList);
+    console.log('wooop', u);
     setCatalogState({
-      unviewedArtists: getUnviewedArtistList(artistList),
-      currentArtist: newArtist
+      unviewedArtists: u,
+      currentArtist: getRandomArtist(artistList)
     })
-    setCurrentArtist(newArtist);
   }, [])
-
-  useEffect(() => {
-    if ( !!currentArtist ) {
-      console.log('---------- HWENN?!!!!! -------')
-      addToViewed(currentArtist.name);
-      setUnviewedArtistList(() => getUnviewedArtistList(artistList));      
-    } else {
-    }
-  }, [currentArtist]);
   
-  return !!currentArtist ? (
+  return !!catalogState.currentArtist ? (
     <div id="page">
       <RandoArtistNav 
         setNewArtist={setNewArtist}
         setNewRelatedArtist={setNewRelatedArtist}
         relatedArtistList={relatedArtistList}
-        currentArtistName={currentArtist.name}
+        currentArtistName={catalogState.currentArtist.name}
       />
 
-      <RandoArtistProfile artist={currentArtist} />
+      <RandoArtistProfile artist={catalogState.currentArtist} />
     </div>
   ) : <></>;
 }
@@ -95,6 +82,7 @@ function addToViewed(artistName) {
 
 function getUnviewedArtistList (artistList) {
   const viewed = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY)) || {};
+  console.log('viewed', viewed);
   const newFilteredList = artistList.filter(artist => !viewed[artist.name]);    
   const hasRemainingArtists = newFilteredList.length > 0;
   if ( !hasRemainingArtists ) { localStorage.removeItem(LOCAL_STORAGE_KEY); }

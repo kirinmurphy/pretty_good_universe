@@ -15,7 +15,6 @@ export function RandoArtistProfile ({ artist }) {
 
   return (
     <div id="artist-profile">
-      
       <ArtistTitleBar>
         <h1>{name}</h1>
         <div>{from}</div>
