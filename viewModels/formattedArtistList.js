@@ -19,8 +19,6 @@ export const artistList = rawArtistList.map(artist => {
       .filter(tag => tag !== artist.name)
     : [];
 
-    console.log('mal', artist.name, ": ", mightAlsoLike);
-
   return {
     ...artist,
     mightAlsoLike      

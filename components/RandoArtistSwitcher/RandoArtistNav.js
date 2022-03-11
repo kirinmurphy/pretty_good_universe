@@ -29,7 +29,7 @@ export function RandoArtistNav (props) {
 }
 
 const RandorArtistNavWrapper = styled.div`
-  display: flex;
-  flex-direction: row;
-  gap: 1.5rem;
+  > * { display:inline-block; 
+    &:first-of-type { margin-right: 2rem; }
+  }
 `;

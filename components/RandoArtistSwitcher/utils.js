@@ -1,9 +1,9 @@
-export function getRandomArtist(unviewedArtistList) {
-  const randomIndex = Math.floor(Math.random() * unviewedArtistList.length);
-  return unviewedArtistList[randomIndex];
+export function getRandomArtist(unviewedArtists) {
+  const randomIndex = Math.floor(Math.random() * unviewedArtists.length);
+  return unviewedArtists[randomIndex];
 }
 
-export function getRelatedArtist({ unviewedArtistList, relatedArtistList }) {
+export function getRelatedArtist({ unviewedArtists, relatedArtistList }) {
   const randomRelatedArtist = getRandomArtist(relatedArtistList);
-  return unviewedArtistList.filter(artist => artist.name === randomRelatedArtist)[0];
+  return unviewedArtists.filter(artist => artist.name === randomRelatedArtist)[0];
 }
