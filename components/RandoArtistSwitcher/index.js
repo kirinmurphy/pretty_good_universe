@@ -4,8 +4,7 @@ import { getRandomArtist } from './utils';
 
 const LOCAL_STORAGE_KEY = 'pgu_saved';
 
-export function RandoArtistSwitcher ({ artistList }) {
-  
+export function RandoArtistSwitcher ({ artistList }) {  
   const [catalogState, setCatalogState] = useState({
     currentArtist: null,
     unviewedArtists: []
@@ -43,5 +42,6 @@ function getUnviewedArtistList (artistList) {
   const newFilteredList = artistList.filter(artist => !viewed[artist.name]);    
   const hasRemainingArtists = newFilteredList.length > 0;
   if ( !hasRemainingArtists ) { localStorage.removeItem(LOCAL_STORAGE_KEY); }
+  console.log('nfl.length', newFilteredList.length);
   return hasRemainingArtists ? newFilteredList : artistList;
 }

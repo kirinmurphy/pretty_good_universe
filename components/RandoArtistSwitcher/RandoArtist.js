@@ -4,6 +4,8 @@ import { getRandomArtist, getRelatedArtist } from './utils';
 
 export function RandoArtist ({ catalogState, updateCatalog }) {
 
+  console.log('catalogState.currentArtist: ', catalogState.currentArtist.name);
+
   const { 
     currentArtist,
     currentArtist: {
