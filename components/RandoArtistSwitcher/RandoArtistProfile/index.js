@@ -18,10 +18,10 @@ export function RandoArtistProfile ({ artist }) {
         <div>{from}</div>
       </ArtistTitleBar>
     
-      <ArtistMarqueeWrapper>
-        <ArtistAvatarWrapper>
-          {avatar && <img src={`/images/${avatar}`} />}
-        </ArtistAvatarWrapper>
+      <ArtistMarqueeWrapper hasImage={!!avatar}>
+        {/* <ArtistAvatarWrapper>
+          {!!avatar && <img src={`/images/${avatar}`} />}
+        </ArtistAvatarWrapper> */}
 
         {discogsId && <DiscogsPreview discogsId={discogsId} />}
       </ArtistMarqueeWrapper>
@@ -35,28 +35,31 @@ export function RandoArtistProfile ({ artist }) {
 
 const marqueeBreakpoint = '730px';
 
-const ArtistAvatarWrapper = styled.div`
-  img { width: 100%; }
+// const ArtistAvatarWrapper = styled.div`
+//   img { width: 100%; }
 
-  @media (min-width:${marqueeBreakpoint}) {
-    max-width: 300px;
-  }  
-`;
+//   @media (min-width:${marqueeBreakpoint}) {
+//     max-width: 300px;
+//   }  
+// `;
 
 const ArtistMarqueeWrapper = styled.div`
+  font-size: .8rem;
+  
   > * {
-    margin-bottom: 1rem; 
+    margin-bottom: .5rem; 
   }
 
   @media (min-width:${marqueeBreakpoint}) {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+
+    /* ${props => props.hasImage && 'gap: 2rem;'}; */
   }  
 `;
 
 const ArtistTitleBar = styled.div`
-  padding: 1rem 0;
+  padding: .5rem 0;
 
   > * { display: inline-block; 
     &:first-of-type { margin-right: 1rem; }

@@ -16,7 +16,8 @@ export function YoutubeVids ({ videos }) {
     dispatch
   ] = useReducer(videoPlayerReducer, initialVideoPlayerProps);
 
-  const currentVideoId = videos[activeIndex].videoId;
+  if ( !videos[activeIndex] ) { alert("busted Video") }
+  const currentVideoId = videos[activeIndex]?.videoId;
 
   const goBack = () => dispatch({ type: VIDEO_PLAYER_ACTION_BACK });
   const goNext = () => dispatch({ type: VIDEO_PLAYER_ACTION_NEXT });
@@ -31,16 +32,18 @@ export function YoutubeVids ({ videos }) {
         ></iframe>
       </div>
 
-      <div className="video-actions">
-        <span className="back" onClick={goBack}>
-          &nbsp;<FontAwesomeIcon icon={['fas', 'caret-left']} size="sm" />
-        </span>
+      {videos.length > 1 && (
+        <div className="video-actions">
+          <span className="back" onClick={goBack}>
+            &nbsp;<FontAwesomeIcon icon={['fas', 'caret-left']} size="sm" />
+          </span>
 
-        <span className="next" onClick={goNext}>
-          Next Video
-          <FontAwesomeIcon icon={['fas', 'caret-right']} size="sm" />
-        </span>
-      </div>    
+          <span className="next" onClick={goNext}>
+            Next
+            <FontAwesomeIcon icon={['fas', 'caret-right']} size="sm" />
+          </span>
+        </div>
+      )}
     </YoutubeVidsWrapper>
   );
 }
