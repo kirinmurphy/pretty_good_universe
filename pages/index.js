@@ -1,12 +1,10 @@
-import { RandoArtist } from '../components/RandoArtist';
+import { RandoArtistSwitcher } from '../components/RandoArtistSwitcher';
 import { artistList } from '../viewModels/formattedArtistList'
 
 export default function Home({ artistList}) {
-
-  return <RandoArtist artistList={artistList} />;
+  return <RandoArtistSwitcher artistList={artistList} />;
 };
 
 export async function getStaticProps () {
-  
   return { props: { artistList } };
 }
