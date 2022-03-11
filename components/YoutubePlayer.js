@@ -5,9 +5,6 @@ import './utils/fontAwesomeLibrary';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export function YoutubeVids ({ videos }) {
-
-  console.log('videos', videos);
-
   const initialVideoPlayerProps = {
     autoPlay: false, 
     activeIndex: 0,

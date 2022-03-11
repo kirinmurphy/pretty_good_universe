@@ -5,12 +5,10 @@ import { RandoArtistProfile } from './RandoArtistProfile';
 const LOCAL_STORAGE_KEY = 'pgu_saved';
 
 export function RandoArtist ({ artistList }) {
-  const initialArtist = getRandomArtist(artistList);
-  console.log('initialArtist', initialArtist);
-  const [currentArtist, setCurrentArtist] = useState(initialArtist)
+  const [currentArtist, setCurrentArtist] = useState(null)
   const [unviewedArtistList, setUnviewedArtistList] = useState(artistList);
 
-  const relatedArtistList = unviewedArtistList
+  const relatedArtistList = !!currentArtist && unviewedArtistList
     .filter(filteredArtist => currentArtist.mightAlsoLike.includes(filteredArtist.name))
     .map(artist => artist.name);
 
@@ -27,11 +25,19 @@ export function RandoArtist ({ artistList }) {
   }
 
   useEffect(() => {
-    addToViewed(currentArtist.name);
-    setUnviewedArtistList(() => getUnviewedArtistList(artistList));    
+    setCurrentArtist(getRandomArtist(artistList));
+  }, [])
+
+  useEffect(() => {
+    if ( !!currentArtist ) {
+      console.log('---------- HWENN?!!!!! -------')
+      addToViewed(currentArtist.name);
+      setUnviewedArtistList(() => getUnviewedArtistList(artistList));      
+    } else {
+    }
   }, [currentArtist]);
   
-  return (
+  return !!currentArtist ? (
     <div id="page">
       <RandoArtistNav 
         setNewArtist={setNewArtist}
@@ -42,7 +48,7 @@ export function RandoArtist ({ artistList }) {
 
       <RandoArtistProfile artist={currentArtist} />
     </div>
-  )
+  ) : <></>;
 }
 
 function getRandomArtist(unviewedArtistList) {
