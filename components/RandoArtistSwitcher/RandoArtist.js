@@ -4,37 +4,39 @@ import { getRandomArtist, getRelatedArtist } from './utils';
 
 export function RandoArtist ({ catalogState, updateCatalog }) {
 
-  const relatedArtistList = !!catalogState.currentArtist 
-    && !!catalogState.unviewedArtistList
-    && catalogState.unviewedArtistList
-      .filter(filteredArtist => catalogState.currentArtist.mightAlsoLike.includes(filteredArtist.name))
-      .map(artist => artist.name);
+  const { 
+    currentArtist,
+    currentArtist: {
+      name,
+      mightAlsoLike
+    }, 
+    unviewedArtists 
+  } = catalogState; 
 
-  console.log('RAL', catalogState.unviewedArtistList);
+  const relatedArtistList = unviewedArtists
+    .filter(artist => mightAlsoLike.includes(artist.name))
+    .map(artist => artist.name);
 
   const setNewRelatedArtist = () => {
-    const relatedArtist = getRelatedArtist({ 
-      unviewedArtistList: catalogState.unviewedArtists, 
-      relatedArtistList 
-    }); 
-    updateCatalog(relatedArtist);
+    const newArtist = getRelatedArtist({ unviewedArtists, relatedArtistList }); 
+    updateCatalog(newArtist);
   }
 
   const setNewArtist = () => {
-    const randomArtist = getRandomArtist(catalogState.unviewedArtists)
-    updateCatalog(randomArtist);
+    const newArtist = getRandomArtist(unviewedArtists);
+    updateCatalog(newArtist);
   }
 
-  return !!catalogState.currentArtist ? (
+  return !!currentArtist ? (
     <div id="page">
       <RandoArtistNav 
         setNewArtist={setNewArtist}
         setNewRelatedArtist={setNewRelatedArtist}
         relatedArtistList={relatedArtistList}
-        currentArtistName={catalogState.currentArtist.name}
+        currentArtistName={name}
       />
 
-      <RandoArtistProfile artist={catalogState.currentArtist} />
+      <RandoArtistProfile artist={currentArtist} />
     </div>
   ) : <></>;
 }
