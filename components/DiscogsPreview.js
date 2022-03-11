@@ -3,7 +3,6 @@ import useSWR from 'swr';
 const ARTIST_PROFILE_CHARACTER_LIMIT = 400;
 
 export function DiscogsPreview ({ discogsId }) {
-  console.log('did', discogsId);
 
   const discogsApiId = discogsId.split('-')[0]
 
