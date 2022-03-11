@@ -11,8 +11,6 @@ export function RandoArtistProfile ({ artist }) {
     avatar
   } = artist;
 
-  console.log('artist', JSON.parse(JSON.stringify(artist)));
-
   return (
     <div id="artist-profile">
       <ArtistTitleBar>
