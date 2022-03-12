@@ -1,14 +1,15 @@
-import { useReducer } from "react";
+import { useEffect, useReducer } from "react";
 import styled from 'styled-components';
 
 import '../../utils/fontAwesomeLibrary';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export function YoutubeVids ({ videos }) {
+export function YoutubeVids ({ videos, artist }) {
   const initialVideoPlayerProps = {
     autoPlay: false, 
     activeIndex: 0,
-    videoCount: videos.length
+    videoCount: 0,
+    videos: videos
   };
 
   const [
@@ -16,7 +17,14 @@ export function YoutubeVids ({ videos }) {
     dispatch
   ] = useReducer(videoPlayerReducer, initialVideoPlayerProps);
 
-  if ( !videos[activeIndex] ) { alert("busted Video") }
+  useEffect(() => {
+    dispatch({ type: VIDEO_PLAYER_INIT, videoCount: videos.length })
+  }, []);
+
+  if ( !videos[activeIndex] ) { 
+    console.log("!!!!BUSTED Video: ", artist?.name, " videoId", videos);
+  } 
+  
   const currentVideoId = videos[activeIndex]?.videoId;
 
   const goBack = () => dispatch({ type: VIDEO_PLAYER_ACTION_BACK });
@@ -27,8 +35,10 @@ export function YoutubeVids ({ videos }) {
       <div className="video-wrapper">
         <iframe 
           src={getIframeSrc(autoPlay, currentVideoId)} 
-          frameBorder="0" 
-          allowFullScreen
+          title="r" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen
         ></iframe>
       </div>
 
@@ -53,13 +63,21 @@ function getIframeSrc (autoPlay, videoId) {
   return `${iframeUrl}${videoId}?autoplay=${autoPlay}`;
 }
 
+export const VIDEO_PLAYER_INIT = 'initVideo'; 
 export const VIDEO_PLAYER_ACTION_BACK = 'back';
 export const VIDEO_PLAYER_ACTION_NEXT = 'next';
+
 
 export function videoPlayerReducer (state, action) {
   const { activeIndex, videoCount } = state;
 
   switch (action.type) {
+    case VIDEO_PLAYER_INIT: 
+      return {
+        ...state,
+        videoCount: action.videoCount
+      };
+
     case VIDEO_PLAYER_ACTION_BACK: 
       const atFirstVid = activeIndex === 0;
       const newBackIndex = atFirstVid ? videoCount - 1 : activeIndex - 1;
@@ -69,8 +87,8 @@ export function videoPlayerReducer (state, action) {
         autoPlay: true
       };
 
-    case VIDEO_PLAYER_ACTION_NEXT:         
-      const atLastVid = activeIndex === videoCount - 1;
+    case VIDEO_PLAYER_ACTION_NEXT:
+      const atLastVid = activeIndex === videoCount - 1;      
       const newNextIndex = atLastVid ? 0 : activeIndex + 1;
       return {
         ...state,

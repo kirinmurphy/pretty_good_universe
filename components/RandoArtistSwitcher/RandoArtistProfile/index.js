@@ -27,7 +27,7 @@ export function RandoArtistProfile ({ artist }) {
       </ArtistMarqueeWrapper>
 
       {!!youtubeClips && !!youtubeClips.length && (
-        <YoutubeVids videos={youtubeClips} />
+        <YoutubeVids videos={youtubeClips} artistName={artist.name} />
       )}
     </div>
   )

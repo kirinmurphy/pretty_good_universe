@@ -34,6 +34,10 @@ export const GlobalStyles = createGlobalStyle`
     list-style-type:none; 
   }
 
+  h1 { 
+    font-size: 1.75rem;   
+  }
+
   .intro { 
     font-size:1.1rem; 
     color:#999; 
