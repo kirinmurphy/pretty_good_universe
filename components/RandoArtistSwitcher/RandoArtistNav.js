@@ -11,14 +11,14 @@ export function RandoArtistNav (props) {
   return (
     <RandorArtistNavWrapper>
       <span 
-        className="link--inverted" 
+        className="link" 
         onClick={setNewArtist}>
           New Orbit
       </span>
 
       {!!relatedArtistList.length && (
         <span 
-          className="link--inverted" 
+          className="link" 
           onClick={setNewRelatedArtist}
         >
           More like {currentArtistName}
@@ -29,7 +29,16 @@ export function RandoArtistNav (props) {
 }
 
 const RandorArtistNavWrapper = styled.div`
-  > * { display:inline-block; 
-    &:first-of-type { margin-right: 2rem; }
+  margin-bottom: .25rem;
+
+  &:after {
+    content: "";
+    clear: both;
+    display: block;
+  }    
+
+  > * { float:right; 
+
+    &:first-of-type { margin-left: 1rem; }
   }
 `;

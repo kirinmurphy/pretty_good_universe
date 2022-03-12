@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { DiscogsPreview } from './DiscogsPreview';
-import { YoutubeVids } from './YoutubePlayer';
+import { YoutubePlayer } from '../../YoutubePlayer';
 
 export function RandoArtistProfile ({ artist }) {
   const { 
@@ -27,7 +27,7 @@ export function RandoArtistProfile ({ artist }) {
       </ArtistMarqueeWrapper>
 
       {!!youtubeClips && !!youtubeClips.length && (
-        <YoutubeVids videos={youtubeClips} artistName={artist.name} />
+        <YoutubePlayer videos={youtubeClips} artistName={artist.name} />
       )}
     </div>
   )
@@ -44,7 +44,7 @@ const marqueeBreakpoint = '730px';
 // `;
 
 const ArtistMarqueeWrapper = styled.div`
-  font-size: .8rem;
+  font-size: .9rem;
   
   > * {
     margin-bottom: .5rem; 

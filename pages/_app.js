@@ -12,7 +12,9 @@ function MyApp({ Component, pageProps }) {
 
       </Head>
       <GlobalStyles />
-      <Component {...pageProps} />
+      <div className="panel--dark">
+        <Component {...pageProps} />
+      </div>
     </>
   );
 }
