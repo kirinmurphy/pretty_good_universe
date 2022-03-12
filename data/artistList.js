@@ -15,7 +15,8 @@ const tags = {
   DUB: "dub",
   FOLK: "folk",
   DETROIT_TECHNO: "detroitTechno",
-  LATIN: "latin"
+  LATIN: "latin",
+  SURF_ROCK: "surfRock",
 };
 
 
@@ -121,7 +122,9 @@ export const rawArtistList = [
     avatar: "avatar_esg_discogsdotcom.png",
     youtubeClips: [
       { videoId: "dtMWnzf0x3E" },
-      { videoId: "ckjz8kMCkO8" }
+      { videoId: "ckjz8kMCkO8" },
+      { videoId: "fQN9lzvREb4" },
+      { videoId: "Vy_U-0s1_G8" },
     ],
     youtubePlaylist: "",
     tags: [tags.NYC_NOUVEAU, tags.HOUSE_HEAD],
@@ -405,7 +408,7 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "lOX7Qt9YF4c" },
-      { videoId: "mls04iVmU9o" },
+      // { videoId: "mls04iVmU9o" },
       { videoId: "DsWFRi5qtfI" },
       { videoId: "AU04knNymSA" },
     ],
@@ -548,10 +551,11 @@ export const rawArtistList = [
     from: "Germany",
     avatar: "",
     youtubeClips: [
-      { videoId: "2-GGVv_1ZSM" },
+      { videoId: "72fxlmd54rU" },
       { videoId: "5EH5GFP2Otk" },
       { videoId: "zBt7-FGadjw" },
       { videoId: "2dZbAFmnRVA" },
+      { videoId: "2-GGVv_1ZSM" },
     ],
     youtubePlaylist: "",
     tags: [tags.PSYCHEDELIC_FUNK, tags.KRAUTROCK],
@@ -631,8 +635,8 @@ export const rawArtistList = [
     from: "Chicago",
     avatar: "",
     youtubeClips: [
-      { videoId: "qBr8dWjrPF8" },
       { videoId: "P-5ehKDK_Vw" },
+      { videoId: "qBr8dWjrPF8" },
       { videoId: "irGNPLjVR2Q" }
     ],
     youtubePlaylist: "",
@@ -645,9 +649,9 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "D5iHik1Kf6k" },
+      { videoId: "Vq4vZNvrX7M" },
       { videoId: "lpSZiuCqqZE" },
       { videoId: "FxyGud2Bi3g" },       
-      { videoId: "Vq4vZNvrX7M" },
       { videoId: "QRI-bkeml5s" },
     ],
     youtubePlaylist: "",
@@ -743,11 +747,11 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "caa0oiRZcRk" },
-      { videoId: "26XedzDBcMU" },
-      { videoId: "rs3s8V3xcAc" },
+      { videoId: "zsH3Vfc0huc" },
       { videoId: "BthwOfELs5M" },
       { videoId: "nYpf11vQ6UA" },
       { videoId: "lDf4DfhUUBw" },
+      { videoId: "rs3s8V3xcAc" },
       { videoId: "iIjeXpHhPvQ" },
       { videoId: "HZFY2ohFuXk" },
       { videoId: "lCvu6e5xyow" }, 
@@ -801,8 +805,8 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "ZlgwVah6q5A" },
+      { videoId: "Ns81IBZmTUM" },
       { videoId: "vnFrWrAAvR8" },
-      { videoId: "Ns81IBZmTUM" }
     ],
     youtubePlaylist: "",
     tags: [tags.ELECTRONICA, tags.PSYCHEDELIC_ROCK],
@@ -1275,5 +1279,27 @@ export const rawArtistList = [
     youtubePlaylist: "",
     tags: [tags.KRAUTROCK],
     discogsId: "214901-PushPull"
+  },
+  {
+    name: "Dick Dale",
+    from: "Boston",
+    avatar: "",
+    youtubeClips: [
+      // { videoId: "" },
+    ],
+    youtubePlaylist: "",
+    tags: [tags.SURF_ROCK],
+    discogsId: "291512-Dick-Dale"
+  },
+  {
+    name: "Link Wray",
+    from: "North Carolina",
+    avatar: "",
+    youtubeClips: [
+      // { videoId: "" },
+    ],
+    youtubePlaylist: "",
+    tags: [tags.SURF_ROCK],
+    discogsId: "246644-Link-Wray"
   },
 ];
