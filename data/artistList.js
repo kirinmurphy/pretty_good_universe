@@ -51,9 +51,9 @@ export const rawArtistList = [
     from: "New York",
     avatar: "avatar_drBuzzardsOriginalSavannahBand.png",
     youtubeClips: [
-      { videoId: "jrzxW0rsD1Q" },
       { videoId: "r5lrxFGOj9g" },
-      { videoId: "9T3jK3PCc8" },
+      { videoId: "jrzxW0rsD1Q" },
+      { videoId: "-9T3jK3PCc8" },
       { videoId: "tPnoC3XHroU" }
     ],
     tags: [tags.HOUSE_HEAD],
@@ -488,14 +488,13 @@ export const rawArtistList = [
     from: "Germany",
     avatar: "",
     youtubeClips: [
-      { videoId: "Cg0NS33TqKU" },
       { videoId: "pOJKf66QYQI" },
       { videoId: "TuHYklrLkjU" },
+      { videoId: "Cg0NS33TqKU" },
       { videoId: "jDQPVXUegPs" },
       { videoId: "jSL1nXza7pM" },
       { videoId: "KV6NnB7CuX0" },
       { videoId: "p3tg2mfzp78" },
-      { videoId: "jSL1nXza7pM" },
     ],
     youtubePlaylist: "",
     tags: [tags.ELECTRONICA],
@@ -556,7 +555,7 @@ export const rawArtistList = [
     from: "",
     avatar: "",
     youtubeClips: [
-      { videoId: "7dRBseHcvwg" },
+      { videoId: "AaVKnRz9Inw" },
       { videoId: "WCF_mHKBH3k" },
       { videoId: "jpdiMcEeTJA" },
       { videoId: "ZOC7Pf1XY54" },
@@ -614,7 +613,6 @@ export const rawArtistList = [
       { videoId: "OAQ2jq6vwsE" },
       { videoId: "t1hhiEHLJUg" },
       { videoId: "dDxYqJmtzKc" },
-      { videoId: "OAQ2jq6vwsE" },
       { videoId: "Qn0_fDjvI_s" }
     ],
     youtubePlaylist: "",
@@ -627,7 +625,6 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "P-5ehKDK_Vw" },
-      { videoId: "qBr8dWjrPF8" },
       { videoId: "qBr8dWjrPF8" },
       { videoId: "irGNPLjVR2Q" }
     ],
@@ -643,7 +640,7 @@ export const rawArtistList = [
       { videoId: "D5iHik1Kf6k" },
       { videoId: "lpSZiuCqqZE" },
       { videoId: "FxyGud2Bi3g" },       
-      { videoId: "9QIIFB8TXfo" },
+      { videoId: "Vq4vZNvrX7M" },
       { videoId: "QRI-bkeml5s" },
     ],
     youtubePlaylist: "",
@@ -862,7 +859,6 @@ export const rawArtistList = [
     from: "France",
     avatar: "",
     youtubeClips: [
-      { videoId: "1zE-2H_VJv" },
       { videoId: "n9MvtltrlxA" },
       { videoId: "8hV8_1v38Ho" },
       { videoId: "SXWSdErCajg" },
@@ -966,7 +962,7 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "pPoHYDkopzY" },
-      { videoId: "g6-Wf79K_z" }
+      { videoId: "g6-Wf79K_zE" }
     ],
     youtubePlaylist: "",
     tags: [tags.AFRICAN],
@@ -1255,7 +1251,7 @@ export const rawArtistList = [
   },
   {
     name: "PUSH/PULL",
-    from: "New York?",
+    from: "New York",
     avatar: "",
     youtubeClips: [
       { videoId: "cPmxTjU4i-Q" },
