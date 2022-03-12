@@ -26,26 +26,16 @@ export function YoutubePlayer ({ videos, artist }) {
     dispatch({ type: VIDEO_PLAYER_INIT })
   }, [videos]);
 
-  console.group()
-  console.log("videos: ", videos.map(video => video.videoId));
-  console.log('activeIndex', activeIndex);
-  !videos[activeIndex] 
-    ? console.log( "!!!!BUSTED!!!!!! Video", artist?.name, " videoId", videos)
-    : console.log( 'activeVideoId: ', videos[activeIndex].videoId);
-  console.groupEnd()
-
   const currentVideoId = videos[activeIndex]?.videoId;
 
   const goBack = () => dispatch({ 
     type: VIDEO_PLAYER_ACTION_BACK, 
     videoCount: videos.length, 
-    videos: videos, 
   });
 
   const goNext = () => dispatch({ 
     type: VIDEO_PLAYER_ACTION_NEXT, 
     videoCount: videos.length, 
-    videos: videos, 
   });
 
   return (
