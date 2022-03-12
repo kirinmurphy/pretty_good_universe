@@ -44,21 +44,24 @@ export const GlobalStyles = createGlobalStyle`
     text-transform:uppercase; 
   }
 
-  .link--inverted {
-    cursor: pointer;
-
-    color: #acf; 
-
-    &:hover {
-      color: #fff;
-      text-decoration: underline;
-    }
-  }
-
   #page {
     padding: 4vh 4vw;
     max-width:800px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .panel--dark {
+    a,
+    .link {
+      cursor: pointer;
+
+      color: #acf; 
+
+      &:hover {
+        color: #fff;
+        text-decoration: underline;
+      }
+    }
   }
 `;

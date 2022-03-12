@@ -39,8 +39,13 @@ export const rawArtistList = [
     from: "New York",
     avatar: "avatar_lydiaLunch.png",
     youtubeClips: [
+      { videoId: "tYeyVHOz950" }, 
       { videoId: "Iip3yTTWVZI" },
+      { videoId: "Qr2Kde2uuXs" }, 
+      { videoId: "GiowCFfejH8" }, 
+      { videoId: "s4ole_bRTdw" }, 
       { videoId: "UZmQZwylKrQ" },
+      { videoId: "AlS6GC11Wi0" }, 
     ],
     youtubePlaylist: "https://www.youtube.com/playlist?list=PL81SQDom_tmdcgiRiIpgXyTBOucC400uu",
     tags: [tags.FEMME_PUNK],
@@ -128,11 +133,13 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "jU6r5lJlIbQ" },
+      { videoId: "Z67uiA2Q7d8" },
       { videoId: "CDEiQcflHWc" },
       { videoId: "5Vp17zg8-30" },
       { videoId: "0WrruFyhtVw" },
       { videoId: "QxEemccRAMQ" },
-      { videoId: "k1-6JKZ8spI" }
+      { videoId: "k1-6JKZ8spI" },
+      { videoId: "pvBopJUDiNE" }, 
     ],
     youtubePlaylist: "",
     tags: [tags.SOUNDTRACK, tags.HIP_HOP_SAMPLE_SOURCE],
@@ -173,9 +180,9 @@ export const rawArtistList = [
     from: "Germany",
     avatar: "",
     youtubeClips: [
+      { videoId: "SwvbigAV9n4" },
       { videoId: "fADRbiq3i2c" },
       { videoId: "XsEIiHFiMV0" },
-      { videoId: "SwvbigAV9n4" },
     ],
     youtubePlaylist: "",
     tags: [tags.PSYCHEDELIC_FUNK, tags.PSYCHEDELIC_ROCK, tags.KRAUTROCK],
@@ -474,10 +481,10 @@ export const rawArtistList = [
     from: "Brazil",
     avatar: "",
     youtubeClips: [
+      { videoId: "QdI-1T_57PA" },
       { videoId: "D9b_JC0hb9s" },
-      { videoId: "190a47w9Ilo" },
       { videoId: "itXg_TyMffE" },
-      { videoId: "QdI-1T_57PA" }
+      { videoId: "190a47w9Ilo" },
     ],
     youtubePlaylist: "",
     tags: [tags.LATIN, tags.FEMME_PUNK],
@@ -624,8 +631,8 @@ export const rawArtistList = [
     from: "Chicago",
     avatar: "",
     youtubeClips: [
-      { videoId: "P-5ehKDK_Vw" },
       { videoId: "qBr8dWjrPF8" },
+      { videoId: "P-5ehKDK_Vw" },
       { videoId: "irGNPLjVR2Q" }
     ],
     youtubePlaylist: "",
@@ -724,7 +731,7 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "uog1U_Kemlk" },
-      { videoId: "CwD6iPwQeA" },
+      { videoId: "-CwD6iPwQeA" },
     ],
     youtubePlaylist: "",
     tags: [tags.PSYCHEDELIC_ROCK],
@@ -736,15 +743,13 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "caa0oiRZcRk" },
-      { videoId: "rs3s8V3xcAc" },
       { videoId: "26XedzDBcMU" },
-      { videoId: "lDf4DfhUUBw" },
+      { videoId: "rs3s8V3xcAc" },
       { videoId: "BthwOfELs5M" },
-      { videoId: "iIjeXpHhPvQ" },
-      { videoId: "1HhG9HsLcuA" },
-      { videoId: "HZFY2ohFuXk" },
       { videoId: "nYpf11vQ6UA" },
-      { videoId: "ToDF4_YzIRg" },
+      { videoId: "lDf4DfhUUBw" },
+      { videoId: "iIjeXpHhPvQ" },
+      { videoId: "HZFY2ohFuXk" },
       { videoId: "lCvu6e5xyow" }, 
       { videoId: "WYFKx38-Yz4" },
       { videoId: "lRwy0D1HDV0" }
@@ -859,12 +864,12 @@ export const rawArtistList = [
     from: "France",
     avatar: "",
     youtubeClips: [
-      { videoId: "n9MvtltrlxA" },
       { videoId: "8hV8_1v38Ho" },
       { videoId: "SXWSdErCajg" },
-      { videoId: "bNUQBBM_c9E" },
       { videoId: "CQ2_lAMJBnA" },
       { videoId: "IUQecB8eIIw" },
+      { videoId: "bNUQBBM_c9E" },
+      { videoId: "n9MvtltrlxA" },
     ],
     youtubePlaylist: "",
     tags: [tags.PSYCHEDELIC_JAZZ],
@@ -891,10 +896,10 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "vwr_gWfMsQ0" },
       { videoId: "FC-4-3v9zQw" },
-      { videoId: "qLAxBS0wK84" },
-      { videoId: "hR_6D59CioE" },
       { videoId: "oqC1zKQcpbk" },
-      { videoId: "-xj2ciyE-j8" },
+      { videoId: "gQAVa7UGm6c" },
+      { videoId: "hR_6D59CioE" },
+      { videoId: "qLAxBS0wK84" },
     ],
     youtubePlaylist: "",
     tags: [tags.HOUSE_HEAD],
@@ -947,10 +952,10 @@ export const rawArtistList = [
     from: "Germany",
     avatar: "",
     youtubeClips: [
+      { videoId: "YUTN1_C_iOI" },
+      { videoId: "1VNO3OB0T_E" },
       { videoId: "iQs07Sofu8I" },
       { videoId: "DPBjSWQ8tLU" },
-      { videoId: "YUTN1_C_iOI" },
-      { videoId: "1VNO3OB0T_E" }
     ],
     youtubePlaylist: "",
     tags: [tags.ELECTRONICA, tags.KRAUTROCK],
@@ -1032,9 +1037,9 @@ export const rawArtistList = [
     from: "Germany",
     avatar: "",
     youtubeClips: [
-      { videoId: "Xk_ixYlJIE" },
-      { videoId: "WuZlHOLMl1Q" },
+      { videoId: "-Xk_ixYlJIE" },
       { videoId: "_SObYJehivY" },
+      { videoId: "WuZlHOLMl1Q" },
       { videoId: "gzAOlaITnWk" }
     ],
     youtubePlaylist: "",
@@ -1211,9 +1216,9 @@ export const rawArtistList = [
     from: "New York",
     avatar: "",
     youtubeClips: [
-      { videoId: "y6OTXhtZbWQ" },
       { videoId: "DKJmG4bzd8Q" },
       { videoId: "CZeZw6qBYL4" },
+      { videoId: "y6OTXhtZbWQ" },
       { videoId: "dy77ioKI4lQ" },
       { videoId: "5A052VLTZ_I" },
       { videoId: "f0LGPjJ5JJg" },
@@ -1239,15 +1244,25 @@ export const rawArtistList = [
   },
   {
     name: "Aphex Twin",
-    from: "USA",
+    from: "Ireland",
     avatar: "",
     youtubeClips: [
-      { videoId: "JNo8g97BuHg" },
-  //     { videoId: "" }
+      { videoId: "926fiS2kvt8" },
+      { videoId: "UM1LMCxikmA" },
+      { videoId: "2gFKfxIBrKA" },
+      { videoId: "DGrFH2Aj71U" },
+      { videoId: "4KD8kWksOmc" },
+      { videoId: "VxRTmO1QE-Y" },
+      { videoId: "4UwjemGUVXE" },
+      { videoId: "Ol_UYJdGB9g" },
+      { videoId: "YxRGw6TCsXI" },
+      { videoId: "3Ew26ShaNbg" },
+      { videoId: "41XuyoUu1G8" },
+      { videoId: "qgD5s82P2Jk" },
     ],
     youtubePlaylist: "",
     tags: [tags.KRAUTROCK],
-    discogsId: "20662-François-Kevorkian"
+    discogsId: "45-Aphex-Twin"
   },
   {
     name: "PUSH/PULL",
