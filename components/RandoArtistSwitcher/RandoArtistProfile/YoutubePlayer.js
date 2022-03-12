@@ -5,11 +5,10 @@ import '../../utils/fontAwesomeLibrary';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export function YoutubeVids ({ videos, artist }) {
+  console.log('----------------------------');
   const initialVideoPlayerProps = {
     autoPlay: false, 
     activeIndex: 0,
-    videoCount: 0,
-    videos: videos
   };
 
   const [
@@ -18,17 +17,34 @@ export function YoutubeVids ({ videos, artist }) {
   ] = useReducer(videoPlayerReducer, initialVideoPlayerProps);
 
   useEffect(() => {
-    dispatch({ type: VIDEO_PLAYER_INIT, videoCount: videos.length })
-  }, []);
+    dispatch({ type: VIDEO_PLAYER_INIT })
+  }, [videos]);
 
+  console.group()
+  console.log("videos: ", videos.map(video => video.videoId));
+  console.log('activeIndex', activeIndex);
+ 
   if ( !videos[activeIndex] ) { 
-    console.log("!!!!BUSTED Video: ", artist?.name, " videoId", videos);
-  } 
+    console.log("!!!!BUSTED!!!!!! Video", artist?.name, " videoId", videos);
+  } else {
+    console.log('activeVideoId: ', videos[activeIndex].videoId)
+  }
   
+  console.groupEnd()
+
   const currentVideoId = videos[activeIndex]?.videoId;
 
-  const goBack = () => dispatch({ type: VIDEO_PLAYER_ACTION_BACK });
-  const goNext = () => dispatch({ type: VIDEO_PLAYER_ACTION_NEXT });
+  const goBack = () => dispatch({ 
+    type: VIDEO_PLAYER_ACTION_BACK, 
+    videoCount: videos.length, 
+    videos: videos, 
+  });
+
+  const goNext = () => dispatch({ 
+    type: VIDEO_PLAYER_ACTION_NEXT, 
+    videoCount: videos.length, 
+    videos: videos, 
+  });
 
   return (
     <YoutubeVidsWrapper>
@@ -69,18 +85,21 @@ export const VIDEO_PLAYER_ACTION_NEXT = 'next';
 
 
 export function videoPlayerReducer (state, action) {
-  const { activeIndex, videoCount } = state;
+  const { activeIndex } = state;
 
   switch (action.type) {
     case VIDEO_PLAYER_INIT: 
+      console.group();
+      console.log('VIDEO_PLAYER_INIT');
+      console.groupEnd();
       return {
         ...state,
-        videoCount: action.videoCount
+        activeIndex: 0
       };
 
     case VIDEO_PLAYER_ACTION_BACK: 
       const atFirstVid = activeIndex === 0;
-      const newBackIndex = atFirstVid ? videoCount - 1 : activeIndex - 1;
+      const newBackIndex = atFirstVid ? action.videoCount - 1 : activeIndex - 1;
       return {
         ...state,
         activeIndex: newBackIndex,
@@ -88,7 +107,16 @@ export function videoPlayerReducer (state, action) {
       };
 
     case VIDEO_PLAYER_ACTION_NEXT:
-      const atLastVid = activeIndex === videoCount - 1;      
+      console.clear();
+      const atLastVid = activeIndex === action.videoCount - 1;
+      
+      console.group();
+      console.log('atLastVid: ', atLastVid);
+      console.log("activeIndex: ", activeIndex);
+      console.log("videos: ", action.videos.map(video => video.videoId));
+      console.log("activeVideoIndex", action.videos[activeIndex]?.videoId);
+      console.groupEnd();
+
       const newNextIndex = atLastVid ? 0 : activeIndex + 1;
       return {
         ...state,
