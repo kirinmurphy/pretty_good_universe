@@ -7,9 +7,6 @@ export function videoPlayerReducer (state, action) {
 
   switch (action.type) {
     case VIDEO_PLAYER_INIT: 
-      console.group();
-      console.log('VIDEO_PLAYER_INIT');
-      console.groupEnd();
       return {
         ...state,
         activeIndex: 0
@@ -25,16 +22,8 @@ export function videoPlayerReducer (state, action) {
       };
 
     case VIDEO_PLAYER_ACTION_NEXT:
-      console.clear();
       const atLastVid = activeIndex === action.videoCount - 1;
       
-      console.group();
-      console.log('atLastVid: ', atLastVid);
-      console.log("activeIndex: ", activeIndex);
-      console.log("videos: ", action.videos.map(video => video.videoId));
-      console.log("activeVideoIndex", action.videos[activeIndex]?.videoId);
-      console.groupEnd();
-
       const newNextIndex = atLastVid ? 0 : activeIndex + 1;
       return {
         ...state,

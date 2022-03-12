@@ -29,8 +29,6 @@ export function RandoArtist ({ catalogState, updateCatalog }) {
     updateCatalog(newArtist);
   }
 
-  console.clear();
-
   return !!currentArtist ? (
     <div id="page">
       <RandoArtistNav 
