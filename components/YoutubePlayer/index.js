@@ -10,10 +10,12 @@ import {
   VIDEO_PLAYER_INIT,
   VIDEO_PLAYER_ACTION_BACK,
   VIDEO_PLAYER_ACTION_NEXT,
-  VIDEO_PLAYER_ACTION_AUTO_GO_NEXT
+  VIDEO_PLAYER_ACTION_ON_PLAYLIST_END,
+  VIDEO_PLAYER_ACTION_ON_PLAY,
+  VIDEO_PLAYER_ACTION_ON_PAUSE
 } from "./videoPlayerReducer";
 
-export function YoutubePlayer ({ videos }) {
+export function YoutubePlayer ({ videos, onPlaylistEnd }) {
   const initialVideoPlayerProps = {
     autoPlay: false, 
     activeIndex: 0,
@@ -30,32 +32,18 @@ export function YoutubePlayer ({ videos }) {
 
   const currentVideoId = videos[activeIndex]?.videoId;
 
-  const goBack = () => dispatch({ 
-    type: VIDEO_PLAYER_ACTION_BACK, 
-    videoCount: videos.length, 
-  });
-
-  const goNext = () => dispatch({ 
-    type: VIDEO_PLAYER_ACTION_NEXT, 
-    videoCount: videos.length, 
-  });
-
-  const autoGoNext = (e) => dispatch({
-    type: VIDEO_PLAYER_ACTION_AUTO_GO_NEXT,
-    videoCount: videos.length,
-    jumpToNextThingCallback: () => {
-      console.log('next!');
-    }
-  });
-
   return (
     <YoutubePlayerWrapper>
       <div className="video-wrapper">
         <YouTube
           videoId={currentVideoId}
-          // containerClassName="embed embed-youtube"
-          // onStateChange={(e) => console.log('e', e)}
-          onEnd={autoGoNext}
+          onEnd={() => dispatch({
+            type: VIDEO_PLAYER_ACTION_ON_PLAYLIST_END,
+            videoCount: videos.length,
+            onPlaylistEnd
+          })}
+          onPlay={() => dispatch({ type: VIDEO_PLAYER_ACTION_ON_PLAY })}
+          onPause={() => dispatch({ type: VIDEO_PLAYER_ACTION_ON_PAUSE })}
           opts={{
             playerVars: {
               // https://developers.google.com/youtube/player_parameters
@@ -67,11 +55,21 @@ export function YoutubePlayer ({ videos }) {
 
       {videos.length > 1 && (
         <div className="video-actions">
-          <span className="link back" onClick={goBack}>
+          <span className="link back" 
+            onClick={() => dispatch({ 
+              type: VIDEO_PLAYER_ACTION_BACK, 
+              videoCount: videos.length, 
+            })}
+          >
             <FontAwesomeIcon icon={['fas', 'caret-left']} />
           </span>
 
-          <span className="link next" onClick={goNext}>
+          <span className="link next"
+             onClick={() => dispatch({ 
+              type: VIDEO_PLAYER_ACTION_NEXT, 
+              videoCount: videos.length, 
+            })}
+          >
             <span>Next</span>
             <FontAwesomeIcon icon={['fas', 'caret-right']} />
           </span>

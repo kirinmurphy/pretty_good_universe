@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { DiscogsPreview } from './DiscogsPreview';
 import { YoutubePlayer } from '../../YoutubePlayer';
 
-export function RandoArtistProfile ({ artist }) {
+export function RandoArtistProfile ({ artist, onPlaylistEnd }) {
   const { 
     name,
     from,
@@ -23,7 +23,10 @@ export function RandoArtistProfile ({ artist }) {
       </ArtistMarqueeWrapper>
 
       {!!youtubeClips && !!youtubeClips.length && (
-        <YoutubePlayer videos={youtubeClips} artistName={artist.name} />
+        <YoutubePlayer 
+          videos={youtubeClips}  
+          onPlaylistEnd={onPlaylistEnd}
+        />
       )}
     </div>
   )

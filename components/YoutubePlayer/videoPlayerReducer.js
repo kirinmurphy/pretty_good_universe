@@ -1,7 +1,9 @@
 export const VIDEO_PLAYER_INIT = 'initVideo'; 
 export const VIDEO_PLAYER_ACTION_BACK = 'back';
 export const VIDEO_PLAYER_ACTION_NEXT = 'next';
-export const VIDEO_PLAYER_ACTION_AUTO_GO_NEXT = 'autoGoNext';
+export const VIDEO_PLAYER_ACTION_ON_PLAYLIST_END = 'autoGoNext';
+export const VIDEO_PLAYER_ACTION_ON_PLAY = 'onPlay';
+export const VIDEO_PLAYER_ACTION_ON_PAUSE = 'onPause';
 
 export function videoPlayerReducer (state, action) {
   const { activeIndex } = state;
@@ -17,7 +19,19 @@ export function videoPlayerReducer (state, action) {
         activeIndex: 0
       };
 
-    case VIDEO_PLAYER_ACTION_BACK: 
+    case VIDEO_PLAYER_ACTION_ON_PLAY: 
+      return {
+        ...state,
+        autoPlay: true
+      }
+
+    case VIDEO_PLAYER_ACTION_ON_PAUSE: 
+      return {
+        ...state,
+        autoPlay: false
+      }
+
+      case VIDEO_PLAYER_ACTION_BACK: 
       const atFirstVid = activeIndex === 0;
       const newBackIndex = atFirstVid ? action.videoCount - 1 : activeIndex - 1;
       return {
@@ -35,12 +49,15 @@ export function videoPlayerReducer (state, action) {
         autoPlay: true
       };
 
-    case VIDEO_PLAYER_ACTION_AUTO_GO_NEXT:
+    case VIDEO_PLAYER_ACTION_ON_PLAYLIST_END:
       const atLastVid = isAtLastVid();
       
       if ( atLastVid ) {
-        action.jumpToNextThingCallback()
-        return state;
+        action.onPlaylistEnd()
+        return {
+          ...state,
+          autoplay: true
+        };
       }
 
       return {
@@ -48,6 +65,8 @@ export function videoPlayerReducer (state, action) {
         activeIndex: activeIndex + 1,
         autoPlay: true
       };
+
+    
   
     default:  throw new Error();
   }

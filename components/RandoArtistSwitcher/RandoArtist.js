@@ -3,9 +3,6 @@ import { RandoArtistProfile } from './RandoArtistProfile';
 import { getRandomArtist, getRelatedArtist } from './utils';
 
 export function RandoArtist ({ catalogState, updateCatalog }) {
-
-  console.log('catalogState.currentArtist: ', catalogState.currentArtist.name);
-
   const { 
     currentArtist,
     currentArtist: {
@@ -29,6 +26,8 @@ export function RandoArtist ({ catalogState, updateCatalog }) {
     updateCatalog(newArtist);
   }
 
+  const onPlaylistEndCallback = relatedArtistList.length ? setNewRelatedArtist : setNewArtist;
+
   return !!currentArtist ? (
     <div id="page">
       <RandoArtistNav 
@@ -38,7 +37,10 @@ export function RandoArtist ({ catalogState, updateCatalog }) {
         currentArtistName={name}
       />
 
-      <RandoArtistProfile artist={currentArtist} />
+      <RandoArtistProfile 
+        artist={currentArtist} 
+        onPlaylistEnd={onPlaylistEndCallback}
+      />
     </div>
   ) : <></>;
 }
