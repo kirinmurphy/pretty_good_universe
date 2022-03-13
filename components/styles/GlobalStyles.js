@@ -25,7 +25,7 @@ export const GlobalStyles = createGlobalStyle`
       background-position: left top;
       background-repeat: no-repeat;
       background-size: cover;
-      opacity:.075;
+      opacity:.15;
     }
 
     > * {
@@ -40,11 +40,6 @@ export const GlobalStyles = createGlobalStyle`
     text-decoration:none; 
     color:#38d; 
     cursor:pointer; 
-
-    &:hover { 
-      text-decoration:underline; 
-      color: #fff;
-    }
   }
 
   p {
@@ -81,7 +76,7 @@ export const GlobalStyles = createGlobalStyle`
 
       &:hover {
         color: #fff;
-        text-decoration: underline;
+        text-decoration: none;
       }
     }
   }
