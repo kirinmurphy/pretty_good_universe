@@ -1,6 +1,7 @@
 import 'codethings-react-ui/dist/styles.css';
 import Head from "next/head";
 import { GlobalStyles } from '../components/styles/GlobalStyles';
+import { Footer } from '../components/Page/Footer';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -12,8 +13,9 @@ function MyApp({ Component, pageProps }) {
 
       </Head>
       <GlobalStyles />
-      <div className="panel--dark">
+      <div id="page" className="panel--dark">
         <Component {...pageProps} />
+        <Footer />
       </div>
     </>
   );
