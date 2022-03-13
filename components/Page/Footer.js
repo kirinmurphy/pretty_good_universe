@@ -3,22 +3,37 @@ import '../utils/fontAwesomeLibrary';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
 import { marqueeBreakpoint } from '../RandoArtistSwitcher/RandoArtistProfile';
+import { useRouter } from 'next/router';
+
+const CONTACT_PATH = '/contact';
 
 export function Footer () {
+
+  const router = useRouter();
+
+  const onContactPath = router.pathname === CONTACT_PATH;
+
   return (
     <FooterWrapper>
-      <a target="_blank" href="//youtube.com/outsidesounds">
-        <FontAwesomeIcon icon={['fab', 'youtube-square']} />
-      </a>
-      {/* <a target="_blank" href="//mixcloud.com/kirinmurphy">
-        <FontAwesomeIcon icon={['fab', 'mixcloud']} />
-      </a>       */}
-      <a href="/contact">
-        <FontAwesomeIcon icon={['fas', 'envelope']} />
-      </a>      
-      {/* <a target="_blank" href="//discogs">
-        discogs
-      </a> */}
+      {!onContactPath && (
+        <>
+          <a target="_blank" href="//youtube.com/outsidesounds">
+            <FontAwesomeIcon icon={['fab', 'youtube-square']} />
+          </a>
+
+          {/* <a target="_blank" href="//mixcloud.com/kirinmurphy">
+            <FontAwesomeIcon icon={['fab', 'mixcloud']} />
+          </a> */}
+
+          <a href={CONTACT_PATH}>
+            <FontAwesomeIcon icon={['fas', 'envelope']} />
+          </a>      
+
+          {/* <a target="_blank" href="//discogs">
+            discogs
+          </a> */}        
+        </>
+      )}
     </FooterWrapper>
   )
 }

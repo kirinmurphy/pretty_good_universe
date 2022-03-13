@@ -9,14 +9,6 @@ export const CenteredLinks = styled.div`
   }
 `;
 
-export const IntroPane = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 65vh;
-  background: #05182b;
-`;
 
 export const ListPane = styled.div`
   padding: 10vw 5vh;
