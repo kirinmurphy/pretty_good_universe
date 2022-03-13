@@ -18,11 +18,7 @@ export function RandoArtistProfile ({ artist }) {
         <div>{from}</div>
       </ArtistTitleBar>
     
-      <ArtistMarqueeWrapper hasImage={!!avatar}>
-        {/* <ArtistAvatarWrapper>
-          {!!avatar && <img src={`/images/${avatar}`} />}
-        </ArtistAvatarWrapper> */}
-
+      <ArtistMarqueeWrapper>
         {discogsId && <DiscogsPreview discogsId={discogsId} />}
       </ArtistMarqueeWrapper>
 
@@ -33,37 +29,20 @@ export function RandoArtistProfile ({ artist }) {
   )
 }
 
-const marqueeBreakpoint = '730px';
-
-// const ArtistAvatarWrapper = styled.div`
-//   img { width: 100%; }
-
-//   @media (min-width:${marqueeBreakpoint}) {
-//     max-width: 300px;
-//   }  
-// `;
+export const marqueeBreakpoint = '730px';
 
 const ArtistMarqueeWrapper = styled.div`
-  font-size: .9rem;
-  
-  > * {
-    margin-bottom: .5rem; 
-  }
-
-  @media (min-width:${marqueeBreakpoint}) {
-    display: flex;
-    flex-direction: row;
-
-    /* ${props => props.hasImage && 'gap: 2rem;'}; */
-  }  
+  min-height: 4rem;
+  margin-bottom: .5rem; 
+  font-size: .85rem;
 `;
 
 const ArtistTitleBar = styled.div`
-  padding: .5rem 0;
-
-  > * { display: inline-block; 
+  margin-bottom: 1vw;
+  
+  > * { 
+    display: inline-block; 
+    
     &:first-of-type { margin-right: 1rem; }
   }
-
-
 `;

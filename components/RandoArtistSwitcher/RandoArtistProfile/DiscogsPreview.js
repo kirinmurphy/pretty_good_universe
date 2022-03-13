@@ -1,6 +1,7 @@
+import styled from 'styled-components';
 import useSWR from 'swr'; 
 
-const ARTIST_PROFILE_CHARACTER_LIMIT = 400;
+const ARTIST_PROFILE_CHARACTER_LIMIT = 350;
 
 export function DiscogsPreview ({ discogsId }) {
 
@@ -22,15 +23,15 @@ export function DiscogsPreview ({ discogsId }) {
   } = data;
 
   return (
-    <div>
+    <DiscogsBioWrapper>
       {profile && (
         <div>
           {getProfileBlurb(data.profile)}
           {' '}
-          <a href={discogsArtistPageUrl}>more from discogs.com</a>
+          <a href={discogsArtistPageUrl}>{' '}more</a>
         </div>
       )}
-    </div>
+    </DiscogsBioWrapper>
   )
 }
 
@@ -41,3 +42,5 @@ function getProfileBlurb (profile) {
     .filter((_, index) => index < sentences.length - 1)
     .join(".") + '...';
 }
+
+const DiscogsBioWrapper = styled.div``;

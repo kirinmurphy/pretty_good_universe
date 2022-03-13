@@ -796,7 +796,7 @@ export const rawArtistList = [
   //     { videoId: "" }
     ],
     youtubePlaylist: "",
-    tags: [tags.PSYCHEDELIC_FUNK, tags.PSYCHEDELIC_ROCK],
+    tags: [tags.LATIN, tags.PSYCHEDELIC_ROCK],
     discogsId: "1009673-Three-Souls-In-My-Mind"
   },
   { 
@@ -884,10 +884,10 @@ export const rawArtistList = [
     from: "Philedelphia",
     avatar: "",
     youtubeClips: [
-      { videoId: "3_eSfFMduoI" },
-      { videoId: "5o-5iRZKcRg" },
       { videoId: "nW6vPuVt2uw" },
-      { videoId: "EWz_BR6nYtE" }
+      { videoId: "5o-5iRZKcRg" },
+      { videoId: "3_eSfFMduoI" },
+      { videoId: "dfmNIGBt_Xo" }
     ],
     youtubePlaylist: "",
     tags: [tags.NYC_NOUVEAU, tags.HOUSE_HEAD],
@@ -1251,18 +1251,18 @@ export const rawArtistList = [
     from: "Ireland",
     avatar: "",
     youtubeClips: [
-      { videoId: "926fiS2kvt8" },
-      { videoId: "UM1LMCxikmA" },
+      { videoId: "3Ew26ShaNbg" },
       { videoId: "2gFKfxIBrKA" },
+      { videoId: "qgD5s82P2Jk" },
+      { videoId: "UM1LMCxikmA" },
+      { videoId: "926fiS2kvt8" },
       { videoId: "DGrFH2Aj71U" },
       { videoId: "4KD8kWksOmc" },
       { videoId: "VxRTmO1QE-Y" },
       { videoId: "4UwjemGUVXE" },
       { videoId: "Ol_UYJdGB9g" },
       { videoId: "YxRGw6TCsXI" },
-      { videoId: "3Ew26ShaNbg" },
       { videoId: "41XuyoUu1G8" },
-      { videoId: "qgD5s82P2Jk" },
     ],
     youtubePlaylist: "",
     tags: [tags.KRAUTROCK],
