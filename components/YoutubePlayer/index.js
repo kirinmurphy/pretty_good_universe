@@ -1,4 +1,5 @@
 import { useEffect, useReducer } from "react";
+import YouTube from "react-youtube";
 
 import '../utils/fontAwesomeLibrary';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -8,10 +9,11 @@ import {
   videoPlayerReducer, 
   VIDEO_PLAYER_INIT,
   VIDEO_PLAYER_ACTION_BACK,
-  VIDEO_PLAYER_ACTION_NEXT 
+  VIDEO_PLAYER_ACTION_NEXT,
+  VIDEO_PLAYER_ACTION_AUTO_GO_NEXT
 } from "./videoPlayerReducer";
 
-export function YoutubePlayer ({ videos, artist }) {
+export function YoutubePlayer ({ videos }) {
   const initialVideoPlayerProps = {
     autoPlay: false, 
     activeIndex: 0,
@@ -38,16 +40,29 @@ export function YoutubePlayer ({ videos, artist }) {
     videoCount: videos.length, 
   });
 
+  const autoGoNext = (e) => dispatch({
+    type: VIDEO_PLAYER_ACTION_AUTO_GO_NEXT,
+    videoCount: videos.length,
+    jumpToNextThingCallback: () => {
+      console.log('next!');
+    }
+  });
+
   return (
     <YoutubePlayerWrapper>
       <div className="video-wrapper">
-        <iframe 
-          src={getIframeSrc(autoPlay, currentVideoId)} 
-          title="r" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen
-        ></iframe>
+        <YouTube
+          videoId={currentVideoId}
+          // containerClassName="embed embed-youtube"
+          // onStateChange={(e) => console.log('e', e)}
+          onEnd={autoGoNext}
+          opts={{
+            playerVars: {
+              // https://developers.google.com/youtube/player_parameters
+              autoplay: autoPlay
+            }
+          }}
+        />
       </div>
 
       {videos.length > 1 && (
@@ -64,9 +79,4 @@ export function YoutubePlayer ({ videos, artist }) {
       )}
     </YoutubePlayerWrapper>
   );
-}
-
-function getIframeSrc (autoPlay, videoId) {
-  const iframeUrl = 'https://www.youtube.com/embed/';
-  return `${iframeUrl}${videoId}?autoplay=${autoPlay}`;
 }

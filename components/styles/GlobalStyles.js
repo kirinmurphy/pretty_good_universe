@@ -11,6 +11,27 @@ export const GlobalStyles = createGlobalStyle`
     -webkit-overflow-scrolling: touch;
     min-width:320px;
     color: #fff;
+
+    &:after {
+      content: "";
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background: pink;
+      background-image: url("/images/bg_space2.png");
+      background-position: left top;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      opacity:.075;
+    }
+
+    > * {
+      position: relative; 
+      z-index: 2;
+    }
   }
 
   a { 
