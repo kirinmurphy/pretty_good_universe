@@ -2,6 +2,7 @@
 import '../utils/fontAwesomeLibrary';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
+import { marqueeBreakpoint } from '../RandoArtistSwitcher/RandoArtistProfile';
 
 export function Footer () {
   return (
@@ -9,10 +10,10 @@ export function Footer () {
       <a target="_blank" href="//youtube.com/outsidesounds">
         <FontAwesomeIcon icon={['fab', 'youtube-square']} />
       </a>
-      <a target="_blank" href="//mixcloud.com/kirinmurphy">
+      {/* <a target="_blank" href="//mixcloud.com/kirinmurphy">
         <FontAwesomeIcon icon={['fab', 'mixcloud']} />
-      </a>      
-      <a href="/bookings">
+      </a>       */}
+      <a href="/contact">
         <FontAwesomeIcon icon={['fas', 'envelope']} />
       </a>      
       {/* <a target="_blank" href="//discogs">
@@ -27,7 +28,7 @@ const FooterWrapper = styled.div`
   padding: 4vw 0 2vw 0;
   justify-content: center;
   align-items: center;
-  gap: 3.5rem;
+  gap: 2.5rem;
 
   a { display:block;
     color: #222;
@@ -35,17 +36,20 @@ const FooterWrapper = styled.div`
     .svg-inline--fa {
       display:inline-block;
       position:relative; 
-      transform: scale(1.5);
       transform-origin:center center;
-      width: 1.2rem;
+      width: 2rem;
 
       &.fa-mixcloud {
-        transform: scale(2.5) translate3d(2px, 0px, 0);
+        transform: scale(1.4) translate3d(2px, 0px, 0);
       }
 
       &.fa-youtube-square {
-        transform: scale(2, 1.45);
+        transform: scale(1.1, .81);
       }
     }
+  }
+
+  @media (max-width: ${marqueeBreakpoint}) {
+    padding: 4rem 0 8rem 0;
   }
 `;

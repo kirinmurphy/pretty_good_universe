@@ -23,7 +23,7 @@ export function RandoArtistNav (props) {
           <>
             <span>{' | '}</span>
             <span 
-              className="link" 
+              className="link related-artist-link" 
               onClick={setNewRelatedArtist}
             >
               more like {currentArtistName}
@@ -49,12 +49,14 @@ const SiteHeaderWrapper = styled.div`
 
   @media (max-width: ${marqueeBreakpoint}) {
     position:fixed;
-    background: #024;
+    background: #222832;
+    z-index:100;
     bottom:0; 
     left:0; 
     right:0;
+    min-width: 320px;
     padding:0 1rem;
-
+    margin-bottom: 0;
 
     strong,
     > div > span {
@@ -68,6 +70,15 @@ const SiteHeaderWrapper = styled.div`
     }
   }
 
+  .related-artist-link {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    @media (min-width: 501px) { max-width: 62vw; } 
+    @media (max-width: 500px) { max-width: 53vw; } 
+    @media (max-width: 400px) { max-width: 40vw; } 
+
+  }
 `;
 
 const RandorArtistNavWrapper = styled.div`

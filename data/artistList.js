@@ -136,9 +136,9 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "jU6r5lJlIbQ" },
-      { videoId: "Z67uiA2Q7d8" },
       { videoId: "CDEiQcflHWc" },
       { videoId: "5Vp17zg8-30" },
+      { videoId: "Z67uiA2Q7d8" },
       { videoId: "0WrruFyhtVw" },
       { videoId: "QxEemccRAMQ" },
       { videoId: "k1-6JKZ8spI" },
@@ -427,9 +427,10 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "hbm9OZHLxQ0" },
+      { videoId: "AHwcwqe-4wU" },
+      { videoId: "Vvbj1UVGbXw" },
       { videoId: "xwhIS92E0ao" },
       { videoId: "kAc31ytA8EA" },
-      { videoId: "Vvbj1UVGbXw" },
     ],
     youtubePlaylist: "",
     tags: [tags.HOUSE_HEAD, tags.DETROIT_TECHNO],
@@ -697,8 +698,8 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "GI876rqao8A" },
       { videoId: "Ub4zXkH4z0U" },
+      { videoId: "IaZwpKZokJM" },
       { videoId: "KGnBgsplaTc" },
-      { videoId: "IaZwpKZokJM" }
     ],
     youtubePlaylist: "",
     tags: [tags.ELECTRONICA],
@@ -1094,10 +1095,10 @@ export const rawArtistList = [
     from: "Germany",
     avatar: "",
     youtubeClips: [
-      { videoId: "krR3CwmV_mQ" },
       { videoId: "lXkYHWezTdg" },
       { videoId: "JFDLbXBxKV8" },
       { videoId: "6hvQB6nUBYg" },
+      { videoId: "krR3CwmV_mQ" },
       { videoId: "fzozoqTR518" },
       // that gospel glitch thing
       // that one ambient tune 
@@ -1214,7 +1215,11 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "QsqH8qHJRXo" },
-  //     { videoId: "" }
+      { videoId: "IABt65h2GfI" },
+      { videoId: "6NkZayzLMOM" },
+      { videoId: "jnwvlvPxGp4" },
+      { videoId: "vaiH4dLaZ1Y" },
+      { videoId: "24z0dWxeSXs" },
     ],
     youtubePlaylist: "",
     tags: [tags.HIP_HOP_SAMPLE_SOURCE],
