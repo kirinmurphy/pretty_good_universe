@@ -929,6 +929,7 @@ export const rawArtistList = [
       { videoId: "Kfwxz-SSmBM" },
       { videoId: "8vsMh8sPwjI" },
       { videoId: "hmaXQ8H4t4w" },
+      { videoId: "qvARw8iGG5w" },
       { videoId: "0gVJJgDFUvM" },
       { videoId: "btyLiGhvTJQ" },
       { videoId: "9zPWZeXtUTU" },
@@ -937,7 +938,6 @@ export const rawArtistList = [
       { videoId: "3_5oRtBDtfg" },
       { videoId: "CMvyyPgYW1g" },
       { videoId: "ajuz6u-nADY" },
-      { videoId: "qvARw8iGG5w" },
       { videoId: "rQJBZ22frX4" },
       { videoId: "w6uP0wIQ9aY" },
       { videoId: "7mRJRs5FGMU" },
@@ -947,7 +947,7 @@ export const rawArtistList = [
       { videoId: "xAgTS64axEE" },
     ],
     youtubePlaylist: "PL81SQDom_tmf9ZcJTzyoiN_0j2Qhmjxaz",
-    tags: [tags.DETROIT_TECHNO],
+    tags: [tags.ELECTRONICA],
     discogsId: "219-Green-Velvet"
   },
   { 
@@ -1136,8 +1136,8 @@ export const rawArtistList = [
       { videoId: "9nEffQAgMoE" },
       { videoId: "AHiSf4sqG1I" },
       { videoId: "GLU2v_cX4P8" },
-      { videoId: "cFcmecBefqQ" },
       { videoId: "3hbreeIXccs" },
+      { videoId: "cFcmecBefqQ" },
       { videoId: "HIDzd091J68" },
       { videoId: "Abky6hbKPpg" },
       { videoId: "2XYHJS-sLII" },
@@ -1324,11 +1324,144 @@ export const rawArtistList = [
       { videoId: "du2gunyGjIw" },
       { videoId: "ucTg6rZJCu4" },
       { videoId: "Yy4T2T8q4HI" },
-      // { videoId: "" },
-      // { videoId: "" },
     ],
     youtubePlaylist: "",
     tags: [tags.SURF_ROCK],
     discogsId: "246644-Link-Wray"
   },
+  {
+    name: "Gogo Penguin",
+    from: "England",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "LIHJDjRkfIU" },
+      { videoId: "7J5BWjtWGaM" }
+    ],
+    youtubePlaylist: "",
+    tags: [tags.KRAUTROCK, tags.ELECTRONICA],
+    discogsId: "2995691-GoGo-Penguin"
+  },
+  {
+    name: "Auntie Flo",
+    from: "Scotland",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "2r-i7vb1qC8" },
+      { videoId: "gWjxeS6c4ek" }
+    ],
+    youtubePlaylist: "",
+    tags: [
+      tags.KRAUTROCK, 
+      tags.DETROIT_TECHNO
+    ],
+    discogsId: "2195918-Auntie-Flo"
+  },
+  {
+    name: "Puccio Roelens",
+    from: "Italy",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "QJ8Y_MJT6zU" },
+      { videoId: "1lzBlBCLkWA" },
+      { videoId: "HG5qILTyIDc" }
+    ],
+    youtubePlaylist: "",
+    tags: [
+      tags.SOUNDTRACK, 
+      tags.HIP_HOP_SAMPLE_SOURCE, 
+    ],
+    discogsId: "261016-Puccio-Roelens"
+  },
+  {
+    name: "Alessandro Alessandroni",
+    from: "Italy",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "eMsoeJU2LtY" },
+      { videoId: "2y_XKOLHCBU" }
+    ],
+    youtubePlaylist: "",
+    tags: [
+      tags.SOUNDTRACK, 
+      tags.HIP_HOP_SAMPLE_SOURCE, 
+    ],
+    discogsId: "130243-Alessandro-Alessandroni"
+  },
+  {
+    name: "R.D. Burman",
+    from: "India",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "Sh9zFRSZ9I0" },
+      { videoId: "0WBorOBwRrs" },
+    ],
+    youtubePlaylist: "",
+    tags: [
+      tags.SOUNDTRACK, 
+      tags.HIP_HOP_SAMPLE_SOURCE, 
+    ],
+    discogsId: "621180-R-D-Burman"
+  },
+  {
+    name: "Savanna",
+    from: "England",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "LtvXViNg3Rs" },
+      { videoId: "zTUxcgCKSZM" },
+    ],
+    youtubePlaylist: "",
+    tags: [
+      tags.NYC_NOUVEAU, 
+    ],
+    discogsId: "174510-Savanna-2"
+  },
+  {
+    name: "Los Monstruos",
+    from: "Mexico",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "PIXe3uxFRDs" },
+      { videoId: "bBvdwRLucf0" },
+
+    ],
+    youtubePlaylist: "",
+    tags: [
+      tags.LATIN, tags.SURF_ROCK, 
+    ],
+    discogsId: "1153070-Los-Monstruos"
+  },
+  {
+    name: "Rinder and Lewis",
+    from: "Los Angeles",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "oF1XuqYhTxQ" },
+      { videoId: "aeRAlFbdXAI" },
+      { videoId: "bWPni4t8QCk" },
+      { videoId: "kR-vweD9-Bg" },      
+    ],
+    youtubePlaylist: "",
+    tags: [
+      tags.NYC_NOUVEAU, 
+    ],
+    discogsId: "126919-Rinder-Lewis"
+  },
+  {
+    name: "Roger Webb",
+    from: "England",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "eELesTfsCiA" },
+      { videoId: "sitydkcBux0" },
+      { videoId: "rFuyZIWqBLQ" },
+    ],
+    youtubePlaylist: "",
+    tags: [
+      tags.SOUNDTRACK, 
+      tags.HIP_HOP_SAMPLE_SOURCE 
+    ],
+    discogsId: "61485-Roger-Webb"
+  },
 ];
+

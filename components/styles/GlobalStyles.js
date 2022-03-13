@@ -12,7 +12,7 @@ export const GlobalStyles = createGlobalStyle`
     min-width:320px;
     color: #fff;
 
-    &:after {
+    /* &:after {
       content: "";
       position: fixed;
       z-index: 1;
@@ -20,7 +20,6 @@ export const GlobalStyles = createGlobalStyle`
       top: 0;
       right: 0;
       bottom: 0;
-      background: pink;
       background-image: url("/images/bg_space2.png");
       background-position: left top;
       background-repeat: no-repeat;
@@ -31,7 +30,7 @@ export const GlobalStyles = createGlobalStyle`
     > * {
       position: relative; 
       z-index: 2;
-    }
+    } */
   }
 
   a { 
