@@ -24,7 +24,7 @@ export const GlobalStyles = createGlobalStyle`
       background-image: url("/images/bg_space2.png");
       background-position: left top;
       background-repeat: no-repeat;
-      background-size: 100% auto;
+      background-size: cover;
       opacity:.075;
     }
 
