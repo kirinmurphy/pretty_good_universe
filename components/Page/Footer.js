@@ -17,19 +17,19 @@ export function Footer () {
     <FooterWrapper>
       {!onContactPath && (
         <>
-          <a target="_blank" href="//youtube.com/outsidesounds">
+          <a className="link" target="_blank" href="//youtube.com/outsidesounds">
             <FontAwesomeIcon icon={['fab', 'youtube-square']} />
           </a>
 
-          {/* <a target="_blank" href="//mixcloud.com/kirinmurphy">
+          {/* <a className="link" target="_blank" href="//mixcloud.com/kirinmurphy">
             <FontAwesomeIcon icon={['fab', 'mixcloud']} />
           </a> */}
 
-          <a href={CONTACT_PATH}>
+          <a className="link" href={CONTACT_PATH}>
             <FontAwesomeIcon icon={['fas', 'envelope']} />
           </a>      
 
-          {/* <a target="_blank" href="//discogs">
+          {/* <a className="link" target="_blank" href="//discogs">
             discogs
           </a> */}        
         </>
@@ -45,8 +45,8 @@ const FooterWrapper = styled.div`
   align-items: center;
   gap: 2.5rem;
 
-  a { display:block;
-    color: #222;
+  a.link { display:block;
+    color: #282828;
 
     .svg-inline--fa {
       display:inline-block;

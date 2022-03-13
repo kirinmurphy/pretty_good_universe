@@ -26,8 +26,10 @@ export const rawArtistList = [
     from: "England",
     avatar: "avatar_pjHarvey.png",
     youtubeClips: [
+      { videoId: "RAWIDYhEoik" },
       { videoId: "tap5tu9ExWg" },
       { videoId: "uV99yrooqjg" },
+      { videoId: "P-O91rE4Fe0" },
       { videoId: "VfY6yvSphKE" },
       { videoId: "VO63vb1S7Cw" },
     ],
@@ -287,7 +289,8 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "t71wENZgwCk" },
-      { videoId: "CKNT8HBYOE8" }
+      { videoId: "CKNT8HBYOE8" },
+      { videoId: "8xnUUaFajXw" }
     ],
     youtubePlaylist: "",
     tags: [tags.NYC_NOUVEAU, tags.ELECTRONICA],
@@ -388,8 +391,11 @@ export const rawArtistList = [
     from: "Alabama",
     avatar: "",
     youtubeClips: [
-  //     { videoId: "" },
-  //     { videoId: "" }
+      { videoId: "4rUix7ZFTTQ" },
+      { videoId: "uuirXgyT_-s" },
+      { videoId: "gZwfxT19qWc" },
+      { videoId: "xz3o__1uAFo" },
+      { videoId: "j2FnIzSf48k" },
     ],
     youtubePlaylist: "",
     tags: [tags.PSYCHEDELIC_JAZZ],
@@ -400,7 +406,7 @@ export const rawArtistList = [
     from: "Chicago",
     avatar: "",
     youtubeClips: [
-  //     { videoId: "" },
+      { videoId: "nvZXbJxF0cY" },
   //     { videoId: "" }
     ],
     youtubePlaylist: "",
@@ -454,8 +460,8 @@ export const rawArtistList = [
     from: "San Francisco",
     avatar: "",
     youtubeClips: [
-  //     { videoId: "" },
-  //     { videoId: "" }
+      { videoId: "Nb_t42nQ-00" },
+      { videoId: "gD6cPE2BHic" }
     ],
     youtubePlaylist: "",
     tags: [tags.HOUSE_HEAD],
@@ -504,13 +510,13 @@ export const rawArtistList = [
     from: "Germany",
     avatar: "",
     youtubeClips: [
+      { videoId: "jSL1nXza7pM" },
       { videoId: "pOJKf66QYQI" },
+      { videoId: "jDQPVXUegPs" },
       { videoId: "TuHYklrLkjU" },
       { videoId: "Cg0NS33TqKU" },
-      { videoId: "jDQPVXUegPs" },
-      { videoId: "jSL1nXza7pM" },
-      { videoId: "KV6NnB7CuX0" },
       { videoId: "p3tg2mfzp78" },
+      { videoId: "KV6NnB7CuX0" },
     ],
     youtubePlaylist: "",
     tags: [tags.ELECTRONICA],
@@ -601,8 +607,8 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "6v8zxSybWjo" },
-      { videoId: "IbtQY8SQz7k" },
       { videoId: "sNJpwTPzk2M" },
+      { videoId: "IbtQY8SQz7k" },
     ],
     youtubePlaylist: "",
     tags: [tags.NYC_NOUVEAU],
@@ -654,10 +660,10 @@ export const rawArtistList = [
     from: "Germany",
     avatar: "",
     youtubeClips: [
-      { videoId: "D5iHik1Kf6k" },
       { videoId: "Vq4vZNvrX7M" },
-      { videoId: "lpSZiuCqqZE" },
       { videoId: "FxyGud2Bi3g" },       
+      { videoId: "D5iHik1Kf6k" },
+      { videoId: "lpSZiuCqqZE" },
       { videoId: "QRI-bkeml5s" },
     ],
     youtubePlaylist: "",
@@ -696,8 +702,8 @@ export const rawArtistList = [
     from: "Germany",
     avatar: "",
     youtubeClips: [
-      { videoId: "GI876rqao8A" },
       { videoId: "Ub4zXkH4z0U" },
+      { videoId: "GI876rqao8A" },
       { videoId: "IaZwpKZokJM" },
       { videoId: "KGnBgsplaTc" },
     ],
@@ -849,7 +855,7 @@ export const rawArtistList = [
     from: "Virginia",
     avatar: "",
     youtubeClips: [
-  //     { videoId: "" },
+      { videoId: "yE3kW9-tjO8" },
   //     { videoId: "" }
     ],
     youtubePlaylist: "",
@@ -921,9 +927,8 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "Kfwxz-SSmBM" },
-      { videoId: "hmaXQ8H4t4w" },
       { videoId: "8vsMh8sPwjI" },
-      { videoId: "w6uP0wIQ9aY" },
+      { videoId: "hmaXQ8H4t4w" },
       { videoId: "0gVJJgDFUvM" },
       { videoId: "btyLiGhvTJQ" },
       { videoId: "9zPWZeXtUTU" },
@@ -934,6 +939,7 @@ export const rawArtistList = [
       { videoId: "ajuz6u-nADY" },
       { videoId: "qvARw8iGG5w" },
       { videoId: "rQJBZ22frX4" },
+      { videoId: "w6uP0wIQ9aY" },
       { videoId: "7mRJRs5FGMU" },
       { videoId: "L-n375nloL8" },
       { videoId: "oLEtcf26Flo" },
@@ -988,11 +994,10 @@ export const rawArtistList = [
     from: "Italy",
     avatar: "",
     youtubeClips: [
-  //     { videoId: "" },
-  //     { videoId: "" }
+      { videoId: "eBqeWMUrcTE" },
     ],
     youtubePlaylist: "",
-    tags: [tags.DUB, tags.PSYCHEDELIC_FUNK],
+    tags: [tags.DUB],
     discogsId: "4969-Adrian-Sherwood"
   },
   { 
@@ -1049,8 +1054,8 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "-Xk_ixYlJIE" },
       { videoId: "_SObYJehivY" },
+      { videoId: "gzAOlaITnWk" },
       { videoId: "WuZlHOLMl1Q" },
-      { videoId: "gzAOlaITnWk" }
     ],
     youtubePlaylist: "",
     tags: [tags.ELECTRONICA, tags.HOUSE_HEAD],
@@ -1065,9 +1070,9 @@ export const rawArtistList = [
       { videoId: "Ylbu46WdO-w" },
       { videoId: "rGm1ukZRmlU" },
       { videoId: "M1gywpRgBpc" },
-      { videoId: "SeQ50BERnjc" },
-      { videoId: "i_5mhO3PeA0" },
       { videoId: "cdWO7r6DnlE" },
+      { videoId: "i_5mhO3PeA0" },
+      { videoId: "SeQ50BERnjc" },
     ],
     youtubePlaylist: "",
     tags: [tags.ELECTRONICA, tags.HOUSE_HEAD, tags.NYC_NOUVEAU],
@@ -1098,8 +1103,11 @@ export const rawArtistList = [
       { videoId: "lXkYHWezTdg" },
       { videoId: "JFDLbXBxKV8" },
       { videoId: "6hvQB6nUBYg" },
+      { videoId: "zF00br8ykUo" },
+      { videoId: "5x8u_RHdDqE" },
       { videoId: "krR3CwmV_mQ" },
       { videoId: "fzozoqTR518" },
+      { videoId: "X__g913MQyo" }
       // that gospel glitch thing
       // that one ambient tune 
     ],
@@ -1124,8 +1132,15 @@ export const rawArtistList = [
     from: "New York",
     avatar: "",
     youtubeClips: [
-  //     { videoId: "" },
-  //     { videoId: "" }
+      { videoId: "-FI_0eI7qaY" },
+      { videoId: "9nEffQAgMoE" },
+      { videoId: "AHiSf4sqG1I" },
+      { videoId: "GLU2v_cX4P8" },
+      { videoId: "cFcmecBefqQ" },
+      { videoId: "3hbreeIXccs" },
+      { videoId: "HIDzd091J68" },
+      { videoId: "Abky6hbKPpg" },
+      { videoId: "2XYHJS-sLII" },
     ],
     youtubePlaylist: "",
     tags: [tags.HIP_HOP],
@@ -1262,14 +1277,14 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "3Ew26ShaNbg" },
+      { videoId: "DGrFH2Aj71U" },
       { videoId: "2gFKfxIBrKA" },
+      { videoId: "4UwjemGUVXE" },
       { videoId: "qgD5s82P2Jk" },
       { videoId: "UM1LMCxikmA" },
       { videoId: "926fiS2kvt8" },
-      { videoId: "DGrFH2Aj71U" },
       { videoId: "4KD8kWksOmc" },
       { videoId: "VxRTmO1QE-Y" },
-      { videoId: "4UwjemGUVXE" },
       { videoId: "Ol_UYJdGB9g" },
       { videoId: "YxRGw6TCsXI" },
       { videoId: "41XuyoUu1G8" },
@@ -1290,22 +1305,26 @@ export const rawArtistList = [
     tags: [tags.KRAUTROCK, tags.HOUSE_HEAD],
     discogsId: "214901-PushPull"
   },
-  {
-    name: "Dick Dale",
-    from: "Boston",
-    avatar: "",
-    youtubeClips: [
-      // { videoId: "" },
-    ],
-    youtubePlaylist: "",
-    tags: [tags.SURF_ROCK],
-    discogsId: "291512-Dick-Dale"
-  },
+  // {
+  //   name: "Dick Dale",
+  //   from: "Boston",
+  //   avatar: "",
+  //   youtubeClips: [
+  //     // { videoId: "" },
+  //   ],
+  //   youtubePlaylist: "",
+  //   tags: [tags.SURF_ROCK],
+  //   discogsId: "291512-Dick-Dale"
+  // },
   {
     name: "Link Wray",
     from: "North Carolina",
     avatar: "",
     youtubeClips: [
+      { videoId: "du2gunyGjIw" },
+      { videoId: "ucTg6rZJCu4" },
+      { videoId: "Yy4T2T8q4HI" },
+      // { videoId: "" },
       // { videoId: "" },
     ],
     youtubePlaylist: "",
