@@ -1,8 +1,8 @@
-import { Bookings } from '../components/Bookings';
+import { Contact } from '../components/Contact';
 import { mixes } from '../data/mixes';
 
-export default function BookingsPage({ mixes }) {  
-  return <Bookings mixes={mixes} />;
+export default function ContactPage({ mixes }) {  
+  return <Contact mixes={mixes} />;
 };
 
 export async function getStaticProps () {
