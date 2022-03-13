@@ -10,7 +10,7 @@ export function Bookings ({ mixes }) {
   console.log('mixes', mixes);
 
   return (
-    <div id="page">
+    <>
       <IntroPane>
         {/* <h1>
           random orbits
@@ -38,6 +38,6 @@ export function Bookings ({ mixes }) {
           </section>
         ))}
       </ListPane>
-    </div>
+    </>
   )
 }

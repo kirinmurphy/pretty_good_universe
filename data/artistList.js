@@ -188,7 +188,12 @@ export const rawArtistList = [
       { videoId: "XsEIiHFiMV0" },
     ],
     youtubePlaylist: "",
-    tags: [tags.PSYCHEDELIC_FUNK, tags.PSYCHEDELIC_ROCK, tags.KRAUTROCK],
+    tags: [
+      tags.PSYCHEDELIC_FUNK, 
+      tags.PSYCHEDELIC_ROCK, 
+      tags.KRAUTROCK, 
+      tags.HIP_HOP_SAMPLE_SOURCE
+    ],
     discogsId: "201948-Embryo-3"
   },
   { 
@@ -726,7 +731,7 @@ export const rawArtistList = [
       { videoId: "3WGY2DqEPLM" },
     ],
     youtubePlaylist: "",
-    tags: [tags.SOUNDTRACK],
+    tags: [tags.SOUNDTRACK, tags.SURF_ROCK],
     discogsId: "256156-Jack-Nitzsche"
   },
   { 

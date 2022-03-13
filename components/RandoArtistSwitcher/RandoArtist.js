@@ -29,7 +29,7 @@ export function RandoArtist ({ catalogState, updateCatalog }) {
   const onPlaylistEndCallback = relatedArtistList.length ? setNewRelatedArtist : setNewArtist;
 
   return !!currentArtist ? (
-    <div id="page">
+    <>
       <RandoArtistNav 
         setNewArtist={setNewArtist}
         setNewRelatedArtist={setNewRelatedArtist}
@@ -41,6 +41,6 @@ export function RandoArtist ({ catalogState, updateCatalog }) {
         artist={currentArtist} 
         onPlaylistEnd={onPlaylistEndCallback}
       />
-    </div>
+    </>
   ) : <></>;
 }

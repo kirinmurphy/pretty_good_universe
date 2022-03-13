@@ -12,7 +12,8 @@ import {
   faFacebookSquare,
   faTwitterSquare,
   faYoutubeSquare,
-  faInstagram
+  faInstagram,
+  faMixcloud
 } from "@fortawesome/free-brands-svg-icons";
 
 library.add(
@@ -24,5 +25,6 @@ library.add(
   faFacebookSquare,
   faTwitterSquare,
   faYoutubeSquare,
-  faInstagram
+  faInstagram,
+  faMixcloud
 );
