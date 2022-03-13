@@ -45,7 +45,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   #page {
-    padding: 4vh 4vw;
+    padding: 2vw 3vw;
     max-width:800px;
     margin-left: auto;
     margin-right: auto;

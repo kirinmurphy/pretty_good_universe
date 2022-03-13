@@ -7,9 +7,10 @@ export const YoutubePlayerWrapper = styled.div`
   padding-top:1rem;
 
   .video-wrapper { 
+    border: 1px solid #222;
     position:relative;
     height:0; 
-    padding:40px 0 56.25% 0; 
+    padding:0 0 50% 0; 
     padding-top:40px; 
     overflow:hidden;
     background:#333;
@@ -26,7 +27,6 @@ export const YoutubePlayerWrapper = styled.div`
   .video-actions { 
     display:flex;
     justify-content: space-between;
-    margin-bottom:15px;
     background: #181818;
     
     > span { 
