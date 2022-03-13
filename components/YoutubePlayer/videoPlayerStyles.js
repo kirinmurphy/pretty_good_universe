@@ -31,9 +31,9 @@ export const YoutubePlayerWrapper = styled.div`
     
     > span { 
       display:inline-block; 
-      padding:0 1.5rem 1rem 1.5rem;
+      padding:0 1rem 1rem 1rem;
       text-transform:uppercase; 
-      font-size:.9rem; 
+      font-size:.95rem; 
 
       &:active,
       &:hover:active { 
@@ -45,14 +45,14 @@ export const YoutubePlayerWrapper = styled.div`
 
       span {
         display: inline-block;
-        transform: translate3d(-8px, -3px, 0);
+        transform: translate3d(-6px, -1px, 0);
       }
 
       .svg-inline--fa {
         /* display:inline-block; */
         position:relative; 
         /* transform: scale(2); */
-        width: 1.5rem;
+        width: 1.4rem;
         transform-origin:center center;
       }
 
@@ -60,7 +60,7 @@ export const YoutubePlayerWrapper = styled.div`
         flex:0 0 2.5rem;
         .svg-inline--fa {
           top:11px;
-          width:.85rem;
+          width:.75rem;
         }
       }
 
