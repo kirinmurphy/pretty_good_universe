@@ -784,7 +784,7 @@ export const rawArtistList = [
       { videoId: "LfuAj3fmQ4I" }
     ],
     youtubePlaylist: "",
-    tags: [tags.PSYCHEDELIC_JAZZ],
+    tags: [tags.SURF_ROCK],
     discogsId: "282009-Dave-Baby-Cortez"
   },
   { 
@@ -1277,7 +1277,7 @@ export const rawArtistList = [
       { videoId: "GoZQgoZA4dA" }
     ],
     youtubePlaylist: "",
-    tags: [tags.KRAUTROCK],
+    tags: [tags.KRAUTROCK, tags.HOUSE_HEAD],
     discogsId: "214901-PushPull"
   },
   {

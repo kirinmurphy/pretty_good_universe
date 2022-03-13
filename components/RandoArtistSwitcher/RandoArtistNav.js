@@ -11,12 +11,12 @@ export function RandoArtistNav (props) {
 
   return (
     <SiteHeaderWrapper>
-      <strong>LOGO THING</strong>
+      <strong>LOGO</strong>
       <RandorArtistNavWrapper>
         <span 
           className="link" 
           onClick={setNewArtist}>
-            new orbit
+            new thing
         </span>
 
         {!!relatedArtistList.length && (
