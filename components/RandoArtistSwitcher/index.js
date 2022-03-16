@@ -41,7 +41,7 @@ function getUnviewedArtistList (artistList) {
   const viewed = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY)) || {};
   const newFilteredList = artistList.filter(artist => !viewed[artist.name]);    
   const hasRemainingArtists = newFilteredList.length > 0;
-  if ( !hasRemainingArtists ) { localStorage.removeItem(LOCAL_STORAGE_KEY); }
+  if ( !hasRemainingArtists ) { localStorage.removeItem(LOCAL_STORAGE_KEY); alert("dang you finished!") }
   console.log('nfl.length', newFilteredList.length);
   return hasRemainingArtists ? newFilteredList : artistList;
 }

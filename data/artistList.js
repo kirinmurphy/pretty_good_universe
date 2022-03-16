@@ -1,4 +1,4 @@
-const tags = {
+export const tags = {
   FEMME_PUNK: "femmePunks",
   HOUSE_HEAD: "houseHeads",
   NYC_NOUVEAU: "nycNouveaus",
@@ -26,11 +26,11 @@ export const rawArtistList = [
     from: "England",
     avatar: "avatar_pjHarvey.png",
     youtubeClips: [
-      { videoId: "RAWIDYhEoik" },
+      { videoId: "SVDvC_y7HQY" },
       { videoId: "tap5tu9ExWg" },
       { videoId: "uV99yrooqjg" },
-      { videoId: "P-O91rE4Fe0" },
       { videoId: "VfY6yvSphKE" },
+      { videoId: "P-O91rE4Fe0" },
       { videoId: "VO63vb1S7Cw" },
     ],
     youtubePlaylist: "https://www.youtube.com/playlist?list=PL6EBBFEC63A339EE5",
@@ -80,18 +80,6 @@ export const rawArtistList = [
     youtubePlaylist: "",
     tags: [tags.FEMME_PUNK, tags.NYC_NOUVEAU],
     discogsId: "642532-Λένα-Πλάτωνος",
-  },
-  { 
-    name: "Arthur Russell",
-    from: "New York",
-    avatar: "avatar_arthurRussell.png",
-    youtubeClips: [
-      { videoId: "ZN5yz2koiIA" },
-      { videoId: "9hEUTIjQuTo" }
-    ],
-    youtubePlaylist: "",
-    tags: [tags.NYC_NOUVEAU],
-    discogsId: "23524-Arthur-Russell"
   },
   { 
     name: "David Axlerod",
@@ -155,8 +143,9 @@ export const rawArtistList = [
     from: "Mississippi",
     avatar: "",
     youtubeClips: [
+      { videoId: "K_DOnKJ232M" },
       { videoId: "05m5ikAMJ1E" },
-      { videoId: "K_DOnKJ232M" }
+      { videoId: "n0TLP_DCB3I" },
     ],
     youtubePlaylist: "",
     tags: [tags.BLUES],
@@ -264,26 +253,6 @@ export const rawArtistList = [
     discogsId: "41270-Prince-Jammy"
   },
   { 
-    name: "DJ Spooky",
-    from: "Washington D.C.",
-    avatar: "",
-    youtubeClips: [
-      { videoId: "a9bhBXGaJ0w" },
-      { videoId: "08MXmoL3rYk" },
-      { videoId: "y50HXQA20Jc" },
-      { videoId: "5WkVkAD1Azw" },
-      { videoId: "uJspvQQ6Qo8" },
-      { videoId: "bXXA1gytWcc" },
-      { videoId: "Hjk_DY4w4UY" },
-      { videoId: "bdOzSId3DQQ" },
-      { videoId: "yai_l8F9qWM" }
-
-    ],
-    youtubePlaylist: "",
-    tags: [tags.ELECTRONICA, tags.HIP_HOP],
-    discogsId: "3214-DJ-Spooky"
-  },
-  { 
     name: "Tones On Tail",
     from: "England",
     avatar: "",
@@ -339,6 +308,7 @@ export const rawArtistList = [
     from: "Cleveland",
     avatar: "",
     youtubeClips: [
+      { videoId: "P8LM3OiWMJ8" },  
       { videoId: "6UJ0SSHlarc" },
       { videoId: "6iRKetH_mdk" }
     ],
@@ -353,9 +323,12 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "oUBHy8WQlzU" },
       { videoId: "Lw_I_UpqVjM" },
-      { videoId: "UfajzCPzpDA" },
+      { videoId: "J2rfZdqinIA" },
       { videoId: "pjsh2j7W6Bo" },
-      { videoId: "Qo24xN9mj8Q" }
+      { videoId: "UfajzCPzpDA" },
+      { videoId: "Qo24xN9mj8Q" },
+      { videoId: "yIP9JUMhTbQ" },
+      { videoId: "DzDBW4J9ZBI" },
     ],
     youtubePlaylist: "",
     tags: [tags.FOLK],
@@ -716,8 +689,8 @@ export const rawArtistList = [
     from: "England",
     avatar: "",
     youtubeClips: [
-      { videoId: "KVBfX58McgQ" },
       { videoId: "2NTmgFNSLtA" },
+      { videoId: "KVBfX58McgQ" },
       { videoId: "jz0JDuLYtnw" },
       { videoId: "pFLx4FnNegk" },
       { videoId: "sNdOtaHniQc" },
@@ -759,16 +732,16 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "caa0oiRZcRk" },
-      { videoId: "zsH3Vfc0huc" },
       { videoId: "BthwOfELs5M" },
       { videoId: "nYpf11vQ6UA" },
+      { videoId: "lRwy0D1HDV0" }
+      { videoId: "zsH3Vfc0huc" },
       { videoId: "lDf4DfhUUBw" },
       { videoId: "rs3s8V3xcAc" },
       { videoId: "iIjeXpHhPvQ" },
       { videoId: "HZFY2ohFuXk" },
       { videoId: "lCvu6e5xyow" }, 
       { videoId: "WYFKx38-Yz4" },
-      { videoId: "lRwy0D1HDV0" }
     ],
     youtubePlaylist: "",
     tags: [tags.SOUNDTRACK, tags.HIP_HOP_SAMPLE_SOURCE],
@@ -892,20 +865,6 @@ export const rawArtistList = [
     discogsId: "220594-Jean-Luc-Ponty"
   },
   { 
-    name: "Vincent Montana",
-    from: "Philedelphia",
-    avatar: "",
-    youtubeClips: [
-      { videoId: "nW6vPuVt2uw" },
-      { videoId: "5o-5iRZKcRg" },
-      { videoId: "3_eSfFMduoI" },
-      { videoId: "dfmNIGBt_Xo" }
-    ],
-    youtubePlaylist: "",
-    tags: [tags.NYC_NOUVEAU, tags.HOUSE_HEAD],
-    discogsId: "170322-Vincent-Montana-Jr"
-  },
-  { 
     name: "Cajmere",
     from: "Chicago",
     avatar: "",
@@ -926,21 +885,21 @@ export const rawArtistList = [
     from: "Chicago",
     avatar: "",
     youtubeClips: [
-      { videoId: "Kfwxz-SSmBM" },
       { videoId: "8vsMh8sPwjI" },
+      { videoId: "Kfwxz-SSmBM" },
+      { videoId: "3_5oRtBDtfg" },
       { videoId: "hmaXQ8H4t4w" },
       { videoId: "qvARw8iGG5w" },
       { videoId: "0gVJJgDFUvM" },
-      { videoId: "btyLiGhvTJQ" },
       { videoId: "9zPWZeXtUTU" },
       { videoId: "isSPvgnG6iU" },
       { videoId: "d4CoDzIfF50" },
-      { videoId: "3_5oRtBDtfg" },
       { videoId: "CMvyyPgYW1g" },
       { videoId: "ajuz6u-nADY" },
       { videoId: "rQJBZ22frX4" },
       { videoId: "w6uP0wIQ9aY" },
       { videoId: "7mRJRs5FGMU" },
+      { videoId: "btyLiGhvTJQ" },
       { videoId: "L-n375nloL8" },
       { videoId: "oLEtcf26Flo" },
       { videoId: "_Y-aZtC0vfw" },
@@ -989,17 +948,17 @@ export const rawArtistList = [
     tags: [tags.AFRICAN],
     discogsId: "180280-Roberto-Musci"
   },
-  { 
-    name: "Adrian Sherwood",
-    from: "Italy",
-    avatar: "",
-    youtubeClips: [
-      { videoId: "eBqeWMUrcTE" },
-    ],
-    youtubePlaylist: "",
-    tags: [tags.DUB],
-    discogsId: "4969-Adrian-Sherwood"
-  },
+  // { 
+  //   name: "Adrian Sherwood",
+  //   from: "Italy",
+  //   avatar: "",
+  //   youtubeClips: [
+  //     { videoId: "eBqeWMUrcTE" },
+  //   ],
+  //   youtubePlaylist: "",
+  //   tags: [tags.DUB],
+  //   discogsId: "4969-Adrian-Sherwood"
+  // },
   { 
     name: "The Crazy World Of Arthur Brown",
     from: "England",
@@ -1063,7 +1022,7 @@ export const rawArtistList = [
   },
   { 
     name: "Mu",
-    from: "Japan",
+    from: "Chicago/Japan",
     avatar: "",
     youtubeClips: [
       { videoId: "Io_qpWyk4RM" },
@@ -1075,7 +1034,7 @@ export const rawArtistList = [
       { videoId: "SeQ50BERnjc" },
     ],
     youtubePlaylist: "",
-    tags: [tags.ELECTRONICA, tags.HOUSE_HEAD, tags.NYC_NOUVEAU],
+    tags: [tags.ELECTRONICA, tags.HOUSE_HEAD, tags.NYC_NOUVEAU, tags.FEMME_PUNK],
     discogsId: "75801-MU"
   },
   { 
@@ -1203,6 +1162,7 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "Z0pSgX64g7w" },
+      { videoId: "thZdkNZPOdI" },
       // TIZNIT!!
     ],
     youtubePlaylist: "",
@@ -1216,9 +1176,8 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "hWv1qXlixRk" },
       { videoId: "WF_SxvpS8-g" },
-      { videoId: "vRam9qfOsEk" },
-      { videoId: "9OFPjAP3SxA" },
       { videoId: "q0oilSn7RvA" },
+      { videoId: "9OFPjAP3SxA" },
     ],
     youtubePlaylist: "",
     tags: [tags.NYC_NOUVEAU, tags.HOUSE_HEAD],
@@ -1266,6 +1225,7 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "JNo8g97BuHg" },
+      { videoId: "fEJXU7aH0M0" },
     ],
     youtubePlaylist: "",
     tags: [tags.KRAUTROCK],
@@ -1338,7 +1298,7 @@ export const rawArtistList = [
       { videoId: "7J5BWjtWGaM" }
     ],
     youtubePlaylist: "",
-    tags: [tags.KRAUTROCK, tags.ELECTRONICA],
+    tags: [tags.KRAUTROCK],
     discogsId: "2995691-GoGo-Penguin"
   },
   {
@@ -1377,8 +1337,8 @@ export const rawArtistList = [
     from: "Italy",
     avatar: "",
     youtubeClips: [
+      { videoId: "2y_XKOLHCBU" },
       { videoId: "eMsoeJU2LtY" },
-      { videoId: "2y_XKOLHCBU" }
     ],
     youtubePlaylist: "",
     tags: [
@@ -1392,8 +1352,8 @@ export const rawArtistList = [
     from: "India",
     avatar: "",
     youtubeClips: [
-      { videoId: "Sh9zFRSZ9I0" },
       { videoId: "0WBorOBwRrs" },
+      { videoId: "Sh9zFRSZ9I0" },
     ],
     youtubePlaylist: "",
     tags: [
@@ -1462,6 +1422,109 @@ export const rawArtistList = [
       tags.HIP_HOP_SAMPLE_SOURCE 
     ],
     discogsId: "61485-Roger-Webb"
+  },
+  { 
+    name: "Arthur Russell",
+    from: "New York",
+    avatar: "avatar_arthurRussell.png",
+    youtubeClips: [
+      { videoId: "ZN5yz2koiIA" },
+      { videoId: "JHimm2j_rYY" },
+      { videoId: "MUjspzbWNwo" },
+      { videoId: "rTQXz7HnBZ8" },
+      { videoId: "M3iiXncFo1Y" },
+      { videoId: "aVCY4nUC7oo" },
+      { videoId: "uNKwr1Ne9G8" },
+      { videoId: "u-OZokZbaUs" },
+      { videoId: "dD5TPgTvjts" },
+    ],
+    youtubePlaylist: "",
+    tags: [tags.NYC_NOUVEAU],
+    discogsId: "23524-Arthur-Russell"
+  },
+  { 
+    name: "DJ Spooky",
+    from: "Washington D.C.",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "bXXA1gytWcc" },
+      { videoId: "y50HXQA20Jc" },
+      { videoId: "Hjk_DY4w4UY" },
+      { videoId: "PMOZzlu0zvU" },
+      { videoId: "t2BLNRUvsF0" },
+      { videoId: "08MXmoL3rYk" },
+      { videoId: "5WkVkAD1Azw" },
+      { videoId: "a9bhBXGaJ0w" },
+      { videoId: "uJspvQQ6Qo8" },
+      // { videoId: "Rk1jKl6FoaI" }, ibid
+      { videoId: "vtBN8xdqnF0" },
+      { videoId: "bdOzSId3DQQ" },
+      { videoId: "yai_l8F9qWM" }
+
+    ],
+    youtubePlaylist: "",
+    tags: [tags.ELECTRONICA, tags.HIP_HOP],
+    discogsId: "3214-DJ-Spooky"
+  },
+  { 
+    name: "Vincent Montana",
+    from: "Philadelphia",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "wRuVwlJ7ppw" },  // get better version
+      { videoId: "5o-5iRZKcRg" },
+      { videoId: "BlMfRL5bjVc" },
+      { videoId: "3_eSfFMduoI" },
+      { videoId: "p6NV6NzBE5g" },
+      // { videoId: "dfmNIGBt_Xo" },  instrumental? 
+      { videoId: "fJX4F_eDbR4" },
+      { videoId: "axZpwetQUt0" },
+    ],
+    youtubePlaylist: "",
+    tags: [tags.NYC_NOUVEAU],
+    discogsId: "170322-Vincent-Montana-Jr"
+  },
+  { 
+    name: "Alan Lomax",
+    from: "",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "FfweD19oUUA" },
+      { videoId: "K_DOnKJ232M" },
+      { videoId: "_zlfH0DZD-I" },
+      { videoId: "FfweD19oUUA" },
+    ],
+    youtubePlaylist: "",
+    tags: [tags.FOLK, tags.BLUES],
+    discogsId: "468451-Alan-Lomax"
+  },
+  { 
+    name: "Leadbelly",
+    from: "",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "PsfcUZBMSSg" },
+      { videoId: "SJUSGuNxt-4" },
+      { videoId: "ye2N_2ce3QE" },
+      { videoId: "y5tOpyipNJs" },
+      { videoId: "X5Wzilk9NLY" },
+    ],
+    youtubePlaylist: "",
+    tags: [tags.FOLK, tags.BLUES],
+    discogsId: "468451-Alan-Lomax"
+  },
+  { 
+    name: "Les Georges Lenningrad",
+    from: "",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "R9PnTe98Gxw" },
+      { videoId: "5uGnFx2PZJw" },
+      { videoId: "ZLXWU-l9iOQ" },
+    ],
+    youtubePlaylist: "",
+    tags: [tags.FEMME_PUNK],
+    discogsId: "132789-Les-Georges-Leningrad"
   },
 ];
 
