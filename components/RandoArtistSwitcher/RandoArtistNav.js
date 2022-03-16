@@ -11,7 +11,7 @@ export function RandoArtistNav (props) {
 
   return (
     <SiteHeaderWrapper>
-      <strong>LOGO</strong>
+      <strong>pretty good universe</strong>
       <RandorArtistNavWrapper>
         <span 
           className="link" 
