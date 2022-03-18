@@ -583,7 +583,7 @@ export const rawArtistList = [
     discogsId: ""
   },
   { 
-    name: "Vivian Goldman",
+    name: "Vivien Goldman",
     from: "England",
     avatar: "",
     youtubeClips: [
@@ -1608,12 +1608,12 @@ export const rawArtistList = [
   },
   {
     name: "Connan Mockasin",
-    from: "",
+    from: "New Zealand",
     avatar: "",
     youtubeClips: [
       { videoId: "HkNwuY2JUHQ" },
-      { videoId: "Teyy1A_AJso" },
       { videoId: "KqrWLIgLYIU" },
+      { videoId: "Teyy1A_AJso" },
       { videoId: "E7CaTJ2SvG8" },
     ],
     youtubePlaylist: "",
@@ -1648,7 +1648,7 @@ export const rawArtistList = [
     tags: [
       tags.NYC_NOUVEAU
     ],
-    discogsId: "48404-Tom-Tom-Club"
+    discogsId: "3482-Danny-Krivit"
   },
   // {
   //   name: "Michael Leonhart & The Avramina 7",
@@ -1719,7 +1719,6 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "Ksq7a9D2EX4" },
       { videoId: "XagTSd0ZWmk" },
-      { videoId: "f9RppEARmaE" },
       { videoId: "3mDRUcmccrk" },
       { videoId: "Svk5fyHaqCU" },
       { videoId: "7vRMkYi5-Ec" },
