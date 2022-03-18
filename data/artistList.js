@@ -2,7 +2,7 @@ export const tags = {
   FEMME_PUNK: "femmePunks",
   HOUSE_HEAD: "houseHeads",
   NYC_NOUVEAU: "nycNouveaus",
-  HIP_HOP_SAMPLE_SOURCE: "hipHopSampleSourcess",
+  HIP_HOP_SAMPLE_SOURCE: "hipHopSampleSources",
   ELECTRONICA: "electronicas",
   BLUES: "bluess",
   SOUNDTRACK: "soundtrack",
@@ -32,6 +32,8 @@ export const rawArtistList = [
       { videoId: "VfY6yvSphKE" },
       { videoId: "P-O91rE4Fe0" },
       { videoId: "VO63vb1S7Cw" },
+      { videoId: "3spgKgoElaE" },
+      { videoId: "3NSbu93HlNQ" },
     ],
     youtubePlaylist: "https://www.youtube.com/playlist?list=PL6EBBFEC63A339EE5",
     tags: [tags.FEMME_PUNK],
@@ -62,7 +64,8 @@ export const rawArtistList = [
       { videoId: "r5lrxFGOj9g" },
       { videoId: "jrzxW0rsD1Q" },
       { videoId: "-9T3jK3PCc8" },
-      { videoId: "tPnoC3XHroU" }
+      { videoId: "tPnoC3XHroU" },
+      { videoId: "J1IFV1ncIOQ" },
     ],
     tags: [tags.HOUSE_HEAD],
     youtubePlaylist: "",
@@ -194,6 +197,9 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "l7Q-JfAV2xk" },
       { videoId: "YdzfAHswd50" },
+      { videoId: "_VakN0BA2Vc" },
+      { videoId: "qHCYPBI27tw" },
+      { videoId: "Pjb_NV8fr5U" },
       { videoId: "sbkv3ZGIIj0" },
     ],
     youtubePlaylist: "",
@@ -410,6 +416,7 @@ export const rawArtistList = [
       { videoId: "Vvbj1UVGbXw" },
       { videoId: "xwhIS92E0ao" },
       { videoId: "kAc31ytA8EA" },
+      { videoId: "oJlyMjtszLI" },
     ],
     youtubePlaylist: "",
     tags: [tags.HOUSE_HEAD, tags.DETROIT_TECHNO],
@@ -490,6 +497,7 @@ export const rawArtistList = [
       { videoId: "Cg0NS33TqKU" },
       { videoId: "p3tg2mfzp78" },
       { videoId: "KV6NnB7CuX0" },
+      { videoId: "LyFinYxwMYo" },
     ],
     youtubePlaylist: "",
     tags: [tags.ELECTRONICA],
@@ -734,7 +742,7 @@ export const rawArtistList = [
       { videoId: "caa0oiRZcRk" },
       { videoId: "BthwOfELs5M" },
       { videoId: "nYpf11vQ6UA" },
-      { videoId: "lRwy0D1HDV0" }
+      { videoId: "lRwy0D1HDV0" },
       { videoId: "zsH3Vfc0huc" },
       { videoId: "lDf4DfhUUBw" },
       { videoId: "rs3s8V3xcAc" },
@@ -816,7 +824,9 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "dgmiYFLbn6U" },
+      { videoId: "TD6LxcxJS3s" },
       { videoId: "mB5uUEr7pIA" },
+      { videoId: "ejgpiWZHH34" },
       { videoId: "WpvQbcemMvA" }
     ],
     youtubePlaylist: "",
@@ -1060,10 +1070,10 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "lXkYHWezTdg" },
+      { videoId: "5x8u_RHdDqE" },
       { videoId: "JFDLbXBxKV8" },
       { videoId: "6hvQB6nUBYg" },
       { videoId: "zF00br8ykUo" },
-      { videoId: "5x8u_RHdDqE" },
       { videoId: "krR3CwmV_mQ" },
       { videoId: "fzozoqTR518" },
       { videoId: "X__g913MQyo" }
@@ -1153,7 +1163,7 @@ export const rawArtistList = [
       { videoId: "yaWObSR0B90" },
     ],
     youtubePlaylist: "",
-    tags: [tags.HIP_HOP, tags.ELECTRONICA],
+    tags: [tags.DETROIT_TECHNO, tags.ELECTRONICA],
     discogsId: "871-Carl-Craig"
   },
   {
@@ -1166,7 +1176,7 @@ export const rawArtistList = [
       // TIZNIT!!
     ],
     youtubePlaylist: "",
-    tags: [tags.HIP_HOP, tags.ELECTRONICA],
+    tags: [tags.DETROIT_TECHNO, tags.ELECTRONICA],
     discogsId: "67226-Stacey-Pullen"
   },
   {
@@ -1322,8 +1332,8 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "QJ8Y_MJT6zU" },
+      { videoId: "HG5qILTyIDc" },
       { videoId: "1lzBlBCLkWA" },
-      { videoId: "HG5qILTyIDc" }
     ],
     youtubePlaylist: "",
     tags: [
@@ -1457,7 +1467,7 @@ export const rawArtistList = [
       { videoId: "a9bhBXGaJ0w" },
       { videoId: "uJspvQQ6Qo8" },
       // { videoId: "Rk1jKl6FoaI" }, ibid
-      { videoId: "vtBN8xdqnF0" },
+      // { videoId: "vtBN8xdqnF0" }, ???
       { videoId: "bdOzSId3DQQ" },
       { videoId: "yai_l8F9qWM" }
 
@@ -1526,5 +1536,218 @@ export const rawArtistList = [
     tags: [tags.FEMME_PUNK],
     discogsId: "132789-Les-Georges-Leningrad"
   },
+  { 
+    name: "Alan Tew",
+    from: "England",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "nq5rdt_YHVQ" },
+      { videoId: "-Cb2XHKjQhY" },
+      { videoId: "tpExEwF0CzI" },
+      { videoId: "T9U-FZYjO-E" },
+      { videoId: "HzsFyv0Q-V0" },
+    ],
+    youtubePlaylist: "",
+    tags: [tags.SOUNDTRACK, tags.HIP_HOP_SAMPLE_SOURCE],
+    discogsId: "177078-Alan-Tew"
+  },
+  {
+    name: "YĪN YĪN",
+    from: "The Netherlands",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "HEWq78g04HM" },
+      { videoId: "XGchDYtrsHM" },
+      { videoId: "I-dtR6H-jwQ" },
+      { videoId: "G0DrvtaLR4g" },
+      { videoId: "wvuEQurocVQ" },
+    ],
+    youtubePlaylist: "",
+    tags: [tags.SOUNDTRACK, tags.HIP_HOP_SAMPLE_SOURCE],
+    discogsId: "6870311-YĪN-YĪN"
+  },
+  {
+    name: "Yussef Kamaal",
+    from: "England",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "bYUR38Yo8aw" },
+      { videoId: "7-83DLCEOgI" },
+    ],
+    youtubePlaylist: "",
+    tags: [tags.PSYCHEDELIC_JAZZ],
+    discogsId: "5269272-Yussef-Kamaal"
+  },
+  {
+    name: "Dexter Wansel",
+    from: "Philadelphia",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "QfFJ5jZxyWY" },
+      { videoId: "UNR-siiH_ek" },
+    ],
+    youtubePlaylist: "",
+    tags: [
+      tags.PSYCHEDELIC_JAZZ, 
+      tags.PSYCHEDELIC_FUNK, 
+      tags.HIP_HOP_SAMPLE_SOURCE
+    ],
+    discogsId: "20559-Dexter-Wansel"
+  },
+  {
+    name: "Destroyers",
+    from: "New York",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "UldZerpi9TE" },
+      { videoId: "s8m32ldBl3I" },
+    ],
+    youtubePlaylist: "",
+    tags: [tags.NYC_NOUVEAU],
+    discogsId: "421196-Destroyers-2"
+  },
+  {
+    name: "Connan Mockasin",
+    from: "",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "HkNwuY2JUHQ" },
+      { videoId: "Teyy1A_AJso" },
+      { videoId: "KqrWLIgLYIU" },
+      { videoId: "E7CaTJ2SvG8" },
+    ],
+    youtubePlaylist: "",
+    tags: [
+      tags.KRAUTROCK
+    ],
+    discogsId: "1371297-Connan-Mockasin"
+  },
+  {
+    name: "Tom Tom Club",
+    from: "",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "WcSpdC7GCHE" },
+      { videoId: "lKeP_ceBw7k" },
+    ],
+    youtubePlaylist: "",
+    tags: [
+      tags.NYC_NOUVEAU
+    ],
+    discogsId: "48404-Tom-Tom-Club"
+  },
+  {
+    name: "Danny Krivit",
+    from: "New York",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "2LAv4x6JQQk" },
+      { videoId: "6FSq566xB-M" },
+    ],
+    youtubePlaylist: "",
+    tags: [
+      tags.NYC_NOUVEAU
+    ],
+    discogsId: "48404-Tom-Tom-Club"
+  },
+  // {
+  //   name: "Michael Leonhart & The Avramina 7",
+  //   from: "",
+  //   avatar: "",
+  //   youtubeClips: [
+  //     { videoId: "9Hc3Ohk-Y-Q" },
+  //     { videoId: "5J82FFhburk" },
+  //   ],
+  //   youtubePlaylist: "",
+  //   tags: [
+  //     tags.PSYCHEDELIC_FUNK, 
+  //     tags.KRAUTROCK,
+  //     tags.HIP_HOP_SAMPLE_SOURCE
+  //   ],
+  //   discogsId: "274810-Michael-Leonhart"
+  // },  
+  {
+    name: "Glenn",
+    from: "Germany",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "xv86DLPP6LQ" },
+      { videoId: "V1dQLw3puCc" },
+    ],
+    youtubePlaylist: "",
+    tags: [
+      tags.NYC_NOUVEAU, 
+      tags.KRAUTROCK,
+      tags.HIP_HOP_SAMPLE_SOURCE
+    ],
+    discogsId: "143301-Glenn"
+  },
+  {
+    name: "Stanley Myers",
+    from: "England",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "OcaJLruEkr0" },
+      // { videoId: "" },
+    ],
+    youtubePlaylist: "",
+    tags: [
+      tags.SOUNDTRACK,
+      tags.HIP_HOP_SAMPLE_SOURCE
+    ],
+    discogsId: "59655-Stanley-Myers"
+  },
+  {
+    name: "Joe Louis",
+    from: "Chicago",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "ce9wE4o2FNw" },
+      { videoId: "GX_Qn6rodFM" },
+    ],
+    youtubePlaylist: "",
+    tags: [
+      tags.HOUSE_HEAD,
+      tags.DETROIT_TECHNO
+    ],
+    discogsId: ""
+  },   
+  {
+    name: "DJ Rush",
+    from: "Chicago",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "Ksq7a9D2EX4" },
+      { videoId: "XagTSd0ZWmk" },
+      { videoId: "f9RppEARmaE" },
+      { videoId: "3mDRUcmccrk" },
+      { videoId: "Svk5fyHaqCU" },
+      { videoId: "7vRMkYi5-Ec" },
+    ],
+    youtubePlaylist: "",
+    tags: [
+      tags.HOUSE_HEAD,
+      tags.DETROIT_TECHNO
+    ],
+    discogsId: "2063-DJ-Rush"
+  },
+  {
+    name: "Marlon Craft",
+    from: "New York",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "aa0Uj_d2DTM" },
+      { videoId: "Aqo-hyxjCYE" },
+      { videoId: "neHaGD_pI2A" },
+      { videoId: "tuHEP2rINSg" },
+      { videoId: "tYojNZsWhGI" },
+      { videoId: "KfgOD5CalF8" },
+    ],
+    youtubePlaylist: "",
+    tags: [
+      tags.HIP_HOP,
+    ],
+    discogsId: "6064046-Marlon-Craft"
+  }
 ];
 
