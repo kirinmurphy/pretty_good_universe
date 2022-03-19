@@ -192,7 +192,7 @@ export const rawArtistList = [
   },
   { 
     name: "Billy Cobham",
-    from: "Panama/Switzerland",
+    from: "Panama",
     avatar: "",
     youtubeClips: [
       { videoId: "l7Q-JfAV2xk" },
@@ -315,8 +315,8 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "P8LM3OiWMJ8" },  
+      { videoId: "6iRKetH_mdk" },
       { videoId: "6UJ0SSHlarc" },
-      { videoId: "6iRKetH_mdk" }
     ],
     youtubePlaylist: "",
     tags: [tags.SOUNDTRACK],
@@ -370,9 +370,9 @@ export const rawArtistList = [
     from: "Alabama",
     avatar: "",
     youtubeClips: [
-      { videoId: "4rUix7ZFTTQ" },
       { videoId: "uuirXgyT_-s" },
       { videoId: "gZwfxT19qWc" },
+      { videoId: "4rUix7ZFTTQ" },
       { videoId: "xz3o__1uAFo" },
       { videoId: "j2FnIzSf48k" },
     ],
@@ -589,7 +589,7 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "6v8zxSybWjo" },
       { videoId: "sNJpwTPzk2M" },
-      { videoId: "IbtQY8SQz7k" },
+      { videoId: "xXxWIG284Fs" },
     ],
     youtubePlaylist: "",
     tags: [tags.NYC_NOUVEAU],
@@ -628,8 +628,9 @@ export const rawArtistList = [
     from: "Chicago",
     avatar: "",
     youtubeClips: [
-      { videoId: "P-5ehKDK_Vw" },
+      { videoId: "orwH0Oi2PlA" },
       { videoId: "qBr8dWjrPF8" },
+      { videoId: "P-5ehKDK_Vw" },
       { videoId: "irGNPLjVR2Q" }
     ],
     youtubePlaylist: "",
@@ -657,8 +658,8 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "mVuxS3csXiE" },
-      { videoId: "wdo3mw0Rx7Q" },
       { videoId: "fZ1W4Er2MHE" },
+      { videoId: "wdo3mw0Rx7Q" },
     ],
     youtubePlaylist: "",
     tags: [tags.FEMME_PUNK],
@@ -827,7 +828,6 @@ export const rawArtistList = [
       { videoId: "TD6LxcxJS3s" },
       { videoId: "mB5uUEr7pIA" },
       { videoId: "ejgpiWZHH34" },
-      { videoId: "WpvQbcemMvA" }
     ],
     youtubePlaylist: "",
     tags: [tags.AFRICAN, tags.PSYCHEDELIC_JAZZ],
@@ -881,9 +881,11 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "vwr_gWfMsQ0" },
       { videoId: "FC-4-3v9zQw" },
-      { videoId: "oqC1zKQcpbk" },
       { videoId: "gQAVa7UGm6c" },
       { videoId: "hR_6D59CioE" },
+      { videoId: "WLSF6zHdVqg" },
+      { videoId: "oqC1zKQcpbk" },
+      { videoId: "IyEDE0T2dyA" },
       { videoId: "qLAxBS0wK84" },
     ],
     youtubePlaylist: "",
@@ -1061,7 +1063,7 @@ export const rawArtistList = [
       { videoId: "z6ImbmRJM8E" },
     ],
     youtubePlaylist: "",
-    tags: [tags.ELECTRONICA, tags.PSYCHEDELIC_ROCK],
+    tags: [tags.ELECTRONICA, tags.KRAUTROCK],
     discogsId: "100441-Replikants"
   },
   { 
@@ -1158,12 +1160,12 @@ export const rawArtistList = [
     from: "Detroit",
     avatar: "",
     youtubeClips: [
+      { videoId: "yaWObSR0B90" },
       { videoId: "XKiJDxdvH5s" },
       { videoId: "rclTNn9c7Vo" },
-      { videoId: "yaWObSR0B90" },
     ],
     youtubePlaylist: "",
-    tags: [tags.DETROIT_TECHNO, tags.ELECTRONICA],
+    tags: [tags.DETROIT_TECHNO],
     discogsId: "871-Carl-Craig"
   },
   {
@@ -1176,7 +1178,7 @@ export const rawArtistList = [
       // TIZNIT!!
     ],
     youtubePlaylist: "",
-    tags: [tags.DETROIT_TECHNO, tags.ELECTRONICA],
+    tags: [tags.DETROIT_TECHNO],
     discogsId: "67226-Stacey-Pullen"
   },
   {
@@ -1260,7 +1262,7 @@ export const rawArtistList = [
       { videoId: "41XuyoUu1G8" },
     ],
     youtubePlaylist: "",
-    tags: [tags.KRAUTROCK],
+    tags: [tags.ELECTRONICA],
     discogsId: "45-Aphex-Twin"
   },
   {
@@ -1481,13 +1483,13 @@ export const rawArtistList = [
     from: "Philadelphia",
     avatar: "",
     youtubeClips: [
+      { videoId: "fJX4F_eDbR4" },
       { videoId: "wRuVwlJ7ppw" },  // get better version
       { videoId: "5o-5iRZKcRg" },
       { videoId: "BlMfRL5bjVc" },
       { videoId: "3_eSfFMduoI" },
       { videoId: "p6NV6NzBE5g" },
       // { videoId: "dfmNIGBt_Xo" },  instrumental? 
-      { videoId: "fJX4F_eDbR4" },
       { videoId: "axZpwetQUt0" },
     ],
     youtubePlaylist: "",
@@ -1613,8 +1615,8 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "HkNwuY2JUHQ" },
       { videoId: "KqrWLIgLYIU" },
-      { videoId: "Teyy1A_AJso" },
       { videoId: "E7CaTJ2SvG8" },
+      { videoId: "Teyy1A_AJso" },
     ],
     youtubePlaylist: "",
     tags: [
@@ -1735,18 +1737,34 @@ export const rawArtistList = [
     from: "New York",
     avatar: "",
     youtubeClips: [
-      { videoId: "aa0Uj_d2DTM" },
       { videoId: "Aqo-hyxjCYE" },
-      { videoId: "neHaGD_pI2A" },
-      { videoId: "tuHEP2rINSg" },
+      { videoId: "aa0Uj_d2DTM" },
       { videoId: "tYojNZsWhGI" },
+      { videoId: "tuHEP2rINSg" },
       { videoId: "KfgOD5CalF8" },
+      { videoId: "neHaGD_pI2A" },
     ],
     youtubePlaylist: "",
     tags: [
       tags.HIP_HOP,
     ],
     discogsId: "6064046-Marlon-Craft"
+  },
+  {
+    name: "Immortal Technique",
+    from: "Peru",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "RISmtCdvD4Q" },
+      { videoId: "7-_SO9lGq7Q" },
+      { videoId: "eklu7UjxeA8" },
+      { videoId: "qggxTtnKTMo" },
+    ],
+    youtubePlaylist: "",
+    tags: [
+      tags.HIP_HOP,
+    ],
+    discogsId: "188694-Immortal-Technique"
   }
 ];
 
