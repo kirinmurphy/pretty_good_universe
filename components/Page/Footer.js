@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
 import { marqueeBreakpoint } from '../RandoArtistSwitcher/RandoArtistProfile';
 import { useRouter } from 'next/router';
-import { faYoutubeSquare } from "@fortawesome/free-brands-svg-icons";
+import { faMixcloud, faYoutubeSquare } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const CONTACT_PATH = '/contact';
@@ -22,7 +22,7 @@ export function Footer () {
           </a>
 
           {/* <a className="link" target="_blank" href="//mixcloud.com/kirinmurphy">
-            <FontAwesomeIcon icon={['fab', 'mixcloud']} />
+            <FontAwesomeIcon icon={faMixcloud} />
           </a> */}
 
           <a className="link" href={CONTACT_PATH}>
@@ -55,7 +55,7 @@ const FooterWrapper = styled.div`
       font-size: 2.5rem;
 
       &.fa-mixcloud {
-        transform: scale(1.4) translate3d(2px, 0px, 0);
+        transform: scale(1.2) translate3d(2px, 0px, 0);
       }
 
       &.fa-youtube-square {

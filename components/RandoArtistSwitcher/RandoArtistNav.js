@@ -67,6 +67,8 @@ const SiteHeaderWrapper = styled.div`
     strong { 
       padding-left: 0; 
       transform: translateY(2px);
+      @media (max-width: 500px)  { display:none; } 
+
     }
   }
 
@@ -76,7 +78,7 @@ const SiteHeaderWrapper = styled.div`
     text-overflow: ellipsis;
     @media (min-width: 501px) { max-width: 62vw; } 
     @media (max-width: 500px) { max-width: 53vw; } 
-    @media (max-width: 400px) { max-width: 40vw; } 
+    @media (max-width: 480px) { max-width: 100vw; } 
 
   }
 `;
