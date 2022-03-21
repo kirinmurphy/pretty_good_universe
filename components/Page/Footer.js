@@ -1,9 +1,9 @@
-// do i need to import this in numerous places or just once globally? 
-import '../utils/fontAwesomeLibrary';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
 import { marqueeBreakpoint } from '../RandoArtistSwitcher/RandoArtistProfile';
 import { useRouter } from 'next/router';
+import { faYoutubeSquare } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const CONTACT_PATH = '/contact';
 
@@ -18,7 +18,7 @@ export function Footer () {
       {!onContactPath && (
         <>
           <a className="link" target="_blank" href="//youtube.com/outsidesounds">
-            <FontAwesomeIcon icon={['fab', 'youtube-square']} />
+            <FontAwesomeIcon icon={faYoutubeSquare} />
           </a>
 
           {/* <a className="link" target="_blank" href="//mixcloud.com/kirinmurphy">
@@ -26,7 +26,7 @@ export function Footer () {
           </a> */}
 
           <a className="link" href={CONTACT_PATH}>
-            <FontAwesomeIcon icon={['fas', 'envelope']} />
+            <FontAwesomeIcon icon={faEnvelope} />
           </a>      
 
           {/* <a className="link" target="_blank" href="//discogs">
@@ -52,14 +52,14 @@ const FooterWrapper = styled.div`
       display:inline-block;
       position:relative; 
       transform-origin:center center;
-      width: 2rem;
+      font-size: 2.5rem;
 
       &.fa-mixcloud {
         transform: scale(1.4) translate3d(2px, 0px, 0);
       }
 
       &.fa-youtube-square {
-        transform: scale(1.1, .81);
+        transform: scale(1.2, .85);
       }
     }
   }

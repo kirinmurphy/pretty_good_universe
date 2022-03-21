@@ -1,8 +1,9 @@
 import { useEffect, useReducer } from "react";
 import YouTube from "react-youtube";
 
-import '../utils/fontAwesomeLibrary';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCaretLeft, faCaretRight } from "@fortawesome/free-solid-svg-icons";
+
 import { YoutubePlayerWrapper } from "./videoPlayerStyles";
 
 import { 
@@ -61,7 +62,7 @@ export function YoutubePlayer ({ videos, onPlaylistEnd }) {
               videoCount: videos.length, 
             })}
           >
-            <FontAwesomeIcon icon={['fas', 'caret-left']} />
+            <FontAwesomeIcon icon={faCaretLeft} />
           </span>
 
           <span className="link next"
@@ -71,7 +72,7 @@ export function YoutubePlayer ({ videos, onPlaylistEnd }) {
             })}
           >
             <span>Next</span>
-            <FontAwesomeIcon icon={['fas', 'caret-right']} />
+            <FontAwesomeIcon icon={faCaretRight} />
           </span>
         </div>
       )}

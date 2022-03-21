@@ -45,12 +45,13 @@ export const rawArtistList = [
     avatar: "avatar_lydiaLunch.png",
     youtubeClips: [
       { videoId: "tYeyVHOz950" }, 
-      { videoId: "Iip3yTTWVZI" },
+      { videoId: "AlS6GC11Wi0" }, 
       { videoId: "Qr2Kde2uuXs" }, 
+      { videoId: "Iip3yTTWVZI" },
       { videoId: "GiowCFfejH8" }, 
       { videoId: "s4ole_bRTdw" }, 
       { videoId: "UZmQZwylKrQ" },
-      { videoId: "AlS6GC11Wi0" }, 
+      { videoId: "0IN4tIyVI4o" },
     ],
     youtubePlaylist: "https://www.youtube.com/playlist?list=PL81SQDom_tmdcgiRiIpgXyTBOucC400uu",
     tags: [tags.FEMME_PUNK],
@@ -456,7 +457,7 @@ export const rawArtistList = [
       // what was the other one? 
     ],
     youtubePlaylist: "",
-    tags: [tags.PSYCHEDELIC_FUNK, tags.LATIN],
+    tags: [tags.LATIN],
     discogsId: "865862-Los-Destellos"
   },
   { 
@@ -800,6 +801,7 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "ZlgwVah6q5A" },
       { videoId: "Ns81IBZmTUM" },
+      { videoId: "QiCOqYJpSno" },
       { videoId: "vnFrWrAAvR8" },
     ],
     youtubePlaylist: "",
@@ -1561,7 +1563,6 @@ export const rawArtistList = [
       { videoId: "HEWq78g04HM" },
       { videoId: "XGchDYtrsHM" },
       { videoId: "I-dtR6H-jwQ" },
-      { videoId: "G0DrvtaLR4g" },
       { videoId: "wvuEQurocVQ" },
     ],
     youtubePlaylist: "",
@@ -1752,7 +1753,7 @@ export const rawArtistList = [
   },
   {
     name: "Immortal Technique",
-    from: "Peru",
+    from: "",
     avatar: "",
     youtubeClips: [
       { videoId: "RISmtCdvD4Q" },
@@ -1765,6 +1766,52 @@ export const rawArtistList = [
       tags.HIP_HOP,
     ],
     discogsId: "188694-Immortal-Technique"
-  }
+  },
+  {
+    name: "The Revolutionaries",
+    from: "Jamaica",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "cBkq9BnxDmY" },
+      { videoId: "ox3FogGkNDw" },
+    ],
+    youtubePlaylist: "",
+    tags: [
+      tags.DUB,
+    ],
+    discogsId: "82211-The-Revolutionaries"
+  },
+  {
+    name: "Rotary Connection",
+    from: "",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "fkbml-TFY0U" },
+      { videoId: "bbgGEIqKxZU" },
+    ],
+    youtubePlaylist: "",
+    tags: [
+      tags.HIP_HOP_SAMPLE_SOURCE,
+      tags.PSYCHEDELIC_FUNK
+    ],
+    discogsId: "8286-Rotary-Connection"
+  },
+  // {
+  //   name: "",
+  //   from: "",
+  //   avatar: "",
+  //   youtubeClips: [
+  //     { videoId: "" },
+  //     { videoId: "" },
+  //   ],
+  //   youtubePlaylist: "",
+  //   tags: [
+  //     tags.HIP_HOP_SAMPLE_SOURCE,
+  //     tags.PSYCHEDELIC_FUNK
+  //   ],
+  //   discogsId: "8286-Rotary-Connection"
+  // }
 ];
+
+
 
