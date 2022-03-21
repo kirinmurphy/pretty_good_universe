@@ -30,10 +30,8 @@ export const YoutubePlayerWrapper = styled.div`
     background: #181818;
     
     > span { 
-      display:inline-block; 
-      padding:0 1rem 1rem 1rem;
+      padding:.5rem 1rem;
       text-transform:uppercase; 
-      font-size:.95rem; 
 
       &:active,
       &:hover:active { 
@@ -43,34 +41,15 @@ export const YoutubePlayerWrapper = styled.div`
         }
       }
 
-      span {
-        display: inline-block;
-        transform: translate3d(-6px, -1px, 0);
-      }
-
       .svg-inline--fa {
-        /* display:inline-block; */
-        position:relative; 
-        /* transform: scale(2); */
-        width: 1.4rem;
-        transform-origin:center center;
-      }
-
-      &.back {
-        flex:0 0 2.5rem;
-        .svg-inline--fa {
-          top:11px;
-          width:.75rem;
-        }
+        font-size: 3rem;
       }
 
       &.next {
-        flex: 0 0 170px;
-        text-align:right;
+        display: flex;
+        align-items: center;
         .svg-inline--fa { 
-          top:10px;
-          /* width:1.2rem; */
-          padding-left:10px; 
+          padding-left: .5rem; 
         }
       }
     }
