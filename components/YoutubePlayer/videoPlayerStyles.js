@@ -42,7 +42,7 @@ export const YoutubePlayerWrapper = styled.div`
       }
 
       .svg-inline--fa {
-        font-size: 3rem;
+        font-size: 2.5rem;
       }
 
       &.next {
