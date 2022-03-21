@@ -26,11 +26,11 @@ export const YoutubePlayerWrapper = styled.div`
 
   .video-actions { 
     display:flex;
-    justify-content: space-between;
+    justify-content: right;
     background: #181818;
     
     > span { 
-      padding:.5rem 1rem;
+      padding:.375rem .75rem;
       text-transform:uppercase; 
 
       &:active,
@@ -46,11 +46,7 @@ export const YoutubePlayerWrapper = styled.div`
       }
 
       &.next {
-        display: flex;
-        align-items: center;
-        .svg-inline--fa { 
-          padding-left: .5rem; 
-        }
+        padding-right:1.25rem;
       }
     }
   }
