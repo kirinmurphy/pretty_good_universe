@@ -26,8 +26,6 @@ export const YoutubePlayerWrapper = styled.div`
 
   .video-actions { 
     text-align:right;
-    /* display:flex;
-    justify-content: right; */
     background: #181818;
     
     > span { 
