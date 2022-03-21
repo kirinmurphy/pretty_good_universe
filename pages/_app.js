@@ -18,6 +18,7 @@ function MyApp({ Component, pageProps }) {
 
       </Head>
       <GlobalStyles />
+      <iframe id="bg" src="https://codethings-threejs-demo.netlify.app/" />
       <div id="page" className="panel--dark">
         <Component {...pageProps} />
         <Footer />
