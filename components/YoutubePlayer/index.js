@@ -71,7 +71,6 @@ export function YoutubePlayer ({ videos, onPlaylistEnd }) {
               videoCount: videos.length, 
             })}
           >
-            <span>Next</span>
             <FontAwesomeIcon icon={faCaretRight} />
           </span>
         </div>
