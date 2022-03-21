@@ -57,8 +57,11 @@ const SiteHeaderWrapper = styled.div`
     }    
 
     > * { float:right;
-
       &:first-of-type { padding-right: 0; }
+    }
+
+    span {
+      padding: 0 .5rem;
     }
 
     .related-artist-link {
@@ -87,7 +90,6 @@ const SiteHeaderWrapper = styled.div`
 
     strong,
     .nav-wrapper > span {
-      margin:0;
       padding: .75rem .5rem;
     }
 
