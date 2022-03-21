@@ -59,13 +59,6 @@ export const GlobalStyles = createGlobalStyle`
     text-transform:uppercase; 
   }
 
-  #page {
-    padding: 2vw 3vw;
-    max-width:800px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .panel--dark {
     a,
     .link {
@@ -78,5 +71,24 @@ export const GlobalStyles = createGlobalStyle`
         text-decoration: none;
       }
     }
+  }
+
+  #page {
+    position: relative; 
+    z-index: 2;
+    padding: 2vw 3vw;
+    max-width:800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #bg {
+    position: fixed;
+    left:0; 
+    top:0;
+    width: 100%;
+    height:100%;
+    border: 0;
+    z-index:1;
   }
 `;

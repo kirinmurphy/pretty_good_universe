@@ -105,7 +105,8 @@ export const rawArtistList = [
     discogsId: "148-Larry-Heard",
     youtubeClips: [
       { videoId: "Z9o2v3SA1Co" },
-      { videoId: "tFuujExs03A" } 
+      { videoId: "tFuujExs03A" },
+      { videoId: "07S19RpHr08" },
     ],
     youtubePlaylist: "",
     tags: [tags.HOUSE_HEAD, tags.DETROIT_TECHNO],
@@ -148,7 +149,7 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "K_DOnKJ232M" },
-      { videoId: "05m5ikAMJ1E" },
+      { videoId: "FA4jfEOanIk" },
       { videoId: "n0TLP_DCB3I" },
     ],
     youtubePlaylist: "",
@@ -398,9 +399,9 @@ export const rawArtistList = [
     from: "Detroit",
     avatar: "",
     youtubeClips: [
+      { videoId: "DsWFRi5qtfI" },
       { videoId: "lOX7Qt9YF4c" },
       // { videoId: "mls04iVmU9o" },
-      { videoId: "DsWFRi5qtfI" },
       { videoId: "AU04knNymSA" },
     ],
     youtubePlaylist: "",
@@ -769,19 +770,19 @@ export const rawArtistList = [
     tags: [tags.PSYCHEDELIC_ROCK],
     discogsId: "1611470-Ernan-Roch-Con-Las-Voces-Frescas"
   },
-  { 
-    name: "Dave \"Baby\" Cortez",
-    from: "Detroit",
-    avatar: "",
-    youtubeClips: [
-      { videoId: "NFMEv2Zx8gM" },
-      { videoId: "YLntsURqvK4" },
-      { videoId: "LfuAj3fmQ4I" }
-    ],
-    youtubePlaylist: "",
-    tags: [tags.SURF_ROCK],
-    discogsId: "282009-Dave-Baby-Cortez"
-  },
+  // { 
+  //   name: "Dave \"Baby\" Cortez",
+  //   from: "Detroit",
+  //   avatar: "",
+  //   youtubeClips: [
+  //     { videoId: "NFMEv2Zx8gM" },
+  //     { videoId: "YLntsURqvK4" },
+  //     { videoId: "LfuAj3fmQ4I" }
+  //   ],
+  //   youtubePlaylist: "",
+  //   tags: [tags.SURF_ROCK],
+  //   discogsId: "282009-Dave-Baby-Cortez"
+  // },
   { 
     name: "Three Souls In My Mind",
     from: "Mexico",
@@ -1162,8 +1163,8 @@ export const rawArtistList = [
     from: "Detroit",
     avatar: "",
     youtubeClips: [
-      { videoId: "yaWObSR0B90" },
       { videoId: "XKiJDxdvH5s" },
+      { videoId: "yaWObSR0B90" },
       { videoId: "rclTNn9c7Vo" },
     ],
     youtubePlaylist: "",
@@ -1203,11 +1204,11 @@ export const rawArtistList = [
     avatar: "",
     youtubeClips: [
       { videoId: "QsqH8qHJRXo" },
-      { videoId: "IABt65h2GfI" },
       { videoId: "6NkZayzLMOM" },
+      { videoId: "24z0dWxeSXs" },
       { videoId: "jnwvlvPxGp4" },
       { videoId: "vaiH4dLaZ1Y" },
-      { videoId: "24z0dWxeSXs" },
+      { videoId: "IABt65h2GfI" },
     ],
     youtubePlaylist: "",
     tags: [tags.HIP_HOP_SAMPLE_SOURCE],
@@ -1272,8 +1273,7 @@ export const rawArtistList = [
     from: "New York",
     avatar: "",
     youtubeClips: [
-      { videoId: "cPmxTjU4i-Q" },
-      { videoId: "GoZQgoZA4dA" }
+      { videoId: "cPmxTjU4i-Q" }
     ],
     youtubePlaylist: "",
     tags: [tags.KRAUTROCK, tags.HOUSE_HEAD],
@@ -1485,8 +1485,8 @@ export const rawArtistList = [
     from: "Philadelphia",
     avatar: "",
     youtubeClips: [
-      { videoId: "fJX4F_eDbR4" },
       { videoId: "wRuVwlJ7ppw" },  // get better version
+      { videoId: "fJX4F_eDbR4" },
       { videoId: "5o-5iRZKcRg" },
       { videoId: "BlMfRL5bjVc" },
       { videoId: "3_eSfFMduoI" },
@@ -1681,7 +1681,6 @@ export const rawArtistList = [
     tags: [
       tags.NYC_NOUVEAU, 
       tags.KRAUTROCK,
-      tags.HIP_HOP_SAMPLE_SOURCE
     ],
     discogsId: "143301-Glenn"
   },
@@ -1723,6 +1722,7 @@ export const rawArtistList = [
       { videoId: "Ksq7a9D2EX4" },
       { videoId: "XagTSd0ZWmk" },
       { videoId: "3mDRUcmccrk" },
+      { videoId: "mdT7tkkpdo" },
       { videoId: "Svk5fyHaqCU" },
       { videoId: "7vRMkYi5-Ec" },
     ],
@@ -1796,6 +1796,65 @@ export const rawArtistList = [
     ],
     discogsId: "8286-Rotary-Connection"
   },
+  {
+    name: "Jody \"Fingers\" Finch",
+    from: "Chicago",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "t98iOjiUS08" },
+    ],
+    youtubePlaylist: "",
+    tags: [
+      tags.DETROIT_TECHNO,
+      tags.HOUSE_HEAD
+    ],
+    discogsId: "322545-Jody-Fingers-Finch"
+  },
+  {
+    name: "Brian Bennett",
+    from: "England",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "Ao5uiWUzMx4" },
+      { videoId: "Hs_nzDI0PuQ" },
+    ],
+    youtubePlaylist: "",
+    tags: [
+      tags.SOUNDTRACK,
+      tags.HIP_HOP_SAMPLE_SOURCE
+    ],
+    discogsId: "108870-Brian-Bennett"
+  },
+  {
+    name: "Ediwin Birdsong",
+    from: "Los Angeles",
+    avatar: "",
+    youtubeClips: [
+      { videoId: "2PgZLlaqSUg" },
+      { videoId: "ygJrk12kTYE" },
+    ],
+    youtubePlaylist: "",
+    tags: [
+      tags.NYC_NOUVEAU,
+      tags.HIP_HOP_SAMPLE_SOURCE
+    ],
+    discogsId: "141386-Edwin-Birdsong"
+  },
+  // {
+  //   name: "Jacques Loussier",
+  //   from: "England",
+  //   avatar: "",
+  //   youtubeClips: [
+  //     { videoId: "heuGW9aCZuA" },
+  //   ],
+  //   youtubePlaylist: "",
+  //   tags: [
+  //     tags.SOUNDTRACK,
+  //     tags.HIP_HOP_SAMPLE_SOURCE
+  //   ],
+  //   discogsId: "289960-Jacques-Loussier"
+  // },
+
   // {
   //   name: "",
   //   from: "",
