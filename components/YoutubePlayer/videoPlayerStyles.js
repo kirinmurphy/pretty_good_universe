@@ -25,11 +25,13 @@ export const YoutubePlayerWrapper = styled.div`
   }
 
   .video-actions { 
-    display:flex;
-    justify-content: right;
+    text-align:right;
+    /* display:flex;
+    justify-content: right; */
     background: #181818;
     
     > span { 
+      display:inline-block;
       padding:.375rem .75rem;
       text-transform:uppercase; 
 
