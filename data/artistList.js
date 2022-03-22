@@ -166,7 +166,6 @@ export const rawArtistList = [
       tags.PSYCHEDELIC_FUNK, 
       tags.PSYCHEDELIC_ROCK, 
       tags.KRAUTROCK, 
-      tags.HIP_HOP_SAMPLE_SOURCE
     ],
     discogsId: "201948-Embryo-3"
   },
@@ -486,7 +485,7 @@ export const rawArtistList = [
     from: "",
     youtubeClips: [
       { videoId: "AaVKnRz9Inw" },
-      { videoId: "WCF_mHKBH3k" },
+      // { videoId: "WCF_mHKBH3k" },
       { videoId: "jpdiMcEeTJA" },
       { videoId: "ZOC7Pf1XY54" },
       { videoId: "0rnF7KRqGKo" },
@@ -764,9 +763,9 @@ export const rawArtistList = [
     from: "Chicago",
     youtubeClips: [
       { videoId: "vwr_gWfMsQ0" },
-      { videoId: "gQAVa7UGm6c" },
-      { videoId: "hR_6D59CioE" },
       { videoId: "IyEDE0T2dyA" },
+      { videoId: "hR_6D59CioE" },
+      { videoId: "gQAVa7UGm6c" },
       { videoId: "FC-4-3v9zQw" },
       { videoId: "WLSF6zHdVqg" },
       { videoId: "qLAxBS0wK84" },
@@ -1236,8 +1235,8 @@ export const rawArtistList = [
     from: "England",
     youtubeClips: [
       { videoId: "eELesTfsCiA" },
-      { videoId: "sitydkcBux0" },
       { videoId: "rFuyZIWqBLQ" },
+      { videoId: "sitydkcBux0" },
     ],
     tags: [
       tags.SOUNDTRACK, 
@@ -1501,7 +1500,6 @@ export const rawArtistList = [
       { videoId: "7vRMkYi5-Ec" },
     ],
     tags: [
-      tags.HOUSE_HEAD,
       tags.DETROIT_TECHNO
     ],
     discogsId: "2063-DJ-Rush"
