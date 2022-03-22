@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components';
+import { marqueeBreakpoint } from '../RandoArtistSwitcher/RandoArtistProfile';
 
 export const GlobalStyles = createGlobalStyle`
   * { 
@@ -82,7 +83,7 @@ export const GlobalStyles = createGlobalStyle`
     margin-right: auto;
   }
 
-  #bg {
+  #bg {    
     position: fixed;
     left:0; 
     top:0;
@@ -90,5 +91,9 @@ export const GlobalStyles = createGlobalStyle`
     height:100%;
     border: 0;
     z-index:1;
+
+    @media (max-width: ${marqueeBreakpoint}) { 
+      display:none;
+    }
   }
 `;
