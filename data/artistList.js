@@ -199,10 +199,11 @@ export const rawArtistList = [
     name: "Coldcut",
     from: "England",
     youtubeClips: [
-      { videoId: "_JhDFzf-Hyw" },
+      { videoId: "bbctSV5s-SA" },
       { videoId: "DzJvWMwcbyM" },
       { videoId: "i3NWX-EIEAQ" },
-      { videoId: "5-wl7Xk5FoY" }
+      { videoId: "5-wl7Xk5FoY" },
+      { videoId: "8J0KLrk933M" },
     ],
     tags: [tags.ELECTRONICA],
     discogsId: "946-Coldcut"
@@ -1104,7 +1105,7 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "cPmxTjU4i-Q" }
     ],
-    tags: [tags.KRAUTROCK, tags.HOUSE_HEAD],
+    tags: [tags.HOUSE_HEAD, tags.DETROIT_TECHNO],
     discogsId: "214901-PushPull"
   },
   // {
@@ -1576,8 +1577,8 @@ export const rawArtistList = [
     name: "Brian Bennett",
     from: "England",
     youtubeClips: [
-      { videoId: "Ao5uiWUzMx4" },
       { videoId: "Hs_nzDI0PuQ" },
+      { videoId: "Ao5uiWUzMx4" },
     ],
     tags: [
       tags.SOUNDTRACK,
