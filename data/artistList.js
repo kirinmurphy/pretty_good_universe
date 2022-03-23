@@ -63,7 +63,7 @@ export const rawArtistList = [
       { videoId: "tPnoC3XHroU" },
       { videoId: "J1IFV1ncIOQ" },
     ],
-    tags: [tags.HOUSE_HEAD],
+    tags: [tags.NYC_NOUVEAU],
     discogsId: "88534-Dr-Buzzards-Original-Savannah-Band",
   },
   { 
@@ -1631,8 +1631,8 @@ export const rawArtistList = [
     from: "New York",
     youtubeClips: [
       { videoId: "bxN1xrLRvGU" },
-      { videoId: "IydP1lUzFWQ" },
       { videoId: "bRnSm0LvDy4" },
+      { videoId: "IydP1lUzFWQ" },
     ],
     tags: [
       tags.HIP_HOP,
