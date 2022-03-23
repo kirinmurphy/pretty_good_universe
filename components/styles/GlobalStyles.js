@@ -78,7 +78,7 @@ export const GlobalStyles = createGlobalStyle`
     position: relative; 
     z-index: 2;
     padding: 2vw 3vw;
-    max-width:800px;
+    max-width:950px;
     margin-left: auto;
     margin-right: auto;
   }
