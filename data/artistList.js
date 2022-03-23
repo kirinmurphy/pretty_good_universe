@@ -533,8 +533,10 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "OAQ2jq6vwsE" },
       { videoId: "t1hhiEHLJUg" },
+      { videoId: "_CqXLpQ7SsM" },
+      { videoId: "_x56yvReZBk" },
       { videoId: "dDxYqJmtzKc" },
-      { videoId: "Qn0_fDjvI_s" }
+      { videoId: "Qn0_fDjvI_s" },
     ],
     tags: [tags.NYC_NOUVEAU],
     discogsId: "54918-Alan-Vega"
@@ -1710,6 +1712,88 @@ export const rawArtistList = [
     ],
     discogsId: "392088-Bola-Johnson"
   },  
+  {
+    name: "Bush Tetras",
+    from: "England",
+    youtubeClips: [
+      { videoId: "D8WwYpz9z0Y" },
+      { videoId: "h1zBxfr-LEc" },
+      { videoId: "W81iS_0zenw" },
+      { videoId: "4hwHy_e92uQ" },
+      { videoId: "vemP-UghHPs" },
+      { videoId: "2-nihfhTr3E" },
+      { videoId: "8rNCHhsK2co" },
+    ],
+    tags: [
+      tags.FEMME_PUNK,
+      tags.NYC_NOUVEAU,
+    ],
+    discogsId: "132791-Delta-5"
+  },   
+  {
+    name: "Colored Music",
+    from: "Japan",
+    youtubeClips: [
+      { videoId: "otpHONcxu_A" },
+      { videoId: "lF_JfjRZW5A" },
+      { videoId: "Ok5s0WOvJSc" },
+    ],
+    tags: [
+      tags.PSYCHEDELIC_JAZZ,
+      tags.NYC_NOUVEAU,
+    ],
+    discogsId: "259144-Colored-Music"
+  },  
+  {
+    name: "Geoff Bastow",
+    from: "England",
+    youtubeClips: [
+      { videoId: "9vEvGUQgtKs" },
+    ],
+    tags: [
+      tags.SOUNDTRACK,
+    ],
+    discogsId: "132317-Geoff-Bastow"
+  },    
+  {
+    name: "Throbbing Gristle",
+    from: "England",
+    youtubeClips: [
+      { videoId: "RzcZQ2NZa8w" },
+      { videoId: "trEo8O_ZftI" },
+      { videoId: "XEusQWIlKao" },
+      { videoId: "dISQz-QqNBU" },
+    ],
+    tags: [
+      tags.NYC_NOUVEAU,
+      tags.ELECTRONICA
+    ],
+    discogsId: "12589-Throbbing-Gristle"
+  },   
+  {
+    name: "Patricia Harris",
+    from: "",
+    youtubeClips: [
+      { videoId: "q78r_DUMNx0" },
+    ],
+    tags: [
+      tags.NYC_NOUVEAU,
+      tags.HOUSE_HEAD
+    ],
+    discogsId: "227131-Patricia-Harris"
+  },   
+  {
+    name: "Special Request",
+    from: "",
+    youtubeClips: [
+      { videoId: "BQR35Qgn39k" },
+    ],
+    tags: [
+      tags.NYC_NOUVEAU,
+      tags.HIP_HOP
+    ],
+    discogsId: "49765-Special-Request-2"
+  },   
   
   // {
   //   name: "Jacques Loussier",
