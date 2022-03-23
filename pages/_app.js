@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
 
       </Head>
       <GlobalStyles />
-      <iframe id="bg" src="https://codethings-threejs-demo.netlify.app/" />
+      {/* <iframe id="bg" src="https://codethings-threejs-demo.netlify.app/" /> */}
       {/* <iframe id="bg" src="https://projects.codethings.net/algorithmy_stuff/canvases/cssstenstein/" /> */}
       <div id="page" className="panel--dark">
         <Component {...pageProps} />
