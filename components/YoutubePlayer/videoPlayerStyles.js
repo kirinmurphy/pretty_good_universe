@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const YoutubePlayerWrapper = styled.div`
-  max-width:800px;
+  /* max-width:800px; */
   margin-left: auto;
   margin-right: auto;
   padding-top:1rem;
