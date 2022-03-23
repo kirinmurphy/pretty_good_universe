@@ -11,7 +11,8 @@ export function RandoArtistNav (props) {
 
   return (
     <SiteHeaderWrapper>
-      <strong>pretty good universe</strong>
+      {/* <strong>pretty good universe</strong> */}
+      <strong>something here</strong>
       <div className="nav-wrapper">
         <span 
           className="link" 
