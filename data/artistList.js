@@ -42,10 +42,10 @@ export const rawArtistList = [
     from: "New York",
     youtubeClips: [
       { videoId: "tYeyVHOz950" }, 
+      { videoId: "GiowCFfejH8" }, 
       { videoId: "AlS6GC11Wi0" }, 
       { videoId: "Qr2Kde2uuXs" }, 
       { videoId: "Iip3yTTWVZI" },
-      { videoId: "GiowCFfejH8" }, 
       { videoId: "s4ole_bRTdw" }, 
       { videoId: "UZmQZwylKrQ" },
       { videoId: "0IN4tIyVI4o" },
@@ -95,6 +95,7 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "Z9o2v3SA1Co" },
       { videoId: "tFuujExs03A" },
+      { videoId: "OYyBrXEdxxc" },
       { videoId: "07S19RpHr08" },
     ],
     tags: [tags.HOUSE_HEAD, tags.DETROIT_TECHNO],
@@ -116,9 +117,9 @@ export const rawArtistList = [
     from: "Italy",
     youtubeClips: [
       { videoId: "jU6r5lJlIbQ" },
+      { videoId: "Z67uiA2Q7d8" },
       { videoId: "CDEiQcflHWc" },
       { videoId: "5Vp17zg8-30" },
-      { videoId: "Z67uiA2Q7d8" },
       { videoId: "0WrruFyhtVw" },
       { videoId: "QxEemccRAMQ" },
       { videoId: "k1-6JKZ8spI" },
@@ -645,14 +646,14 @@ export const rawArtistList = [
     name: "Piero Piccioni",
     from: "Italy",
     youtubeClips: [
-      { videoId: "caa0oiRZcRk" },
       { videoId: "BthwOfELs5M" },
-      { videoId: "nYpf11vQ6UA" },
-      { videoId: "lRwy0D1HDV0" },
-      { videoId: "zsH3Vfc0huc" },
+      { videoId: "caa0oiRZcRk" },
       { videoId: "lDf4DfhUUBw" },
       { videoId: "rs3s8V3xcAc" },
+      { videoId: "lRwy0D1HDV0" },
+      { videoId: "zsH3Vfc0huc" },
       { videoId: "iIjeXpHhPvQ" },
+      { videoId: "nYpf11vQ6UA" },
       { videoId: "HZFY2ohFuXk" },
       { videoId: "lCvu6e5xyow" }, 
       { videoId: "WYFKx38-Yz4" },
@@ -784,22 +785,22 @@ export const rawArtistList = [
     from: "Chicago",
     youtubeClips: [
       { videoId: "8vsMh8sPwjI" },
-      { videoId: "Kfwxz-SSmBM" },
       { videoId: "3_5oRtBDtfg" },
+      { videoId: "L-n375nloL8" },
       { videoId: "hmaXQ8H4t4w" },
+      { videoId: "Kfwxz-SSmBM" },
       { videoId: "qvARw8iGG5w" },
       { videoId: "0gVJJgDFUvM" },
       { videoId: "9zPWZeXtUTU" },
       { videoId: "isSPvgnG6iU" },
       { videoId: "d4CoDzIfF50" },
-      { videoId: "CMvyyPgYW1g" },
+      // { videoId: "CMvyyPgYW1g" },  // why try
       { videoId: "oqC1zKQcpbk" },
       { videoId: "ajuz6u-nADY" },
       { videoId: "rQJBZ22frX4" },
       { videoId: "w6uP0wIQ9aY" },
       { videoId: "7mRJRs5FGMU" },
       { videoId: "btyLiGhvTJQ" },
-      { videoId: "L-n375nloL8" },
       { videoId: "oLEtcf26Flo" },
       { videoId: "_Y-aZtC0vfw" },
       { videoId: "xAgTS64axEE" },
@@ -965,9 +966,9 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "-FI_0eI7qaY" },
       { videoId: "9nEffQAgMoE" },
+      { videoId: "3hbreeIXccs" },
       { videoId: "AHiSf4sqG1I" },
       { videoId: "GLU2v_cX4P8" },
-      { videoId: "3hbreeIXccs" },
       { videoId: "cFcmecBefqQ" },
       { videoId: "HIDzd091J68" },
       { videoId: "Abky6hbKPpg" },
@@ -1149,7 +1150,8 @@ export const rawArtistList = [
     from: "Scotland",
     youtubeClips: [
       { videoId: "2r-i7vb1qC8" },
-      { videoId: "gWjxeS6c4ek" }
+      { videoId: "gWjxeS6c4ek" },
+      { videoId: "TFlArFrWQ5g" },
     ],
     tags: [
       tags.KRAUTROCK, 
@@ -1273,10 +1275,10 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "bXXA1gytWcc" },
       { videoId: "y50HXQA20Jc" },
-      { videoId: "Hjk_DY4w4UY" },
-      { videoId: "PMOZzlu0zvU" },
-      { videoId: "t2BLNRUvsF0" },
       { videoId: "08MXmoL3rYk" },
+      { videoId: "PMOZzlu0zvU" },
+      { videoId: "Hjk_DY4w4UY" },
+      { videoId: "t2BLNRUvsF0" },
       { videoId: "5WkVkAD1Azw" },
       { videoId: "a9bhBXGaJ0w" },
       { videoId: "uJspvQQ6Qo8" },
@@ -1501,9 +1503,10 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "Ksq7a9D2EX4" },
       { videoId: "XagTSd0ZWmk" },
+      { videoId: "gCvkHFt-Wp4" },
       { videoId: "3mDRUcmccrk" },
+      { videoId: "dwZS47cqF5E" },
       { videoId: "Svk5fyHaqCU" },
-      { videoId: "7vRMkYi5-Ec" },
     ],
     tags: [
       tags.DETROIT_TECHNO
@@ -1722,8 +1725,8 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "D8WwYpz9z0Y" },
       { videoId: "h1zBxfr-LEc" },
-      { videoId: "W81iS_0zenw" },
       { videoId: "4hwHy_e92uQ" },
+      { videoId: "W81iS_0zenw" },
       { videoId: "vemP-UghHPs" },
       { videoId: "2-nihfhTr3E" },
       { videoId: "8rNCHhsK2co" },
@@ -1797,6 +1800,35 @@ export const rawArtistList = [
       tags.HIP_HOP
     ],
     discogsId: "49765-Special-Request-2"
+  },   
+  {
+    name: "Electric Church",
+    from: "",
+    youtubeClips: [
+      { videoId: "ba4AXjm4XAo" },
+      { videoId: "lfTAjn26ObM" },
+    ],
+    tags: [
+      tags.PSYCHEDELIC_FUNK,
+    ],
+    discogsId: "332441-Electric-Church"
+  },   
+  {
+    name: "Jeff Mills",
+    from: "Detroit",
+    youtubeClips: [
+      { videoId: "MevnBuhtvRk" },
+      { videoId: "9rVOkV3DDgM" },
+      { videoId: "7TnIoa8BkGg" }, 
+      { videoId: "D7Oo_ekaIN4" },
+      { videoId: "7VDbsMwbaAc" },
+      { videoId: "VwAmmDwcmFE" },
+      { videoId: "tYLNm1Ifbfo" },
+    ],
+    tags: [
+      tags.DETROIT_TECHNO,
+    ],
+    discogsId: "205-Jeff-Mills"
   },   
   
   // {

@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { DiscogsPreview } from './DiscogsPreview';
 import { YoutubePlayer } from '../../YoutubePlayer';
+import { breakpointFull, breakpointTablet } from '../../Page/constants';
 
 export function RandoArtistProfile ({ artist, onPlaylistEnd }) {
   const { 
@@ -33,9 +34,12 @@ export function RandoArtistProfile ({ artist, onPlaylistEnd }) {
 }
 
 const ArtistMarqueeWrapper = styled.div`
-  min-height: 3vw;
+  min-height: 3.5rem;
   margin-bottom: .5rem; 
   font-size: .85rem;
+
+  @media (max-width: ${breakpointFull}) { min-height: calc(7rem - 5vw); }
+  @media (max-width: ${breakpointTablet}) { min-height: calc(9rem - 10vw); }
 `;
 
 const ArtistTitleBar = styled.div`
