@@ -18,11 +18,13 @@ export function Footer () {
 
 
 const FooterWrapper = styled.div`
-  display:flex;
-  padding: 4vw 0 2vw 0;
-  justify-content: center;
-  align-items: center;
-  gap: 2.5rem;
+  nav {
+    padding: 4vw 0 2vw 0;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem; 
+
+  }
 
   a.link { display:block;
     color: #282828;
@@ -32,14 +34,6 @@ const FooterWrapper = styled.div`
       position:relative; 
       transform-origin:center center;
       font-size: 2.5rem;
-
-      &.fa-mixcloud {
-        transform: scale(1.2) translate3d(2px, 0px, 0);
-      }
-
-      &.fa-youtube-square {
-        transform: scale(1.2, .85);
-      }
     }
   }
 

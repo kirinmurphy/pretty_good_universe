@@ -19,7 +19,7 @@ export function RandoArtistNav (props) {
         title={<FontAwesomeIcon icon={faBars} />}
         content={<>
           <Logo />
-          <ContactLinks showText={true} />          
+          <ContactLinks />          
         </>}
       />              
       <Logo />
