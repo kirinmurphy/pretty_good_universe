@@ -1,42 +1,21 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
-import { marqueeBreakpoint } from '../RandoArtistSwitcher/RandoArtistProfile';
 import { useRouter } from 'next/router';
-import { faMixcloud, faYoutubeSquare } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { ContactLinks, CONTACT_PATH } from "./ContactLinks";
+import { breakpointMobile, breakpointTablet } from "./constants";
 
-const CONTACT_PATH = '/contact';
 
 export function Footer () {
-
   const router = useRouter();
 
   const onContactPath = router.pathname === CONTACT_PATH;
 
   return (
     <FooterWrapper>
-      {!onContactPath && (
-        <>
-          <a className="link" target="_blank" href="//youtube.com/outsidesounds">
-            <FontAwesomeIcon icon={faYoutubeSquare} />
-          </a>
-
-          {/* <a className="link" target="_blank" href="//mixcloud.com/kirinmurphy">
-            <FontAwesomeIcon icon={faMixcloud} />
-          </a> */}
-
-          <a className="link" href={CONTACT_PATH}>
-            <FontAwesomeIcon icon={faEnvelope} />
-          </a>      
-
-          {/* <a className="link" target="_blank" href="//discogs">
-            discogs
-          </a> */}        
-        </>
-      )}
+      {!onContactPath && <ContactLinks />}
     </FooterWrapper>
   )
 }
+
 
 const FooterWrapper = styled.div`
   display:flex;
@@ -64,7 +43,11 @@ const FooterWrapper = styled.div`
     }
   }
 
-  @media (max-width: ${marqueeBreakpoint}) {
+  @media (max-width: ${breakpointTablet}) {
     padding: 4rem 0 8rem 0;
+  }
+
+  @media (max-width: ${breakpointMobile}) {
+    display:none;
   }
 `;

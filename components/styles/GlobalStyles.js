@@ -1,5 +1,5 @@
-import styled, { createGlobalStyle } from 'styled-components';
-import { marqueeBreakpoint } from '../RandoArtistSwitcher/RandoArtistProfile';
+import { createGlobalStyle } from 'styled-components';
+import { breakpointTablet } from '../Page/constants';
 
 export const GlobalStyles = createGlobalStyle`
   * { 
@@ -92,7 +92,7 @@ export const GlobalStyles = createGlobalStyle`
     border: 0;
     z-index:1;
 
-    @media (max-width: ${marqueeBreakpoint}) { 
+    @media (max-width: ${breakpointTablet}) { 
       display:none;
     }
   }

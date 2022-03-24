@@ -32,10 +32,8 @@ export function RandoArtistProfile ({ artist, onPlaylistEnd }) {
   )
 }
 
-export const marqueeBreakpoint = '730px';
-
 const ArtistMarqueeWrapper = styled.div`
-  min-height: 4rem;
+  min-height: 3vw;
   margin-bottom: .5rem; 
   font-size: .85rem;
 `;

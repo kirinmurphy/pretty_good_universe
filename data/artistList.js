@@ -286,8 +286,8 @@ export const rawArtistList = [
     name: "Lee Hazlewood",
     from: "Oklahoma",
     youtubeClips: [
-      { videoId: "oUBHy8WQlzU" },
       { videoId: "Lw_I_UpqVjM" },
+      { videoId: "oUBHy8WQlzU" },
       { videoId: "J2rfZdqinIA" },
       { videoId: "pjsh2j7W6Bo" },
       { videoId: "UfajzCPzpDA" },
@@ -313,10 +313,14 @@ export const rawArtistList = [
     name: "Jasper Van't Hof",
     from: "The Netherlands",
     youtubeClips: [
-      { videoId: "butTVsxTv-0" },
       { videoId: "SJr2efNBVLc" },
+      { videoId: "butTVsxTv-0" },
     ],
-    tags: [tags.PSYCHEDELIC_FUNK, tags.ELECTRONICA],
+    tags: [
+      tags.PSYCHEDELIC_FUNK, 
+      tags.ELECTRONICA, 
+      tags.HIP_HOP_SAMPLE_SOURCE
+    ],
     discogsId: "149325-Jasper-Vant-Hof"
   },
   { 
@@ -1672,8 +1676,8 @@ export const rawArtistList = [
     from: "Benin",
     youtubeClips: [
       { videoId: "LXIg-Mp-ZRI" },
-      { videoId: "Zoj9f8A0fJk" },
       { videoId: "M0c34HLss-w" },
+      { videoId: "Zoj9f8A0fJk" },
     ],
     tags: [
       tags.PSYCHEDELIC_FUNK,
