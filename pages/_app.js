@@ -14,7 +14,9 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         {/* <link rel="icon" href="/favicon.ico" /> */}
         <style>{dom.css()}</style>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,700italic,300,900,900italic,300italic,400italic" />        
+        
+        {/* <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,700italic,300,900,900italic,300italic,400italic" />         */}
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700,700italic,300,900,900italic,300italic,400italic" />        
 
       </Head>
       <GlobalStyles />

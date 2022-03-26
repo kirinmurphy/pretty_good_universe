@@ -8,7 +8,7 @@ export const GlobalStyles = createGlobalStyle`
 
   body { 
     background:#000;
-    font-family: "Lato", Arial, Verdana, sans-serif;
+    font-family: "Inconsolata", Arial, Verdana, sans-serif;
     -webkit-overflow-scrolling: touch;
     min-width:320px;
     color: #fff;
