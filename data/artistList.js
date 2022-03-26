@@ -1757,6 +1757,7 @@ export const rawArtistList = [
     from: "England",
     youtubeClips: [
       { videoId: "9vEvGUQgtKs" },
+      { videoId: "TEJDKpjVCXU" },
     ],
     tags: [
       tags.SOUNDTRACK,
@@ -1928,12 +1929,10 @@ export const rawArtistList = [
     from: "France",
     youtubeClips: [
       { videoId: "uyhkQxIoCx4" },
-      { videoId: "svv2O2TYJQs" },
-      { videoId: "DkWIqc4nKrc" },
       { videoId: "AEfWD1XOj8w" },
-      { videoId: "TJYLwrybzuY" },
-      { videoId: "ICgqNbluLtQ" },
+      { videoId: "svv2O2TYJQs" },
       { videoId: "nz6wJvmakiM" },
+      { videoId: "DkWIqc4nKrc" },
     ],
     tags: [
       tags.SOUNDTRACK,
