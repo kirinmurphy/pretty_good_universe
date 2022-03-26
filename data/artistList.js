@@ -599,8 +599,8 @@ export const rawArtistList = [
     from: "Germany",
     youtubeClips: [
       { videoId: "Ub4zXkH4z0U" },
-      { videoId: "GI876rqao8A" },
       { videoId: "IaZwpKZokJM" },
+      { videoId: "GI876rqao8A" },
       { videoId: "KGnBgsplaTc" },
     ],
     tags: [tags.ELECTRONICA],
@@ -924,7 +924,7 @@ export const rawArtistList = [
       { videoId: "O_1e7vlKYpQ" },
       { videoId: "w2WWp_XuwQM" },
       { videoId: "LNGlcV1SwMQ" },
-      { videoId: "VNEfvCQPqNs" },
+      // { videoId: "VNEfvCQPqNs" },
       { videoId: "Mh0q8kWr7iI" },
       { videoId: "RkSiwbXxj_I" },
       { videoId: "z6ImbmRJM8E" },
@@ -1586,6 +1586,7 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "Hs_nzDI0PuQ" },
       { videoId: "Ao5uiWUzMx4" },
+      { videoId: "kY0i4bL9eSo" },
     ],
     tags: [
       tags.SOUNDTRACK,
@@ -1830,35 +1831,276 @@ export const rawArtistList = [
     ],
     discogsId: "205-Jeff-Mills"
   },   
-  
-  // {
-  //   name: "Jacques Loussier",
-  //   from: "England",
-  //   avatar: "",
-  //   youtubeClips: [
-  //     { videoId: "heuGW9aCZuA" },
-  //   ],
-  //   tags: [
-  //     tags.SOUNDTRACK,
-  //     tags.HIP_HOP_SAMPLE_SOURCE
-  //   ],
-  //   discogsId: "289960-Jacques-Loussier"
-  // },
-
+  {
+    name: "Akira S & As Garotas Que Erraram",
+    from: "Brazil",
+    youtubeClips: [
+      { videoId: "KDn8MQNBJVo" },
+      { videoId: "5mTmoRqWd9E" },
+      { videoId: "X2YZmSMLFVg" },
+      { videoId: "EPBg3hG2OoA" },
+      { videoId: "relc4x83Hvs" },
+    ],
+    tags: [
+      tags.PSYCHEDELIC_ROCK,
+      tags.KRAUTROCK
+    ],
+    discogsId: "1014765-Akira-S-As-Garotas-Que-Erraram"
+  },   
+  {
+    name: "Gang 90 & Absurdettes",
+    from: "Brazil",
+    youtubeClips: [
+      { videoId: "Sm6Wf9yM5to" },
+      { videoId: "knay1whxxHs" },
+      { videoId: "YWg_HOs9j4k" },
+    ],
+    tags: [
+      tags.KRAUTROCK,
+      tags.NYC_NOUVEAU
+    ],
+    discogsId: "320463-Gang-90"
+  },       
+  {
+    name: "Jacques Loussier",
+    from: "England",
+    youtubeClips: [
+      { videoId: "heuGW9aCZuA" },
+    ],
+    tags: [
+      tags.SOUNDTRACK,
+      tags.HIP_HOP_SAMPLE_SOURCE
+    ],
+    discogsId: "289960-Jacques-Loussier"
+  },
+  {
+    name: "Fellini",
+    from: "Brazil",
+    youtubeClips: [
+      { videoId: "r2-_UysxveQ" },
+      { videoId: "-zGAyiRMSUw" },
+      { videoId: "q-QUZZnz8k" },
+    ],
+    tags: [
+      tags.KRAUTROCK,
+      tags.NYC_NOUVEAU,
+    ],
+    discogsId: "320460-Fellini-2"
+  },
+  {
+    name: "AKT",
+    from: "Brazil",
+    youtubeClips: [
+      { videoId: "bpA1Uqu8H_8" },
+    ],
+    tags: [
+      tags.FEMME_PUNK,
+      tags.LATIN,
+    ],
+    discogsId: "320472-AKT"
+  },
+  {
+    name: "Doctor's Cat",
+    from: "Italy",
+    youtubeClips: [
+      { videoId: "bpA1Uqu8H_8" },
+      { videoId: "C5XWsx-tO_Y" },
+    ],
+    tags: [
+      tags.NYC_NOUVEAU,
+    ],
+    discogsId: "15979-Doctors-Cat"
+  },
+  {
+    name: "Chris Harwood",
+    from: "England",
+    youtubeClips: [
+      { videoId: "3jziYfJD3Qc" },
+      { videoId: "W9DzDQbwUP4" },
+    ],
+    tags: [
+      tags.HIP_HOP_SAMPLE_SOURCE,
+    ],
+    discogsId: "725619-Christine-Harwood"
+  },
+  {
+    name: "Nino Nardini",
+    from: "France",
+    youtubeClips: [
+      { videoId: "uyhkQxIoCx4" },
+      { videoId: "svv2O2TYJQs" },
+      { videoId: "DkWIqc4nKrc" },
+      { videoId: "AEfWD1XOj8w" },
+      { videoId: "TJYLwrybzuY" },
+      { videoId: "ICgqNbluLtQ" },
+      { videoId: "nz6wJvmakiM" },
+    ],
+    tags: [
+      tags.SOUNDTRACK,
+      tags.HIP_HOP_SAMPLE_SOURCE
+    ],
+    discogsId: "35303-Nino-Nardini"
+  },
+  {
+    name: "Manfred Hübler & Siegfried Schwab",
+    from: "Germany",
+    youtubeClips: [
+      { videoId: "fuYguA7Tb5E" },
+      { videoId: "PIgqReU99VU" },
+      { videoId: "pwaWkLWhkCo" },
+      { videoId: "97qIGqhQn1k" }, 
+    ],
+    tags: [
+      tags.SOUNDTRACK,
+    ],
+    discogsId: ""
+  },  
+  {
+    name: "The Invaders",
+    from: "Bermuda",
+    youtubeClips: [
+      { videoId: "fmYcJ2q_0eU" },
+      { videoId: "Ki-KwKXqreg" },
+      { videoId: "n-F9i8ttrXo" },
+      { videoId: "q7zqyJnE-r4" },
+    ],
+    tags: [
+      tags.SOUNDTRACK,
+      tags.SURF_ROCK,
+      tags.HIP_HOP_SAMPLE_SOURCE,
+      tags.PSYCHEDELIC_FUNK
+    ],
+    discogsId: "679514-The-Invaders-3"
+  },  
+  {
+    name: "David Matthews",
+    from: "Kentucky",
+    youtubeClips: [
+      { videoId: "U_NEIbLpg5E" },
+      { videoId: "HFuB1pWWFsU" },
+    ],
+    tags: [
+      tags.HIP_HOP_SAMPLE_SOURCE,
+    ],
+    discogsId: "386834-Dave-Matthews-3"
+  },  
+  {
+    name: "Armin Rusch",
+    from: "Germany",
+    youtubeClips: [
+      { videoId: "jzLsBdrgbJY" },
+      { videoId: "Pp0Ej1t2d0o" },
+    ],
+    tags: [
+      tags.SOUNDTRACK,
+      tags.HIP_HOP_SAMPLE_SOURCE,
+    ],
+    discogsId: "363438-Armin-Rusch"
+  },
+  {
+    name: "Pharaoh Overlord",
+    from: "Finland",
+    youtubeClips: [
+      { videoId: "02OJhfnql8c" },
+      { videoId: "mei4BpeRqns" },
+    ],
+    tags: [
+      tags.PSYCHEDELIC_ROCK,
+      tags.KRAUTROCK,
+    ],
+    discogsId: "333758-Pharaoh-Overlord"
+  },
+  {
+    name: "Özdemir Erdoğan Ve Orkestrası",
+    from: "Turkey",
+    youtubeClips: [
+      { videoId: "3xR_S-gWsgY" },
+    ],
+    tags: [
+      tags.SURF_ROCK,
+      tags.HIP_HOP_SAMPLE_SOURCE,
+      tags.FOLK
+    ],
+    discogsId: "1105130-Özdemir-Erdoğan-Ve-Orkestrası"
+  },
+  {
+    name: "Moğollar",
+    from: "Turkey",
+    youtubeClips: [
+      { videoId: "NZHQbDB80CU" },
+      { videoId: "GdddjGoHTb8" },
+      { videoId: "yf6Zf-Zd-iw" },
+    ],
+    tags: [
+      tags.SURF_ROCK,
+      tags.HIP_HOP_SAMPLE_SOURCE,
+    ],
+    discogsId: "1105126-Moğollar"
+  },
+  {
+    name: "Kocani Orkestar",
+    from: "Macedonia",
+    youtubeClips: [
+      { videoId: "2eogqWiIcvU" },
+    ],
+    tags: [
+      tags.LATIN,
+    ],
+    discogsId: "186782-Koçani-Orkestar"
+  },
+  {
+    name: "Jungle",
+    from: "California",
+    youtubeClips: [
+      { videoId: "8TykdKVpMpg" },
+    ],
+    tags: [
+      tags.PSYCHEDELIC_FUNK,
+      tags.HIP_HOP_SAMPLE_SOURCE,
+    ],
+    discogsId: "1038430-Jungle-4"
+  },
+  {
+    name: "Chrissy Zebby Tembo",
+    from: "Zambia",
+    youtubeClips: [
+      { videoId: "fEXEybdzU9Q" },
+      { videoId: "zutz4TGzd5k" },
+    ],
+    tags: [
+      tags.PSYCHEDELIC_FUNK,
+      tags.PSYCHEDELIC_ROCK,
+      tags.AFRICAN,
+    ],
+    discogsId: "1009664-Chrissy-Zebby-Tembo",
+    bio: "Originally released in 1976, My Ancestors is one of the greatest releases from Zambia’s Zamrock scene. \n\n The album travels the darker undercurrents of 70s rock and roll, warping and heightening the influences of Jimi, the Stones, the Beatles, Black Sabbath, and James Brown. \n\n 27 year old Chrissy “Zebby” Tembo provided drums and vocals while Paul Ngozi, one of the chief architects of the Zambian rock sound, was responsible for the aggressive guitar leads. "
+  },
+  {
+    name: "Toncho Pilatos",
+    from: "Mexico",
+    youtubeClips: [
+      { videoId: "vZyaqtwmuRU" },
+      { videoId: "XGu95T_1CEk" },
+    ],
+    tags: [
+      tags.PSYCHEDELIC_ROCK,
+      tags.LATIN,
+      tags.SURF_ROCK,
+    ],
+    discogsId: "",
+    bio: ""
+  },  
   // {
   //   name: "",
   //   from: "",
-  //   avatar: "",
   //   youtubeClips: [
   //     { videoId: "" },
   //     { videoId: "" },
   //   ],
   //   tags: [
-  //     tags.HIP_HOP_SAMPLE_SOURCE,
-  //     tags.PSYCHEDELIC_FUNK
   //   ],
-  //   discogsId: "8286-Rotary-Connection"
-  // }
+  //   discogsId: ""
+  // },
 ];
 
 
