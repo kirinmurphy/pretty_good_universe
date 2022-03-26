@@ -58,10 +58,10 @@ export const rawArtistList = [
     from: "New York",
     youtubeClips: [
       { videoId: "r5lrxFGOj9g" },
+      { videoId: "J1IFV1ncIOQ" },
       { videoId: "-9T3jK3PCc8" },
       { videoId: "jrzxW0rsD1Q" },
       { videoId: "tPnoC3XHroU" },
-      { videoId: "J1IFV1ncIOQ" },
     ],
     tags: [tags.NYC_NOUVEAU],
     discogsId: "88534-Dr-Buzzards-Original-Savannah-Band",
@@ -116,12 +116,12 @@ export const rawArtistList = [
     name: "Piero Umiliani",
     from: "Italy",
     youtubeClips: [
-      { videoId: "jU6r5lJlIbQ" },
       { videoId: "Z67uiA2Q7d8" },
-      { videoId: "CDEiQcflHWc" },
+      { videoId: "jU6r5lJlIbQ" },
       { videoId: "5Vp17zg8-30" },
-      { videoId: "0WrruFyhtVw" },
       { videoId: "QxEemccRAMQ" },
+      { videoId: "CDEiQcflHWc" },
+      { videoId: "0WrruFyhtVw" },
       { videoId: "k1-6JKZ8spI" },
       { videoId: "pvBopJUDiNE" }, 
     ],
@@ -175,10 +175,10 @@ export const rawArtistList = [
     from: "Panama",
     youtubeClips: [
       { videoId: "l7Q-JfAV2xk" },
-      { videoId: "YdzfAHswd50" },
+      { videoId: "Pjb_NV8fr5U" },
       { videoId: "_VakN0BA2Vc" },
       { videoId: "qHCYPBI27tw" },
-      { videoId: "Pjb_NV8fr5U" },
+      { videoId: "YdzfAHswd50" },
       { videoId: "sbkv3ZGIIj0" },
     ],
     tags: [tags.PSYCHEDELIC_JAZZ],
@@ -244,10 +244,12 @@ export const rawArtistList = [
     name: "BADBADNOTGOOD",
     from: "Toronto",
     youtubeClips: [
+      { videoId: "aqJxKXO0TEk" },
       { videoId: "UWIIPX_5rbM" },
-      // { videoId: "" }
     ],
-    tags: [],
+    tags: [
+      tags.PSYCHEDELIC_JAZZ
+    ],
     discogsId: "2468526-BadBadNotGood"
   },
   { 
@@ -320,7 +322,7 @@ export const rawArtistList = [
     tags: [
       tags.PSYCHEDELIC_FUNK, 
       tags.ELECTRONICA, 
-      tags.HIP_HOP_SAMPLE_SOURCE
+      // tags.HIP_HOP_SAMPLE_SOURCE
     ],
     discogsId: "149325-Jasper-Vant-Hof"
   },
@@ -352,9 +354,10 @@ export const rawArtistList = [
     from: "Detroit",
     youtubeClips: [
       { videoId: "DsWFRi5qtfI" },
-      { videoId: "lOX7Qt9YF4c" },
+      { videoId: "0V0AZmX2SBM" },
       // { videoId: "mls04iVmU9o" },
       { videoId: "AU04knNymSA" },
+      { videoId: "lOX7Qt9YF4c" },
     ],
     tags: [tags.HOUSE_HEAD, tags.NYC_NOUVEAU],
     discogsId: "154434-Hamilton-Bohannon"
@@ -612,11 +615,10 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "2NTmgFNSLtA" },
       { videoId: "KVBfX58McgQ" },
-      { videoId: "jz0JDuLYtnw" },
       { videoId: "pFLx4FnNegk" },
+      { videoId: "jz0JDuLYtnw" },
       { videoId: "sNdOtaHniQc" },
       { videoId: "_Pws_cquzns" },
-      { videoId: "_8c4PAaDMmY" },
     ],
     tags: [tags.NYC_NOUVEAU],
     discogsId: "33929-Gang-Of-Four"
@@ -648,12 +650,12 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "BthwOfELs5M" },
       { videoId: "caa0oiRZcRk" },
+      { videoId: "iIjeXpHhPvQ" },
       { videoId: "lDf4DfhUUBw" },
       { videoId: "rs3s8V3xcAc" },
-      { videoId: "lRwy0D1HDV0" },
       { videoId: "zsH3Vfc0huc" },
-      { videoId: "iIjeXpHhPvQ" },
-      { videoId: "nYpf11vQ6UA" },
+      { videoId: "lRwy0D1HDV0" },
+      // { videoId: "nYpf11vQ6UA" },
       { videoId: "HZFY2ohFuXk" },
       { videoId: "lCvu6e5xyow" }, 
       { videoId: "WYFKx38-Yz4" },
@@ -823,8 +825,8 @@ export const rawArtistList = [
     name: "Harmonia",
     from: "Germany",
     youtubeClips: [
-      { videoId: "YUTN1_C_iOI" },
       { videoId: "1VNO3OB0T_E" },
+      { videoId: "YUTN1_C_iOI" },
       { videoId: "iQs07Sofu8I" },
       { videoId: "DPBjSWQ8tLU" },
     ],
@@ -899,7 +901,9 @@ export const rawArtistList = [
       { videoId: "gzAOlaITnWk" },
       { videoId: "WuZlHOLMl1Q" },
     ],
-    tags: [tags.ELECTRONICA, tags.HOUSE_HEAD],
+    tags: [
+      tags.ELECTRONICA,
+    ],
     discogsId: "2711-Liaisons-Dangereuses"
   },
   { 
@@ -1187,11 +1191,14 @@ export const rawArtistList = [
     discogsId: "130243-Alessandro-Alessandroni"
   },
   {
-    name: "R.D. Burman",
+    name: "Rahul Dev Burman",
     from: "India",
     youtubeClips: [
+      { videoId: "Zf8pzwI2dm8" },
       { videoId: "0WBorOBwRrs" },
       { videoId: "Sh9zFRSZ9I0" },
+      { videoId: "TiMgpd8qf2s" },
+      { videoId: "Ky4dtwDQSEw" },
     ],
     tags: [
       tags.SOUNDTRACK, 
@@ -1375,8 +1382,8 @@ export const rawArtistList = [
     name: "Yussef Kamaal",
     from: "England",
     youtubeClips: [
-      { videoId: "bYUR38Yo8aw" },
       { videoId: "7-83DLCEOgI" },
+      { videoId: "bYUR38Yo8aw" },
     ],
     tags: [tags.PSYCHEDELIC_JAZZ],
     discogsId: "5269272-Yussef-Kamaal"
@@ -1409,8 +1416,8 @@ export const rawArtistList = [
     name: "Connan Mockasin",
     from: "New Zealand",
     youtubeClips: [
-      { videoId: "HkNwuY2JUHQ" },
       { videoId: "KqrWLIgLYIU" },
+      { videoId: "HkNwuY2JUHQ" },
       { videoId: "E7CaTJ2SvG8" },
       { videoId: "Teyy1A_AJso" },
     ],
@@ -1595,7 +1602,7 @@ export const rawArtistList = [
     discogsId: "108870-Brian-Bennett"
   },
   {
-    name: "Ediwin Birdsong",
+    name: "Edwin Birdsong",
     from: "Los Angeles",
     youtubeClips: [
       { videoId: "2PgZLlaqSUg" },
@@ -1613,7 +1620,7 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "MKUwgi6aLE4" },
       { videoId: "PXVpNZK9EKY" },
-      { videoId: "zS2HlGwIhzo" },
+      // { videoId: "zS2HlGwIhzo" },
       { videoId: "ELkiRMjbc7k" },
     ],
     tags: [
@@ -1669,7 +1676,6 @@ export const rawArtistList = [
       { videoId: "Xkx3SovKOlY" },
     ],
     tags: [
-      tags.PSYCHEDELIC_FUNK,
       tags.PSYCHEDELIC_ROCK,
       tags.AFRICAN
     ],
@@ -1756,8 +1762,8 @@ export const rawArtistList = [
     name: "Geoff Bastow",
     from: "England",
     youtubeClips: [
-      { videoId: "9vEvGUQgtKs" },
       { videoId: "TEJDKpjVCXU" },
+      { videoId: "9vEvGUQgtKs" },
     ],
     tags: [
       tags.SOUNDTRACK,
@@ -1774,8 +1780,8 @@ export const rawArtistList = [
       { videoId: "dISQz-QqNBU" },
     ],
     tags: [
-      tags.NYC_NOUVEAU,
-      tags.ELECTRONICA
+      tags.ELECTRONICA,
+      tags.KRAUTROCK
     ],
     discogsId: "12589-Throbbing-Gristle"
   },   
@@ -1838,9 +1844,9 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "KDn8MQNBJVo" },
       { videoId: "5mTmoRqWd9E" },
-      { videoId: "X2YZmSMLFVg" },
-      { videoId: "EPBg3hG2OoA" },
       { videoId: "relc4x83Hvs" },
+      // { videoId: "X2YZmSMLFVg" },
+      // { videoId: "EPBg3hG2OoA" },
     ],
     tags: [
       tags.PSYCHEDELIC_ROCK,
@@ -1854,7 +1860,7 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "Sm6Wf9yM5to" },
       { videoId: "knay1whxxHs" },
-      { videoId: "YWg_HOs9j4k" },
+      // { videoId: "YWg_HOs9j4k" },
     ],
     tags: [
       tags.KRAUTROCK,
@@ -1864,7 +1870,7 @@ export const rawArtistList = [
   },       
   {
     name: "Jacques Loussier",
-    from: "England",
+    from: "France",
     youtubeClips: [
       { videoId: "heuGW9aCZuA" },
     ],
@@ -1880,7 +1886,7 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "r2-_UysxveQ" },
       { videoId: "-zGAyiRMSUw" },
-      { videoId: "q-QUZZnz8k" },
+      { videoId: "-q-QUZZnz8k" },
     ],
     tags: [
       tags.KRAUTROCK,
@@ -1904,7 +1910,7 @@ export const rawArtistList = [
     name: "Doctor's Cat",
     from: "Italy",
     youtubeClips: [
-      { videoId: "bpA1Uqu8H_8" },
+      { videoId: "dCsM1Am7xOM" },
       { videoId: "C5XWsx-tO_Y" },
     ],
     tags: [
@@ -1928,10 +1934,11 @@ export const rawArtistList = [
     name: "Nino Nardini",
     from: "France",
     youtubeClips: [
-      { videoId: "uyhkQxIoCx4" },
-      { videoId: "AEfWD1XOj8w" },
       { videoId: "svv2O2TYJQs" },
+      { videoId: "AEfWD1XOj8w" },
+      { videoId: "uyhkQxIoCx4" },
       { videoId: "nz6wJvmakiM" },
+      { videoId: "95uWjdsWNFg" },
       { videoId: "DkWIqc4nKrc" },
     ],
     tags: [
@@ -2005,7 +2012,6 @@ export const rawArtistList = [
     ],
     tags: [
       tags.PSYCHEDELIC_ROCK,
-      tags.KRAUTROCK,
     ],
     discogsId: "333758-Pharaoh-Overlord"
   },
@@ -2026,9 +2032,10 @@ export const rawArtistList = [
     name: "Moğollar",
     from: "Turkey",
     youtubeClips: [
-      { videoId: "NZHQbDB80CU" },
+      { videoId: "fw67DJkB2R4" },
       { videoId: "GdddjGoHTb8" },
       { videoId: "yf6Zf-Zd-iw" },
+      { videoId: "NZHQbDB80CU" },
     ],
     tags: [
       tags.SURF_ROCK,
@@ -2089,6 +2096,35 @@ export const rawArtistList = [
     discogsId: "",
     bio: ""
   },  
+  {
+    name: "Jameszoo",
+    from: "The Netherlands",
+    youtubeClips: [
+      { videoId: "X6z4ppiGIXk" },
+      { videoId: "THYTYF4ihLs" },
+      { videoId: "x3xMjrovxug" },
+    ],
+    tags: [
+      tags.PSYCHEDELIC_ROCK,
+      tags.ELECTRONICA,
+      tags.KRAUTROCK
+    ],
+    discogsId: "1771120-Jameszoo",
+    bio: ""
+  },  
+  {
+    name: "Touchdown",
+    from: "England",
+    youtubeClips: [
+      { videoId: "x3s1rxe5oy0" },
+      { videoId: "n9FPo0ratCg" },
+      { videoId: "7FqV8LbZCSs" },
+    ],
+    tags: [
+      tags.NYC_NOUVEAU
+    ],
+    discogsId: ""
+  },
   // {
   //   name: "",
   //   from: "",
