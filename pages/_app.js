@@ -16,7 +16,10 @@ function MyApp({ Component, pageProps }) {
         <style>{dom.css()}</style>
         
         {/* <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,700italic,300,900,900italic,300italic,400italic" />         */}
+        {/* <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,700italic,300,900,900italic,300italic,400italic" />        
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700,700italic,300,900,900italic,300italic,400italic" />        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monda" />         */}
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+2" />        
 
       </Head>
       <GlobalStyles />
