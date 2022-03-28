@@ -16,13 +16,15 @@ export function videoPlayerReducer (state, action) {
     case VIDEO_PLAYER_INIT: 
       return {
         ...state,
-        activeIndex: 0
+        activeIndex: 0,
+        playTriggerCount: 0
       };
 
     case VIDEO_PLAYER_ACTION_ON_PLAY: 
       return {
         ...state,
-        autoPlay: true
+        autoPlay: true,
+        playTriggerCount: state.playTriggerCount + 1,
       }
 
     case VIDEO_PLAYER_ACTION_ON_PAUSE: 

@@ -76,6 +76,16 @@ export const GlobalStyles = createGlobalStyle`
         text-decoration: none;
       }
     }
+
+    .popupizer {
+      background: #000;
+      box-shadow: 0 0 10px #aaa;
+
+      &__close-trigger { 
+        background:#000; 
+        box-shadow: none;
+      }
+    }
   }
 
   #page {
