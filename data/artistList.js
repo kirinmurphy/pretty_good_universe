@@ -1372,7 +1372,6 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "HEWq78g04HM" },
       { videoId: "XGchDYtrsHM" },
-      { videoId: "I-dtR6H-jwQ" },
       { videoId: "wvuEQurocVQ" },
     ],
     tags: [tags.SOUNDTRACK, tags.HIP_HOP_SAMPLE_SOURCE],
@@ -1983,7 +1982,7 @@ export const rawArtistList = [
     from: "Kentucky",
     youtubeClips: [
       { videoId: "U_NEIbLpg5E" },
-      { videoId: "HFuB1pWWFsU" },
+      // { videoId: "HFuB1pWWFsU" },
     ],
     tags: [
       tags.HIP_HOP_SAMPLE_SOURCE,
@@ -2196,8 +2195,8 @@ export const rawArtistList = [
     name: "The Chantels",
     from: "New York",
     youtubeClips: [
-      { videoId: "ZtZ6buR8VfU" },
       { videoId: "bFSEdcEI8dA" },
+      { videoId: "ZtZ6buR8VfU" },
     ],
     tags: [
       tags.SURF_ROCK,
@@ -2241,7 +2240,18 @@ export const rawArtistList = [
       tags.NYC_NOUVEAU,
     ],
     discogsId: "34829-Eddy-Grant"
-  },    
+  },   
+  {
+    name: "The Wooden Glass",
+    from: "",
+    youtubeClips: [
+      { videoId: "FUNM0u9WJVk" },
+    ],
+    tags: [
+      tags.PSYCHEDELIC_FUNK,
+    ],
+    discogsId: "136481-The-Wooden-Glass"
+  },      
   // {
   //   name: "",
   //   from: "",

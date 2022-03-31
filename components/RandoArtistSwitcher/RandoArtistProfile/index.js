@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 import { DiscogsPreview } from './DiscogsPreview';
 import { YoutubePlayer } from '../../YoutubePlayer';
-import { breakpointFull, breakpointTablet } from '../../Page/constants';
+import { breakpointFull, breakpointMobile, breakpointTablet } from '../../Page/constants';
+
+const LONG_NAME_CHARACTER_START = 20;
 
 export function RandoArtistProfile ({ artist, onPlaylistEnd }) {
   const { 
@@ -9,13 +11,14 @@ export function RandoArtistProfile ({ artist, onPlaylistEnd }) {
     from,
     discogsId,
     youtubeClips,
-    avatar
   } = artist;
+
+  const hasLongName = name.length > LONG_NAME_CHARACTER_START;
 
   return (
     <div id="artist-profile">
       <ArtistTitleBar>
-        <h1>{name}</h1>
+        <h2 className={hasLongName ? "long-name" : ""}>{name}</h2>
         <div>{from}</div>
       </ArtistTitleBar>
     
@@ -34,17 +37,21 @@ export function RandoArtistProfile ({ artist, onPlaylistEnd }) {
 }
 
 const ArtistMarqueeWrapper = styled.div`
-  min-height: 3.5rem;
+  min-height: 4rem;
   margin-bottom: .5rem; 
   font-size: .85rem;
-
-  @media (max-width: ${breakpointFull}) { min-height: calc(7rem - 5vw); }
-  @media (max-width: ${breakpointTablet}) { min-height: calc(9rem - 10vw); }
 `;
 
 const ArtistTitleBar = styled.div`
   margin-bottom: 1vw;
   
+  h2 {
+    font-size: 1.75rem;
+  } 
+
+  @media (max-width: ${breakpointTablet}) { h2.long-name { font-size: 1.5rem; } }
+  @media (max-width: ${breakpointMobile}) { h2.long-name { font-size: 1.25rem; } }
+
   > * { 
     display: inline-block; 
     
