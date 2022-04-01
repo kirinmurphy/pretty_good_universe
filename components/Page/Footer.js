@@ -42,6 +42,9 @@ const FooterWrapper = styled.div`
   }
 
   @media (max-width: ${breakpointMobile}) {
-    display:none;
+    height: 0;
+    overflow: hidden;
+    padding:0;
+    margin-bottom: 3.5rem;
   }
 `;

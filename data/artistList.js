@@ -143,11 +143,11 @@ export const rawArtistList = [
     name: "Erase Errata",
     from: "San Francisco",
     youtubeClips: [
-      { videoId: "jsaZxd2uPb0" },
       { videoId: "4ySlz4Xaph4" },
       { videoId: "uTVukQi967U" },
       { videoId: "NEtyug1SGt8" },
       { videoId: "Ntwyw2GuVYs" },
+      { videoId: "jsaZxd2uPb0" },
       { videoId: "lKplwB7RrDg" },
       { videoId: "jE-SKdU2q38" }
 
@@ -747,8 +747,8 @@ export const rawArtistList = [
     from: "Cameroon",
     youtubeClips: [
       { videoId: "-7iEoHpiw0A" },
-      { videoId: "aWK_Josc0Og" },
-      { videoId: "Rw5XpgIhKvU" },
+      // { videoId: "aWK_Josc0Og" },
+      // { videoId: "Rw5XpgIhKvU" },
     ],
     tags: [tags.AFRICAN, tags.PSYCHEDELIC_FUNK],
     discogsId: "20560-Manu-Dibango"
@@ -1372,7 +1372,6 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "HEWq78g04HM" },
       { videoId: "XGchDYtrsHM" },
-      { videoId: "I-dtR6H-jwQ" },
       { videoId: "wvuEQurocVQ" },
     ],
     tags: [tags.SOUNDTRACK, tags.HIP_HOP_SAMPLE_SOURCE],
@@ -1470,7 +1469,7 @@ export const rawArtistList = [
     from: "Germany",
     youtubeClips: [
       { videoId: "xv86DLPP6LQ" },
-      { videoId: "V1dQLw3puCc" },
+      // { videoId: "V1dQLw3puCc" },
     ],
     tags: [
       tags.NYC_NOUVEAU, 
@@ -1701,8 +1700,8 @@ export const rawArtistList = [
     from: "Nigeria",
     youtubeClips: [
       { videoId: "xUTxYenpr-o" },
-      { videoId: "Y53ZsTT2_Ek" },
       { videoId: "sIA4kTMbfSg" },
+      { videoId: "Y53ZsTT2_Ek" },
     ],
     tags: [
       tags.PSYCHEDELIC_FUNK,
@@ -1983,7 +1982,7 @@ export const rawArtistList = [
     from: "Kentucky",
     youtubeClips: [
       { videoId: "U_NEIbLpg5E" },
-      { videoId: "HFuB1pWWFsU" },
+      // { videoId: "HFuB1pWWFsU" },
     ],
     tags: [
       tags.HIP_HOP_SAMPLE_SOURCE,
@@ -2023,7 +2022,6 @@ export const rawArtistList = [
     ],
     tags: [
       tags.SURF_ROCK,
-      tags.HIP_HOP_SAMPLE_SOURCE,
       tags.FOLK
     ],
     discogsId: "1105130-Özdemir-Erdoğan-Ve-Orkestrası"
@@ -2121,10 +2119,139 @@ export const rawArtistList = [
       { videoId: "7FqV8LbZCSs" },
     ],
     tags: [
-      tags.NYC_NOUVEAU
+      tags.NYC_NOUVEAU,
+      tags.HOUSE_HEAD
     ],
     discogsId: ""
   },
+  {
+    name: "I:Cube",
+    from: "France",
+    youtubeClips: [
+      { videoId: "AoA0tNL_07w" },
+      { videoId: "uGKjZ6LluU4" },
+      { videoId: "57wRUl8tWvs" },
+      { videoId: "x43UNUntEuo" },
+      { videoId: "lu3h0au28EY" },
+      // { videoId: "PVSdVEWVkVA" },
+    ],
+    tags: [
+      tags.HOUSE_HEAD,
+      tags.PSYCHEDELIC_JAZZ
+    ],
+    discogsId: "1029-ICube"
+  },
+  // {
+  //   name: "Tangerine Dream",
+  //   from: "France",
+  //   youtubeClips: [
+  //     { videoId: "8qw_9Z_fzww" },
+  //   ],
+  //   tags: [
+  //     tags.KRAUTROCK,
+  //     tags.ELECTRONICA,
+  //     tags.SOUNDTRACK
+  //   ],
+  //   discogsId: "10343-Tangerine-Dream"
+  // },  
+  {
+    name: "Frankie Bones",
+    from: "New York",
+    youtubeClips: [
+      { videoId: "GEFW396u-jI" },
+    ],
+    tags: [
+      tags.DETROIT_TECHNO
+    ],
+    discogsId: "2742-Frankie-Bones"
+  },  
+  {
+    name: "Francis Lai",
+    from: "France",
+    youtubeClips: [
+      { videoId: "UTjr6DNPrNM" },
+    ],
+    tags: [
+      tags.SOUNDTRACK
+    ],
+    discogsId: "135912-Francis-Lai"
+  },  
+  {
+    name: "JD and the Evil's Dynamite Band",
+    from: "",
+    youtubeClips: [
+      { videoId: "qY-NSYNXQQE" },
+      { videoId: "n1lFSFx3G6w" },
+      { videoId: "NjK-ZBtuvZs" },
+      { videoId: "NXe_NjlPqbs" },
+    ],
+    tags: [
+      tags.SURF_ROCK,
+      tags.HIP_HOP_SAMPLE_SOURCE,
+    ],
+    discogsId: "271896-JD-amp-The-Evils-Dynamite-Band"
+  },  
+  {
+    name: "The Chantels",
+    from: "New York",
+    youtubeClips: [
+      { videoId: "bFSEdcEI8dA" },
+      { videoId: "ZtZ6buR8VfU" },
+    ],
+    tags: [
+      tags.SURF_ROCK,
+    ],
+    discogsId: "383376-The-Chantels"
+  },  
+  {
+    name: "Klien & MBO",
+    from: "Italy/USA",
+    youtubeClips: [
+      { videoId: "EzXwI9qbzvc" },
+      { videoId: "79Qb1tsoYZg" },
+      { videoId: "bMUlM8AkmNs" },
+    ],
+    tags: [
+      tags.NYC_NOUVEAU,
+      tags.HOUSE_HEAD,
+    ],
+    discogsId: "15977-Klein-amp-MBO"
+  },  
+  {
+    name: "Howard Wales",
+    from: "Milwaukee",
+    youtubeClips: [
+      { videoId: "rbYWbniDn2I" },
+      { videoId: "hKEqQD1InYs" },
+    ],
+    tags: [
+      tags.PSYCHEDELIC_FUNK,
+      tags.PSYCHEDELIC_JAZZ,
+    ],
+    discogsId: "274439-Howard-Wales"
+  },  
+  {
+    name: "Eddy Grant",
+    from: "Guyana",
+    youtubeClips: [
+      { videoId: "tajdHgg6TF8" },
+    ],
+    tags: [
+      tags.NYC_NOUVEAU,
+    ],
+    discogsId: "34829-Eddy-Grant"
+  },   
+  {
+    name: "The Wooden Glass",
+    from: "",
+    youtubeClips: [
+      { videoId: "FUNM0u9WJVk" },
+    ],
+    tags: [
+      tags.PSYCHEDELIC_FUNK,
+    ],
+    discogsId: "136481-The-Wooden-Glass"
+  },      
   // {
   //   name: "",
   //   from: "",
