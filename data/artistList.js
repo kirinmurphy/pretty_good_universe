@@ -1346,8 +1346,8 @@ export const rawArtistList = [
     name: "Les Georges Lenningrad",
     from: "",
     youtubeClips: [
-      { videoId: "R9PnTe98Gxw" },
       { videoId: "5uGnFx2PZJw" },
+      { videoId: "R9PnTe98Gxw" },
       { videoId: "ZLXWU-l9iOQ" },
     ],
     tags: [tags.FEMME_PUNK],
@@ -1825,8 +1825,8 @@ export const rawArtistList = [
     from: "Detroit",
     youtubeClips: [
       { videoId: "MevnBuhtvRk" },
-      { videoId: "9rVOkV3DDgM" },
       { videoId: "7TnIoa8BkGg" }, 
+      { videoId: "9rVOkV3DDgM" },
       { videoId: "D7Oo_ekaIN4" },
       { videoId: "7VDbsMwbaAc" },
       { videoId: "VwAmmDwcmFE" },
@@ -1909,8 +1909,8 @@ export const rawArtistList = [
     name: "Doctor's Cat",
     from: "Italy",
     youtubeClips: [
-      { videoId: "dCsM1Am7xOM" },
       { videoId: "C5XWsx-tO_Y" },
+      { videoId: "dCsM1Am7xOM" },
     ],
     tags: [
       tags.NYC_NOUVEAU,
@@ -2221,8 +2221,8 @@ export const rawArtistList = [
     name: "Howard Wales",
     from: "Milwaukee",
     youtubeClips: [
-      { videoId: "rbYWbniDn2I" },
       { videoId: "hKEqQD1InYs" },
+      { videoId: "rbYWbniDn2I" },
     ],
     tags: [
       tags.PSYCHEDELIC_FUNK,
@@ -2230,17 +2230,17 @@ export const rawArtistList = [
     ],
     discogsId: "274439-Howard-Wales"
   },  
-  {
-    name: "Eddy Grant",
-    from: "Guyana",
-    youtubeClips: [
-      { videoId: "tajdHgg6TF8" },
-    ],
-    tags: [
-      tags.NYC_NOUVEAU,
-    ],
-    discogsId: "34829-Eddy-Grant"
-  },   
+  // {
+  //   name: "Eddy Grant",
+  //   from: "Guyana",
+  //   youtubeClips: [
+  //     { videoId: "tajdHgg6TF8" },
+  //   ],
+  //   tags: [
+  //     tags.NYC_NOUVEAU,
+  //   ],
+  //   discogsId: "34829-Eddy-Grant"
+  // },   
   {
     name: "The Wooden Glass",
     from: "",
