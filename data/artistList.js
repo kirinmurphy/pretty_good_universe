@@ -95,9 +95,12 @@ export const rawArtistList = [
     discogsId: "148-Larry-Heard",
     youtubeClips: [
       { videoId: "Z9o2v3SA1Co" },
-      { videoId: "tFuujExs03A" },
+      // { videoId: "tFuujExs03A" },
       { videoId: "OYyBrXEdxxc" },
+      { videoId: "y9rFjydgiFA" },
       { videoId: "07S19RpHr08" },
+      { videoId: "tdIQTEYXDP4" },
+
     ],
     tags: [tags.HOUSE_HEAD, tags.DETROIT_TECHNO],
   },
@@ -164,8 +167,8 @@ export const rawArtistList = [
     name: "Embryo",
     from: "Germany",
     youtubeClips: [
-      { videoId: "SwvbigAV9n4" },
       { videoId: "fADRbiq3i2c" },
+      { videoId: "SwvbigAV9n4" },
       { videoId: "XsEIiHFiMV0" },
     ],
     tags: [
@@ -348,10 +351,15 @@ export const rawArtistList = [
     name: "Ron Hardy",
     from: "Chicago",
     youtubeClips: [
+      { videoId: "FOozrFYqF8E" },
+      { videoId: "y9rFjydgiFA" },
       { videoId: "nvZXbJxF0cY" },
-  //     { videoId: "" }
     ],
-    tags: [tags.HOUSE_HEAD, tags.DISCO],
+    tags: [
+      tags.HOUSE_HEAD, 
+      tags.DISCO,
+      tags.NO_WAVES,
+    ],
     discogsId: "2686-Ron-Hardy"
   },
   { 
@@ -359,6 +367,7 @@ export const rawArtistList = [
     from: "Detroit",
     youtubeClips: [
       { videoId: "DsWFRi5qtfI" },
+      { videoId: "uMgA49Q-cpY" },
       { videoId: "0V0AZmX2SBM" },
       // { videoId: "mls04iVmU9o" },
       { videoId: "AU04knNymSA" },
@@ -842,7 +851,7 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "oXK9PxUHqX0" },
     ],
-    tags: [tags.PSYCHEDELIC_FUNK],
+    tags: [tags.PSYCHEDELIC_ROCK],
     discogsId: "280200-The-Crazy-World-Of-Arthur-Brown"
   },
   { 
@@ -915,10 +924,10 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "O_1e7vlKYpQ" },
       { videoId: "w2WWp_XuwQM" },
+      { videoId: "4wZiSEYBOWs" },
       { videoId: "LNGlcV1SwMQ" },
       // { videoId: "VNEfvCQPqNs" },
       { videoId: "Mh0q8kWr7iI" },
-      { videoId: "RkSiwbXxj_I" },
       { videoId: "z6ImbmRJM8E" },
     ],
     tags: [tags.ELECTRONICA, tags.KRAUTROCK],
@@ -1421,6 +1430,7 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "WcSpdC7GCHE" },
       { videoId: "lKeP_ceBw7k" },
+      { videoId: "aCWCF19nUhA" },
     ],
     tags: [
       tags.DISCO,
@@ -1464,7 +1474,6 @@ export const rawArtistList = [
     ],
     tags: [
       tags.NO_WAVES, 
-      tags.KRAUTROCK,
     ],
     discogsId: "143301-Glenn"
   },
@@ -1601,7 +1610,7 @@ export const rawArtistList = [
     tags: [
       tags.DISCO,
       tags.NO_WAVES,
-      tags.HIP_HOP_SAMPLE_SOURCE
+      tags.PSYCHEDELIC_FUNK,
     ],
     discogsId: "141386-Edwin-Birdsong"
   },
@@ -1677,8 +1686,8 @@ export const rawArtistList = [
     from: "Benin",
     youtubeClips: [
       { videoId: "LXIg-Mp-ZRI" },
-      { videoId: "M0c34HLss-w" },
-      { videoId: "Zoj9f8A0fJk" },
+      // { videoId: "M0c34HLss-w" },
+      // { videoId: "Zoj9f8A0fJk" },
     ],
     tags: [
       tags.PSYCHEDELIC_FUNK,
@@ -1712,7 +1721,6 @@ export const rawArtistList = [
     ],
     tags: [
       tags.PSYCHEDELIC_FUNK,
-      tags.PSYCHEDELIC_ROCK,
       tags.AFRICAN
     ],
     discogsId: "392088-Bola-Johnson"
@@ -1724,10 +1732,10 @@ export const rawArtistList = [
       { videoId: "D8WwYpz9z0Y" },
       { videoId: "h1zBxfr-LEc" },
       { videoId: "4hwHy_e92uQ" },
-      { videoId: "W81iS_0zenw" },
-      { videoId: "vemP-UghHPs" },
       { videoId: "2-nihfhTr3E" },
+      // { videoId: "vemP-UghHPs" },
       { videoId: "8rNCHhsK2co" },
+      { videoId: "W81iS_0zenw" },
     ],
     tags: [
       tags.FEMME_PUNK,
@@ -1966,7 +1974,6 @@ export const rawArtistList = [
     tags: [
       tags.SOUNDTRACK,
       tags.SURF_ROCK,
-      tags.HIP_HOP_SAMPLE_SOURCE,
       tags.PSYCHEDELIC_FUNK
     ],
     discogsId: "679514-The-Invaders-3"
@@ -2162,9 +2169,9 @@ export const rawArtistList = [
     name: "JD and the Evil's Dynamite Band",
     from: "",
     youtubeClips: [
+      { videoId: "NjK-ZBtuvZs" },
       { videoId: "qY-NSYNXQQE" },
       { videoId: "n1lFSFx3G6w" },
-      { videoId: "NjK-ZBtuvZs" },
       { videoId: "NXe_NjlPqbs" },
     ],
     tags: [
@@ -2228,11 +2235,12 @@ export const rawArtistList = [
     name: "Glenn Underground",
     from: "Chicago",
     youtubeClips: [
-      { videoId: "cUS5qwAxNZg" },
       { videoId: "B5ZjevzU98o" },
+      { videoId: "cUS5qwAxNZg" },
     ],
     tags: [
-      tags.PSYCHEDELIC_FUNK,
+      tags.HOUSE_HEAD,
+      tags.DETROIT_TECHNO,
     ],
     discogsId: "696-Glenn-Underground"
   },      
@@ -2276,7 +2284,7 @@ export const rawArtistList = [
     name: "The Cryin' Shames",
     from: "England",
     youtubeClips: [
-      { videoId: "r3m_qwMXh70" },
+      { videoId: "vQ2wXOgvdxc" },
     ],
     tags: [
       tags.SURF_ROCK,
@@ -2301,23 +2309,295 @@ export const rawArtistList = [
     from: "New York",
     youtubeClips: [
       { videoId: "zs8UpY2YF3c" },
+      { videoId: "wzsjWKVAy2Q" },
+      { videoId: "Bd5OtWZS9zg" },
+    ],
+    tags: [
+      tags.NO_WAVES,
+      tags.FEMME_PUNK,
+    ],
+    discogsId: "17199-Sonic-Youth"
+  }, 
+  {
+    name: "James Chance & the Contortions",
+    from: "New York",
+    youtubeClips: [
+      { videoId: "l1E_X7UGFro" },
+      { videoId: "nKz9urG0aB8" },
+      { videoId: "re6uN1lOTQw" },
     ],
     tags: [
       tags.NO_WAVES,
     ],
-    discogsId: "17199-Sonic-Youth"
+    discogsId: "81424-James-Chance"
+  },   
+  {
+    name: "Coati Mundi",
+    from: "New York",
+    youtubeClips: [
+      { videoId: "GolXdmzBWpQ" },
+      { videoId: "ZuenSiOrCe8" },
+    ],
+    tags: [
+      tags.NO_WAVES,
+    ],
+    discogsId: "30097-Coati-Mundi"
   }, 
-  // {
-  //   name: "",
-  //   from: "",
-  //   youtubeClips: [
-  //     { videoId: "" },
-  //     { videoId: "" },
-  //   ],
-  //   tags: [
-  //   ],
-  //   discogsId: ""
-  // },
+  {
+    name: "Magazine 60",
+    from: "France",
+    youtubeClips: [
+      { videoId: "tp7UcFuxfM0" },
+    ],
+    tags: [
+      tags.NO_WAVES,
+      tags.DISCO,
+    ],
+    discogsId: "82822-Magazine-60"
+  },   
+  {
+    name: "Charlie",
+    from: "Italy",
+    youtubeClips: [
+      { videoId: "HXAoo1DsRnI" },
+    ],
+    tags: [
+      tags.NO_WAVES,
+      tags.DISCO,
+    ],
+    discogsId: "15971-Charlie"
+  },     
+  {
+    name: "Jackey Beavers",
+    from: "Georgia",
+    youtubeClips: [
+      { videoId: "FpR_51SEuyc" },
+    ],
+    tags: [
+      tags.DISCO,
+    ],
+    discogsId: "623978-Jackey-Beavers"
+  },     
+  {
+    name: "Freeez",
+    from: "England",
+    youtubeClips: [
+      { videoId: "nYY_83ZkZwQ" },
+    ],
+    tags: [
+      tags.DISCO,
+    ],
+    discogsId: "8670-Freeez"
+  },
+  {
+    name: "Alphonse Mouzon",
+    from: "South Carolina",
+    youtubeClips: [
+      { videoId: "FT--5iQA0GA" },
+    ],
+    tags: [
+      tags.DISCO,
+    ],
+    discogsId: "92220-Alphonse-Mouzon"
+  },
+  {
+    name: "Pete Jolly",
+    from: "Los Angeles",
+    youtubeClips: [
+      { videoId: "r9MF_Q1gtEA" },
+      { videoId: "sgS5wyQjKy8" },
+    ],
+    tags: [
+      tags.SOUNDTRACK,
+      tags.HIP_HOP_SAMPLE_SOURCE
+    ],
+    discogsId: "168453-Pete-Jolly"
+  },  
+  {
+    name: "Morning, Noon & Night",
+    from: "",
+    youtubeClips: [
+      { videoId: "otQ0mzgkfyg" },
+    ],
+    tags: [
+      tags.DISCO,
+      tags.PSYCHEDELIC_FUNK,
+    ],
+    discogsId: "496453-Morning-Noon-Night"
+  },  
+  {
+    name: "Juggy Murray Jones",
+    from: "New York",
+    youtubeClips: [
+      { videoId: "fd122QQ7qvk" },
+    ],
+    tags: [
+      tags.DISCO,
+    ],
+    discogsId: "77020-Juggy-Murray-Jones"
+  },  
+  {
+    name: "The Whispers",
+    from: "Los Angeles",
+    youtubeClips: [
+      { videoId: "d6aRvVTSC0I" },
+    ],
+    tags: [
+      tags.DISCO,
+    ],
+    discogsId: "51979-The-Whispers"
+  },  
+  {
+    name: "Grauzone",
+    from: "Switzerland",
+    youtubeClips: [
+      { videoId: "HhtxqvAlIpo" },
+      { videoId: "yoNN1GdNC9c" },
+
+    ],
+    tags: [
+      tags.NO_WAVES,
+      tags.KRAUTROCK,
+    ],
+    discogsId: "7549-Grauzone"
+  },  
+  {
+    name: "Pyrolator",
+    from: "Germany",
+    youtubeClips: [
+      { videoId: "9g_9UMgFuNo" },
+      { videoId: "t6_skDLiCgM" },
+
+    ],
+    tags: [
+      tags.NO_WAVES,
+      tags.KRAUTROCK,
+    ],
+    discogsId: "20571-Pyrolator"
+  },  
+  {
+    name: "Air",
+    from: "New York",
+    youtubeClips: [
+      { videoId: "QrmzJcIuzSY" },
+      { videoId: "QGdutfYcVws" },
+
+    ],
+    tags: [
+      tags.PSYCHEDELIC_FUNK,
+      tags.KRAUTROCK,
+    ],
+    discogsId: "1743668-Air-10"
+  },   
+  {
+    name: "Carioca",
+    from: "Brazil",
+    youtubeClips: [
+      { videoId: "Ddweqj6N5UA" },
+      { videoId: "uHpUMipOzcY" },
+    ],
+    tags: [
+      tags.DISCO,
+      tags.PSYCHEDELIC_JAZZ,
+      tags.SOUNDTRACK,
+    ],
+    discogsId: "2669480-Carioca-7"
+  },
+  {
+    name: "GQ",
+    from: "New York",
+    youtubeClips: [
+      { videoId: "BihDYHrXguI" },
+      // { videoId: "" },
+    ],
+    tags: [
+      tags.DISCO,
+      tags.PSYCHEDELIC_FUNK,
+    ],
+    discogsId: "48425-GQ"
+  },
+  {
+    name: "Ahmad Jamal",
+    from: "Pittsburgh",
+    youtubeClips: [
+      { videoId: "TQvIvb1S1EM" },
+      { videoId: "Z0e2G32f3IU" },
+      { videoId: "I97brJeAXcM" },
+    ],
+    tags: [
+      tags.PSYCHEDELIC_JAZZ,
+      tags.HIP_HOP_SAMPLE_SOURCE,
+    ],
+    discogsId: "164253-Ahmad-Jamal"
+  },
+  {
+    name: "Sea Level",
+    from: "Georgia",
+    youtubeClips: [
+      { videoId: "tXkn8-jwi_4" },
+      { videoId: "quADJce507w" },
+    ],
+    tags: [
+      tags.DISCO,
+      tags.PSYCHEDELIC_FUNK,
+    ],
+    discogsId: "275372-Sea-Level"
+  },
+  {
+    name: "Wyndell Long",
+    from: "Chicago",
+    youtubeClips: [
+      { videoId: "_oZ_KpboQS0" },
+      { videoId: "yBnSUmH_flE" },
+      { videoId: "B_mpIPfVrjs" },
+    ],
+    tags: [
+      tags.HOUSE_HEAD,
+    ],
+    discogsId: "735-Wyndell-Long"
+  },
+  {
+    name: "DJ Rolando",
+    from: "Detroit",
+    youtubeClips: [
+      { videoId: "C6xVKcvze74" },
+    ],
+    tags: [
+      tags.DETROIT_TECHNO
+    ],
+    discogsId: "1099-DJ-Rolando"
+  },
+  {
+    name: "Gemini",
+    from: "Chicago",
+    youtubeClips: [
+      { videoId: "EFJ_arUD-dg" },
+      { videoId: "FPxboliQOKU" },
+      { videoId: "h-zD2EyyxcY" },
+      { videoId: "-2QcSRI-CuI" },
+      { videoId: "vLMDwfH0rt4" },
+      { videoId: "FDLjEaBH3XQ" },
+      { videoId: "jCFuVL1f-64" },
+      // { videoId: "Qk2TOaMbLV0" },
+      { videoId: "pGMCet19pI0" },
+    ],
+    tags: [
+      tags.HOUSE_HEAD,
+      tags.DETROIT_TECHNO,
+    ],
+    discogsId: "2145-Gemini"
+  },
+  {
+    name: "",
+    from: "",
+    youtubeClips: [
+      { videoId: "" },
+      { videoId: "" },
+    ],
+    tags: [
+    ],
+    discogsId: ""
+  },
 ];
 
 
