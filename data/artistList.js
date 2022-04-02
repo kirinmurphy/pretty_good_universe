@@ -1,7 +1,6 @@
 export const tags = {
   FEMME_PUNK: "femmePunks",
   HOUSE_HEAD: "houseHeads",
-  NYC_NOUVEAU: "nycNouveaus",
   HIP_HOP_SAMPLE_SOURCE: "hipHopSampleSources",
   ELECTRONICA: "electronicas",
   BLUES: "bluess",
@@ -17,6 +16,8 @@ export const tags = {
   DETROIT_TECHNO: "detroitTechno",
   LATIN: "latin",
   SURF_ROCK: "surfRock",
+  DISCO: "disco",
+  NO_WAVES: "noWaves",
 };
 
 
@@ -63,7 +64,7 @@ export const rawArtistList = [
       { videoId: "jrzxW0rsD1Q" },
       { videoId: "tPnoC3XHroU" },
     ],
-    tags: [tags.NYC_NOUVEAU],
+    tags: [tags.DISCO],
     discogsId: "88534-Dr-Buzzards-Original-Savannah-Band",
   },
   { 
@@ -74,7 +75,7 @@ export const rawArtistList = [
       { videoId: "qIoYrkzTQoE" },
       { videoId: "Sc7VRvhbqZA" },
     ],
-    tags: [tags.FEMME_PUNK, tags.NYC_NOUVEAU],
+    tags: [tags.FEMME_PUNK, tags.NO_WAVES],
     discogsId: "642532-Λένα-Πλάτωνος",
   },
   { 
@@ -109,7 +110,11 @@ export const rawArtistList = [
       { videoId: "fQN9lzvREb4" },
       { videoId: "Vy_U-0s1_G8" },
     ],
-    tags: [tags.NYC_NOUVEAU, tags.HOUSE_HEAD],
+    tags: [
+      tags.NO_WAVES, 
+      tags.DISCO, 
+      tags.HOUSE_HEAD
+    ],
     discogsId: "16534-ESG"
   },
   { 
@@ -174,8 +179,8 @@ export const rawArtistList = [
     name: "Billy Cobham",
     from: "Panama",
     youtubeClips: [
-      { videoId: "l7Q-JfAV2xk" },
       { videoId: "Pjb_NV8fr5U" },
+      { videoId: "l7Q-JfAV2xk" },
       { videoId: "_VakN0BA2Vc" },
       { videoId: "qHCYPBI27tw" },
       { videoId: "YdzfAHswd50" },
@@ -237,7 +242,7 @@ export const rawArtistList = [
       { videoId: "CKNT8HBYOE8" },
       { videoId: "8xnUUaFajXw" }
     ],
-    tags: [tags.NYC_NOUVEAU, tags.ELECTRONICA],
+    tags: [tags.NO_WAVES, tags.ELECTRONICA],
     discogsId: "98173-Tones-On-Tail"
   },
   { 
@@ -309,7 +314,7 @@ export const rawArtistList = [
       { videoId: "J_Tc6qc3v7w" },
       { videoId: "s5Xgktqp-Zw" },
     ],
-    tags: [tags.NYC_NOUVEAU],
+    tags: [tags.NO_WAVES],
     discogsId: "55646-Cristina"
   },
   { 
@@ -346,7 +351,7 @@ export const rawArtistList = [
       { videoId: "nvZXbJxF0cY" },
   //     { videoId: "" }
     ],
-    tags: [tags.HOUSE_HEAD],
+    tags: [tags.HOUSE_HEAD, tags.DISCO],
     discogsId: "2686-Ron-Hardy"
   },
   { 
@@ -359,7 +364,7 @@ export const rawArtistList = [
       { videoId: "AU04knNymSA" },
       { videoId: "lOX7Qt9YF4c" },
     ],
-    tags: [tags.HOUSE_HEAD, tags.NYC_NOUVEAU],
+    tags: [tags.HOUSE_HEAD, tags.DISCO],
     discogsId: "154434-Hamilton-Bohannon"
   },
   { 
@@ -384,7 +389,7 @@ export const rawArtistList = [
       { videoId: "Qn4ohXUdo_8" },
       { videoId: "TprLOVgw-2Y" },
     ],
-    tags: [tags.NYC_NOUVEAU, tags.DUB],
+    tags: [tags.NO_WAVES, tags.DISCO, tags.DUB],
     discogsId: "13932-Grace-Jones"
   },
   { 
@@ -394,7 +399,7 @@ export const rawArtistList = [
       { videoId: "Nb_t42nQ-00" },
       { videoId: "gD6cPE2BHic" }
     ],
-    tags: [tags.HOUSE_HEAD],
+    tags: [tags.HOUSE_HEAD, tags.DISCO],
     discogsId: "16794-Sylvester"
   },
   { 
@@ -472,7 +477,7 @@ export const rawArtistList = [
       { videoId: "JpJHfdyax-A" },
       { videoId: "WY5LR7GpCp8" }
     ],
-    tags: [tags.DUB, tags.NYC_NOUVEAU],
+    tags: [tags.DUB, tags.NO_WAVES],
     discogsId: "23698-New-Age-Steppers"
   },
   { 
@@ -509,7 +514,7 @@ export const rawArtistList = [
       { videoId: "8AQ193-u4Q8" },
       { videoId: "6B6l924HHDs" }
     ],
-    tags: [tags.DETROIT_TECHNO, tags.NYC_NOUVEAU],
+    tags: [tags.DETROIT_TECHNO, tags.NO_WAVES],
     discogsId: ""
   },
   { 
@@ -520,7 +525,7 @@ export const rawArtistList = [
       { videoId: "sNJpwTPzk2M" },
       { videoId: "xXxWIG284Fs" },
     ],
-    tags: [tags.NYC_NOUVEAU],
+    tags: [tags.NO_WAVES],
     discogsId: "53036-Vivien-Goldman"
   },
   { 
@@ -532,7 +537,7 @@ export const rawArtistList = [
       { videoId: "L7lH7D2Ockw" },
       { videoId: "isMh1itIiuU" },
     ],
-    tags: [tags.NYC_NOUVEAU],
+    tags: [tags.NO_WAVES],
     discogsId: "11203-A-Certain-Ratio"
   },
   { 
@@ -546,7 +551,7 @@ export const rawArtistList = [
       { videoId: "dDxYqJmtzKc" },
       { videoId: "Qn0_fDjvI_s" },
     ],
-    tags: [tags.NYC_NOUVEAU],
+    tags: [tags.NO_WAVES],
     discogsId: "54918-Alan-Vega"
   },
   { 
@@ -571,7 +576,7 @@ export const rawArtistList = [
       { videoId: "lpSZiuCqqZE" },
       { videoId: "QRI-bkeml5s" },
     ],
-    tags: [tags.NYC_NOUVEAU],
+    tags: [tags.NO_WAVES, tags.DISCO],
     discogsId: "25726-Gina-X-Performance"
   },
   { 
@@ -594,7 +599,7 @@ export const rawArtistList = [
       { videoId: "69gS1H-D104" },
       { videoId: "4YqvM1D88t8" }
     ],
-    tags: [tags.NYC_NOUVEAU],
+    tags: [tags.NO_WAVES, tags.DISCO],
     discogsId: "8796-Material"
   },
   { 
@@ -620,7 +625,7 @@ export const rawArtistList = [
       { videoId: "sNdOtaHniQc" },
       { videoId: "_Pws_cquzns" },
     ],
-    tags: [tags.NYC_NOUVEAU],
+    tags: [tags.NO_WAVES],
     discogsId: "33929-Gang-Of-Four"
   },
   { 
@@ -673,18 +678,6 @@ export const rawArtistList = [
     tags: [tags.PSYCHEDELIC_ROCK],
     discogsId: "1611470-Ernan-Roch-Con-Las-Voces-Frescas"
   },
-  // { 
-  //   name: "Dave \"Baby\" Cortez",
-  //   from: "Detroit",
-  //   avatar: "",
-  //   youtubeClips: [
-  //     { videoId: "NFMEv2Zx8gM" },
-  //     { videoId: "YLntsURqvK4" },
-  //     { videoId: "LfuAj3fmQ4I" }
-  //   ],
-  //   tags: [tags.SURF_ROCK],
-  //   discogsId: "282009-Dave-Baby-Cortez"
-  // },
   { 
     name: "Three Souls In My Mind",
     from: "Mexico",
@@ -818,7 +811,7 @@ export const rawArtistList = [
       { videoId: "wZ6RbvOpZMk" },
       { videoId: "dpAuddaV_pI" }
     ],
-    tags: [tags.HOUSE_HEAD, tags.NYC_NOUVEAU],
+    tags: [tags.HOUSE_HEAD, tags.DISCO],
     discogsId: "75922-Gino-Soccio"
   },
   { 
@@ -843,16 +836,6 @@ export const rawArtistList = [
     tags: [tags.AFRICAN],
     discogsId: "180280-Roberto-Musci"
   },
-  // { 
-  //   name: "Adrian Sherwood",
-  //   from: "Italy",
-  //   avatar: "",
-  //   youtubeClips: [
-  //     { videoId: "eBqeWMUrcTE" },
-  //   ],
-  //   tags: [tags.DUB],
-  //   discogsId: "4969-Adrian-Sherwood"
-  // },
   { 
     name: "The Crazy World Of Arthur Brown",
     from: "England",
@@ -918,7 +901,12 @@ export const rawArtistList = [
       { videoId: "i_5mhO3PeA0" },
       { videoId: "SeQ50BERnjc" },
     ],
-    tags: [tags.ELECTRONICA, tags.HOUSE_HEAD, tags.NYC_NOUVEAU, tags.FEMME_PUNK],
+    tags: [
+      tags.ELECTRONICA, 
+      tags.HOUSE_HEAD, 
+      tags.NO_WAVES, 
+      tags.FEMME_PUNK
+    ],
     discogsId: "75801-MU"
   },
   { 
@@ -1044,7 +1032,7 @@ export const rawArtistList = [
       { videoId: "q0oilSn7RvA" },
       { videoId: "9OFPjAP3SxA" },
     ],
-    tags: [tags.NYC_NOUVEAU, tags.HOUSE_HEAD],
+    tags: [tags.DISCO, tags.NO_WAVES, tags.HOUSE_HEAD],
     discogsId: "20662-François-Kevorkian"
   },
   {
@@ -1214,7 +1202,8 @@ export const rawArtistList = [
       { videoId: "zTUxcgCKSZM" },
     ],
     tags: [
-      tags.NYC_NOUVEAU, 
+      tags.DISCO, 
+      tags.PSYCHEDELIC_FUNK,
     ],
     discogsId: "174510-Savanna-2"
   },
@@ -1241,7 +1230,8 @@ export const rawArtistList = [
       { videoId: "kR-vweD9-Bg" },      
     ],
     tags: [
-      tags.NYC_NOUVEAU, 
+      tags.DISCO,
+      tags.NO_WAVES 
     ],
     discogsId: "126919-Rinder-Lewis"
   },
@@ -1273,7 +1263,7 @@ export const rawArtistList = [
       { videoId: "u-OZokZbaUs" },
       { videoId: "dD5TPgTvjts" },
     ],
-    tags: [tags.NYC_NOUVEAU],
+    tags: [tags.NO_WAVES, tags.DISCO],
     discogsId: "23524-Arthur-Russell"
   },
   { 
@@ -1314,7 +1304,7 @@ export const rawArtistList = [
       // { videoId: "dfmNIGBt_Xo" },  instrumental? 
       { videoId: "axZpwetQUt0" },
     ],
-    tags: [tags.NYC_NOUVEAU],
+    tags: [tags.DISCO],
     discogsId: "170322-Vincent-Montana-Jr"
   },
   { 
@@ -1408,7 +1398,7 @@ export const rawArtistList = [
       { videoId: "UldZerpi9TE" },
       { videoId: "s8m32ldBl3I" },
     ],
-    tags: [tags.NYC_NOUVEAU],
+    tags: [tags.DISCO],
     discogsId: "421196-Destroyers-2"
   },
   {
@@ -1433,7 +1423,8 @@ export const rawArtistList = [
       { videoId: "lKeP_ceBw7k" },
     ],
     tags: [
-      tags.NYC_NOUVEAU
+      tags.DISCO,
+      tags.NO_WAVES,
     ],
     discogsId: "48404-Tom-Tom-Club"
   },
@@ -1445,7 +1436,7 @@ export const rawArtistList = [
       { videoId: "6FSq566xB-M" },
     ],
     tags: [
-      tags.NYC_NOUVEAU
+      tags.DISCO
     ],
     discogsId: "3482-Danny-Krivit"
   },
@@ -1472,7 +1463,7 @@ export const rawArtistList = [
       // { videoId: "V1dQLw3puCc" },
     ],
     tags: [
-      tags.NYC_NOUVEAU, 
+      tags.NO_WAVES, 
       tags.KRAUTROCK,
     ],
     discogsId: "143301-Glenn"
@@ -1608,7 +1599,8 @@ export const rawArtistList = [
       { videoId: "ygJrk12kTYE" },
     ],
     tags: [
-      tags.NYC_NOUVEAU,
+      tags.DISCO,
+      tags.NO_WAVES,
       tags.HIP_HOP_SAMPLE_SOURCE
     ],
     discogsId: "141386-Edwin-Birdsong"
@@ -1652,7 +1644,7 @@ export const rawArtistList = [
     ],
     tags: [
       tags.HIP_HOP,
-      tags.NYC_NOUVEAU
+      tags.DISCO,
     ],
     discogsId: "4839-Spoonie-Gee"
   },
@@ -1664,7 +1656,7 @@ export const rawArtistList = [
     ],
     tags: [
       tags.HIP_HOP,
-      tags.NYC_NOUVEAU
+      tags.DISCO
     ],
     discogsId: "67680-Lady-B-2"
   },  
@@ -1739,7 +1731,7 @@ export const rawArtistList = [
     ],
     tags: [
       tags.FEMME_PUNK,
-      tags.NYC_NOUVEAU,
+      tags.NO_WAVES,
     ],
     discogsId: "132791-Delta-5"
   },   
@@ -1753,7 +1745,8 @@ export const rawArtistList = [
     ],
     tags: [
       tags.PSYCHEDELIC_JAZZ,
-      tags.NYC_NOUVEAU,
+      tags.NO_WAVES,
+      tags.DISCO,
     ],
     discogsId: "259144-Colored-Music"
   },  
@@ -1791,7 +1784,7 @@ export const rawArtistList = [
       { videoId: "q78r_DUMNx0" },
     ],
     tags: [
-      tags.NYC_NOUVEAU,
+      tags.DISCO,
       tags.HOUSE_HEAD
     ],
     discogsId: "227131-Patricia-Harris"
@@ -1803,8 +1796,8 @@ export const rawArtistList = [
       { videoId: "BQR35Qgn39k" },
     ],
     tags: [
-      tags.NYC_NOUVEAU,
-      tags.HIP_HOP
+      tags.NO_WAVES,
+      tags.HIP_HOP,
     ],
     discogsId: "49765-Special-Request-2"
   },   
@@ -1863,7 +1856,8 @@ export const rawArtistList = [
     ],
     tags: [
       tags.KRAUTROCK,
-      tags.NYC_NOUVEAU
+      tags.DISCO,
+      tags.NO_WAVES,
     ],
     discogsId: "320463-Gang-90"
   },       
@@ -1889,7 +1883,7 @@ export const rawArtistList = [
     ],
     tags: [
       tags.KRAUTROCK,
-      tags.NYC_NOUVEAU,
+      tags.NO_WAVES,
     ],
     discogsId: "320460-Fellini-2"
   },
@@ -1913,7 +1907,7 @@ export const rawArtistList = [
       { videoId: "dCsM1Am7xOM" },
     ],
     tags: [
-      tags.NYC_NOUVEAU,
+      tags.DISCO,
     ],
     discogsId: "15979-Doctors-Cat"
   },
@@ -2119,7 +2113,8 @@ export const rawArtistList = [
       { videoId: "7FqV8LbZCSs" },
     ],
     tags: [
-      tags.NYC_NOUVEAU,
+      tags.DISCO,
+      tags.NO_WAVES,
       tags.HOUSE_HEAD
     ],
     discogsId: ""
@@ -2141,19 +2136,6 @@ export const rawArtistList = [
     ],
     discogsId: "1029-ICube"
   },
-  // {
-  //   name: "Tangerine Dream",
-  //   from: "France",
-  //   youtubeClips: [
-  //     { videoId: "8qw_9Z_fzww" },
-  //   ],
-  //   tags: [
-  //     tags.KRAUTROCK,
-  //     tags.ELECTRONICA,
-  //     tags.SOUNDTRACK
-  //   ],
-  //   discogsId: "10343-Tangerine-Dream"
-  // },  
   {
     name: "Frankie Bones",
     from: "New York",
@@ -2212,7 +2194,8 @@ export const rawArtistList = [
       { videoId: "bMUlM8AkmNs" },
     ],
     tags: [
-      tags.NYC_NOUVEAU,
+      tags.NO_WAVES,
+      tags.DISCO,
       tags.HOUSE_HEAD,
     ],
     discogsId: "15977-Klein-amp-MBO"
@@ -2230,17 +2213,6 @@ export const rawArtistList = [
     ],
     discogsId: "274439-Howard-Wales"
   },  
-  // {
-  //   name: "Eddy Grant",
-  //   from: "Guyana",
-  //   youtubeClips: [
-  //     { videoId: "tajdHgg6TF8" },
-  //   ],
-  //   tags: [
-  //     tags.NYC_NOUVEAU,
-  //   ],
-  //   discogsId: "34829-Eddy-Grant"
-  // },   
   {
     name: "The Wooden Glass",
     from: "",
@@ -2252,6 +2224,89 @@ export const rawArtistList = [
     ],
     discogsId: "136481-The-Wooden-Glass"
   },      
+  {
+    name: "Glenn Underground",
+    from: "Chicago",
+    youtubeClips: [
+      { videoId: "cUS5qwAxNZg" },
+      { videoId: "B5ZjevzU98o" },
+    ],
+    tags: [
+      tags.PSYCHEDELIC_FUNK,
+    ],
+    discogsId: "696-Glenn-Underground"
+  },      
+  {
+    name: "Julia Lee and Her Boy Friends",
+    from: "Chicago",
+    youtubeClips: [
+      { videoId: "8qK5NefYVb8" },
+    ],
+    tags: [
+      tags.SURF_ROCK,
+      tags.BLUES,
+    ],
+    discogsId: "506604-Julia-Lee-Her-Boy-Friends"
+  },   
+  {
+    name: "Melanie",
+    from: "New York",
+    youtubeClips: [
+      { videoId: "p02DgHeGdyI" },
+    ],
+    tags: [
+      tags.FOLK,
+      tags.SURF_ROCK,
+    ],
+    discogsId: "73811-Melanie-2"
+  },   
+  {
+    name: "The Unknown Cases",
+    from: "Germany?",
+    youtubeClips: [
+      { videoId: "y7v_B4aHs7w" },
+    ],
+    tags: [
+      tags.AFRICAN,
+      tags.KRAUTROCK
+    ],
+    discogsId: "61945-The-Unknown-Cases"
+  },   
+  {
+    name: "The Cryin' Shames",
+    from: "England",
+    youtubeClips: [
+      { videoId: "r3m_qwMXh70" },
+    ],
+    tags: [
+      tags.SURF_ROCK,
+    ],
+    discogsId: "291197-The-Cryin-Shames"
+  },   
+  {
+    name: "Logia Sarabanda",
+    from: "Uruguay",
+    youtubeClips: [
+      { videoId: "C1LYRiQvFmE" },
+      { videoId: "NjGx5ZfAx5A" },
+    ],
+    tags: [
+      tags.SURF_ROCK,
+      tags.LATIN,
+    ],
+    discogsId: "865857-La-Logia-Sarabanda"
+  }, 
+  {
+    name: "Sonic Youth",
+    from: "New York",
+    youtubeClips: [
+      { videoId: "zs8UpY2YF3c" },
+    ],
+    tags: [
+      tags.NO_WAVES,
+    ],
+    discogsId: "17199-Sonic-Youth"
+  }, 
   // {
   //   name: "",
   //   from: "",
