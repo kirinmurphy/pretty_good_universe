@@ -1749,7 +1749,7 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "otpHONcxu_A" },
       { videoId: "lF_JfjRZW5A" },
-      { videoId: "Ok5s0WOvJSc" },
+      // { videoId: "Ok5s0WOvJSc" },
     ],
     tags: [
       tags.PSYCHEDELIC_JAZZ,
@@ -2191,18 +2191,18 @@ export const rawArtistList = [
     ],
     discogsId: "271896-JD-amp-The-Evils-Dynamite-Band"
   },  
-  {
-    name: "The Chantels",
-    from: "New York",
-    youtubeClips: [
-      { videoId: "bFSEdcEI8dA" },
-      { videoId: "ZtZ6buR8VfU" },
-    ],
-    tags: [
-      tags.SURF_ROCK,
-    ],
-    discogsId: "383376-The-Chantels"
-  },  
+  // {
+  //   name: "The Chantels",
+  //   from: "New York",
+  //   youtubeClips: [
+  //     { videoId: "bFSEdcEI8dA" },
+  //     { videoId: "ZtZ6buR8VfU" },
+  //   ],
+  //   tags: [
+  //     tags.SURF_ROCK,
+  //   ],
+  //   discogsId: "383376-The-Chantels"
+  // },  
   {
     name: "Klien & MBO",
     from: "Italy/USA",
