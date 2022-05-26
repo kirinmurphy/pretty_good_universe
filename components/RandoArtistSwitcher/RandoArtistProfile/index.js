@@ -1,30 +1,16 @@
 import styled from 'styled-components';
-import { DiscogsPreview } from './DiscogsPreview';
 import { YoutubePlayer } from '../../YoutubePlayer';
-import { breakpointFull, breakpointMobile, breakpointTablet } from '../../Page/constants';
+import { breakpointMobile, breakpointTablet } from '../../Page/constants';
+import { ArtistDetail } from '../../ArtistDetail';
 
 const LONG_NAME_CHARACTER_START = 20;
 
 export function RandoArtistProfile ({ artist, onPlaylistEnd }) {
-  const { 
-    name,
-    from,
-    discogsId,
-    youtubeClips,
-  } = artist;
-
-  const hasLongName = name.length > LONG_NAME_CHARACTER_START;
+  const { youtubeClips } = artist;
 
   return (
     <div id="artist-profile">
-      <ArtistTitleBar>
-        <h2 className={hasLongName ? "long-name" : ""}>{name}</h2>
-        <div>{from}</div>
-      </ArtistTitleBar>
-    
-      <ArtistMarqueeWrapper>
-        {discogsId && <DiscogsPreview discogsId={discogsId} />}
-      </ArtistMarqueeWrapper>
+      <ArtistDetail artist={artist} />
 
       {!!youtubeClips && !!youtubeClips.length && (
         <YoutubePlayer 

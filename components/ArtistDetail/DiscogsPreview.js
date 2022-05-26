@@ -22,11 +22,13 @@ export function DiscogsPreview ({ discogsId }) {
     profile
   } = data;
 
+  const profileBlurrb = getProfileBlurb(data.profile);
+
   return (
     <DiscogsBioWrapper>
       {profile && (
         <div>
-          {getProfileBlurb(data.profile)}
+          {profileBlurrb}
           {' '}
           <a href={discogsArtistPageUrl}>{' '}more</a>
         </div>
