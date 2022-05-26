@@ -1,7 +1,7 @@
 export function Logo () {
   return (
     <h1>
-      something
+      cool site name
       {/* pretty good universe */}
     </h1>
   );

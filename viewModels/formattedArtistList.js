@@ -10,17 +10,22 @@ const artistsByTags = rawArtistList.reduce((acc, curr) => {
   return acc;
 }, {})
 
-export const artistList = rawArtistList.map(artist => {
-  const mightAlsoLike = !!artist.tags
-    ? artist.tags
-      .reduce((acc, curr) => {
-          return [...acc, ...artistsByTags[curr]];
-        }, [])
-      .filter(tag => tag !== artist.name)
-    : [];
+export const artistList = rawArtistList
+  .map(artist => {
+    const mightAlsoLike = !!artist.tags
+      ? artist.tags
+        .reduce((acc, curr) => {
+            return [...acc, ...artistsByTags[curr]];
+          }, [])
+        .filter(tag => tag !== artist.name)
+      : [];
 
-  return {
-    ...artist,
-    mightAlsoLike      
-  };
-})
+    return {
+      ...artist,
+      mightAlsoLike      
+    };
+  }).sort(function(a, b) {
+    const trimmedAName = a.name.replace("The ", "");
+    const trimmedBName = b.name.replace("The ", "");
+    return trimmedAName.localeCompare(trimmedBName);
+  });
