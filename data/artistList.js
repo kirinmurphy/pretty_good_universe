@@ -28,8 +28,8 @@ export const rawArtistList = [
     name: "PJ Harvey" ,
     from: "England",
     youtubeClips: [
-      { videoId: "SVDvC_y7HQY" },
       { videoId: "tap5tu9ExWg" },
+      { videoId: "SVDvC_y7HQY" },
       { videoId: "uV99yrooqjg" },
       { videoId: "VfY6yvSphKE" },
       { videoId: "P-O91rE4Fe0" },
@@ -39,7 +39,7 @@ export const rawArtistList = [
     ],
     tags: [tags.FEMME_PUNK],
     discogsId: "36052-PJ-Harvey",
-    bio: "Polly Jean \"PJ\" Harvey MBE (born 9 October 1969) is an English musician and singer-songwriter. Harvey began her career in 1988 when she joined Bristol band Automatic Dlamini as a vocalist, guitarist and saxophone player. In 1991, she formed an eponymous trio with Rob Ellis and Ian Olliver. After the second studio album, Rid Of Me (1993), the trio evolved into a solo act.",
+    bio: "Polly Jean Harvey MBE (born 9 October 1969) is an English singer, songwriter and musician. Primarily known as a vocalist and guitarist, she is also proficient with a wide range of instruments.  Harvey began her career in 1988 when she joined local band Automatic Dlamini as a vocalist, guitarist and saxophonist. The band's frontman, John Parish, became her long-term collaborator. In 1991, she formed an eponymous trio called PJ Harvey.    The trio released two studio albums before disbanding, after which Harvey continued as a solo artist. Since 1995, she has released a further nine studio albums with collaborations from various acclaimed musicians.  ",
     bioLink: BIOLINK_DISCOGS,
   },
   { 
@@ -72,8 +72,8 @@ export const rawArtistList = [
     ],
     tags: [tags.DISCO],
     discogsId: "88534-Dr-Buzzards-Original-Savannah-Band",
-    bio: "",
-    bioLink: "",
+    bio: "Dr. Buzzard's Original Savannah Band was a big-band and swing influenced disco band that was formed in the Bronx, New York.   The band was conceived by half-brothers Stony Browder Jr. (February 7, 1949 – October 6, 2001) and Thomas Browder (born August 12, 1950).  Their music blended disco beats with rhythms from genres including calypso, rhumba, cha-cha-chá, and compas. The Browders, who were both multiracial, wrote songs embracing multiculturalism over stories about tragic mulattoes.  They were frequent performers at Studio 54. ",
+    bioLink: "https://en.wikipedia.org/wiki/Dr._Buzzard%27s_Original_Savannah_Band",
   },
   { 
     name: "Lena Platanos",
@@ -85,7 +85,7 @@ export const rawArtistList = [
     ],
     tags: [tags.FEMME_PUNK, tags.NO_WAVES],
     discogsId: "642532-Λένα-Πλάτωνος",
-    bio: "Lena Platonos (born 21 October 1951)[1] is a Greek pianist and composer of electronic and art music. She took a leading role in the electronic music scene in the 1980s, while her work constituted an inspiration for Greek electronic musicians in the subsequent decades.",
+    bio: "Lena Platonos (born 21 October 1951) is a Greek pianist and composer of electronic and art music. She took a leading role in the electronic music scene in the 1980s, while her work constituted an inspiration for Greek electronic musicians in the subsequent decades.",
     bioLink: "https://en.wikipedia.org/wiki/Lena_Platonos",
   },
   { 
@@ -98,8 +98,8 @@ export const rawArtistList = [
     ],
     discogsId: "5451-David-Axelrod",
     tags: [tags.HIP_HOP_SAMPLE_SOURCE],
-    bio: "",
-    bioLink: "",
+    bio: "David Axelrod (April 17, 1931 – February 5, 2017) was an American composer, arranger, and producer. After starting out as a staff producer for record companies specializing in jazz, Axelrod became known by the mid-1960s in soul and jazz circles for his recording skills. In 1968, Axelrod embarked on a solo career and released several albums during the 1970s that showcased his characteristic sound, which combined heavily microphoned drums and baroque orchestration, and avant garde themes ranging from the environment to heightened mental awareness. With his early solo projects, Axelrod was one of the first recording artists to fuse elements of jazz, rock, and R&B.",
+    bioLink: "https://en.wikipedia.org/wiki/David_Axelrod_(musician)",
   },
   { 
     name: "Larry Heard",
@@ -133,8 +133,8 @@ export const rawArtistList = [
       tags.HOUSE_HEAD
     ],
     discogsId: "16534-ESG",
-    bio: "",
-    bioLink: "",
+    bio: "An art-funk ensemble from the South Bronx, ESG (Emerald Sapphire & Gold) was formed by sisters Renee, Valerie, and Marie Scroggins. ESG's music is centered around the sisters' complex polyrhythms with atmosphere supplied by bass and pop-flavored guitar.   The group's work had become popular among hip-hop artists searching for samples, with such acts as TLC, the Wu-Tang Clan, the Beastie Boys, Big Daddy Kane, and indie rockers Unrest all making use of ESG beats.",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Piero Umiliani",
@@ -151,7 +151,7 @@ export const rawArtistList = [
     ],
     tags: [tags.SOUNDTRACK, tags.HIP_HOP_SAMPLE_SOURCE],
     discogsId: "8722-Piero-Umiliani",
-    bio: "Born in Torino, December 6, 1921, passed away in Roma July 23, 2004, the son of an eminent judge, soundtrack composer Piero Piccioni followed his father's footsteps and practised as a lawyer before abandoning the legal profession to pursue a career in music...",
+    bio: "Piero Umiliani, born July 17, 1926 in Firenze (Florence), Italy, was an Italian composer of film scores and library music. In his long career Piero Umiliani composed and recorded 190 soundtracks, 40 library albums and 35 TV title themes. He became most famous for his song \"Mah Nà Mah Nà\" of 1968, that was originally used for a Mondo documentary about Sweden (Svezia, Inferno e Paradiso) and became world-famous in 1977 when performed for The Muppet Show.  Like many of his Italian colleagues at that time, he composed the scores for many exploitation films in the 1960s and 1970s, covering genres such as spaghetti western, Eurospy, Giallo, and soft sex films. Although not as widely regarded as, for example, Ennio Morricone or Riz Ortolani, he helped form the style of the typical European '60s/'70s jazz-influenced film soundtrack that later experienced a revival in films like Kill Bill and Ocean's Twelve.",
     bioLink: BIOLINK_DISCOGS,
   },
   { 
@@ -182,7 +182,7 @@ export const rawArtistList = [
     ],
     tags: [tags.FEMME_PUNK],
     discogsId: "80777-Erase-Errata",
-    bio: "Although facts hardly define the audacious and experimental nature of their fiercely iconoclastic and thrilling music, let's begin here: Erase Errata is Jenny Hoysten (singer and amateur trumpeter), Sara Jaffe (funkster guitarist), Ellie Erickson (in-need-of-Valium bassist) and Bianca Sparta (tribal drummer, whose cavestompings begin and end here, there and everywhere). They come from the San Francisco Bay area, and evince an uncompromising stance toward dance music. Think Gang of Four without the bread lines, or Beefheart without the Delta, the Slits with more jagged, funny dissonance. No band sounds like Erase Errata. Their music crackles with white electricity, a phone line long since gone down. The songs are brief, non-discursive; the vocals are mysterious yowls of a woman abandoning niceties of western culture. And the drumming seems clannish, ancestral, a pound pound of angry voices coming from a faithless dance floor and diminished world.",
+    bio: "Erase Errata is Jenny Hoysten (singer and amateur trumpeter), Sara Jaffe (funkster guitarist), Ellie Erickson (in-need-of-Valium bassist) and Bianca Sparta (tribal drummer, whose cavestompings begin and end here, there and everywhere). They come from the San Francisco Bay area, and evince an uncompromising stance toward dance music. Think Gang of Four without the bread lines, or Beefheart without the Delta, the Slits with more jagged, funny dissonance. No band sounds like Erase Errata. Their music crackles with white electricity, a phone line long since gone down. The songs are brief, non-discursive; the vocals are mysterious yowls of a woman abandoning niceties of western culture. And the drumming seems clannish, ancestral, a pound pound of angry voices coming from a faithless dance floor and diminished world.",
     bioLink: "https://trouserpress.com/reviews/erase-errata/",
   },
   { 
@@ -199,8 +199,8 @@ export const rawArtistList = [
       tags.KRAUTROCK, 
     ],
     discogsId: "201948-Embryo-3",
-    bio: "",
-    bioLink: "",
+    bio: "Musical collective from Munich (Germany), founded in 1969 by Christian Burchard and Edgar Hofmann. Considered as one of the most important German jazz-rock bands during the 1970s. Embryo have continued for over 50 years with Christian Burchard always in charge and an ever changing international cast of musicians including talents from North Africa, India, China, etc., as well as occasionally featuring top jazz names like Mal Waldron and Charlie Mariano and luminaries of the Krautrock scene.",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Billy Cobham",
@@ -215,8 +215,8 @@ export const rawArtistList = [
     ],
     tags: [tags.PSYCHEDELIC_JAZZ],
     discogsId: "35199-Billy-Cobham",
-    bio: "",
-    bioLink: "",
+    bio: "William Emanuel Cobham Jr. (born May 16, 1944) is a Panamanian–American jazz drummer who came to prominence in the late 1960s and early 1970s with trumpeter Miles Davis and then with the Mahavishnu Orchestra.  He was inducted into the Modern Drummer Hall of Fame in 1987 and the Classic Drummer Hall of Fame in 2013.  Cobham's influence stretched far beyond jazz, including on progressive rock contemporaries like Phil Collins, Bill Bruford of King Crimson and Danny Carey of Tool. Prince and Jeff Beck are both known to have played versions of Cobham's Stratus in concert.",
+    bioLink: "https://en.wikipedia.org/wiki/Billy_Cobham",
   },
   { 
     name: "Bennie Maupin",
@@ -228,8 +228,8 @@ export const rawArtistList = [
     ],
     tags: [tags.PSYCHEDELIC_JAZZ],
     discogsId: "15448-Bennie-Maupin",
-    bio: "",
-    bioLink: "",
+    bio: "Bennie Maupin (born August 29, 1940) is an American jazz multireedist who performs on various saxophones, flute, and bass clarinet. Maupin was born in Detroit, Michigan. He is known for his participation in Herbie Hancock's Mwandishi sextet and Headhunters band, and for performing on Miles Davis's seminal fusion record, Bitches Brew.  He is noted for having a harmonically-advanced, \"out\" improvisation style, while having a different sense of melodic direction than other \"out\" jazz musicians.",
+    bioLink: "https://en.wikipedia.org/wiki/Bennie_Maupin",
   },
   { 
     name: "Coldcut",
@@ -243,8 +243,8 @@ export const rawArtistList = [
     ],
     tags: [tags.ELECTRONICA],
     discogsId: "946-Coldcut",
-    bio: "",
-    bioLink: "",
+    bio: "Credited as pioneers for pop sampling in the 1980s, Coldcut are considered the first stars of UK electronic dance music due to their innovative style, which featured cut-up samples of hip-hop, soul, funk, spoken word and various other types of music, as well as video and multimedia. According to Spin, \"in '87 Coldcut pioneered the British fad for 'DJ records'\".  The duo has remixed and created productions on tracks by the likes of Eric B & Rakim, James Brown, Queen Latifah, Eurythmics, INXS, Steve Reich, Blondie, The Fall, Pierre Henry, Nina Simone, Fog, Red Snapper, and BBC Radiophonic Workshop.  Beyond their work as a production duo, Coldcut are the founders of Ninja Tune, an independent record label in London, England.",
+    bioLink: "https://en.wikipedia.org/wiki/Coldcut",
   },
   { 
     name: "Bruno Spoerri",
@@ -256,8 +256,8 @@ export const rawArtistList = [
     ],
     tags: [tags.SOUNDTRACK],
     discogsId: "92184-Bruno-Spoerri",
-    bio: "",
-    bioLink: "",
+    bio: "Swiss musician, born 16 August 1935 in Zürich, Switzerland. He is active in electronic music since 1965, mostly in film music, TV jingles etc. Concerts with interactive computer devices and multiple collaborations with various artists in the fields of jazz and electronic music. He is also running a studio in Zurich, Studio Für Elektronische Musik Spoerri.",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Prince Jammy",
@@ -281,8 +281,8 @@ export const rawArtistList = [
     ],
     tags: [tags.NO_WAVES, tags.ELECTRONICA],
     discogsId: "98173-Tones-On-Tail",
-    bio: "",
-    bioLink: "",
+    bio: "Originally intended as an outlet for Bauhaus guitarist Daniel Ash to record his more experimental material, Tones On Tail surfaced in 1982 with a self-titled 12\" EP on 4AD Records. Fuelled on a steady diet of hash and Big Macs, this musical offshoot became the psychedelic and light-hearted antithesis of Bauhaus' gloom and doom reputation. Danny was initially joined by Glenn Campling on bass & keyboards, and, with the subsequent demise of Bauhaus in 1983, drummer Kevin Haskins, turning this \'side-project\' into a \'proper\' band.",
+    bioLink: "discogs",
   },
   { 
     name: "BADBADNOTGOOD",
@@ -295,8 +295,8 @@ export const rawArtistList = [
       tags.PSYCHEDELIC_JAZZ
     ],
     discogsId: "2468526-BadBadNotGood",
-    bio: "",
-    bioLink: "",
+    bio: "BADBADNOTGOOD is a Canadian instrumental band and production team from Toronto founded in 2010.  The group combines jazz musicianship with a hip hop production perspective and are well known for their collaborations with artists like Tyler, The Creator, Daniel Caesar, Mick Jenkins, Kendrick Lamar, and Ghostface Killah.",
+    bioLink: "https://en.wikipedia.org/wiki/BadBadNotGood",
   },
   { 
     name: "Cleo McNett",
@@ -306,8 +306,8 @@ export const rawArtistList = [
     ],
     tags: [tags.HIP_HOP_SAMPLE_SOURCE],
     discogsId: "2539301-Cleo-McNett",
-    bio: "",
-    bioLink: "",
+    bio: "Cleo McNett is a musician from Dallas, Texas notable for his home recordings and accompanying home-recorded music videos.  He is the founder of McNett Records, which released his most noted albums.  The Cleo McNett show, which ran from 1985 to 1997, ran for 12 seasons on public access television and featured McNett's songs and home-recorded videos.  McNett never enjoyed commercial success, but found immortality in DJ Shadow’s 1996 album Endtroducing, who brilliantly sampled McNett’s track \”Snap\” in the interlude \”Why Hip-Hop sucks in ’96\”.",
+    bioLink: "https://en.everybodywiki.com/Cleo_McNett",
   },
   { 
     name: "Yesterday's New Quintet",
@@ -334,7 +334,7 @@ export const rawArtistList = [
     ],
     tags: [tags.SOUNDTRACK],
     discogsId: "10529-Henry-Mancini",
-    bio: "American composer, conductor and arranger, who co-wrote many of his songs with [a=Johnny Mercer]. Born April 16, 1924 in Cleveland, Ohio, USA and died June 14, 1994 in Los Angeles, California, USA. He won 20 Grammy Awards and a Grammy Lifetime Achievement Award posthumously in 1995",
+    bio: "American composer, conductor and arranger, who co-wrote many of his songs with Johnny Mercer. Born April 16, 1924 in Cleveland, Ohio, USA and died June 14, 1994 in Los Angeles, California, USA. He won 20 Grammy Awards and a Grammy Lifetime Achievement Award posthumously in 1995.",
     bioLink: BIOLINK_DISCOGS,
   },
   { 
@@ -365,8 +365,8 @@ export const rawArtistList = [
     ],
     tags: [tags.NO_WAVES],
     discogsId: "55646-Cristina",
-    bio: "",
-    bioLink: "",
+    bio: "Cristina Monet Zilkha (Jan 17, 1956 - March 31, 2020) was an American singer and writer, best known for her no wave recordings made for ZE Records in the late 1970s and early 1980s in New York City. She \"was a pioneer in blending the artsiness and attitude of punk with the joyful energy of disco and pop.... [which] helped pave the way for the massive successes of her contemporaries, like Madonna and Cyndi Lauper, and anticipated the rise of confrontational but danceable alt-pop acts...\" in a mode that was at once \"campy, self-aware, and infectious.\"",
+    bioLink: "https://en.wikipedia.org/wiki/Cristina_(singer)",
   },
   { 
     name: "Jasper Van't Hof",
@@ -381,8 +381,8 @@ export const rawArtistList = [
       // tags.HIP_HOP_SAMPLE_SOURCE
     ],
     discogsId: "149325-Jasper-Vant-Hof",
-    bio: "",
-    bioLink: "",
+    bio: "Dutch jazz keyboardist and band leader, born 30 June 1947 in Enschede, The Netherlands. He was also a teacher at the music academy in Basel, Switzerland. In 1984 he founded the Afro-European formation Pili Pili.",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Sun Ra",
@@ -396,8 +396,8 @@ export const rawArtistList = [
     ],
     tags: [tags.PSYCHEDELIC_JAZZ],
     discogsId: "35328-Sun-Ra",
-    bio: "",
-    bioLink: "",
+    bio: "Le Sony'r Ra (born Herman Poole Blount, May 22, 1914 – May 30, 1993), was an American jazz composer, bandleader, piano and synthesizer player, and poet known for his experimental music, \"cosmic\" philosophy, prolific output, and theatrical performances. For much of his career, Ra led \"The Arkestra\", an ensemble with an ever-changing name and flexible line-up.  Claiming to be an alien from Saturn on a mission to preach peace, he developed a mythical persona and an idiosyncratic credo that made him a pioneer of Afrofuturism. Throughout his life he denied ties to his prior identity saying, \"Any name that I use other than Ra is a pseudonym.\"  His widely eclectic and avant-garde music echoed the entire history of jazz, from ragtime and early New Orleans hot jazz, to swing music, bebop, free jazz and fusion. ",
+    bioLink: "https://en.wikipedia.org/wiki/Sun_Ra",
   },
   { 
     name: "Ron Hardy",
@@ -413,7 +413,7 @@ export const rawArtistList = [
       tags.NO_WAVES,
     ],
     discogsId: "2686-Ron-Hardy",
-    bio: "Ron Hardy is the only man who can test [a=Frankie Knuckles]' status as Godfather of Chicago House Music. Though he rarely recorded under his own name and left little evidence of his life, Hardy was the major name for Chicago's dance music from the late '70s to the mid-'80s...",
+    bio: "Ron Hardy is the only man who can test Frankie Knuckles' status as Godfather of Chicago House Music.  Though he rarely recorded under his own name and left little evidence of his life, Hardy was the major name for Chicago's dance music from the late '70s to the mid-'80s.  While Knuckles was translating disco and the emerging house music to a straight, southside audience at the Power Plant, Hardy's 72-hour mix sessions and flamboyant party lifestyle fit in well with the uptown, mostly gay audience at the Muzic Box. A roll-call of major Chicago producers all debuted their compositions by pressing up acetates or reel-to-reel copies for Hardy to play during the mid-'80s.  Lingering problems with heroin addiction forced him to leave the Muzic Box around 1986 and though he continued to DJ around the area, Hardy wasn't around when Chicago became house music's mecca later in the decade.",
     bioLink: BIOLINK_DISCOGS,
   },
   { 
@@ -458,8 +458,8 @@ export const rawArtistList = [
     ],
     tags: [tags.NO_WAVES, tags.DISCO, tags.DUB],
     discogsId: "13932-Grace-Jones",
-    bio: "Jamaican singer, actress and supermodel born on May 19, 1948 [some sources claim 1950 or 1952] in Spanish Town, Jamaica, West Indies. She moved to Syracuse, New York, in her early teens, where her parents had relocated and founded the Apostolic Church of Jesus Christ...",
-    bioLink: "discogs",
+    bio: "Grace Beverly Jones OJ (born 19 May 1948) is a Jamaican model, singer and actress.  Born in Jamaica, she and her family moved to Syracuse, New York, when she was 13. Jones began her modelling career in New York state, then in Paris, appearing on the covers of Elle and Vogue.  She worked with many photographers and became known for her distinctive androgynous appearance and bold features. Beginning in 1977, Jones embarked on a music career and initially becoming a star of New York City's Studio 54-centered disco scene. In the early 1980s, she moved toward a new wave style that drew on reggae, funk, post-punk, and pop music, frequently collaborating with both the graphic designer Jean-Paul Goude and the musical duo Sly & Robbie. ",
+    bioLink: "https://en.wikipedia.org/wiki/Grace_Jones",
   },
   { 
     name: "Sylvester",
@@ -470,8 +470,8 @@ export const rawArtistList = [
     ],
     tags: [tags.HOUSE_HEAD, tags.DISCO],
     discogsId: "16794-Sylvester",
-    bio: "",
-    bioLink: "",
+    bio: "Sylvester James Jr. (September 6, 1947 – December 16, 1988), known mononymously as Sylvester, was an American singer-songwriter. Primarily active in the genres of disco, rhythm and blues, and soul, he was known for his flamboyant and androgynous appearance, falsetto singing voice, and hit disco singles in the late 1970s and 1980s.  Sylvester was an activist who campaigned against the spread of HIV/AIDS. He died from complications arising from the virus in 1988, leaving all future royalties from his work to San Francisco-based HIV/AIDS charities.",
+    bioLink: "https://en.wikipedia.org/wiki/Sylvester_(singer)",
   },
   { 
     name: "Los Destellos",
@@ -482,8 +482,8 @@ export const rawArtistList = [
     ],
     tags: [tags.LATIN],
     discogsId: "865862-Los-Destellos",
-    bio: "",
-    bioLink: "",
+    bio: "Los Destellos is a Peruvian musical group of cumbia and instrumental rock in its beginnings, formed in the Lima district of Rímac, Peru in 1966. The name of Los Destellos was inspired by Edith Delgado for the group that were fashionable 1965 Los 4 Brillantes and Edith put Los Destellos on it, which was accepted by her brother Enrique. Over the years, more than 90 musicians have passed through, which is why it is called \"The University of Peruvian Cumbia\". It is considered the First Tropical Group of Peru.",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Chance",
@@ -494,8 +494,8 @@ export const rawArtistList = [
     ],
     tags: [tags.FEMME_PUNK, tags.LATIN],
     discogsId: "320462-Chance-3",
-    bio: "",
-    bioLink: "",
+    bio: "Chance was a very short lived São Paulo, Brazil based post-punk band, fusing dark, traditional (almost gothic) influences with modern analog electronic programming.  The band apparently released only two songs on the album \”Não São Paulo”\, a compilation of prominent underground local acts of the time.  Little is known about this act besides their contribution to this compilation.",
+    bioLink: BIOLINK_ORIGINAL,
   },
   { 
     name: "As Mercenárias",
@@ -508,8 +508,8 @@ export const rawArtistList = [
     ],
     tags: [tags.LATIN, tags.FEMME_PUNK],
     discogsId: "462905-As-Mercenárias",
-    bio: "",
-    bioLink: "",
+    bio: "Mercenárias (Portuguese for \"Mercenaries\"), are a Brazilian all-female rock band formed in São Paulo in 1982, by bassist Sandra Coutinho, vocalist Rosália Munhoz and guitarist Ana Machado. With lyrics that heavily criticized Brazilian government and society (and sometimes the Catholic Church as well), their sonority was constantly compared to Siouxsie and the Banshees, Joy Division, Sex Pistols and above all The Slits.",
+    bioLink: "https://en.wikipedia.org/wiki/Mercen%C3%A1rias",
   },
   { 
     name: "Deutsch-Amerikanische Freundschaft",
@@ -526,8 +526,8 @@ export const rawArtistList = [
     ],
     tags: [tags.ELECTRONICA],
     discogsId: "12830-Deutsch-Amerikanische-Freundschaft",
-    bio: "",
-    bioLink: "",
+    bio: "Deutsch Amerikanische Freundschaft, or D.A.F., is an influential German electropunk/Neue Deutsche Welle band from Düsseldorf, formed in 1978.",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Les McCann",
@@ -549,21 +549,23 @@ export const rawArtistList = [
     ],
     tags: [tags.DUB],
     discogsId: "116682-Lennie-Hibbert",
-    bio: "",
-    bioLink: "",
+    bio: "Jamaican musician (vibraphone) born 12 November 1928 and died 8 September 1984. Hibbert attended the famed Alpha Boys School in Kingston Jamaica and later in life was the school's music instructor and Band Master. His nephew was Junior Delgado.",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "New Age Steppers",
     from: "England",
     youtubeClips: [
       { videoId: "Sq31-Pjitgw" },
+      { videoId: "WY5LR7GpCp8" },
+      { videoId: "sjr8LVjoXyI" },
+      { videoId: "ChdlkVrsza8" },
       { videoId: "JpJHfdyax-A" },
-      { videoId: "WY5LR7GpCp8" }
     ],
     tags: [tags.DUB, tags.NO_WAVES],
     discogsId: "23698-New-Age-Steppers",
-    bio: "",
-    bioLink: "",
+    bio: "British dub project formed in 1980 by Adrian Sherwood and Ari-Up with various line-up (including musicians from Jamaica as well as British artists from punk and post-punk scenes). John Dougan of Allmusic said, \"the sound of the New Age Steppers was that of cut-and-paste dub mixing, psychedelic swirls of found sounds, dissonant aural collages, sinewy reggae riddims, and odd, semi-tuneful vocals.\"",
+    bioLink: [BIOLINK_DISCOGS, "https://en.wikipedia.org/wiki/New_Age_Steppers"],
   },
   { 
     name: "CAN",
@@ -577,8 +579,8 @@ export const rawArtistList = [
     ],
     tags: [tags.PSYCHEDELIC_FUNK, tags.KRAUTROCK],
     discogsId: "17203-Can",
-    bio: "",
-    bioLink: "",
+    bio: "German experimental rock band formed in Cologne circa 1968.  Can are well-known as one of the key pioneers of Krautrock, particularly during the era when fronted by Japanese singer Kenji \"Damo\" Suzuki who \"turned their sound towards a crazy mixture of improvisation, noise, mantra and funk rhythms\". They were constantly at the forefront of the Krautrock scene during their 10+ year history, releasing many albums as well as componsing music for films.",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Delia Derbyshire",
@@ -593,20 +595,20 @@ export const rawArtistList = [
 ],
     tags: [tags.ELECTRONICA],
     discogsId: "131041-Delia-Derbyshire",
-    bio: "",
-    bioLink: "",
+    bio: "Delia Ann Derbyshire (5 May 1937 – 3 July 2001) was an English musician and composer of electronic music. She carried out pioneering work with the BBC Radiophonic Workshop during the 1960s, including her electronic arrangement of the theme music to the British science-fiction television series Doctor Who. She has been referred to as \"the unsung heroine of British electronic music\", having influenced musicians including Aphex Twin, the Chemical Brothers and Paul Hartnoll of Orbital.",
+    bioLink: "https://en.wikipedia.org/wiki/Delia_Derbyshire",
   },
   { 
     name: "A Number Of Names",
     from: "Detroit",
     youtubeClips: [
-      { videoId: "8AQ193-u4Q8" },
+      { videoId: "IeF0xTdHPfA" },
       { videoId: "6B6l924HHDs" }
     ],
     tags: [tags.DETROIT_TECHNO, tags.NO_WAVES],
     discogsId: "",
-    bio: "",
-    bioLink: "",
+    bio: "Early 80s electronic/new wave group from Detroit.  The band released only two singles before breaking up.  Their seminal \"Shari Vari\", a tounge in cheek recounting of the early 80's detroit music scene, is considered one of the first and most influential Detroit techno records.",
+    bioLink: BIOLINK_ORIGINAL,
   },
   { 
     name: "Vivien Goldman",
@@ -632,15 +634,15 @@ export const rawArtistList = [
     ],
     tags: [tags.NO_WAVES],
     discogsId: "11203-A-Certain-Ratio",
-    bio: "",
-    bioLink: "",
+    bio: "A Certain Ratio are an English post-punk band formed in 1977 in Flixton, Greater Manchester by Peter Terrell (guitar, electronics) and Simon Topping (vocals, trumpet). Among the first white indie groups to draw heavy influence from funk as well as disco and Latin percussion, the band were among the first to debut on Tony Wilson's Factory Records in 1979 (Joy Division, New Order).",
+    bioLink: "https://en.wikipedia.org/wiki/Factory_Records",
   },
   { 
     name: "Alan Vega",
     from: "New York",
     youtubeClips: [
-      { videoId: "OAQ2jq6vwsE" },
       { videoId: "t1hhiEHLJUg" },
+      { videoId: "OAQ2jq6vwsE" },
       { videoId: "_CqXLpQ7SsM" },
       { videoId: "_x56yvReZBk" },
       { videoId: "dDxYqJmtzKc" },
@@ -662,8 +664,8 @@ export const rawArtistList = [
     ],
     tags: [tags.ELECTRONICA, tags.HOUSE_HEAD],
     discogsId: "466022-Jamal-Moss",
-    bio: "",
-    bioLink: "",
+    bio: "One of Chicago’s most prolific and inventive electronic musicians, Moss performs under a variety of monikers including Hieroglyphic Being, I.B.M. (Insane Black Man), and the Sun God, among others. Over the last two decades he’s released more than 100 records for his own Mathematics label, and recently he’s started working with some of the most important imprints in the world, including Ninja Tune, Soul Jazz, and Warp.  Although rooted in Chicago house, his expansive work embraces new age, industrial, and other styles.",
+    bioLink: "http://people.chicagoreader.com/who/jamal-moss/profile/",
   },
   { 
     name: "Gina X Performance",
@@ -677,8 +679,8 @@ export const rawArtistList = [
     ],
     tags: [tags.NO_WAVES, tags.DISCO],
     discogsId: "25726-Gina-X-Performance",
-    bio: "",
-    bioLink: "",
+    bio: "Formed in Cologne, Germany, in 1978, the core of Gina X Performance comprised charismatic Gina Kikoine (vocals and lyrics) and writer-producer-musician Zeus B. Held. Between 1979 and 1984 the group released four albums of cool arthouse electro-disco: Nice Mover, X-Traordinaire, Voyeur and Yinglish. Their classic 1979 single No G.D.M. was a club hit on both sides of the Atlantic and remains a cult classic",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Pylon",
@@ -690,8 +692,8 @@ export const rawArtistList = [
     ],
     tags: [tags.FEMME_PUNK],
     discogsId: "264419-Pylon-4",
-    bio: "",
-    bioLink: "",
+    bio: "Pylon was an American new wave/post-punk band from Athens, Georgia, United States. The band's danceable sound, a blend of new wave, post-punk, jangle pop, alternative rock and funk rock, influenced the Athens music scene and the 1980s American pop underground. The four members of Pylon were art students at the University of Georgia in Athens.  Guitarist Randall Bewley and bass guitarist Michael Lachowski began playing music and attempting to form a band in 1978. Neither had any musical experience: as Lachowski later recalled, \"A lot of us in the art school were trying out different media with a punk rock message, which is just go in there and do it. You don’t need training, or authority or legitimacy. Just figure it out\".",
+    bioLink: "https://en.wikipedia.org/wiki/Pylon_%28band%29",
   },
   { 
     name: "Material",
@@ -704,8 +706,8 @@ export const rawArtistList = [
     ],
     tags: [tags.NO_WAVES, tags.DISCO],
     discogsId: "8796-Material",
-    bio: "",
-    bioLink: "",
+    bio: "American experimental punk-jazz-funk-noise-electro band, founded circa 1978/79 by bassist Bill Laswell and keyboard player Michael Beinhorn. Material was not only a band name, but an alias for the intensive production work of the duo (for Afrika Bambaataa, Herbie Hancock, Nona Hendryx ...).  Michael Beinhorn left the 'band' in 1985. In the 90s, Material became more world/indian/afro/ambient/dub-oriented.",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Palais Schaumburg",
@@ -718,8 +720,8 @@ export const rawArtistList = [
     ],
     tags: [tags.ELECTRONICA],
     discogsId: "26992-Palais-Schaumburg",
-    bio: "",
-    bioLink: "",
+    bio: "Influential underground NDW (Neue Deutsche Welle) band from Hamburg, Germany, founded in 1979, dissolved 1984.  Influenced by the US avantgarde cult band The Residents, founding members Holger Hiller and Thomas Fehlmann joined by Timo Blunck and F.M. Einheit tried to produce a new style of avantgarde dance music, mixing hard beats and funky riffs with dadaist lyrics.   This band (especially with the early singles and first album) proved to be a creative melting pot which can be seen by the careers of the band members after Palais Schaumburg.",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Gang Of Four",
@@ -734,8 +736,8 @@ export const rawArtistList = [
     ],
     tags: [tags.NO_WAVES],
     discogsId: "33929-Gang-Of-Four",
-    bio: "",
-    bioLink: "",
+    bio: "Gang of Four are an English post-punk band, formed in 1976 in Leeds.  The band played a stripped-down mix of punk rock, funk and dub, with a lyrical emphasis on the social and political ills of society. Gang of Four are widely considered one of the leading bands of the late 1970s/early 1980s post-punk movement. Their debut album, Entertainment!, was ranked by Rolling Stone as the fifth greatest punk album of all time and at number 483 in their list of the 500 Greatest Albums of All Time.",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Jack Nitzsche",
@@ -747,8 +749,8 @@ export const rawArtistList = [
     ],
     tags: [tags.SOUNDTRACK, tags.SURF_ROCK],
     discogsId: "256156-Jack-Nitzsche",
-    bio: "",
-    bioLink: "",
+    bio: "Born: 22 April 1937 in Chicago, Illinois, USA.  American arranger, producer, songwriter, and Academy Award-winning film score composer.  He first came to prominence in the early 1960s as the right-hand-man of producer Phil Spector and went on to work with the Rolling Stones and Neil Young, among others. He also worked extensively in film scores, notably for films such as Performance, The Exorcist and One Flew Over the Cuckoo's Nest. In 1983, he won the Academy Award for Best Original Song for co-writing \"Up Where We Belong\".",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Les Rallizes Dénudés",
@@ -759,8 +761,8 @@ export const rawArtistList = [
     ],
     tags: [tags.PSYCHEDELIC_ROCK],
     discogsId: "520482-Les-Rallizes-Denudes",
-    bio: "",
-    bioLink: "",
+    bio: "Les Rallizes Dénudés (裸のラリーズ, Hadaka no rariizu) were a Japanese rock band formed in 1967 at Kyoto's Doshisha University. They were initially active between 1967 and 1988.  It's thought that the band's name comes from a corruption of French: valises dénudées (literally translating as naked suitcases) which was derived from fake French slang invented with the theatrical group Gendai Gekijo. The band's style is typified by simple, repetitious instrumental passages, shrieking, cacophonous guitar feedback and folk arrangement. Their discography is made up mostly of live bootlegs, soundboard archives, and even a few rare aborted studio recording attempts as they have never officially released any of their material, although there are archive releases on independent labels such as Univive, Rivista, Phoenix, and Bamboo.  In 1970, original bassist Moriaki Wakabayashi assisted in the hijacking of Japan Airlines Flight 351 orchestrated by the Communist League's \"Red Army Faction.\"",
+    bioLink: "https://en.wikipedia.org/wiki/Les_Rallizes_D%C3%A9nud%C3%A9s",
   },
   { 
     name: "Piero Piccioni",
@@ -780,8 +782,8 @@ export const rawArtistList = [
     ],
     tags: [tags.SOUNDTRACK, tags.HIP_HOP_SAMPLE_SOURCE],
     discogsId: "9768-Piero-Piccioni",
-    bio: "",
-    bioLink: "",
+    bio: "Piero Piccioni (December 6, 1921 – July 23, 2004) was an Italian film score composer and lawyer.  A pianist, organist, conductor, composer, he was also the prolific author of more than 300 film soundtracks. He played for the first time on radio in 1938 with his “013” Big Band, to return on air only after the liberation of Italy in 1944. “013” was the first Italian jazz band to be broadcast in Italy after the fall of Fascism.  He was influenced in the use of jazz by 20th century classical composers and American films. Directors he liked included Frank Capra, Alfred Hitchcock, Billy Wilder, and John Ford, while Alex North was a film score composer he admired. ",
+    bioLink: "https://en.wikipedia.org/wiki/Piero_Piccioni",
   },
   { 
     name: "Ernan Roch Con Las Voces Frescas",
@@ -792,8 +794,8 @@ export const rawArtistList = [
     ],
     tags: [tags.PSYCHEDELIC_ROCK],
     discogsId: "1611470-Ernan-Roch-Con-Las-Voces-Frescas",
-    bio: "",
-    bioLink: "",
+    bio: "Mexican singer-songwriter. Originally from Monterrey NL, Mexico, Ernan Roch (Hernan Rocha) recorded in 1969 with his band Las Voces Frescas a great gem for Mexican National Rock, it is a psychedelic masterpiece combined with some folk like that of Simon & Garfunkel but with some guitars loaded with tremendous Hendrixin influences.  Roch disappeared from the Mexican Rock scene during the 70s and part of the 80s, when he returned with an LP recorded in 1985, titled \"Sueños\".  And from there, there is nothing more than Ernan Roch.",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Three Souls In My Mind",
@@ -804,8 +806,8 @@ export const rawArtistList = [
     ],
     tags: [tags.LATIN, tags.PSYCHEDELIC_ROCK],
     discogsId: "1009673-Three-Souls-In-My-Mind",
-    bio: "",
-    bioLink: "",
+    bio: "Three Souls in my Mind is a Mexican rock group founded in 1968.  Carlos Hauptvogel, together with Álex Lora formed the group in high school where they both studied. After playing at private parties for juniors from the capital, they premiered their first creations in Spanish at the 1971 Rock y Ruedas Avándaro Festival, the so-called \"Mexican Woodstock\". In the wave of rock repression after the Avándaro festival, the group gets closer to its urban roots and Lora and Hauptvogel begin to write songs that reflect the daily life of the people of the Federal District. His outspoken criticism of police brutality and political corruption ensures that his topics do not reach radio or television. However, it achieves immense popularity in Mexico. They commonly performed in places known as \"funky holes\" which were clandestine places where the pioneer groups of Rock in Mexico such as Enigma, Dugs Dugs, Three Souls in my Mind performed their concerts.",
+    bioLink: "https://es.wikipedia.org/wiki/Three_Souls_in_My_Mind",
   },
   { 
     name: "Black Dice",
@@ -818,8 +820,8 @@ export const rawArtistList = [
     ],
     tags: [tags.ELECTRONICA, tags.KRAUTROCK],
     discogsId: "73892-Black-Dice",
-    bio: "Black Dice are an experimental group based in Brooklyn, NY (USA) originally known for their blend of noise music with rock structures which has since given way to more expansive soundscapes and a focus on more electronic instrumentation. Forming in Providence, Rhode Island (USA) in 1997, comprising members Bjorn Copeland (guitar), Hisham Bharoocha (drums) (following a short drumming stint by Lightning Bolt's Brian Chippendale), Sebastian Blanck (bass) and Eric Copeland (vocals).",
-    bioLink: "discogs",
+    bio: "Black Dice is an American experimental music band based in Brooklyn, New York.  The band formed in spring 1997 at the Rhode Island School of Design. Early shows seldom lasted more than fifteen minutes and were characterized by violent performances where injuries were often sustained by the band and audience alike.  The group was initially inspired by hardcore and noise rock, but subsequently shifted toward the extensive use of signal processing, effects units, and electronic instrumentation.",
+    bioLink: "https://en.wikipedia.org/wiki/Black_Dice",
   },
   { 
     name: "Emahoy Tsegue Maryam Guebrou",
@@ -831,8 +833,8 @@ export const rawArtistList = [
     ],
     tags: [tags.FOLK, tags.AFRICAN],
     discogsId: "6038009-Emahoy-Tsegue-Maryam-Guebrou",
-    bio: "",
-    bioLink: "",
+    bio: " Ethiopian nun, known for her piano playing. She was born December 12, 1923 in Addis Ababa.",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Mulatu Astatke",
@@ -847,8 +849,8 @@ export const rawArtistList = [
     ],
     tags: [tags.AFRICAN, tags.PSYCHEDELIC_JAZZ],
     discogsId: "286112-Mulatu-Astatke",
-    bio: "",
-    bioLink: "",
+    bio: " Mulatu Astatke is arguably one of the most influential and legendary musicians from Ethiopia. During the 1960’s, he studied music abroad in London, Boston, and New York. He then returned home to Ethiopia armed with a love for jazz and Latin music. There he blended Ethiopian traditional music with the Latin-jazz he was so fond of to create a unique hybrid he called “Ethio-jazz”.  He is further credited as having established congas and bongos, instruments normally central to Latin styles, in Ethiopian music. However, as Ethiopian songs traditionally focused on vocals his greatest contribution to the music of his country was introducing a new focus on instrumentation.",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "The Carter Family",
@@ -872,8 +874,8 @@ export const rawArtistList = [
     ],
     tags: [tags.AFRICAN, tags.PSYCHEDELIC_FUNK],
     discogsId: "20560-Manu-Dibango",
-    bio: "",
-    bioLink: "",
+    bio: "Cameroonian saxophonist born on December 12, 1933 in Douala, and died on March 24, 2020 in France. Originally trained in classical piano, his musical career began in Brussels and Paris in the 1950s. In 1960 he was found in Congo as a member of African Jazz directed by Joseph Kabasele (Le Grand Kalle). He formed his own band in Cameroon in 1963, moving to Paris in 1965. His international breakthrough came in 1972 with Soul Makossa.",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Jean-Luc Ponty",
@@ -888,7 +890,7 @@ export const rawArtistList = [
     ],
     tags: [tags.PSYCHEDELIC_JAZZ],
     discogsId: "220594-Jean-Luc-Ponty",
-    bio: "Jean-Luc Ponty (born 29 September 1942) is a French jazz violinist and composer.  One of most accomplished Jazz violinists of the 1970s, Ponty released numerous genre-bending jazz funk albums, as well as collaborated with a broad range of musical influences including Frank Zappa, Elton John, John McLaughlin/Mahavishnu Orchestra, Béla Fleck, Billy Cobham, Al Di Meola, Chick Corea, and Lalo Shifrin.",
+    bio: "Jean-Luc Ponty (born 29 September 1942) is a French jazz violinist and composer.  One of most accomplished Jazz violinists of the 1970s, Ponty released numerous genre-bending jazz funk albums, as well as collaborated with a broad range of musical influences including Frank Zappa, Elton John, John McLaughlin/Mahavishnu Orchestra, Béla Fleck, Billy Cobham, Al Di Meola, Chick Corea, and Lalo Shifrin.",
     bioLink: BIOLINK_ORIGINAL,
   },
   { 
@@ -897,16 +899,16 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "vwr_gWfMsQ0" },
       { videoId: "IyEDE0T2dyA" },
-      { videoId: "hR_6D59CioE" },
       { videoId: "gQAVa7UGm6c" },
-      { videoId: "FC-4-3v9zQw" },
-      { videoId: "WLSF6zHdVqg" },
       { videoId: "qLAxBS0wK84" },
+      { videoId: "FC-4-3v9zQw" },
+      { videoId: "hR_6D59CioE" },
+      // { videoId: "WLSF6zHdVqg" },
     ],
     tags: [tags.HOUSE_HEAD],
     discogsId: "2474-Cajmere",
-    bio: "",
-    bioLink: "",
+    bio: "For an international audience reawakening to the influence of Chicago house during the 1990s, Curtis A. Jones acted as quite a renaissance leader. Besides donning his straightahead house guise Cajmere and a flamboyant, neon-haired acid-house alter-ego named Green Velvet for several of the most memorable underground house tracks of the decade, Jones helmed the two most respected labels in the new school of Chicago house, Cajual and Relief.",
+    bioLink: "https://www.allmusic.com/artist/cajmere-mn0000639671/biography",
   },
   { 
     name: "Green Velvet",
@@ -935,8 +937,8 @@ export const rawArtistList = [
     ],
     tags: [tags.ELECTRONICA],
     discogsId: "219-Green-Velvet",
-    bio: "",
-    bioLink: "",
+    bio: "For an international audience reawakening to the influence of Chicago house during the 1990s, Curtis A. Jones acted as quite a renaissance leader. Besides donning his straightahead house guise Cajmere and a flamboyant, neon-haired acid-house alter-ego named Green Velvet for several of the most memorable underground house tracks of the decade, Jones helmed the two most respected labels in the new school of Chicago house, Cajual and Relief.",
+    bioLink: "https://www.allmusic.com/artist/cajmere-mn0000639671/biography",
   },
   { 
     name: "Gino Soccio",
@@ -948,8 +950,8 @@ export const rawArtistList = [
     ],
     tags: [tags.HOUSE_HEAD, tags.DISCO],
     discogsId: "75922-Gino-Soccio",
-    bio: "",
-    bioLink: "",
+    bio: "Canadian disco producer, singer, songwriter, arranger and multi-instrumentalist, born September 9, 1955 in Montreal. His legacy is Italian.  Gino began studying piano at the age of 8. By the age of 18 Gino had begun renting electronic keyboards and synthesizers to use in his own home studio. A producer asked him to play keyboards and write a tune for a group called Kebekelektrik. He ended up doing practically the whole LP by himself.  Gino hit #1 on the US Hot Dance Music/Club Play chart twice with \"Dancer\" / \"Dance to Dance\" in 1979 and \"Try It Out\" / \"Hold Tight\" in 1981, six weeks each.",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Harmonia",
@@ -962,8 +964,8 @@ export const rawArtistList = [
     ],
     tags: [tags.ELECTRONICA, tags.KRAUTROCK],
     discogsId: "190641-Harmonia",
-    bio: "",
-    bioLink: "",
+    bio: "Harmonia is a Krautrock supergroup from Germany. They formed as a collaboration between Michael Rother of Neu! and Hans-Joachim Roedelius and Dieter Moebius of Cluster and later included British ambient music artist Brian Eno.  The first album, \"Musik Von Harmonia\" (1973), leaned more towards Cluster's ambient-tinged rock than Neu's Motorik rock. The second album \"Deluxe\" (1975) had much stronger beats and a more Motorik and arguably more commercial sound. With the addition of Brian Eno for the 1976 recording sessions the third album, Tracks and Traces, was again more ambient in style.",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Roberto Musci",
@@ -985,8 +987,8 @@ export const rawArtistList = [
     ],
     tags: [tags.PSYCHEDELIC_ROCK],
     discogsId: "280200-The-Crazy-World-Of-Arthur-Brown",
-    bio: "",
-    bioLink: "",
+    bio: "The Crazy World of Arthur Brown is the eponymous debut studio album by the English psychedelic rock band the Crazy World of Arthur Brown. The album was produced by the Who's manager Kit Lambert with associate production by Pete Townshend. The album was released in June 1968, and  was the only album released by the band during its active tenure.   Considered a classic of the late-1960s psychedelic scene and a significant influence on progressive rock.",
+    bioLink: "https://en.wikipedia.org/wiki/The_Crazy_World_of_Arthur_Brown_(album)",
   },
   { 
     name: "The San Sebastian Strings",
@@ -996,8 +998,8 @@ export const rawArtistList = [
     ],
     tags: [tags.SOUNDTRACK],
     discogsId: "990048-The-San-Sebastian-Strings",
-    bio: "",
-    bioLink: "",
+    bio: "A studio orchestra in collaboration with Anita Kerr and Rod McKuen in the 1960s",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Mdou Moctar",
@@ -1009,8 +1011,8 @@ export const rawArtistList = [
     ],
     tags: [tags.AFRICAN, tags.PSYCHEDELIC_ROCK],
     discogsId: "2374748-Mdou-Moctar",
-    bio: "",
-    bioLink: "",
+    bio: "Mahamadou Souleymane (born c. 1984 or 1986), known professionally as Mdou Moctar (also M.dou Mouktar), is a Tuareg songwriter and musician based in Agadez, Niger, who performs modern rock music inspired by Tuareg guitar music. His music first gained attention through a trading network of cellphones and memory cards in West Africa. He sings in the Tamasheq language.  Moctar's fourth album, Ilana: The Creator, released in 2019, was the first to feature a full band. He plays guitar in the takamba and assouf styles.",
+    bioLink: "https://en.wikipedia.org/wiki/Mdou_Moctar",
   },
   { 
     name: "Cymande",
@@ -1021,8 +1023,8 @@ export const rawArtistList = [
     ],
     tags: [tags.AFRICAN, tags.PSYCHEDELIC_FUNK],
     discogsId: "59250-Cymande",
-    bio: "",
-    bioLink: "",
+    bio: "Formed 1971 in London, England featuring musicians from Guyana, Jamaica and Saint Vincent. The name Cymande is based on a calypso word for dove, symbolising peace and love. They play a style of music that they call Nyah-Rock: a mixture of funk, soul, reggae and African rhythms. The band achieved their greatest initial success in America and were actively recording and performing until 1975.",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Liaisons Dangereuses",
@@ -1059,8 +1061,8 @@ export const rawArtistList = [
       tags.FEMME_PUNK
     ],
     discogsId: "75801-MU",
-    bio: "",
-    bioLink: "",
+    bio: "Almost certainly the best afro japanese electronic punk band ever conceived or created.  There is or never will be anything again like Mu.  Except for Mu.",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Replikants",
@@ -1076,8 +1078,8 @@ export const rawArtistList = [
     ],
     tags: [tags.ELECTRONICA, tags.KRAUTROCK],
     discogsId: "100441-Replikants",
-    bio: "",
-    bioLink: "",
+    bio: "Formed by Unwound mates Justin Trosper (guitarist) and Brandt Sandeno (original drummer) in 1995, Replikants at first glance might not sound much like the Olympia noise rockers. The synth and sample-laden music sounds more like trancy space rock. But the lack of structure and disregard for convention are, after all, what put Unwound at the forefront of the noise rock scene.",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Atom Heart",
@@ -1095,7 +1097,9 @@ export const rawArtistList = [
       // that one ambient tune 
     ],
     tags: [tags.ELECTRONICA, tags.LATIN],
-    discogsId: "24-Atom-Heart"
+    discogsId: "24-Atom-Heart",
+    bio: "Atom™ (also known as Atom Heart and often confused with Señor Coconut, real name Uwe Schmidt) is a German composer, musician and record producer of electronic music. He is often regarded as the father of electrolatino, electrogospel and aciton (acid-reggaeton) music.",
+    bioLink: "http://atom-tm.com",
   },
   {
     name: "Spectre",
@@ -1105,7 +1109,9 @@ export const rawArtistList = [
       { videoId: "2xAHBmCOFEw" }
     ],
     tags: [tags.ELECTRONICA, tags.HIP_HOP],
-    discogsId: "4991-Spectre"
+    discogsId: "4991-Spectre",
+    bio: "Skiz Fernando Jr. started his career as a journalist. Writing articles in different fanzines or magazines like Rolling Stone, interviews and records' back cover, he published in 1994: \"The New Beats : exploring the music, culture and attitudes of hip-hop\" (Anchor Books).  He founded Wordsound Recordings in December of the same year.",
+    bioLink: BIOLINK_DISCOGS,
   },
   {
     name: "Kool Keith",
@@ -1135,7 +1141,7 @@ export const rawArtistList = [
     ],
     tags: [tags.AFRICAN, tags.PSYCHEDELIC_FUNK],
     discogsId: "2645555-Almon-Memela",
-    bio: "South African composer, guitarist and later producer for WEA Records born in Donnybrook, KwaZulu-Natal in 1936. After briefly working at the United Tobacco Company in Durban, moved to Johannesburg in 1956 to work on the mines. In 1958 he sought to take guitar lessons at the Dorkay House, the three-storey education and performance centre purchased by Union Artists but rather than becoming a student was asked to teach the guitar lessons. Memela made his first recordings in 1959 and his early career included band work with the United Artists' productions.",
+    bio: "South African composer, guitarist and later producer for WEA Records born in Donnybrook, KwaZulu-Natal in 1936. In 1958 he sought to take guitar lessons at the Dorkay House, the three-storey education and performance centre purchased by Union Artists but rather than becoming a student was asked to teach the guitar lessons. Memela made his first recordings in 1959 and his early career included band work with the United Artists' productions.",
     bioLink: BIOLINK_DISCOGS,
   },
   {
@@ -1161,7 +1167,7 @@ export const rawArtistList = [
     ],
     tags: [tags.HIP_HOP, tags.ELECTRONICA],
     discogsId: "2013418-Run-Wrake",
-    bio: "24 November 1965-21 October 2012 Wrake was born in 1965 as John Wrake in the Republic of Yemen to a father who was an army chaplain. He attended the Chelsea College of Art and Design, and later the Royal College of Art. He burst onto the animation scene with his student film Anyway (1990), which aired on MTV's Liquid Television...",
+    bio: "John \"Run\" Wrake (24 November 1965 – 21 October 2012) was an English animator, film director, graphic designer, and music video director.  After graduating from the Chelsea College of Arts, Wrake worked freelance, illustrating and designing album covers and tour visuals for artists such as U2 and Howie B, in addition to directing commercials for companies such as Coca-Cola throughout the 1990s and early 2000s. He also directed music videos, many of which were for Howie B. He later began working with Animate Projects, which commissioned him to direct animated short films. In 2005, he released his animated short film entitled Rabbit, his most notable work.",
     bioLink: "discogs",
   },
   {
@@ -1174,7 +1180,7 @@ export const rawArtistList = [
     ],
     tags: [tags.DETROIT_TECHNO],
     discogsId: "871-Carl-Craig",
-    bio: "Born: 22 May 1969 in Detroit, USA. Carl Craig was a key player in Detroit techno's second wave, following the futuristic lead of originators [a=Derrick May], [a=Kevin Saunderson], and [a=Juan Atkins], and eventually collaborating with May...",
+    bio: "Born: 22 May 1969 in Detroit, USA. Carl Craig was a key player in Detroit techno's second wave, following the futuristic lead of originators Derrick May, Kevin Saunderson, and Juan Atkins, and eventually collaborating with May...",
     bioLink: BIOLINK_DISCOGS,
   },
   {
@@ -1200,7 +1206,9 @@ export const rawArtistList = [
       { videoId: "9OFPjAP3SxA" },
     ],
     tags: [tags.DISCO, tags.NO_WAVES, tags.HOUSE_HEAD],
-    discogsId: "20662-François-Kevorkian"
+    discogsId: "20662-François-Kevorkian",
+    bio: "François Kevorkian (born 10 January 1954), also known by the stage name François K, is French-born, of Armenian descent and U.S.-based DJ, producer, remixer and label owner, who started his career DJing in clubs such as the Paradise Garage and Studio 54. Kevorkian has produced and remixed work by a diverse range of musicians including The Smiths, Adam Ant, Kraftwerk, Pet Shop Boys, Depeche Mode, Diana Ross, Gloria Estefan and U2, and is considered one of the forefathers of house music.",
+    bioLink: "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Kevorkian"
   },
   {
     name: "Kalyanji Anandji",
@@ -1214,7 +1222,10 @@ export const rawArtistList = [
       { videoId: "IABt65h2GfI" },
     ],
     tags: [tags.HIP_HOP_SAMPLE_SOURCE],
-    discogsId: "621178-Kalyanji-Anandji"
+    discogsId: "621178-Kalyanji-Anandji",
+    bio: "Kalyanji–Anandji are an Indian composer duo: Kalyanji Virji Shah (30 June 1928 – 24 August 2000) and his brother Anandji Virji Shah (born 2 March 1933). The duo are known for their work on Hindi film soundtracks, with many evergreen songs being composed by them.  Both Kalyanji and Anandji worked as music composers for over 250 films, 17 of which were golden jubilees and 39 silver. ",
+    bioLink: "https://en.wikipedia.org/wiki/Kalyanji%E2%80%93Anandji",
+
   },
   {
     name: "Raymond Scott",
@@ -1232,7 +1243,9 @@ export const rawArtistList = [
 
     ],
     tags: [tags.ELECTRONICA],
-    discogsId: "26383-Raymond-Scott"
+    discogsId: "26383-Raymond-Scott",
+    bio: "Raymond Scott (born Harry Warnow; September 10, 1908 – February 8, 1994) was an American composer, band leader, pianist, record producer, and inventor of electronic instruments.  His early music is familiar to millions because Carl Stalling adapted it in over 120 Warner Bros. cartoons.  As his career evolved, Scott shifted from composing/performing live music to focusing on electronic productions.    In 1946, he established Manhattan Research, a division of Raymond Scott Enterprises.  Relying on several instruments of his invention, Scott recorded futuristic electronic compositions for use in television and radio commercials. Scott developed some of the first devices capable of producing a series of electronic tones automatically in sequence. He credited himself as the inventor of the polyphonic sequencer, and is widely considered one of the pioneers of modern electronic music. ",
+    bioLink: "https://en.wikipedia.org/wiki/Raymond_Scott",
   },
   {
     name: "Avi Paul Weinstein",
@@ -1242,7 +1255,9 @@ export const rawArtistList = [
       { videoId: "fEJXU7aH0M0" },
     ],
     tags: [tags.KRAUTROCK],
-    discogsId: ""
+    discogsId: "",
+    bio: "Avi Paul Weinstein (b. 1982) is an American musician, designer and artist. His work has been seen by the Queen of England, the Dalai Lama, and Kevin Federline. He received a BFA from the Massachusetts College of Art where he studied with the Studio For Interrelated Media and graduated with distinction. He currently resides in Watertown, MA, where he works as a visual artist.",
+    bioLink: "https://avipaulweinstein.blogspot.com/p/info.html",
   },
   {
     name: "Aphex Twin",
@@ -1262,16 +1277,26 @@ export const rawArtistList = [
       { videoId: "41XuyoUu1G8" },
     ],
     tags: [tags.ELECTRONICA],
-    discogsId: "45-Aphex-Twin"
+    discogsId: "45-Aphex-Twin",
+    bio: "Richard David James (born 18 August 1971), better known as Aphex Twin and less prominently as AFX, is an Irish-born British musician, composer and DJ. He is best known for his idiosyncratic work in electronic styles such as techno, ambient, and jungle.  Raised in Cornwall, James began DJing at free parties and clubs in the area in the late 1980s, and later at venues around the West Country.  His debut EP, Analogue Bubblebath, was released in 1991 on Mighty Force Records. It brought James acclaim and a cult following; he began to perform at techno clubs and raves across the UK and continental Europe. James co-founded the independent label Rephlex Records the same year.",
+    bioLink: "https://en.wikipedia.org/wiki/Aphex_Twin",
   },
   {
-    name: "PUSH/PULL",
+    name: "Ben Cenac",
     from: "New York",
     youtubeClips: [
-      { videoId: "cPmxTjU4i-Q" }
+      { videoId: "cPmxTjU4i-Q" },
+      { vidoeId: "-6Fyvl342BA" },
+      { videoId: "68sTab3EgJk" },
+      { videoId: "M3qw2vcWSJs" },
+      { videoId: "1aOggvplxZQ" },
+      { videoId: "1aOggvplxZQ" },
+      { videoId: "KOuKE4feM0M" },
     ],
     tags: [tags.HOUSE_HEAD, tags.DETROIT_TECHNO],
-    discogsId: "214901-PushPull"
+    discogsId: "214901-PushPull",
+    bio: "Ben Cenac is a producer behind numerous innovative house and hip hop alaises in mid-late 80s New York.  Along with releasing several Chicago inspired underground deep house cuts, Cenac was a core member of the legendary early B-boy hip hop outfit Newcleus.",
+    bioLink: BIOLINK_ORIGINAL,
   },
   // {
   //   name: "Dick Dale",
@@ -1292,18 +1317,23 @@ export const rawArtistList = [
       { videoId: "Yy4T2T8q4HI" },
     ],
     tags: [tags.SURF_ROCK],
-    discogsId: "246644-Link-Wray"
+    discogsId: "246644-Link-Wray",
+    bio: "American rock guitarist born May 2, 1929 in Dunn, North Carolina. He relocated to Denmark in the early 1980s, and he died in Copenhagen, Denmark on November 5, 2005. Often described as an innovator for being one of the first guitarists to use power chords with distorted sounds and the Larsen effect.",
+    bioLink: BIOLINK_DISCOGS
   },
   {
-    name: "Gogo Penguin",
+    name: "GoGo Penguin",
     from: "England",
     youtubeClips: [
+      { videoId: "IgOyFzAAYNA" },
       { videoId: "LIHJDjRkfIU" },
-      { vidoeId: "IgOyFzAAYNA" },
+      // { vidoeId: "IgOyFzAAYNA" },
       { videoId: "7J5BWjtWGaM" },
     ],
     tags: [tags.KRAUTROCK],
-    discogsId: "2995691-GoGo-Penguin"
+    discogsId: "2995691-GoGo-Penguin",
+    bio: "British contemporary jazz trio from Manchester.",
+    bioLink: BIOLINK_DISCOGS,
   },
   {
     name: "Auntie Flo",
@@ -1317,7 +1347,9 @@ export const rawArtistList = [
       tags.KRAUTROCK, 
       tags.DETROIT_TECHNO
     ],
-    discogsId: "2195918-Auntie-Flo"
+    discogsId: "2195918-Auntie-Flo",
+    bio: "Hails from Goa by way of Glasgow, but now resides in London where he is a resident for Huntleys & Palmers and Highlife.",
+    bioLink: BIOLINK_DISCOGS,
   },
   {
     name: "Puccio Roelens",
@@ -1364,7 +1396,9 @@ export const rawArtistList = [
       tags.SOUNDTRACK, 
       tags.HIP_HOP_SAMPLE_SOURCE, 
     ],
-    discogsId: "621180-R-D-Burman"
+    discogsId: "621180-R-D-Burman",
+    bio: "Rahul Dev Burman (27 June 1939 – 4 January 1994) was an Indian high-ranked music director. Burman, commonly known as the \"Music Scientist\" and the \"King of Bollywood Music\" is considered to have been one of the greatest music composers of the Indian film industry. From the 1960s to the 1990s, Burman composed musical scores for 331 films. Burman did major work with his wife, Asha Bhosle, and Kishore Kumar and scored many of the songs that made these singers famous. ",
+    bioLink: "https://en.wikipedia.org/wiki/R._D._Burman",
   },
   {
     name: "Savanna",
@@ -1377,11 +1411,14 @@ export const rawArtistList = [
       tags.DISCO, 
       tags.PSYCHEDELIC_FUNK,
     ],
-    discogsId: "174510-Savanna-2"
+    discogsId: "174510-Savanna-2",
+    bio: "UK funk/soul band. That's it. That's all the internet knows.  Not even a wikipedia page for this genuis band that released two singles and then bounced.  Were they even real or just a Mandela Effect effect?  No way to really know.",
+    bioLink: BIOLINK_DISCOGS,
+
   },
   {
     name: "Los Monstruos",
-    from: "Mexico",
+    from: "Chile",
     youtubeClips: [
       { videoId: "PIXe3uxFRDs" },
       { videoId: "bBvdwRLucf0" },
@@ -1390,7 +1427,9 @@ export const rawArtistList = [
     tags: [
       tags.LATIN, tags.SURF_ROCK, 
     ],
-    discogsId: "1153070-Los-Monstruos"
+    discogsId: "1153070-Los-Monstruos",
+    bio: "Chilean rock, classic rock, hard rock, psychedelic rock, ballad & pop band, formed after En Busca Del Tiempo Perdido splited up in 1973 with ex-members of this band, and some other of Grupo Movil.",
+    bioLink: BIOLINK_DISCOGS,
   },
   {
     name: "Rinder and Lewis",
@@ -1405,7 +1444,9 @@ export const rawArtistList = [
       tags.DISCO,
       tags.NO_WAVES 
     ],
-    discogsId: "126919-Rinder-Lewis"
+    discogsId: "126919-Rinder-Lewis",
+    bio: "During the mid to late seventies the production team of Laurin Rinder and W. Michael Lewis helped to define the Disco sound that was coming out of Los Angeles with studio projects such as El Coco, Saint Tropez, Le Pamplemousse and many others. At the height of their fame in the late 1970s they produced several concept albums as Seven Deadly Sins and Warriors under their own names Rinder & Lewis.",
+    bioLink: BIOLINK_DISCOGS,
   },
   {
     name: "Roger Webb",
@@ -1420,8 +1461,8 @@ export const rawArtistList = [
       tags.HIP_HOP_SAMPLE_SOURCE 
     ],
     discogsId: "61485-Roger-Webb",
-    bio: "",
-    bioLink: "",
+    bio: "Roger Webb (7 April 1934 in Bristol – 19 December 2002 in London) was a British songwriter and jazz pianist best known for leading Roger Webb's Trio (1963-1965) for television series and club performances, and Roger Webb's Orchestra. The Roger Webb Trio appeared regularly (1963-1965) at Harrison and Gibson's Trojan Room restaurant in Bromley, Kent.  His songs were sung by Bette Davis, Rex Harrison, Johnny Mathis, Shirley Bassey, Danny Williams and others.",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Arthur Russell",
@@ -1439,8 +1480,8 @@ export const rawArtistList = [
     ],
     tags: [tags.NO_WAVES, tags.DISCO],
     discogsId: "23524-Arthur-Russell",
-    bio: "",
-    bioLink: "",
+    bio: "Charles Arthur Russell Jr. (May 21, 1951 – April 4, 1992) was an American cellist, composer, producer, singer, and musician from Iowa, whose work spanned a disparate range of styles. Trained in contemporary experimental composition and Indian classical music, Russell relocated to New York in the mid-1970s, where he became associated with Lower Manhattan's avant-garde community and eventually embraced the city's disco scene. Throughout the 1970s and 1980s, Russell produced a considerable collection of material, including several underground dance hits under aliases such as Dinosaur L and Indian Ocean.  Over the course of his career, he collaborated with a wide variety of artists, including composers Steve Reich and Philip Glass, poet Allen Ginsberg, musicians such as Peter Gordon, David Van Tieghem, Peter Zummo and David Byrne, and DJs such as Walter Gibbons, Larry Levan, Nicky Siano, and Steve D'Aquisto.",
+    bioLink: "https://en.wikipedia.org/wiki/Arthur_Russell_(musician)",
   },
   { 
     name: "DJ Spooky",
@@ -1466,8 +1507,8 @@ export const rawArtistList = [
       tags.HIP_HOP
     ],
     discogsId: "3214-DJ-Spooky",
-    bio: "",
-    bioLink: "",
+    bio: "Paul Dennis Miller (born September 6, 1970), known professionally as DJ Spooky, That Subliminal Kid, is an American electronic and experimental hip hop musician whose work is often called by critics \"illbient\" or \"trip hop\".  He borrowed his stage name from the character The Subliminal Kid in the novel Nova Express by William S. Burroughs.  His broad catalog spans across many genres ranging from psychedelic abstract jazz  and ambient reggae to old school hip hop and drum and bass.  The themes he explores are as diverse as musical styles, from controversial social, political and historical issues to more cerebral topics of consciousness and existentialism.",
+    bioLink: "https://en.wikipedia.org/wiki/DJ_Spooky",
   },
   { 
     name: "Vincent Montana",
@@ -1484,8 +1525,8 @@ export const rawArtistList = [
     ],
     tags: [tags.DISCO],
     discogsId: "170322-Vincent-Montana-Jr",
-    bio: "",
-    bioLink: "",
+    bio: "Vincent Montana Jr. (February 12, 1928 – April 13, 2013), was an American composer, arranger, vibraphonist, and percussionist.  Montana was born in South Philadelphia, Pennsylvania, and grew up in an Italian-American neighborhood. He began playing drums as a child and soon took up other percussion instruments. By the late 1940s, he regularly played in nightclubs with jazz musicians such as Charlie Parker, Sarah Vaughan, Clifford Brown and Red Garland.  He is best known as a member of MFSB and as the founder of the Salsoul Orchestra. He has been called \"the Godfather of disco\".",
+    bioLink: "https://en.wikipedia.org/wiki/Vincent_Montana_Jr.",
   },
   { 
     name: "Alan Lomax",
@@ -1498,7 +1539,7 @@ export const rawArtistList = [
     ],
     tags: [tags.FOLK, tags.BLUES],
     discogsId: "468451-Alan-Lomax",
-    bio: "American folklorist and musicologist, born 31 January 1915, Austin, Texas, USA and died 19 July 2002, Safety Harbor, Florida, USA. Son of John A. Lomax. Collected and edited the contents of the World Library Of Folk And Primitive Music, Southern Journey, and The Folk Songs Of Britain. An American ethnomusicologist, best known for his numerous field recordings of folk music of the 20th century. He was also a musician himself, as well as a folklorist, archivist, writer, scholar, political activist, oral historian, and film-maker. Lomax produced recordings, concerts, and radio shows in the US and in England, which played an important role in preserving folk music traditions in both countries, and helped start both the American and British folk revivals of the 1940s, 1950s and early 1960s.",
+    bio: "American folklorist and musicologist, born 31 January 1915, Austin, Texas, USA and died 19 July 2002. Collected and edited the contents of the World Library Of Folk And Primitive Music, Southern Journey, and The Folk Songs Of Britain. An American ethnomusicologist, best known for his numerous field recordings of folk music of the 20th century. He was also a musician himself, as well as a folklorist, archivist, writer, scholar, political activist, oral historian, and film-maker. Lomax produced recordings, concerts, and radio shows in the US and in England, which played an important role in preserving folk music traditions in both countries, and helped start both the American and British folk revivals of the 1940s, 1950s and early 1960s.",
     bioLink: BIOLINK_DISCOGS,
   },
   { 
@@ -1513,7 +1554,7 @@ export const rawArtistList = [
     ],
     tags: [tags.FOLK, tags.BLUES],
     discogsId: "468451-Alan-Lomax",
-    bio: "Huddie William Ledbetter (January 23, 1888 - December 6, 1949), better known by the stage name Lead Belly, was an American folk and blues singer, musician, and songwriter notable for his strong vocals, virtuosity on the twelve-string guitar, and the folk standards he introduced.  Lead Belly usually played a twelve-string guitar, but he also played the piano, mandolin, harmonica, violin, and windjammer.[2] In some of his recordings, he sang while clapping his hands or stomping his foot.  Lead Belly's songs covered a wide range of genres and topics including gospel music; blues about women, liquor, prison life, and racism; and folk songs about cowboys, prison, work, sailors, cattle herding, and dancing.",
+    bio: "Huddie William Ledbetter (January 23, 1888 - December 6, 1949), better known by the stage name Lead Belly, was an American folk and blues singer, musician, and songwriter notable for his strong vocals, virtuosity on the twelve-string guitar, and the folk standards he introduced.  Lead Belly usually played a twelve-string guitar, but he also played the piano, mandolin, harmonica, violin, and windjammer. In some of his recordings, he sang while clapping his hands or stomping his foot.  Lead Belly's songs covered a wide range of genres and topics including gospel music; blues about women, liquor, prison life, and racism; and folk songs about cowboys, prison, work, sailors, cattle herding, and dancing.",
     bioLink: "https://en.wikipedia.org/wiki/Lead_Belly",
   },
   { 
@@ -1526,8 +1567,8 @@ export const rawArtistList = [
     ],
     tags: [tags.FEMME_PUNK],
     discogsId: "132789-Les-Georges-Leningrad",
-    bio: "",
-    bioLink: "",
+    bio: "Les Georges Leningrad were a Montreal, Canada based rock band, which originally had four members (two couples) until the departure of bassist Toundra LaLouve; and so with the release of their sophomore album, has three.  The band have maintained that for the next album there will be only two members appearing, and then for the album after that only one, and then none. Then there will be another with all four in a different format and it will start over.  During interviews the band has stated that they are inspired by the ghost of Leningrad.  The band formed in November 2000, and split up in March 2007.",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Alan Tew",
@@ -1541,8 +1582,8 @@ export const rawArtistList = [
     ],
     tags: [tags.SOUNDTRACK, tags.HIP_HOP_SAMPLE_SOURCE],
     discogsId: "177078-Alan-Tew",
-    bio: "",
-    bioLink: "",
+    bio: "Alan Tew is a British composer and arranger of library music, including the theme tunes for British television programmes.   He also composed all the music for the 1975 series, The Hanged Man, some of which was used as incidental music for The Two Ronnies, The Sweeney, SpongeBob SquarePants, and the 2009 Blaxploitation spoof Black Dynamite.  Tew also led his own orchestra, The Alan Tew Orchestra, and collaborated with Cat Stevens.",
+    bioLink: "https://en.wikipedia.org/wiki/Alan_Tew",
   },
   {
     name: "YĪN YĪN",
@@ -1554,8 +1595,8 @@ export const rawArtistList = [
     ],
     tags: [tags.SOUNDTRACK, tags.HIP_HOP_SAMPLE_SOURCE],
     discogsId: "6870311-YĪN-YĪN",
-    bio: "",
-    bioLink: "",
+    bio: "From Maastricht, The Netherlands. Initially called Lady Boys, performing under this moniker since ca. September 2018.",
+    bioLink: BIOLINK_DISCOGS,
   },
   {
     name: "Yussef Kamaal",
@@ -1566,8 +1607,8 @@ export const rawArtistList = [
     ],
     tags: [tags.PSYCHEDELIC_JAZZ],
     discogsId: "5269272-Yussef-Kamaal",
-    bio: "",
-    bioLink: "",
+    bio: "Yussef Kamaal are a London-based jazz-funk duo whose members are Yussef Dayes and Kamaal Williams (aka Henry Wu). Interestingly -- and one suspects not coincidentally -- their name recalls the great Egyptian artist Kamal Yussef, a founding member of the influential, aesthetically revolutionary, and multi-disciplinary Groupe de L'Art Contemporain in Cairo in the 1940s. The band's sound represents a collision of '70s jazz-funk with 21st century London bass, beat, and hip-hop.",
+    bioLink: "https://www.allmusic.com/artist/yussef-kamaal-mn0003557318/biography",
   },
   {
     name: "Dexter Wansel",
@@ -1582,7 +1623,7 @@ export const rawArtistList = [
       tags.HIP_HOP_SAMPLE_SOURCE
     ],
     discogsId: "20559-Dexter-Wansel",
-    bio: "",
+    bio: "Dexter Gilman Wansel (born August 22, 1950) is an American R&B/jazz fusion singer, arranger, musician, composer, conductor, synthesist and A&R director.  From the early to mid '70s, Wansel played keyboards for groups such as Instant Funk, Yellow Sunshine, and MFSB.  Wansel eventually signed with Philadelphia International Records as in-house songwriter/producer/arranger. Wansel's music has been used as samples in the world of hip-hop. His 1975 'Theme from The Planets' drum beat intro, is hailed as being one of the first foundation beats of hip-hop.  In 1979 as conductor of the world-famous MFSB Orchestra, Wansel was the music director/conductor for the historic show at the White House commemorating the very first 'Black Music History Month' celebration in 1978. ",
     bioLink: "",
   },
   {
@@ -1594,8 +1635,8 @@ export const rawArtistList = [
     ],
     tags: [tags.DISCO],
     discogsId: "421196-Destroyers-2",
-    bio: "",
-    bioLink: "",
+    bio: "New York Disco trio active at the end of the '70s, produced by composer and music producer Jeffrey Lesser and by singer, composer and musician Rupert Holmes who also wrote the songs for the trio.",
+    bioLink: BIOLINK_DISCOGS,
   },
   {
     name: "Connan Mockasin",
@@ -1610,8 +1651,8 @@ export const rawArtistList = [
       tags.KRAUTROCK
     ],
     discogsId: "1371297-Connan-Mockasin",
-    bio: "",
-    bioLink: "",
+    bio: "Psychedelic pop musician from Te Awanga, New Zealand.",
+    bioLink: BIOLINK_DISCOGS,
   },
   {
     name: "Tom Tom Club",
@@ -1626,8 +1667,8 @@ export const rawArtistList = [
       tags.NO_WAVES,
     ],
     discogsId: "48404-Tom-Tom-Club",
-    bio: "",
-    bioLink: "",
+    bio: "Tom Tom Club is an American new wave band founded in 1981 by husband-and-wife team Chris Frantz and Tina Weymouth and as a side project from Talking Heads.  Named after the dancehall in the Bahamas where they rehearsed for the first time while on hiatus from Talking Heads in 1980, Tom Tom Club enjoyed early success in the dance club culture of the early 1980s with the hits \"Genius of Love\" and \"Wordy Rappinghood\".",
+    bioLink: "https://en.wikipedia.org/wiki/Tom_Tom_Club",
   },
   {
     name: "Danny Krivit",
@@ -1684,21 +1725,24 @@ export const rawArtistList = [
       tags.HIP_HOP_SAMPLE_SOURCE
     ],
     discogsId: "59655-Stanley-Myers",
-    bio: "Stanley Myers (6 October 1930 = 9 November 1993) was an English composer and conductor,[1] who scored over sixty films and television series, working closely with filmmakers Nicolas Roeg, Jerzy Skolimowski and Volker Schlöndorff.[2] He is best known for his guitar piece \"Cavatina\", composed for the 1970 film The Walking Stick and later used as the theme for The Deer Hunter.",
+    bio: "Stanley Myers (6 October 1930 = 9 November 1993) was an English composer and conductor, who scored over sixty films and television series, working closely with filmmakers Nicolas Roeg, Jerzy Skolimowski and Volker Schlöndorff. He is best known for his guitar piece \"Cavatina\", composed for the 1970 film The Walking Stick and later used as the theme for The Deer Hunter.",
     bioLink: "https://en.wikipedia.org/wiki/Stanley_Myers",
   },
   {
-    name: "Joe Louis",
+    name: "Joe Lewis",
     from: "Chicago",
     youtubeClips: [
       { videoId: "ce9wE4o2FNw" },
+      { videoId: "B4q7wVGeNUQ" },
       { videoId: "GX_Qn6rodFM" },
     ],
     tags: [
       tags.HOUSE_HEAD,
       tags.DETROIT_TECHNO
     ],
-    discogsId: ""
+    discogsId: "https://www.discogs.com/artist/2147-Joe-Lewis",
+    bio: "Produced many seminal Chicago underground deep house cuts in the late 80's and early 90's for infamous labels like Relief Records, Peacefrog and his own Target Records.  Subject of rumored accusations that he may have lifted much of his catalog from producer named Jamie Read.",
+    bioLink: BIOLINK_ORIGINAL,
   },   
   {
     name: "DJ Rush",
@@ -1714,7 +1758,9 @@ export const rawArtistList = [
     tags: [
       tags.DETROIT_TECHNO
     ],
-    discogsId: "2063-DJ-Rush"
+    discogsId: "2063-DJ-Rush",
+    bio: "Isaiah Major (born January 9, 1970 in Chicago, Illinois) best known as DJ Rush, is an American musician, DJ and record producer of electronic music.  In the blooming house scene of Chicago, DJ Rush quickly rose to prominence in the electronic music genre, known for his dirty analog drum programming and flamboyant haunting vocal style. He made his first appearances as a DJ in the Chicago clubs Music Box, the Powerhouse and the Warehouse where he played his sets for up to ten hours.  In 1991 DJ Rush released his first single (\"Knee Deep\") on the label Trax Records, and has since released material on many iconic electronic music labels including Dance Mania, Relief Records and his own Kne’ Deep pressing.",
+    bioLink: "https://en.wikipedia.org/wiki/DJ_Rush",
   },
   // {
   //   name: "Marlon Craft",
@@ -1745,7 +1791,7 @@ export const rawArtistList = [
       tags.HIP_HOP,
     ],
     discogsId: "188694-Immortal-Technique",
-    bio: "Felipe Andres Coronel (born February 19, 1978), better known by the stage name Immortal Technique, is an American rapper. Most of his lyrics focus on controversial issues in global politics, from a radical left-wing perspective.  Immortal Technique seeks to retain control over his production, and has stated in his music that record companies, not artists themselves, profit the most from mass production and marketing of music.",
+    bio: "Felipe Andres Coronel (born February 19, 1978), better known by the stage name Immortal Technique, is an American rapper. Most of his lyrics focus on controversial issues in global politics, from a radical left-wing perspective.",
     bioLink: "https://en.wikipedia.org/wiki/Immortal_Technique",
   },
   {
@@ -1774,8 +1820,8 @@ export const rawArtistList = [
       tags.PSYCHEDELIC_FUNK
     ],
     discogsId: "8286-Rotary-Connection",
-    bio: "",
-    bioLink: "",
+    bio: "Rotary Connection was an American psychedelic soul band, formed in Chicago in 1966.  In addition to their own recordings, including their 1967 debut album Rotary Connection, the band is notable as the backing band for Muddy Waters on his 1968 psychedelic blues album Electric Mud. The band's members included Minnie Riperton, who would emerge as a notable solo artist.",
+    bioLink: "https://en.wikipedia.org/wiki/Rotary_Connection",
   },
   {
     name: "Jody \"Fingers\" Finch",
@@ -1804,7 +1850,7 @@ export const rawArtistList = [
       tags.HIP_HOP_SAMPLE_SOURCE
     ],
     discogsId: "108870-Brian-Bennett",
-    bio: "UK drummer and percussionist since the 1950s (* 09 February 1940 in London, England). Joined [a1290833] in 1961. Since the mid 1970s arranger, conductor and record producer, composer for film and TV.",
+    bio: "UK drummer and percussionist since the 1950s (* 09 February 1940 in London, England). Joined Cliff Richard & The Shadows in 1961.  Since the mid 1970s arranger, conductor and record producer, composer for film and TV.",
     bioLink: BIOLINK_DISCOGS,
   },
   {
@@ -1820,11 +1866,11 @@ export const rawArtistList = [
       tags.PSYCHEDELIC_FUNK,
     ],
     discogsId: "141386-Edwin-Birdsong",
-    bio: "",
-    bioLink: "",
+    bio: "Edwin Birdsong (born August 22, 1941- January 21, 2019) was an American keyboard/organ player, known in the 1970s and 1980s for his experimental funk/disco music.  Birdsong was the son of a minister and grew up in a strict fundamentalist environment. He joined the Los Angeles Community Choir for a period before serving in the army during the Vietnam War era. While in the army, he was stationed in Germany.  He went on to play in clubs in Germany, and then moved to New York City to pursue his music career.  Birdsong worked extensively with Roy Ayers, co-producing three of his albums and writing \"Running Away\" and \"Freaky Deaky\" with him.  Birdsong carried on playing session work for many well known artists including Stevie Wonder.",
+    bioLink: "https://en.wikipedia.org/wiki/Edwin_Birdsong",
   },
   {
-    name: "The 24-Carat Black",
+    name: "24-Carat Black",
     from: "Cincinatti",
     youtubeClips: [
       { videoId: "MKUwgi6aLE4" },
@@ -1836,7 +1882,7 @@ export const rawArtistList = [
       tags.HIP_HOP_SAMPLE_SOURCE
     ],
     discogsId: "38199-24-Carat-Black",
-    bio: "American soul group from Cincinnati, Ohio. Initially called [Ditalians](https://www.discogs.com/artist/1277297-Ditalians). Several original members have later formed [Shotgun (2)](https://www.discogs.com/artist/136279-Shotgun-2)",
+    bio: "24-Carat Black was an American soul and funk band who recorded in the early 1970s. Although they only released one album at the time, their music has been sampled numerous times.  Band members later formed another band, Shotgun, who recorded six albums between 1977 and 1982.",
     bioLink: BIOLINK_DISCOGS,
   },
   {
@@ -1860,7 +1906,7 @@ export const rawArtistList = [
     name: "Spoonie Gee",
     from: "New York",
     youtubeClips: [
-      { videoId: "bxN1xrLRvGU" },
+      { videoId: "GtP8yVIrsjE" },
       { videoId: "bRnSm0LvDy4" },
       { videoId: "IydP1lUzFWQ" },
     ],
@@ -1869,8 +1915,8 @@ export const rawArtistList = [
       tags.DISCO,
     ],
     discogsId: "4839-Spoonie-Gee",
-    bio: "",
-    bioLink: "",
+    bio: "Spoonie Gee was the nephew of veteran R&B producer Bobby Robinson and one of the earliest rap artists. He was known as the \"love rapper,\" an image that was established by his first record, \"Love Rap\", released on his uncle's Enjoy label as the flip side of the Treacherous Three's \"The New Rap Language\". The bulk of early rap records reproduced an MC's party routine with a loose sequence of narrative, boasting, and call and response. Spoonie's initial outing, however, organized a hip-hop styled record around a romantic theme, coming closer to the lyrical norms of pop music.",
+    bioLink: "discogs",
   },
   {
     name: "Lady B",
@@ -1896,7 +1942,9 @@ export const rawArtistList = [
       tags.PSYCHEDELIC_ROCK,
       tags.AFRICAN
     ],
-    discogsId: "1548408-Abstract-Truth-3"
+    discogsId: "1548408-Abstract-Truth-3",
+    bio: "South African progressive rock band formed around core member and guitarist/vocalist Ken E Henson in 1969.  Two albums (\"Totum\", \"Silver Trees\") and the compilation \"Cool Sounds For Heads\" were released in 1970 before the band imploded in 1971.",
+    bioLink: BIOLINK_DISCOGS,
   },  
   {
     name: "T.P. Orchestre Poly-Rythmo",
@@ -1911,7 +1959,9 @@ export const rawArtistList = [
       tags.PSYCHEDELIC_ROCK,
       tags.AFRICAN
     ],
-    discogsId: "357255-TP-Orchestre-Poly-Rythmo"
+    discogsId: "357255-TP-Orchestre-Poly-Rythmo",
+    bio: "Band from Cotonou in Benin (ex Dahomey), \"T.P.\" stands for the French \"Tout Puissant\", which means \"All Mighty\".  Originally founded as Orchestre Poly-Disco in 1968.  Their output has been extremely prolific numbering upwards of 50 LPs and nearly three hundred 45s. As their name implies, the music relies on a blend of rhythmic persussive elements. It draws from the French heritage of Benin along with the influence of their anglophone neighbors like Nigeria and Ghana. These influences and rhythmic elements form the backdrop for varied styles they play, a mix ranging from afrobeat, highlife, jazz, soul, rhumba and latin music. Tracks are sung in either French or their native Fon tongue.",
+    bioLink: BIOLINK_DISCOGS,
   },  
   {
     name: "The Funkees",
@@ -1926,7 +1976,9 @@ export const rawArtistList = [
       tags.PSYCHEDELIC_ROCK,
       tags.AFRICAN
     ],
-    discogsId: "286116-The-Funkees"
+    discogsId: "286116-The-Funkees",
+    bio: "The Funkees were a Nigerian afro-rock group formed in the late 1960s. They moved to London in 1973 and quickly gained prominence in the expatriate West African and West Indian music scene, but fragmented four years later.  They specialized in funky, upbeat, highly danceable afro-rock that often featured lyrics sung in Igbo, as well as English.  Originating as an army band after the Nigerian Civil War, they contributed to the outpouring of upbeat music produced by young people in Nigeria in response to the darkness of the recently concluded civil conflict.",
+    bioLink: "https://en.wikipedia.org/wiki/The_Funkees",
   },  
   {
     name: "Bola Johnson",
@@ -1940,17 +1992,32 @@ export const rawArtistList = [
       tags.PSYCHEDELIC_FUNK,
       tags.AFRICAN
     ],
-    discogsId: "392088-Bola-Johnson"
+    discogsId: "392088-Bola-Johnson",
+    bio: "Bola Johnson (Lagos; 6 July 1947 – 30 April 2014) is a Nigerian musician, bandleader. Johnson learned how to play the trumpet and formed his own band in 1968.  Johnson enjoyed a successful career as a musician, as well as a comedian, journalist and public figure.  He was a part of many popular shows and played in FRCN (Federal Radio Corporation of Nigeria Lagos).  He developed his own style of Pidgin English by telling stories on his programme. After the creation in 1970 of Lagos weekend newspaper, Bola Johnson was hired as a freelance journalist. His wonderful stories in Pidgin English were very popular. ",
+    bioLink: "https://jazzinfo.org/artist/bola-johnson",
   },  
   {
-    name: "Bush Tetras",
+    name: "Delta 5",
     from: "England",
     youtubeClips: [
       { videoId: "D8WwYpz9z0Y" },
       { videoId: "h1zBxfr-LEc" },
+
+    ],
+    tags: [
+      tags.FEMME_PUNK,
+      tags.NO_WAVES,
+    ],
+    discogsId: "",
+    bio: "Delta 5 was formed from the same art school scene at Leeds University as Gang of Four and The Mekons.  Combining feminist politics with a two-bass funk-punk sound, they released their debut single \"Mind Your Own Business\" in  1979.  After the release of second single \"You\", the band went on a successful tour of the United States, and soon thereafter left Rough Trade for Charisma Records imprint Pre.  They recorded their debut album See the Whirl, which suffered from overly clean production and received low marks both critically and commercially.  Due to the commercial disappointment of the album, the group disbanded.",
+    bioLink: "https://en.wikipedia.org/wiki/Delta_5",
+  },   
+  {
+    name: "Bush Tetras",
+    from: "New York",
+    youtubeClips: [
       { videoId: "4hwHy_e92uQ" },
-      { videoId: "2-nihfhTr3E" },
-      // { videoId: "vemP-UghHPs" },
+      { videoId: "vemP-UghHPs" },
       { videoId: "8rNCHhsK2co" },
       { videoId: "W81iS_0zenw" },
     ],
@@ -1958,7 +2025,9 @@ export const rawArtistList = [
       tags.FEMME_PUNK,
       tags.NO_WAVES,
     ],
-    discogsId: "132791-Delta-5"
+    discogsId: "24051-Bush-Tetras",
+    bio: "Bush Tetras are an American post-punk band from New York City, formed in 1979.  Although they did not achieve mainstream success, the Bush Tetras were influential and popular in the Manhattan club scene and college radio in the early 1980s.  New York's post-punk revival of the 2000s was accompanied by a resurgence of interest in the genre, with the Tetras' influence heard in many of that scene's bands.",
+    bioLink: "https://en.wikipedia.org/wiki/Bush_Tetras",
   },   
   {
     name: "Colored Music",
@@ -1973,7 +2042,9 @@ export const rawArtistList = [
       tags.NO_WAVES,
       tags.DISCO,
     ],
-    discogsId: "259144-Colored-Music"
+    discogsId: "259144-Colored-Music",
+    bio: "At the dawn of the 1980’s, a few years before her now legendary LP, Through The Looking Glass, took form, a young percussionist playing with the Berlin Philharmonic, Midori Takada, found her creative ambitions looking further afield.  Her ideas brought her home to Japan, then peculating with new notions of what avant-garde and experimental music could be, to form The Mkwaju Ensemble. The project quickly recorded two astounding LPs in 1981 – rhythmic marvels which have become, over the years, among the most celebrated artifacts of 1980’s Japanese music.  With arrangements both profoundly complex and entirely at ease, it is a near perfect image of the sonic optimism which began to blossom at the outset of the 1980’s, drawing on diverse musical traditions – from the explicitly avant-garde, to New Age, and traditional musics from Japan and Africa.",
+    bioLink: "",
   },  
   {
     name: "Geoff Bastow",
@@ -1985,7 +2056,9 @@ export const rawArtistList = [
     tags: [
       tags.SOUNDTRACK,
     ],
-    discogsId: "132317-Geoff-Bastow"
+    discogsId: "132317-Geoff-Bastow",
+    bio: "Bastow (born 20 May 1949 in Yorkshire, England), was a Munich-based English songwriter and record producer.  Originally working as a guitarist and pianist in dance bands around Yorkshire, he moved to London in the early 1970s, and then Munich in around 1976. He collaborated with disco/electronic innovator Giorgio Moroder around that era. He wrote songs for artists including Elton John  and Suzi Lane.  Aside from his main work as K.I.D., he has also worked as a session musician for Euro disco acts such as Amanda Lear (1981 album Incognito), Boney M (1981 album Boonoonoonoos), Mick Jackson and Gary Lux.",
+    bioLink: BIOLINK_DISCOGS
   },    
   {
     name: "Throbbing Gristle",
@@ -2001,8 +2074,8 @@ export const rawArtistList = [
       tags.KRAUTROCK
     ],
     discogsId: "12589-Throbbing-Gristle",
-    bio: "Industrial group. Growing out of the extreme performance art group [a=COUM Transmissions]. Their first performances were in 1976 and their last gig was in San Francisco in 1981 (recorded and released as \"Mission Of Dead Souls\"), Throbbing Gristle officially began at September 3, 1975 and they officially split on June 23, 1981...",
-    bioLink: "discogs",
+    bio: "Throbbing Gristle were an English music and visual arts group formed in 1975 in Kingston upon Hull by Genesis P-Orridge, Cosey Fanni Tutti, Peter Christopherson, and Chris Carter. They are widely regarded as pioneers of industrial music. Evolving from the experimental performance art group COUM Transmissions, Throbbing Gristle made their public debut in October 1976 on COUM exhibition Prostitution, and released their debut single \"United/Zyklon B Zombie\" and debut album The Second Annual Report the following year. Lyrical themes mainly revolved around mysticism, extremist political ideologies, sexuality, dark or underground aspects of society, and idiosyncratic manipulation of language.",
+    bioLink: BIOLINK_DISCOGS,
   },   
   {
     name: "Patricia Harris",
@@ -2015,24 +2088,26 @@ export const rawArtistList = [
       tags.HOUSE_HEAD
     ],
     discogsId: "227131-Patricia-Harris",
-    bio: "Pop Vocalist Patricia Harris released one single in 1984 and then disappeared off the face of the earth.  The rare Italo influenced disco cover of Hot Chocolate's funk rock tune “Heaven Is…” became a underground favorite of the Chicago house scene influenced by DJs like Ron Hardy and the WBMX Hot Mix 5.  ",
+    bio: "Pop Vocalist Patricia Harris released one single in 1984 and then disappeared off the face of the earth.  The rare Italo influenced disco cover of Hot Chocolate's funk rock tune “Heaven Is…” became a underground favorite of the Chicago house scene influenced by DJs like the WBMX Hot Mix 5.",
     bioLink: BIOLINK_ORIGINAL,
   },   
   {
-    name: "Special Request",
-    from: "",
+    name: "Jose ‘Animal’ Diaz",
+    from: "New York",
     youtubeClips: [
       { videoId: "BQR35Qgn39k" },
+      { videoId: "Gm0UnmeDzaA" },
     ],
     tags: [
       tags.NO_WAVES,
       tags.HIP_HOP,
     ],
-    discogsId: "49765-Special-Request-2"
+    discogsId: "49765-Special-Request-2",
+    bio: "X-Ray Vision was a project by Jose ‘Animal’ Diaz, and his short discography is possibly one of the most impressive in all of electro. He was a successful New York DJ, playing at clubs like the Kit Kat Club, the Palladium and Visage, and in 1983 he was doing mix and production work for Tom Silverman’s Tommy Boy projects, The Jonzun Crew, Special Request and Juan Atkins."
   },   
   {
     name: "Electric Church",
-    from: "",
+    from: "San Francisco",
     youtubeClips: [
       { videoId: "ba4AXjm4XAo" },
       { videoId: "lfTAjn26ObM" },
@@ -2040,7 +2115,9 @@ export const rawArtistList = [
     tags: [
       tags.PSYCHEDELIC_FUNK,
     ],
-    discogsId: "332441-Electric-Church"
+    discogsId: "332441-Electric-Church",
+    bio: "The Electric Church was a 1970s funky 9 piece horn band from the San Francisco/Oakland Bay Area.",
+    bioLink: "https://www.discogs.com/release/3333441-Electric-Church-We-Had-A-Love-I-Cant-Dance",
   },   
   {
     name: "Jeff Mills",
@@ -2058,7 +2135,7 @@ export const rawArtistList = [
       tags.DETROIT_TECHNO,
     ],
     discogsId: "205-Jeff-Mills",
-    bio: "American techno DJ, composer, producer, and recording artist, based in Detroit, Michigan, USA. Born: 18 June 1963 in Detroit, Michigan, USA. Jeff Mills (aka \"The Wizard\") is one of the most pioneering American names in techno music...",
+    bio: "In the late 1980s Jeff Mills (born June 18, 1963, in Detroit, Michigan) founded the techno collective Underground Resistance with fellow Detroit techno producers 'Mad' Mike Banks and Robert Hood, but left the group in the early 90s.  Mills founded Axis Records in 1992 where he has since  released much of his solo work.  Mills is known for a wide range of electronic styles from hard hitting rhythmic techno to ambient sci-fi soundtrack pieces, reminiscent of early science fiction worlds in films like Fritz Lang’s \”Metropolis\”.   He has since collaborated with artists across a wide range of genres including renowned afro-beat drummer Tony Allen and the Montpelier Philharmonic Orchestra.",
     bioLink: BIOLINK_DISCOGS,
   },   
   {
@@ -2076,8 +2153,8 @@ export const rawArtistList = [
       tags.KRAUTROCK
     ],
     discogsId: "1014765-Akira-S-As-Garotas-Que-Erraram",
-    bio: "Akira S E As Garotas Que Erraram (\"Akira S & The Girls Who Fucked Up\") were a conceptual outfit made up of Brazilian/ Japanese maverick Akira S on bass and programming and writer and activist Pedreira Antunes (formerly Número 2) on vocals and lyrics, plus Edson X on drums, Anna Ruth on bass, Corina Crawford on keyboards, Giuseppe \"Frippi\" Lenti and Miguel Barella on guitars.",
-    bioLink: BIOLINK_DISCOGS,
+    bio: "Akira S & As Garotas Que Erraram  (\"Akira S & The Girls Who Fucked Up\") were formed in São Paulo in 1984 by a core of two individuals, Alex Antunes, vocals, and Akira Tsukimoto on bass, tapes and computer programming, with other floating members contributing to tracks and performances.  The band was among the first to bring the post punk electronic underground sound to the streets of Brazil, citing many influences of the New York and British no wave scenes of the early 80’s.",
+    bioLink: "https://www.brasilwire.com/akira-s-e-as-garotas-que-erraram-tropical-art-punk-from-the-girls-who-fucked-up/",
   },   
   {
     name: "Gang 90 & Absurdettes",
@@ -2108,8 +2185,8 @@ export const rawArtistList = [
       tags.HIP_HOP_SAMPLE_SOURCE
     ],
     discogsId: "289960-Jacques-Loussier",
-    bio: "",
-    bioLink: "",
+    bio: "French jazz pianist and composer.  Born: 26th October 1934, Angers, France.  Renowned for applying jazz and swing improvisation to the music of Johann Sebastian Bach as well as composing scores for over 60 films and TV shows. Founded Studio Miraval in 1979, a prestigious recording studio host to many prolific artists in the following decades.  ",
+    bioLink: BIOLINK_DISCOGS,
   },
   {
     name: "Fellini",
@@ -2124,7 +2201,7 @@ export const rawArtistList = [
       tags.NO_WAVES,
     ],
     discogsId: "320460-Fellini-2",
-    bio: "Fellini was a Brazilian rock band formed in São Paulo in 1984 by Cadão Volpato (vocals, harmonica), Jair Marcos (guitar), Ricardo Salvagni (drums and percussion), and former Voluntários da Pátria and Smack member Thomas Pappon (bass and occasionally other instruments). One of the most well-known bands of the Brazilian underground scene of the mid-1980s (and having a strong cult following to the present day), Fellini originally began as a straightforward post-punk band influenced by acts such as Joy Division, The Stranglers and The Durutti Column, but would gradually develop a more eclectic sonority that mixed post-punk with other genres such as MPB, new wave and samba rock, acquiring a unique, almost non-descript musical style.",
+    bio: "Fellini was a Brazilian rock band formed in São Paulo in 1984.  One of the most well-known bands of the Brazilian underground scene of the mid-1980s (and having a strong cult following to the present day), Fellini originally began as a straightforward post-punk band influenced by acts such as Joy Division, The Stranglers and The Durutti Column, but would gradually develop a more eclectic sonority that mixed post-punk with other genres such as MPB, new wave and samba rock, acquiring a unique, almost non-descript musical style.",
     bioLink: BIOLINK_DISCOGS,
   },
   {
@@ -2166,7 +2243,7 @@ export const rawArtistList = [
       tags.HIP_HOP_SAMPLE_SOURCE,
     ],
     discogsId: "725619-Christine-Harwood",
-    bio: "Has anybody met Chrissie Harwood?  Let us introduce to you an elusive British artiste who made an equally elusive, immaculate LP, which in the 35 years since its original release, as if by tragic magic, has materialised into thin air. Recorded for an obscure British label it was the only record she ever made and no singles were ever released. In fact it was seldom heard beyond these shores (aside rumours of an Australian vanity pressing), and [sic] it remains one of the most sought after English female folk rock records ever released. Until now it has been a mystery amongst pop-historians, DJs and record collectors alike.",
+    bio: "Let us introduce to you an elusive British artiste who made an equally elusive, immaculate LP, which in the 35 years since its original release, as if by tragic magic, has materialised into thin air. Recorded for an obscure British label it was the only record she ever made and no singles were ever released. In fact it was seldom heard beyond these shores (aside rumours of an Australian vanity pressing), and  it remains one of the most sought after English female folk rock records ever released.",
     bioLink: "https://www.finderskeepersrecords.com/shop/christine-harwood-nice-to-meet-miss-christine/",
   },
   {
@@ -2185,7 +2262,7 @@ export const rawArtistList = [
       tags.HIP_HOP_SAMPLE_SOURCE
     ],
     discogsId: "35303-Nino-Nardini",
-    bio: "French composer, arranger, engineer, conductor and producer. Frequent collaborator of childhood friend [a44313]. Born 1912 in Paris, France. Died 1994. Georges Teperino was born in 1912, to an Italian father and French mother into a family of musicians. His father, a violinist and composer, was his main music teacher.",
+    bio: "Georges Teperino (aka Nino Nardini) was born in 1912 in Paris, France into a family of musicians.  He started his musical career early, at the age of seven, directing a philharmonic orchestra. While still a child, he formed the 5-piece orchestra \"Les Diables Rouges\" with his friend Roger Roger, which performed between the 1920's and 30's.   In the early 1960's, he, along with Roger Roger, started work composing for music libraries, recording in various styles, often featuring instruments like the harpsichord, marimba or electric organ, and later analog synthesizers and electronic keyboards.  Both had fruitful careers in library music, composing a large amount of works for French and British libraries, also experimenting with electronic music in the late 60's and early 70's onwards. Their library music has been, and continues to be featured in numerous radio programs, animations, TV shows and films all over the world.",
     bioLink: BIOLINK_DISCOGS,
   },
   {
@@ -2200,7 +2277,9 @@ export const rawArtistList = [
     tags: [
       tags.SOUNDTRACK,
     ],
-    discogsId: ""
+    discogsId: "",
+    bio: "Sig(g)i Schwab, real name Siegfried, (* August 5. 1940) in Ludwigshafen, is a German guitar player and teacher, having performed on more than 15,000 recordings for film, television, and as an accompanist to various artists. Little is written about Manfred Hübler, though he has numerous soundtrack compositions during the same era.", 
+    bioLink: "https://en.wikipedia.org/wiki/Sigi_Schwab",
   },  
   {
     name: "The Invaders",
@@ -2216,7 +2295,9 @@ export const rawArtistList = [
       tags.SURF_ROCK,
       tags.PSYCHEDELIC_FUNK
     ],
-    discogsId: "679514-The-Invaders-3"
+    discogsId: "679514-The-Invaders-3",
+    bio: "The Invaders was an R&B band in the island of Bermuda during the late 1960s.   In 1969, the band produced its first hit 45, \"Spacing Out\", written by Richardson, which made it to the top of the Bermuda charts and remained there for several weeks. Within a few months, the band produced its first album with the same title.  And then they broke up forever.  ",
+    bioLink: "https://en.wikipedia.org/wiki/The_Invaders_(band)",
   },  
   {
     name: "David Matthews",
@@ -2229,7 +2310,7 @@ export const rawArtistList = [
       tags.HIP_HOP_SAMPLE_SOURCE,
     ],
     discogsId: "386834-Dave-Matthews-3",
-    bio: "Dave (or David) Matthews (* 04 March 1942 in Sonora, Kentucky) is an American Funk, Soul, Jazz and Pop artist.  Pianist, producer, arranger, conductor and bandleader, David Matthews is well known for having been arranger for James Brown in the beginning of the 70s and later has been closely associated with Creed Taylor's CTI Records.  He has also composed for television and commercial advertisement, but is also leader of both the Manhattan Jazz Orchestra and the Manhattan Jazz Quintet, two acts very popular in Japan.",
+    bio: "Dave (or David) Matthews (* 04 March 1942 in Sonora, Kentucky) is an American Funk, Soul, Jazz and Pop artist.  Pianist, producer, arranger, conductor and bandleader, David Matthews is well known for having been arranger for James Brown in the beginning of the 70s and later has been closely associated with Creed Taylor's CTI Records.  He has also composed for television and commercial advertisement, but is also leader of both the Manhattan Jazz Orchestra and the Manhattan Jazz Quintet, two acts very popular in Japan.",
     bioLink: BIOLINK_DISCOGS,
   },  
   {
@@ -2258,7 +2339,7 @@ export const rawArtistList = [
       tags.PSYCHEDELIC_ROCK,
     ],
     discogsId: "333758-Pharaoh-Overlord",
-    bio: "Pharaoh Overlord is an experimental rock music band, initially featuring three members of the Finnish group Circle, Jussi Lehtisalo, Janne Westerlund and Tomi Leppänen. Originally begun as a vehicle to indulge their love of stoner rock, Pharaoh Overlord's output has become more varied, mirroring the development of their sister group. ",
+    bio: "Pharaoh Overlord is an experimental rock music band, initially featuring three members of the Finnish group Circle, Jussi Lehtisalo, Janne Westerlund and Tomi Leppänen.",
     bioLink: "https://en.wikipedia.org/wiki/Pharaoh_Overlord",
   },
   {
@@ -2289,11 +2370,11 @@ export const rawArtistList = [
       tags.HIP_HOP_SAMPLE_SOURCE,
     ],
     discogsId: "1105126-Moğollar",
-    bio: "",
-    bioLink: "",
+    bio: "Four young Turks from different Anatolian villages met and became friends during the 1960s, discovering in common their taste both for the traditional music of their land and for the new kind of music that Europe called \"pop\".  The Mogol (Mogollar in their own language) immediately leapt to the top place in the Turkish Hit Parade, an honour that had normally been reserved to British and American successes. Their kind of music, based on the exotic folklore heritage of Anatolia, enriched by modern rhythms merged with the impassioned strains of the Turkish national idioms, stimulated the formation of numerous other new groups. Even to the limits of the remotest Turkish villages, Anadolu (Anatolian) \"pop\" has achieved an immense public following.",
+    bioLink: BIOLINK_DISCOGS,
   },
   {
-    name: "Kocani Orkestar",
+    name: "Koçani Orkestar",
     from: "Macedonia",
     youtubeClips: [
       { videoId: "2eogqWiIcvU" },
@@ -2302,8 +2383,8 @@ export const rawArtistList = [
       tags.LATIN,
     ],
     discogsId: "186782-Koçani-Orkestar",
-    bio: "",
-    bioLink: "",
+    bio: "The Kočani Orkestar, one of the most innovative and original Balkan brass bands, comes from the city of Kočani (Kochani), in the Republic Of Macedonia.  The Orkestar's musical style, described in their region as Romska Orientalna Musika ('Oriental Gypsy music'), combines a variety of influences: traditional dance music from Bulgaria, Romania, Serbia, Turkish/Bulgarian rhythms, elements of rumba and salsa, and even Indian film music. True to the multicultural, multilingual nature of the Balkans, it contains lyrics in Macedonian (Slavic), in Romani (a Gypsy language, related to Hindi), and in a Turkish dialect spoken by the Gypsy community of Kočani.",
+    bioLink: BIOLINK_DISCOGS,
   },
   {
     name: "Jungle",
@@ -2316,8 +2397,8 @@ export const rawArtistList = [
       tags.HIP_HOP_SAMPLE_SOURCE,
     ],
     discogsId: "1038430-Jungle-4",
-    bio: "",
-    bioLink: "",
+    bio: "The story begins in 1963 in Belmont, California when Virgil \"Butch\" Daniels and schoolmate James Ryan Clark meet. Realizing they are both guitar players, they start a band. The California surf rock craze is in full-swing, so they begin learning the signature surf tunes. A demo is recorded in November 1969 at Allegro Sound Studios in NYC. Pressing the tapes onto 50 vinyl copies, band attorney George Seaton uses the demo to land a major record deal with Polydor. However, the band soon breaks up without releasing an album.    Years later, with the demo and band long forgotten, the Little Indians label acquired an original demo copy and created an unofficial 1997 reissue, leading to a resurgence of interest in this band that almost never was.",
+    bioLink: BIOLINK_DISCOGS,
   },
   {
     name: "Chrissy Zebby Tembo",
@@ -2401,8 +2482,8 @@ export const rawArtistList = [
       tags.PSYCHEDELIC_JAZZ
     ],
     discogsId: "1029-ICube",
-    bio: "",
-    bioLink: "",
+    bio: "Nicolas Chaix, also known by his alias I:Cube, is a French DJ and an electronic music producer.  Paris based, he first gained limelight on Paris' underground dance scene in the mid to late 1990s, most notably through his remix of \"Around The World\" by Daft Punk in 1997. Daft Punk had remixed one of his titles, \"Disco Cubizm\", in 1996.  In 1997, I:Cube released his first album, Picnic Attack.",
+    bioLink: "https://en.wikipedia.org/wiki/I:Cube",
   },
   {
     name: "Frankie Bones",
@@ -2426,7 +2507,9 @@ export const rawArtistList = [
     tags: [
       tags.SOUNDTRACK
     ],
-    discogsId: "135912-Francis-Lai"
+    discogsId: "135912-Francis-Lai",
+    bio: " French composer, born 26 April 1932 in Nice (06) - died 7 November 2018 in Paris (75). Best known for his works of numerous scores and themes such as : Un Homme Et Une Femme or Love Story (1970 Academy award for best music, original score), he was also a songwriter who worked for many of the most popular French recording artists including Edith Piaf, Mireille Mathieu, Elton John. And he also played accordion.",
+    bioLink: BIOLINK_DISCOGS,
   },  
   {
     name: "JD and the Evil's Dynamite Band",
@@ -2441,7 +2524,9 @@ export const rawArtistList = [
       tags.SURF_ROCK,
       tags.HIP_HOP_SAMPLE_SOURCE,
     ],
-    discogsId: "271896-JD-amp-The-Evils-Dynamite-Band"
+    discogsId: "271896-JD-amp-The-Evils-Dynamite-Band",
+    bio: "Part of the Soul Fire stable of retro-leaning deep funk artists, JD & the Evil's Dynamite Band specialize in heavy psychedelic funk that evokes the experimentalism of the late '60s and early '70s (but wasn't actually produced in that time period, as Soul Fire claims). Following the non-LP single \"Haaa-Sheesh,\" their debut full-length, Explodes Across the Nation, was released in 2001.",
+    bioLink: "https://www.allmusic.com/artist/jd-the-evils-dynamite-band-mn0000098448"
   },  
   // {
   //   name: "The Chantels",
@@ -2461,14 +2546,16 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "EzXwI9qbzvc" },
       { videoId: "79Qb1tsoYZg" },
-      { videoId: "bMUlM8AkmNs" },
+      // { videoId: "bMUlM8AkmNs" },
     ],
     tags: [
       tags.NO_WAVES,
       tags.DISCO,
       tags.HOUSE_HEAD,
     ],
-    discogsId: "15977-Klein-amp-MBO"
+    discogsId: "15977-Klein-amp-MBO",
+    bio: "Klein & MBO Italo post-disco stalwarts were formed around the nucleus of Mario Boncaldo [Italy] and Electro-Soul-House master Tony Carrasco [USA].  The principle vocals were performed around American Italian jazz singer Rossana Casale and American chorus singer Naimy Hackett.  During the mid-80s, singles like \"Dirty Talk\", \"Wonderful\" and \"The MBO Theme\" became major hits in both the emerging New York garage scene and Chicago's house community.",
+    bioLink: "discogs",
   },  
   {
     name: "Howard Wales",
@@ -2481,10 +2568,12 @@ export const rawArtistList = [
       tags.PSYCHEDELIC_FUNK,
       tags.PSYCHEDELIC_JAZZ,
     ],
-    discogsId: "274439-Howard-Wales"
+    discogsId: "274439-Howard-Wales",
+    bio: "Howard Wales (February 8, 1943 – December 7, 2020) was an American keyboardist. He was a collaborator with Jerry Garcia in the early 1970s.  Wales was a session player for many musical acts, including Ronnie Hawkins, Freddie King, James Brown, and the Four Tops. Though he was adept at accompanying rock and R&B artists, he also played free-form jazz. Later in his career he released several solo albums in this style. For several months in 1970, Wales led Monday night jazz-rock jam sessions at the Matrix, a club in San Francisco. Jerry Garcia usually played guitar at these free-form performances.  A studio album called Hooteroll?, with these musicians and others, and featuring music composed mostly by Wales, was released in 1971.",
+    bioLink: "https://en.wikipedia.org/wiki/Howard_Wales"
   },  
   {
-    name: "The Wooden Glass",
+    name: "The Wooden Glass featuring Billy Wooten",
     from: "",
     youtubeClips: [
       { videoId: "FUNM0u9WJVk" },
@@ -2492,7 +2581,10 @@ export const rawArtistList = [
     tags: [
       tags.PSYCHEDELIC_FUNK,
     ],
-    discogsId: "136481-The-Wooden-Glass"
+    discogsId: "136481-The-Wooden-Glass",
+    bio: "The intimate performance space that set the scene for Billy Wooten Live at The 19th Hole Night Club lives on in this 7” single from P-VINE, celebrating 50 years since the recording of The Wooden Glass. Billy Wooten’s trademark vibraphone would make its way through venues of all shapes and sizes in his native Indianapolis, and the active crowd chatter between tracks highlights a working musician early in his career. However, as Wooten’s playing cuts through the crowd on album highlight and a-side “In The Rain”, the band feel at one with the elements. Wooten’s mallets dispense delightful high tones, organs sound warm and cleansing while guitars offset with acid stabs of thunder.",
+    bioLink: "https://www.brewerytownbeats.com/product-page/the-wooden-glass-featuring-billy-wooten-in-the-rain-day-dreaming",
+
   },      
   {
     name: "Glenn Underground",
@@ -2520,7 +2612,7 @@ export const rawArtistList = [
       tags.BLUES,
     ],
     discogsId: "506604-Julia-Lee-Her-Boy-Friends",
-    bio: "Julia Lee (October 31, 1902 - December 8, 1958) was an American blues and dirty blues musician. Her inclusion in the latter category is mainly due to a few numbers she performed, e.g. \"King Size Papa\" and \"Snatch and Grab It”. [sic] As these titles suggest, she became best known for her trademark double entendre songs, or, as she once said, \"the songs my mother taught me not to sing\". The records were credited to 'Julia Lee and Her Boy Friends'",
+    bio: "Julia Lee (October 31, 1902 - December 8, 1958) was an American blues and dirty blues musician. Her inclusion in the latter category is mainly due to a few numbers she performed, e.g. \"King Size Papa\" and \"Snatch and Grab It”.  As these titles suggest, she became best known for her trademark double entendre songs, or, as she once said, \"the songs my mother taught me not to sing\". The records were credited to 'Julia Lee and Her Boy Friends'",
     bioLink: ""
   },   
   // {
@@ -2558,7 +2650,9 @@ export const rawArtistList = [
     tags: [
       tags.SURF_ROCK,
     ],
-    discogsId: "291197-The-Cryin-Shames"
+    discogsId: "291197-The-Cryin-Shames",
+    bio: "The Cryin' Shames were a mid-1960s English pop/beat group, produced by Joe Meek. They had one UK hit single in 1966 with a cover of The Drifters' 1961 \"Please Stay\", written by Burt Bacharach and Bob Hilliard.  It was destined to be Joe Meek's final chart hit before he committed suicide in 1967 .",
+    bioLink: "https://en.wikipedia.org/wiki/The_Cryin%27_Shames",
   },   
   {
     name: "Logia Sarabanda",
@@ -2588,7 +2682,7 @@ export const rawArtistList = [
       tags.FEMME_PUNK,
     ],
     discogsId: "17199-Sonic-Youth",
-    bio: "Sonic Youth, initially comprised of guitarist / vocalists Thurston Moore and Lee Ranaldo, guitarist / bassist / vocalist Kim Gordon and drummer Richard Edson, were formed in New York City in 1981. A product of the No-Wave music scene of the late 1970s, the group had their roots in abrasive, experimental music, with Moore and Ranaldo having previously worked with the experimental composer Glenn Branca. The band were joined in 1985 by drummer Steve Shelley, and recorded 15 albums together, as well as many side and solo projects. ",
+    bio: "Sonic Youth were formed in New York City in 1981. A product of the No-Wave music scene of the late 1970s, the group had their roots in abrasive, experimental music, with Moore and Ranaldo having previously worked with the experimental composer Glenn Branca. The band were joined in 1985 by drummer Steve Shelley, and recorded 15 albums together, as well as many side and solo projects. ",
     bioLink: BIOLINK_DISCOGS,
   }, 
   {
@@ -2602,7 +2696,9 @@ export const rawArtistList = [
     tags: [
       tags.NO_WAVES,
     ],
-    discogsId: "81424-James-Chance"
+    discogsId: "81424-James-Chance",
+    bio: "Saxophonist born April 20, 1953 in Milwaukee, USA. Arriving from Milwaukee with a saxophone on his knee, James (Siegfried) Chance/White quickly became the linchpin of the budding New-York No Wave movement. More than any of his contemporaries, Chance turned harsh, abrasive music into an art form; at one time or another, almost everyone of any importance on the New York art-rock scene was in his band.",
+    bioLink: BIOLINK_DISCOGS,
   },   
   {
     name: "Coati Mundi",
@@ -2614,7 +2710,9 @@ export const rawArtistList = [
     tags: [
       tags.NO_WAVES,
     ],
-    discogsId: "30097-Coati-Mundi"
+    discogsId: "30097-Coati-Mundi",
+    bio: "Andy Hernandez (born January 3, 1950), better known by his stage name Coati Mundi, is an American musician, percussionist, notably playing the vibraphone, and a member of Dr. Buzzard's Original Savannah Band, then of Kid Creole and the Coconuts. He scored the Top 40 UK hit \"Me No Pop I\" in 1981, just before the release of Tropical Gangsters.",
+    bioLink: "https://en.wikipedia.org/wiki/Coati_Mundi_(musician)",
   }, 
   {
     name: "Magazine 60",
@@ -2627,7 +2725,7 @@ export const rawArtistList = [
       tags.DISCO,
     ],
     discogsId: "82822-Magazine-60",
-    bio: "French electro-synth band composed of Dominique Regiacorte , Pierre Mastro, dit Pierre Ex Magazine 60 (El Chico) and Jean-Luc Drion Producer. They were most notable for their worldwide hit \"Don Quichotte\" which synth riff was sampled on Will.I.Am's \"I Got It From My Mama\" in which he needed to credit both members in his release.",
+    bio: "Magazine 60 was a French synthpop band founded by music producer, Jean-Luc Drion. Other members are Dominique Régiacorte, Pierre Mastro and Véronique Olivier. The group was best known for the 1984 song, \"Don Quichotte\", which hit the Top 10 in France and the Top 60 in the United States in 1986.",
     bioLink: BIOLINK_DISCOGS,
   },   
   {
@@ -2641,7 +2739,7 @@ export const rawArtistList = [
       tags.DISCO,
     ],
     discogsId: "15971-Charlie",
-    bio: "Italo Disco project, formed between Maurice Cavalieri and Giorgio Stefani in Italy in 1983.",
+    bio: "Short lived Italo Disco project, formed between Maurice Cavalieri and Giorgio Stefani in Italy in 1983.",
     bioLink: BIOLINK_DISCOGS,
   },     
   {
@@ -2653,7 +2751,9 @@ export const rawArtistList = [
     tags: [
       tags.DISCO,
     ],
-    discogsId: "623978-Jackey-Beavers"
+    discogsId: "623978-Jackey-Beavers",
+    bio: "US soul singer, producer and songwriter, (born June 19, 1937, died October 28, 2008).  Born and raised in Cartersville, Georgia. Co-wrote the song \"Someday We'll Be Together\" (with Johnny Bristol and Harvey Fuqua), which when recorded by Diana Ross and The Supremes reached #1 on the Billboard pop charts in 1969. He recorded for many Detroit and Chicago labels before returning to Cartersville. He then recorded several Gospel albums for the Glory label in the 1980s.",
+    bioLink: BIOLINK_DISCOGS
   },     
   {
     name: "Freeez",
@@ -2665,7 +2765,7 @@ export const rawArtistList = [
       tags.DISCO,
     ],
     discogsId: "8670-Freeez",
-    bio: "",
+    bio: "Freeez were an English electronic music group started in North London in 1978, initially known as one of the UK's main jazz-funk bands of the early 1980s.",
     bioLink: "",
   },
   {
@@ -2678,7 +2778,7 @@ export const rawArtistList = [
       tags.DISCO,
     ],
     discogsId: "92220-Alphonse-Mouzon",
-    bio: "Alphonse Mouzon (born November 21, 1948, Charleston, South Carolina, USA - died December 25, 2016) was an American jazz-fusion drummer and percussionist, a founding member of Weather Report, and the CEO of Tenacious Records. He was also a composer, arranger, and producer, as well as an actor.",
+    bio: "Alphonse Mouzon (born November 21, 1948, Charleston, South Carolina - died December 25, 2016) was an American jazz-fusion drummer and percussionist, a founding member of Weather Report, and the CEO of Tenacious Records. He was also a composer, arranger, and producer, as well as an actor.",
     bioLink: BIOLINK_DISCOGS,
   },
   {
@@ -2693,7 +2793,7 @@ export const rawArtistList = [
       tags.HIP_HOP_SAMPLE_SOURCE
     ],
     discogsId: "168453-Pete-Jolly",
-    bio: "American jazz pianist and accordion player. In 1940, aged 8, he appeared on the radio show [i]Hobby Lobby[/i] \"The Boy Wonder Accordionist\". Born June 5, 1932 - New Haven, Connecticut, USA Died November 6, 2004 - Pasadena, California, USA",
+    bio: "American jazz pianist and accordion player. In 1940, aged 8, he appeared on the radio show Hobby Lobby \"The Boy Wonder Accordionist\". Born June 5, 1932 - New Haven, Connecticut, USA Died November 6, 2004 - Pasadena, California, USA",
     bioLink: BIOLINK_DISCOGS,
   },  
   {
@@ -2779,7 +2879,9 @@ export const rawArtistList = [
       tags.PSYCHEDELIC_FUNK,
       tags.KRAUTROCK,
     ],
-    discogsId: "1743668-Air-10"
+    discogsId: "1743668-Air-10",
+    bio: "Long Island's Air only made one album. As solitary statements go, it’s exceptional. Divinely elevated by Googie Coppola’s beautiful voice, this transcendent masterpiece of soulful jazz-rock fusion has become increasingly tricky to track down. 45 years on from its initial release, Be With Records finally make it available again on vinyl.",
+    bioLink: "https://www.last.fm/music/Air/_/Mr.+Man/+wiki",
   },   
   {
     name: "Carioca",
@@ -2794,8 +2896,8 @@ export const rawArtistList = [
       tags.SOUNDTRACK,
     ],
     discogsId: "2669480-Carioca-7",
-    bio: "",
-    bioLink: "",
+    bio: "Guitar player from Rio De Janeiro, Brazil born in 1955. He has worked as a music teacher, as an arranger, and as a composer for theater, dance and film. Due to constant touring in Europe, he began living in Switzerland. Together with Ted Barlocher, he founded the \"Escola de Samba do Apito\".",
+    bioLink: BIOLINK_DISCOGS,
   },
   {
     name: "GQ",
@@ -2809,8 +2911,8 @@ export const rawArtistList = [
       tags.PSYCHEDELIC_FUNK,
     ],
     discogsId: "48425-GQ",
-    bio: "",
-    bioLink: "",
+    bio: "GQ was an American group, formed in The Bronx, New York, primarily noted for its success in funk, R&B, soul music and disco.  GQ was first formed in 1968 as a quartet called Sabu & the Survivors, with \"Sabu\" being a moniker of member Keith Crier. The group then evolved in the 1970s as The Rhythm Makers, playing primarily funk music and were Five Percenters.  In 1978, the group's manager suggested that the group name be changed to \"GQ\", which stood for \"good quality\".",
+    bioLink: "https://en.wikipedia.org/wiki/GQ_(band)",
   },
   {
     name: "Ahmad Jamal",
@@ -2868,8 +2970,8 @@ export const rawArtistList = [
       tags.DETROIT_TECHNO
     ],
     discogsId: "1099-DJ-Rolando",
-    bio: "Rolando grew up in south west Detroit, a Hispanic district, he was heavily influenced by his cultural Latin rhythms and percussion. Inspired from an early age by his musician father, he pursued his own interest in music and became well known and respected within the community...",
-    bioLink: BIOLINK_DISCOGS,
+    bio: "DJ Rolando (born Rolando Rocha) a.k.a. The Aztec Mystic is an American techno DJ and producer from Detroit, Michigan, United States. A former member of Detroit’s famed Underground Resistance from 1994 to 2004, he is best known for his song \"Knights of the Jaguar.\" Rolando parted ways with UR and relocated to Edinburgh in 2004, where he remains an active DJ, frequently appearing at prominent European venues including Tresor and Berghain.",
+    bioLink: "https://en.wikipedia.org/wiki/DJ_Rolando",
   },
   {
     name: "Gemini",
