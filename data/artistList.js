@@ -46,18 +46,20 @@ export const rawArtistList = [
     name: "Lydia Lunch" ,
     from: "New York",
     youtubeClips: [
-      { videoId: "tYeyVHOz950" }, 
+      { videoId: "OnyL0h40z7g" },
       { videoId: "GiowCFfejH8" }, 
+      { videoId: "tYeyVHOz950" }, 
       { videoId: "AlS6GC11Wi0" }, 
       { videoId: "Qr2Kde2uuXs" }, 
       { videoId: "Iip3yTTWVZI" },
+      { videoId: "KfueA2e4aF0" },
       { videoId: "s4ole_bRTdw" }, 
       { videoId: "UZmQZwylKrQ" },
       { videoId: "0IN4tIyVI4o" },
     ],
     tags: [tags.FEMME_PUNK],
     discogsId: "10290-Lydia-Lunch",
-    bio: "Lydia Lunch, born 2 June 1959 in Rochester, New York, USA, began her activity in 1977 with Teenage Jesus And The Jerks as lead singer and guitar player, taking part in the No Wave Movement. She has been an actress in experimental movies by Richard Kern and by Beth B & Scott B, and she's also known for her spoken word performances...",
+    bio: "Lydia Lunch, born 2 June 1959 in Rochester, New York, USA, is arguably one of the mostly quintessential post-punk artists of the early 80’s New York music scene.  Her musical output spans across endless genres, often taking more traditional styles and classic songs and reinterpreting them through her trademark absurdist, cynical, sometimes comical lens.  She has shared the stage with many influential contemporaries including James Chance and Nick Cave. She has also been an actress in experimental movies by Richard Kern and by Beth B & Scott B, and she's also known for her spoken word performances...",
     bioLink: BIOLINK_DISCOGS,
   },
   { 
@@ -98,7 +100,7 @@ export const rawArtistList = [
     ],
     discogsId: "5451-David-Axelrod",
     tags: [tags.HIP_HOP_SAMPLE_SOURCE],
-    bio: "David Axelrod (April 17, 1931 – February 5, 2017) was an American composer, arranger, and producer. After starting out as a staff producer for record companies specializing in jazz, Axelrod became known by the mid-1960s in soul and jazz circles for his recording skills. In 1968, Axelrod embarked on a solo career and released several albums during the 1970s that showcased his characteristic sound, which combined heavily microphoned drums and baroque orchestration, and avant garde themes ranging from the environment to heightened mental awareness. With his early solo projects, Axelrod was one of the first recording artists to fuse elements of jazz, rock, and R&B.",
+    bio: "David Axelrod (April 17, 1931 – February 5, 2017) was an American composer, arranger, and producer. After starting out as a staff producer for record companies specializing in jazz, Axelrod embarked on a solo career and released several albums during the 1970s that showcased his characteristic sound, which combined heavily microphoned drums and baroque orchestration, and avant garde themes ranging from the environment to heightened mental awareness. With his early solo projects, Axelrod was one of the first recording artists to fuse elements of jazz, rock, and R&B.",
     bioLink: "https://en.wikipedia.org/wiki/David_Axelrod_(musician)",
   },
   { 
@@ -290,6 +292,7 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "aqJxKXO0TEk" },
       { videoId: "UWIIPX_5rbM" },
+      { videoId: "7EyMG2VX8TQ" },
     ],
     tags: [
       tags.PSYCHEDELIC_JAZZ
@@ -306,7 +309,7 @@ export const rawArtistList = [
     ],
     tags: [tags.HIP_HOP_SAMPLE_SOURCE],
     discogsId: "2539301-Cleo-McNett",
-    bio: "Cleo McNett is a musician from Dallas, Texas notable for his home recordings and accompanying home-recorded music videos.  He is the founder of McNett Records, which released his most noted albums.  The Cleo McNett show, which ran from 1985 to 1997, ran for 12 seasons on public access television and featured McNett's songs and home-recorded videos.  McNett never enjoyed commercial success, but found immortality in DJ Shadow’s 1996 album Endtroducing, who brilliantly sampled McNett’s track \”Snap\” in the interlude \”Why Hip-Hop sucks in ’96\”.",
+    bio: "Cleo McNett is a musician from Dallas, Texas notable for his home recordings and accompanying home-recorded music videos.  He is the founder of McNett Records, which released his most noted albums.  The Cleo McNett show, which ran from 1985 to 1997, ran for 12 seasons on public access television and featured McNett's songs and home-recorded videos.  McNett never enjoyed commercial success, but found immortality in DJ Shadow’s 1996 album Endtroducing, who sampled McNett’s track \”Snap\” in the interlude \”Why Hip-Hop sucks in ’96\”.",
     bioLink: "https://en.everybodywiki.com/Cleo_McNett",
   },
   { 
@@ -396,7 +399,7 @@ export const rawArtistList = [
     ],
     tags: [tags.PSYCHEDELIC_JAZZ],
     discogsId: "35328-Sun-Ra",
-    bio: "Le Sony'r Ra (born Herman Poole Blount, May 22, 1914 – May 30, 1993), was an American jazz composer, bandleader, piano and synthesizer player, and poet known for his experimental music, \"cosmic\" philosophy, prolific output, and theatrical performances. For much of his career, Ra led \"The Arkestra\", an ensemble with an ever-changing name and flexible line-up.  Claiming to be an alien from Saturn on a mission to preach peace, he developed a mythical persona and an idiosyncratic credo that made him a pioneer of Afrofuturism. Throughout his life he denied ties to his prior identity saying, \"Any name that I use other than Ra is a pseudonym.\"  His widely eclectic and avant-garde music echoed the entire history of jazz, from ragtime and early New Orleans hot jazz, to swing music, bebop, free jazz and fusion. ",
+    bio: "Le Sony'r Ra (born Herman Poole Blount, May 22, 1914 – May 30, 1993), was an American jazz composer, bandleader, piano and synthesizer player, and poet known for his experimental music, \"cosmic\" philosophy, prolific output, and theatrical performances. For much of his career, Ra led \"The Arkestra\", an ensemble with an ever-changing name and flexible line-up.  Claiming to be an alien from Saturn on a mission to preach peace, he developed a mythical persona and an idiosyncratic credo that made him a pioneer of Afrofuturism. Throughout his life he denied ties to his prior identity saying, \"Any name that I use other than Ra is a pseudonym.\"  His widely eclectic and avant-garde music echoed the entire history of jazz, from ragtime and early New Orleans hot jazz, to swing music, bebop, free jazz and fusion. ",
     bioLink: "https://en.wikipedia.org/wiki/Sun_Ra",
   },
   { 
@@ -482,7 +485,7 @@ export const rawArtistList = [
     ],
     tags: [tags.LATIN],
     discogsId: "865862-Los-Destellos",
-    bio: "Los Destellos is a Peruvian musical group of cumbia and instrumental rock in its beginnings, formed in the Lima district of Rímac, Peru in 1966. The name of Los Destellos was inspired by Edith Delgado for the group that were fashionable 1965 Los 4 Brillantes and Edith put Los Destellos on it, which was accepted by her brother Enrique. Over the years, more than 90 musicians have passed through, which is why it is called \"The University of Peruvian Cumbia\". It is considered the First Tropical Group of Peru.",
+    bio: "Los Destellos is a Peruvian musical group of cumbia and instrumental rock in its beginnings, formed in the Lima district of Rímac, Peru in 1966. The name of Los Destellos was inspired by Edith Delgado for the group that were fashionable 1965 Los 4 Brillantes and Edith put Los Destellos on it, which was accepted by her brother Enrique. Over the years, more than 90 musicians have passed through, which is why it is called \"The University of Peruvian Cumbia\". It is considered the First Tropical Group of Peru.",
     bioLink: BIOLINK_DISCOGS,
   },
   { 
@@ -607,7 +610,7 @@ export const rawArtistList = [
     ],
     tags: [tags.DETROIT_TECHNO, tags.NO_WAVES],
     discogsId: "",
-    bio: "Early 80s electronic/new wave group from Detroit.  The band released only two singles before breaking up.  Their seminal \"Shari Vari\", a tounge in cheek recounting of the early 80's detroit music scene, is considered one of the first and most influential Detroit techno records.",
+    bio: "Early 80s electronic/new wave group from Detroit.  The band released only two singles before breaking up.  Their seminal \"Shari Vari\", a tounge in cheek recounting of the early 80's Detroit party scene, is considered one of the first and most influential Detroit techno records.",
     bioLink: BIOLINK_ORIGINAL,
   },
   { 
@@ -634,7 +637,7 @@ export const rawArtistList = [
     ],
     tags: [tags.NO_WAVES],
     discogsId: "11203-A-Certain-Ratio",
-    bio: "A Certain Ratio are an English post-punk band formed in 1977 in Flixton, Greater Manchester by Peter Terrell (guitar, electronics) and Simon Topping (vocals, trumpet). Among the first white indie groups to draw heavy influence from funk as well as disco and Latin percussion, the band were among the first to debut on Tony Wilson's Factory Records in 1979 (Joy Division, New Order).",
+    bio: "A Certain Ratio are an English post-punk band formed in 1977 in Flixton, Greater Manchester by Peter Terrell (guitar, electronics) and Simon Topping (vocals, trumpet). Among the first white indie groups to draw heavy influence from funk as well as disco and Latin percussion, the band were among the first to debut on Tony Wilson's Factory Records label (Joy Division, New Order) in 1979.",
     bioLink: "https://en.wikipedia.org/wiki/Factory_Records",
   },
   { 
@@ -782,7 +785,7 @@ export const rawArtistList = [
     ],
     tags: [tags.SOUNDTRACK, tags.HIP_HOP_SAMPLE_SOURCE],
     discogsId: "9768-Piero-Piccioni",
-    bio: "Piero Piccioni (December 6, 1921 – July 23, 2004) was an Italian film score composer and lawyer.  A pianist, organist, conductor, composer, he was also the prolific author of more than 300 film soundtracks. He played for the first time on radio in 1938 with his “013” Big Band, to return on air only after the liberation of Italy in 1944. “013” was the first Italian jazz band to be broadcast in Italy after the fall of Fascism.  He was influenced in the use of jazz by 20th century classical composers and American films. Directors he liked included Frank Capra, Alfred Hitchcock, Billy Wilder, and John Ford, while Alex North was a film score composer he admired. ",
+    bio: "Piero Piccioni (December 6, 1921 – July 23, 2004) was an Italian film score composer and lawyer.  A pianist, organist, conductor, composer, he was also the prolific author of more than 300 film soundtracks. He played for the first time on radio in 1938 with his “013” Big Band, to return on air only after the liberation of Italy in 1944. “013” was the first Italian jazz band to be broadcast in Italy after the fall of Fascism.  He was influenced in the use of jazz by 20th century classical composers and American films. Directors he liked included Frank Capra, Alfred Hitchcock, Billy Wilder, and John Ford. ",
     bioLink: "https://en.wikipedia.org/wiki/Piero_Piccioni",
   },
   { 
@@ -1461,7 +1464,7 @@ export const rawArtistList = [
       tags.HIP_HOP_SAMPLE_SOURCE 
     ],
     discogsId: "61485-Roger-Webb",
-    bio: "Roger Webb (7 April 1934 in Bristol – 19 December 2002 in London) was a British songwriter and jazz pianist best known for leading Roger Webb's Trio (1963-1965) for television series and club performances, and Roger Webb's Orchestra. The Roger Webb Trio appeared regularly (1963-1965) at Harrison and Gibson's Trojan Room restaurant in Bromley, Kent.  His songs were sung by Bette Davis, Rex Harrison, Johnny Mathis, Shirley Bassey, Danny Williams and others.",
+    bio: "Roger Webb (7 April 1934 in Bristol – 19 December 2002 in London) was a British songwriter and jazz pianist best known for leading Roger Webb's Trio (1963-1965) for television series and club performances, and Roger Webb's Orchestra. The Roger Webb Trio appeared regularly (1963-1965) at Harrison and Gibson's Trojan Room restaurant in Bromley, Kent.  His songs were sung by Bette Davis, Rex Harrison, Johnny Mathis, Shirley Bassey, Danny Williams and others.  In 1979 his song Flying Objects was infamously used for Amber Waves controversial documentary about early adult film star Dirk Diggler.",
     bioLink: BIOLINK_DISCOGS,
   },
   { 
@@ -1507,7 +1510,7 @@ export const rawArtistList = [
       tags.HIP_HOP
     ],
     discogsId: "3214-DJ-Spooky",
-    bio: "Paul Dennis Miller (born September 6, 1970), known professionally as DJ Spooky, That Subliminal Kid, is an American electronic and experimental hip hop musician whose work is often called by critics \"illbient\" or \"trip hop\".  He borrowed his stage name from the character The Subliminal Kid in the novel Nova Express by William S. Burroughs.  His broad catalog spans across many genres ranging from psychedelic abstract jazz  and ambient reggae to old school hip hop and drum and bass.  The themes he explores are as diverse as musical styles, from controversial social, political and historical issues to more cerebral topics of consciousness and existentialism.",
+    bio: "Paul Dennis Miller (born September 6, 1970), known professionally as DJ Spooky, That Subliminal Kid, is an American electronic and experimental hip hop musician whose work is often called by critics \"illbient\" or \"trip hop\".  He borrowed his stage name from the character The Subliminal Kid in the novel Nova Express by William S. Burroughs.  His broad catalog spans across many genres ranging from psychedelic abstract jazz  and ambient reggae to old school hip hop and drum and bass.  The themes he explores are as diverse as musical styles, from controversial social, political and historical issues to more cerebral topics of consciousness and existentialism.",
     bioLink: "https://en.wikipedia.org/wiki/DJ_Spooky",
   },
   { 
@@ -1759,7 +1762,7 @@ export const rawArtistList = [
       tags.DETROIT_TECHNO
     ],
     discogsId: "2063-DJ-Rush",
-    bio: "Isaiah Major (born January 9, 1970 in Chicago, Illinois) best known as DJ Rush, is an American musician, DJ and record producer of electronic music.  In the blooming house scene of Chicago, DJ Rush quickly rose to prominence in the electronic music genre, known for his dirty analog drum programming and flamboyant haunting vocal style. He made his first appearances as a DJ in the Chicago clubs Music Box, the Powerhouse and the Warehouse where he played his sets for up to ten hours.  In 1991 DJ Rush released his first single (\"Knee Deep\") on the label Trax Records, and has since released material on many iconic electronic music labels including Dance Mania, Relief Records and his own Kne’ Deep pressing.",
+    bio: "Isaiah Major (born January 9, 1970 in Chicago, Illinois) best known as DJ Rush, is an American musician, DJ and record producer of electronic music.  In the blooming house scene of Chicago, DJ Rush quickly rose to prominence in the electronic music genre, known for his dirty analog drum programming and flamboyant haunting vocal style. He made his first appearances as a DJ in the Chicago clubs Music Box, the Powerhouse and the Warehouse where he played his sets for up to ten hours.  In 1991 DJ Rush released his first single (\"Knee Deep\") on the label Trax Records, and has since released material on many iconic electronic music labels including Dance Mania, Relief Records and his own Kne’ Deep pressing.",
     bioLink: "https://en.wikipedia.org/wiki/DJ_Rush",
   },
   // {
@@ -1834,8 +1837,8 @@ export const rawArtistList = [
       tags.HOUSE_HEAD
     ],
     discogsId: "322545-Jody-Fingers-Finch",
-    bio: "",
-    bioLink: "",
+    bio: "Jody \"Fingers\" Finch released a couple house music 12\"s in the late 80s whose few available copies are still highly sought after.  In 2009, Chicago label Let's Pet Puppies re-released an EP of his early work including the previously unreleased deep house masterpiece \"Whistle Worm\".",
+    bioLink: BIOLINK_ORIGINAL,
   },
   {
     name: "Brian Bennett",
@@ -2057,7 +2060,7 @@ export const rawArtistList = [
       tags.SOUNDTRACK,
     ],
     discogsId: "132317-Geoff-Bastow",
-    bio: "Bastow (born 20 May 1949 in Yorkshire, England), was a Munich-based English songwriter and record producer.  Originally working as a guitarist and pianist in dance bands around Yorkshire, he moved to London in the early 1970s, and then Munich in around 1976. He collaborated with disco/electronic innovator Giorgio Moroder around that era. He wrote songs for artists including Elton John  and Suzi Lane.  Aside from his main work as K.I.D., he has also worked as a session musician for Euro disco acts such as Amanda Lear (1981 album Incognito), Boney M (1981 album Boonoonoonoos), Mick Jackson and Gary Lux.",
+    bio: "Bastow (born 20 May 1949 in Yorkshire, England), was a Munich-based English songwriter and record producer. He collaborated with disco/electronic innovator Giorgio Moroder and wrote songs for artists including Elton John  and Suzi Lane.  Aside from his main work as K.I.D., he has also worked as a session musician for Euro disco acts such as Amanda Lear (1981 album Incognito), Boney M (1981 album Boonoonoonoos), Mick Jackson and Gary Lux.",
     bioLink: BIOLINK_DISCOGS
   },    
   {
@@ -2074,7 +2077,7 @@ export const rawArtistList = [
       tags.KRAUTROCK
     ],
     discogsId: "12589-Throbbing-Gristle",
-    bio: "Throbbing Gristle were an English music and visual arts group formed in 1975 in Kingston upon Hull by Genesis P-Orridge, Cosey Fanni Tutti, Peter Christopherson, and Chris Carter. They are widely regarded as pioneers of industrial music. Evolving from the experimental performance art group COUM Transmissions, Throbbing Gristle made their public debut in October 1976 on COUM exhibition Prostitution, and released their debut single \"United/Zyklon B Zombie\" and debut album The Second Annual Report the following year. Lyrical themes mainly revolved around mysticism, extremist political ideologies, sexuality, dark or underground aspects of society, and idiosyncratic manipulation of language.",
+    bio: "Throbbing Gristle were an English music and visual arts group formed in 1975 in Kingston upon Hull by Genesis P-Orridge, Cosey Fanni Tutti, Peter Christopherson, and Chris Carter. They are widely regarded as pioneers of industrial music. Evolving from the experimental performance art group COUM Transmissions, Throbbing Gristle made their public debut in October 1976 on COUM exhibition Prostitution.  Lyrical themes mainly revolved around mysticism, extremist political ideologies, sexuality, dark or underground aspects of society, and idiosyncratic manipulation of language.",
     bioLink: BIOLINK_DISCOGS,
   },   
   {
@@ -2088,7 +2091,7 @@ export const rawArtistList = [
       tags.HOUSE_HEAD
     ],
     discogsId: "227131-Patricia-Harris",
-    bio: "Pop Vocalist Patricia Harris released one single in 1984 and then disappeared off the face of the earth.  The rare Italo influenced disco cover of Hot Chocolate's funk rock tune “Heaven Is…” became a underground favorite of the Chicago house scene influenced by DJs like the WBMX Hot Mix 5.",
+    bio: "Pop Vocalist Patricia Harris released one single in 1984 and then split.  The rare Italo influenced disco cover of Hot Chocolate's funk rock tune “Heaven Is…” became a underground favorite of the Chicago house scene influenced by DJs like the WBMX Hot Mix 5.",
     bioLink: BIOLINK_ORIGINAL,
   },   
   {
@@ -2125,9 +2128,9 @@ export const rawArtistList = [
     youtubeClips: [
       { videoId: "MevnBuhtvRk" },
       { videoId: "7TnIoa8BkGg" }, 
+      { videoId: "7VDbsMwbaAc" },
       { videoId: "9rVOkV3DDgM" },
       // { videoId: "D7Oo_ekaIN4" },
-      { videoId: "7VDbsMwbaAc" },
       { videoId: "VwAmmDwcmFE" },
       { videoId: "tYLNm1Ifbfo" },
     ],
@@ -2135,7 +2138,7 @@ export const rawArtistList = [
       tags.DETROIT_TECHNO,
     ],
     discogsId: "205-Jeff-Mills",
-    bio: "In the late 1980s Jeff Mills (born June 18, 1963, in Detroit, Michigan) founded the techno collective Underground Resistance with fellow Detroit techno producers 'Mad' Mike Banks and Robert Hood, but left the group in the early 90s.  Mills founded Axis Records in 1992 where he has since  released much of his solo work.  Mills is known for a wide range of electronic styles from hard hitting rhythmic techno to ambient sci-fi soundtrack pieces, reminiscent of early science fiction worlds in films like Fritz Lang’s \”Metropolis\”.   He has since collaborated with artists across a wide range of genres including renowned afro-beat drummer Tony Allen and the Montpelier Philharmonic Orchestra.",
+    bio: "In the late 1980s Jeff Mills (born June 18, 1963, in Detroit, Michigan) founded the legendary techno collective Underground Resistance, but left the group in the early 90s to start his own Axis Records imprint.  Mills is known for a wide range of electronic styles from hard hitting rhythmic techno to ambient sci-fi soundtrack pieces, reminiscent of early science fiction worlds in films like Fritz Lang’s \”Metropolis\”.   He has since collaborated with artists across a wide range of genres including renowned afro-beat drummer Tony Allen and the Montpelier Philharmonic Orchestra.",
     bioLink: BIOLINK_DISCOGS,
   },   
   {
@@ -2215,8 +2218,8 @@ export const rawArtistList = [
       tags.LATIN,
     ],
     discogsId: "320472-AKT",
-    bio: "",
-    bioLink: "",
+    bio: "Brazilian post-punk act Akt is credited with one album that may or may not have come out in the late 70’s.  Little information about the group has survived the decades, and is certainly likely this band is another Mandela affect case. ",
+    bioLink: BIOLINK_ORIGINAL,
   },
   {
     name: "Doctor's Cat",
@@ -2383,7 +2386,7 @@ export const rawArtistList = [
       tags.LATIN,
     ],
     discogsId: "186782-Koçani-Orkestar",
-    bio: "The Kočani Orkestar, one of the most innovative and original Balkan brass bands, comes from the city of Kočani (Kochani), in the Republic Of Macedonia.  The Orkestar's musical style, described in their region as Romska Orientalna Musika ('Oriental Gypsy music'), combines a variety of influences: traditional dance music from Bulgaria, Romania, Serbia, Turkish/Bulgarian rhythms, elements of rumba and salsa, and even Indian film music. True to the multicultural, multilingual nature of the Balkans, it contains lyrics in Macedonian (Slavic), in Romani (a Gypsy language, related to Hindi), and in a Turkish dialect spoken by the Gypsy community of Kočani.",
+    bio: "The Kočani Orkestar, one of the most innovative and original Balkan brass bands, comes from the city of Kočani (Kochani), in the Republic Of Macedonia.  The Orkestar's musical style, described in their region as Romska Orientalna Musika ('Oriental Gypsy music'), combines a variety of influences: traditional dance music from Bulgaria, Romania, Serbia, Turkish/Bulgarian rhythms, elements of rumba and salsa, and even Indian film music. True to the multicultural, multilingual nature of the Balkans, it contains lyrics in Macedonian (Slavic), in Romani (a Gypsy language, related to Hindi), and in a Turkish dialect spoken by the Gypsy community of Kočani.",
     bioLink: BIOLINK_DISCOGS,
   },
   {
@@ -2569,7 +2572,7 @@ export const rawArtistList = [
       tags.PSYCHEDELIC_JAZZ,
     ],
     discogsId: "274439-Howard-Wales",
-    bio: "Howard Wales (February 8, 1943 – December 7, 2020) was an American keyboardist. He was a collaborator with Jerry Garcia in the early 1970s.  Wales was a session player for many musical acts, including Ronnie Hawkins, Freddie King, James Brown, and the Four Tops. Though he was adept at accompanying rock and R&B artists, he also played free-form jazz. Later in his career he released several solo albums in this style. For several months in 1970, Wales led Monday night jazz-rock jam sessions at the Matrix, a club in San Francisco. Jerry Garcia usually played guitar at these free-form performances.  A studio album called Hooteroll?, with these musicians and others, and featuring music composed mostly by Wales, was released in 1971.",
+    bio: "Howard Wales (February 8, 1943 – December 7, 2020) was an American keyboardist. He was a collaborator with Jerry Garcia in the early 1970s.  Wales was a session player for many musical acts, including Ronnie Hawkins, Freddie King, James Brown, and the Four Tops. Though he was adept at accompanying rock and R&B artists, he also played free-form jazz. Later in his career he released several solo albums in this style. For several months in 1970, Wales led Monday night jazz-rock jam sessions at the Matrix, a club in San Francisco. Jerry Garcia usually played guitar at these free-form performances.",
     bioLink: "https://en.wikipedia.org/wiki/Howard_Wales"
   },  
   {

@@ -36,7 +36,7 @@ const ArtistMarqueeWrapper = styled.div`
 `;
 
 const ArtistTitleBar = styled.div`
-  margin-bottom: 1vw;
+  margin-bottom: .75vw;
   
   h2 {
     font-size: 1.75rem;
