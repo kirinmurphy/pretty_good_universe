@@ -1,28 +1,4 @@
-export const tags = {
-  FEMME_PUNK: "femmePunks",
-  HOUSE_HEAD: "houseHeads",
-  HIP_HOP_SAMPLE_SOURCE: "hipHopSampleSources",
-  ELECTRONICA: "electronicas",
-  BLUES: "bluess",
-  SOUNDTRACK: "soundtrack",
-  PSYCHEDELIC_FUNK: "psychedelicFunk",
-  PSYCHEDELIC_JAZZ: "psychedelicJazz",
-  PSYCHEDELIC_ROCK: "psychedelicRock",
-  KRAUTROCK: "krautRock",
-  AFRICAN: "african",
-  HIP_HOP: "hipHop",
-  DUB: "dub",
-  FOLK: "folk",
-  DETROIT_TECHNO: "detroitTechno",
-  LATIN: "latin",
-  SURF_ROCK: "surfRock",
-  DISCO: "disco",
-  NO_WAVES: "noWaves",
-  FEMME_FATALE: "femmeFatale"
-};
-
-export const BIOLINK_DISCOGS = 'discogs';
-export const BIOLINK_ORIGINAL = 'original';
+import { tags, BIOLINK_DISCOGS, BIOLINK_ORIGINAL } from './artistList_tags';
 
 export const rawArtistList_full = [
   { 
@@ -1718,7 +1694,7 @@ export const rawArtistList_full = [
       tags.NO_WAVES, 
     ],
     discogsId: "143301-Glenn",
-    bio: "If I knew Glenn was actually a human musician from this timeline, I’d maybe be able to tell you that she's a German musician child of African immigrants that released two electro punk albums between 1981-82. I might tell you that her sound was heavily influenced by the post-disco, post-punk scenes in NY and London.  I might tell you she used to open for D.A.F. or Liaisons Dangerous and that newspapers called her the German Grace Jones because of her exgaggerated and adrogynous persona.  But I can’t.  Because there’s literally nothing about this \”person\” online.   alien?  Time traveller?  Another Mandela effect effect?  Hard to say.  But something’s going on.  ",
+    bio: "If I knew Glenn was actually a human musician from this timeline, I’d maybe be able to tell you that she's a German musician, child of African immigrants that released two electro punk albums between 1981-82. I might tell you that her sound was heavily influenced by the post-disco, post-punk scenes in NY and London.  I might tell you she used to open for D.A.F. or Liaisons Dangerous and that newspapers called her the German Grace Jones because of her exgaggerated and adrogynous persona.  But I can’t.  Because there’s literally nothing about this \”person\” online.   alien?  Time traveller?  Another Mandela effect effect?  Hard to say.  But something’s going on.  ",
     bioLink: BIOLINK_ORIGINAL,
   },
   {
@@ -3010,8 +2986,9 @@ export const rawArtistList_full = [
       { videoId: "JJ8SZDc0DeI" },
       { videoId: "k7lJ8kNwK_0" },
       { videoId: "3rLUhgrDL30" },
-      { videoId: "WK1CA5MxDUI" },
+      { videoId: "lNvdfxPiqV4" },
       { videoId: "eHjMDGjgWQg" },
+      { videoId: "WK1CA5MxDUI" },
     ],
     tags: [
       tags.HIP_HOP_SAMPLE_SOURCE,
@@ -3054,21 +3031,23 @@ export const rawArtistList_full = [
     bio: "Translating simply to \"Erotic Pleasures,\" this talented obscure french trio released several albums some time in the 70s, all centered around \"gettin it on,\" backed by heavy funk, electronic and jazz influences.  Rumor has it that the music was commissioned for a real adult film series, but the score was rejected when the performes just wanted to stop screwing mid-scene to smoke a little pot and listen to the rest of the album.",
     bioLink: BIOLINK_ORIGINAL,
   },
-];
-
-
-export const rawArtistList_onDeck = [
- {
-    name: "",
-    from: "",
+  { 
+    name: "Peaches",
+    from: "Canada",
     youtubeClips: [
-      { videoId: "" },
-      { videoId: "" },
+      { videoId: "nsaByj3dn78" },
+      { videoId: "eVNhAG7Xzm4" },
+      { videoId: "31kYXDJenSg" },
+      { videoId: "t0YNTdEA1-w" },
+      { videoId: "ayMpqm4Ec5o" },
+      { videoId: "TdEh1yiTj00" },
     ],
     tags: [
+      tags.FEMME_PUNK,
+      tags.ELECTRONICA,
     ],
-    discogsId: "",
-    bio: "",
-    bioLink: "",
-  },
-];
+    discogsId: "18692-Peaches",
+    bio: "Merrill Nisker aka Peaches (born 11 November 1966), is a Canadian musician, producer, filmmaker, actress, and performance artist.  She was the first crossover artist of the early 2000s punk-infused electroclash movement.   Her gritty, low-fi, oversexualized productions pushed back against the more polished, lush dance music of the era and helped create a new energy and appetite for the dance music scene.  Years before the trans movement gained it’s current level of public attention, Peaches was one of the most public faces of gender non-conformity, often blurring the lines between men and women in her songs and performances.",
+    bioLink: BIOLINK_ORIGINAL,
+  },];
+
