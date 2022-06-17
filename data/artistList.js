@@ -1,6 +1,8 @@
-import {  rawArtistList_full, rawArtistList_onDeck } from './artistList_content';
+import { rawArtistList_full } from './artistList_full';
+import { rawArtistList_onDeck } from './artistList_onDeck';
 
-console.log('rawArtistList_full', rawArtistList_full);
+const env = process.env.NODE_ENV;
+const inDevelopment = env === 'development';
 
-export const rawArtistList = rawArtistList_full;
-// export const rawArtistList = rawArtistList_onDeck;
+export const rawArtistList = inDevelopment 
+  ? rawArtistList_onDeck : rawArtistList_full;
