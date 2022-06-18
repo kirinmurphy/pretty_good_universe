@@ -88,6 +88,7 @@ export const rawArtistList_full = [
     discogsId: "148-Larry-Heard",
     youtubeClips: [
       { videoId: "Z9o2v3SA1Co" },
+      { videoId: "d_rll9Xi1S4" },
       // { videoId: "tFuujExs03A" },
       { videoId: "OYyBrXEdxxc" },
       { videoId: "y9rFjydgiFA" },
@@ -460,7 +461,7 @@ export const rawArtistList_full = [
     from: "Peru",
     youtubeClips: [
       { videoId: "f-_xgHGQJNQ" },
-      // what was the other one? 
+      { videoId: "Mfqcwb83Rkg" },
     ],
     tags: [tags.LATIN],
     discogsId: "865862-Los-Destellos",
@@ -798,6 +799,7 @@ export const rawArtistList_full = [
       { videoId: "ZlgwVah6q5A" },
       { videoId: "Ns81IBZmTUM" },
       { videoId: "QiCOqYJpSno" },
+      { videoId: "DmjmxnZZmEs" },
       { videoId: "vnFrWrAAvR8" },
     ],
     tags: [tags.ELECTRONICA, tags.KRAUTROCK],
@@ -2036,6 +2038,7 @@ export const rawArtistList_full = [
     youtubeClips: [
       { videoId: "TEJDKpjVCXU" },
       { videoId: "9vEvGUQgtKs" },
+      { vidoeId: "_LB8lK5Q8ck" },
     ],
     tags: [
       tags.SOUNDTRACK,
@@ -3004,10 +3007,11 @@ export const rawArtistList_full = [
   {
     name: "Anne Clark",
     from: "England",
-    youtubeClips: [
+    youtulackeClips: [
       { videoId: "8rl8-Yo2W5U" },
       { videoId: "b6ASPWIXSxk" },
       { videoId: "ELkoSXmosA4" },
+      { videoId: "OguHIyNNblM" },
     ],
     tags: [
       tags.ELECTRONICA,
@@ -3049,5 +3053,87 @@ export const rawArtistList_full = [
     discogsId: "18692-Peaches",
     bio: "Merrill Nisker aka Peaches (born 11 November 1966), is a Canadian musician, producer, filmmaker, actress, and performance artist.  She was the first crossover artist of the early 2000s punk-infused electroclash movement.   Her gritty, low-fi, oversexualized productions pushed back against the more polished, lush dance music of the era and helped create a new energy and appetite for the dance music scene.  Years before the trans movement gained it’s current level of public attention, Peaches was one of the most public faces of gender non-conformity, often blurring the lines between men and women in her songs and performances.",
     bioLink: BIOLINK_ORIGINAL,
-  },];
-
+  },
+  {
+    name: "Jamie Principle",
+    from: "Chicago",
+    youtubeClips: [
+      { videoId: "3PuP6lgah_M" },
+      { videoId: "T3ChyhbJ4oo" },
+      { videoId: "c1NzlSOn0_U" },
+      // { videoId: "wmtWTfqvEQ0" },
+      { videoId: "bu8hVn_0Lq4" },
+    ],
+    tags: [
+      tags.HOUSE_HEAD
+    ],
+    discogsId: "6681-Jamie-Principle",
+    bio: "Jamie Principle was a pioneer of house music when the genre began in Chicago in the early 1980s. \"Jamie Principle got us all into the music,\" Marshall Jefferson told i-D in 1986. \"He was the first one to record house and get played by Frankie Knuckles, but by the time he got a record out everyone had ripped off all his ideas.  People have got national recognition copying his songs note-for-note, but no one has heard of him.\"  Jamie's music continued to be released throughout the 1980s but often credited Frankie Knuckles as the artist. ",
+    bioLink: "https://en.wikipedia.org/wiki/Jamie_Principle",
+  },
+  {
+    name: "Dorothy Ashby",
+    from: "Detroit",
+    youtubeClips: [
+      { videoId: "0kxuAZictJ4" },
+      { videoId: "IaQ-c4QhJnk" },
+    ],
+    tags: [
+      tags.PSYCHEDELIC_JAZZ,
+      tags.HIP_HOP_SAMPLE_SOURCE
+    ],
+    discogsId: "91960-Dorothy-Ashby",
+    bio: "Dorothy Jeanne Thompson (August 6, 1932 – April 13, 1986), better known as Dorothy Ashby, was an American jazz harpist and composer. Hailed as one of the most \"unjustly under loved jazz greats of the 1950s\" and the \"most accomplished modern jazz harpist,\" Ashby established the harp as an improvising jazz instrument, beyond earlier use as a novelty or background orchestral instrument, proving the harp could play bebop as adeptly as the instruments commonly associated with jazz, such as the saxophone or piano.",
+    bioLink: "https://en.wikipedia.org/wiki/Dorothy_Ashby",
+  },
+  {
+    name: "Grooverider",
+    from: "England",
+    youtubeClips: [
+      { videoId: "9PwTwzhk3uI" },
+      { videoId: "52rouSzhCck" },
+      { videoId: "7fsZV4-kg3M" },
+      { videoId: "qeZ4dB3sOnQ" },
+    ],
+    tags: [
+      tags.ELECTRONICA
+    ],
+    discogsId: "1244-Grooverider",
+    bio: "Raymond Bingham aka Grooverider (born 16 April 1967 in Streatham, London), is a British drum and bass DJ. He and DJ partner Fabio are regarded as \"originators\" of the scene.  Grooverider began his DJing at illegal raves and warehouse parties in the UK in the late 1980s, and rose to prominence through his sets at club nights such as the groundbreaking Rage at Heaven.  As a recording artist, Grooverider has released one album, Mysteries of Funk (Sony 1998), produced in conjunction with fellow drum and bass luminary Optical.",
+    bioLink: "https://en.wikipedia.org/wiki/Grooverider",
+  },
+  {
+    name: "Mahavishnu Orchestra",
+    from: "England",
+    youtubeClips: [
+      { videoId: "GWT6xt6QMpQ" },
+      { videoId: "ZSh0nmretso" },
+      { videoId: "5mdGCqZTres" },
+      { videoId: "JtcRdEoGJ_I" },      
+      { videoId: "oYz0E2qY100" },
+    ],
+    tags: [
+      tags.PSYCHEDELIC_ROCK,
+      tags.PSYCHEDELIC_JAZZ
+    ],
+    discogsId: "70826-Mahavishnu-Orchestra",
+    bio: "One of the premiere fusion groups of the 70s, the Mahavishnu Orchestra was considered by most observers during its prime to be a rock band, but its sophisticated improvisations actually put its high-powered music between rock and jazz. Founder and leader John McLaughlin had recently played with Miles Davis and Tony Williams' Lifetime. The original lineup of the group was McLaughlin on electric guitar, violinist Jerry Goodman, keyboardist Jan Hammer, electric bassist Rick Laird, and drummer Billy Cobham.",
+    bioLink: BIOLINK_DISCOGS,
+  },
+  {
+    name: "Franco Micalizzi",
+    from: "Italy",
+    youtubeClips: [
+      { videoId: "FiXpkBLrRfs" },
+      // { videoId: "" },
+    ],
+    tags: [
+      tags.HIP_HOP_SAMPLE_SOURCE,
+      tags.SOUNDTRACK,
+      tags.FEMME_FATALE
+    ],
+    discogsId: "157482-Franco-Micalizzi",
+    bio: "Franco Micalizzi was born in Rome December 21 1939. After composing a few soundtracks in the end of the sixties, he gained success in 1970 with the music for “Lo chiamavano Trinita’...” (My Name Is Trinity). During the seventies, he became one of the most prolific composers of Italian film music, scoring cult classics like “Roma a mano armata” (Rome Armed to the Teeth), “Napoli violenta” (Violent Naples) and “Chi Sei?” (Beyond the Door).",
+    bioLink: BIOLINK_DISCOGS,
+  },
+];
