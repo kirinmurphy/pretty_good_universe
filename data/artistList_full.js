@@ -2669,7 +2669,7 @@ export const rawArtistList_full = [
       tags.FEMME_PUNK,
     ],
     discogsId: "17199-Sonic-Youth",
-    bio: "Sonic Youth were formed in New York City in 1981. A product of the No-Wave music scene of the late 1970s, the group had their roots in abrasive, experimental music, with Moore and Ranaldo having previously worked with the experimental composer Glenn Branca. The band were joined in 1985 by drummer Steve Shelley, and recorded 15 albums together, as well as many side and solo projects.  The band was one of the few that came out of the early 80s NY scene who had long term commercial succes well into the 90s.",
+    bio: "Sonic Youth were formed in New York City in 1981. A product of the No-Wave music scene of the late 1970s, the group had their roots in abrasive, experimental music, with Moore and Ranaldo having previously worked with the experimental composer Glenn Branca. The band were joined in 1985 by drummer Steve Shelley, and recorded 15 albums together, as well as many side and solo projects.  The band was one of the few that came out of the early 80s NY scene with long term commercial succes well into the 90s.",
     bioLink: BIOLINK_DISCOGS,
   }, 
   {
@@ -2722,7 +2722,6 @@ export const rawArtistList_full = [
       { videoId: "HXAoo1DsRnI" },
     ],
     tags: [
-      tags.NO_WAVES,
       tags.DISCO,
     ],
     discogsId: "15971-Charlie",

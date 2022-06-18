@@ -15,6 +15,7 @@ import { tags, BIOLINK_DISCOGS, BIOLINK_ORIGINAL } from './artistList_tags';
 
 
 export const rawArtistList_onDeck = [
+  {}
 ];
 
 const template = [
