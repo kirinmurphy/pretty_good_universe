@@ -97,7 +97,7 @@ export const rawArtistList_full = [
 
     ],
     tags: [tags.HOUSE_HEAD, tags.DETROIT_TECHNO],
-    bio: "Born on the South Side of Chicago on May 31st 1960. Larry Heard is an USA DJ, producer and musician, playing drums in various bands between 1977 & 1984. He left bands in 1984, purchased a keyboard, a drum machine and composed deep house classics \"Mystery Love\" and \"Washing Machine\". Since 1986, Larry Heard produced several dance hits, as well as underground, deep house and ambient albums.",
+    bio: "Born on the South Side of Chicago on May 31st 1960. Larry Heard is an USA DJ, producer and musician, playing drums in various bands between 1977 & 1984. He left bands in 1984, purchased a keyboard, a drum machine and composed deep house classics \"Mystery Love\" and \"Washing Machine\". Since 1986, Larry Heard produced several dance hits, as well as underground, deep house and ambient albums. As founder of the influential group Fingers Inc. along with Ron Wilson and Robert Owens, he is widely known as a pioneering figure in 1980s Chicago House music. ",
     bioLink: BIOLINK_DISCOGS,
   },
   { 
@@ -1696,7 +1696,7 @@ export const rawArtistList_full = [
       tags.NO_WAVES, 
     ],
     discogsId: "143301-Glenn",
-    bio: "If I knew Glenn was actually a human musician from this timeline, I’d maybe be able to tell you that she's a German musician, child of African immigrants that released two electro punk albums between 1981-82. I might tell you that her sound was heavily influenced by the post-disco, post-punk scenes in NY and London.  I might tell you she used to open for D.A.F. or Liaisons Dangerous and that newspapers called her the German Grace Jones because of her exgaggerated and adrogynous persona.  But I can’t.  Because there’s literally nothing about this \”person\” online.   alien?  Time traveller?  Another Mandela effect effect?  Hard to say.  But something’s going on.  ",
+    bio: "If I knew Glenn was actually a human musician from this timeline, I’d maybe be able to tell you that she's a German musician, child of African immigrants that released two electro punk albums between 1981-82. I might tell you that her sound was heavily influenced by the post-disco, post-punk scenes in NY and London.  I might tell you she used to open for D.A.F. or Liaisons Dangerous and that newspapers called her the German Grace Jones because of her exgaggerated and adrogynous persona.  But I can’t.  Because there’s literally nothing about this \”person\” online.   Alien?  Time traveller?  Another Mandela effect effect?  Hard to say.  But something’s going on.  ",
     bioLink: BIOLINK_ORIGINAL,
   },
   {
@@ -2038,7 +2038,7 @@ export const rawArtistList_full = [
     youtubeClips: [
       { videoId: "TEJDKpjVCXU" },
       { videoId: "9vEvGUQgtKs" },
-      { vidoeId: "_LB8lK5Q8ck" },
+      { vidoeId: "RnedDTuqo78" },
     ],
     tags: [
       tags.SOUNDTRACK,
@@ -2152,7 +2152,6 @@ export const rawArtistList_full = [
       // { videoId: "YWg_HOs9j4k" },
     ],
     tags: [
-      tags.KRAUTROCK,
       tags.DISCO,
       tags.NO_WAVES,
     ],
@@ -2216,7 +2215,7 @@ export const rawArtistList_full = [
       tags.DISCO,
     ],
     discogsId: "15979-Doctors-Cat",
-    bio: "In 1983, Italian musician Aldo Martinelli and American born singer Simona Zanini began making music inspired by American disco and European electronic music that (along with major artists like Giorgio Moroder), became one of the major early influences of the Italo Disco sound.  Their singles were popular throughout Europe and also had a big influence on the early Chicago house scene (played by legendary DJ Ron Hardy among others).  Producing literally some of the most 80s sounding music possible, their first releases became popular enough that they started using different band names just to feed the demand.  For this reason several models were hired for television appearances and playback in disco or music shows. Among the stage names: Doctor's Cat, the duo Martinelli, Topo & Roby and Moon Ray.",
+    bio: "In 1983, Italian musician Aldo Martinelli and American born singer Simona Zanini began making music inspired by American disco and European electronic music.  Along with major artists like Giorgio Moroder, they became one of the major early influences of the Italo Disco sound.  Their singles were popular throughout Europe and also had a big influence on the early Chicago house scene (played by legendary DJ Ron Hardy among others).  Producing literally some of the most 80s sounding music possible, their first releases became popular enough that they started using different band names just to feed the demand.  For this reason several models were hired for television appearances and playback in disco or music shows. Among the stage names: Doctor's Cat, the duo Martinelli, Topo & Roby and Moon Ray.",
     bioLink: "http://www.martinellizanini.com/bio_2.html",
   },
   {
@@ -2556,7 +2555,7 @@ export const rawArtistList_full = [
       tags.PSYCHEDELIC_JAZZ,
     ],
     discogsId: "274439-Howard-Wales",
-    bio: "Howard Wales (February 8, 1943 – December 7, 2020) was an American keyboardist. He was a collaborator with Jerry Garcia in the early 1970s.  Wales was a session player for many musical acts, including Ronnie Hawkins, Freddie King, James Brown, and the Four Tops. Though he was adept at accompanying rock and R&B artists, he also played free-form jazz. Later in his career he released several solo albums in this style. For several months in 1970, Wales led Monday night jazz-rock jam sessions at the Matrix, a club in San Francisco. Jerry Garcia usually played guitar at these free-form performances.",
+    bio: "Howard Wales (Feb 8, 1943 – Dec 7, 2020) was an American keyboardist. Wales was a session player for many musical acts, including Ronnie Hawkins, Freddie King, James Brown, and the Four Tops.  He was also a collaborator with Jerry Garcia in the early 1970s.   Though he was adept at accompanying rock and R&B artists, he also played free-form jazz. Later in his career he released several solo albums in this style. For several months in 1970, Wales led Monday night jazz-rock jam sessions at the Matrix, a club in San Francisco. Jerry Garcia usually played guitar at these free-form performances.",
     bioLink: "https://en.wikipedia.org/wiki/Howard_Wales"
   },  
   {
@@ -3006,7 +3005,7 @@ export const rawArtistList_full = [
   {
     name: "Anne Clark",
     from: "England",
-    youtulackeClips: [
+    youtubeClips: [
       { videoId: "8rl8-Yo2W5U" },
       { videoId: "b6ASPWIXSxk" },
       { videoId: "ELkoSXmosA4" },
