@@ -23,9 +23,9 @@ export const rawArtistList_full = [
     name: "Lydia Lunch" ,
     from: "New York",
     youtubeClips: [
+      { videoId: "tYeyVHOz950" }, 
       { videoId: "OnyL0h40z7g" },
       { videoId: "GiowCFfejH8" }, 
-      { videoId: "tYeyVHOz950" }, 
       { videoId: "AlS6GC11Wi0" }, 
       { videoId: "Qr2Kde2uuXs" }, 
       { videoId: "Iip3yTTWVZI" },
@@ -38,7 +38,7 @@ export const rawArtistList_full = [
     ],
     tags: [tags.FEMME_PUNK],
     discogsId: "10290-Lydia-Lunch",
-    bio: "Lydia Lunch, born 2 June 1959 in Rochester, New York, USA, is arguably one of the mostly quintessential artists of the early 80’s New York post-punk music scene.  Her musical output spans across endless genres, often taking more traditional styles and classic songs and reinterpreting them through her unmistakably absurdist lens.  She has shared the stage with many influential contemporaries including James Chance and Nick Cave.",
+    bio: "Lydia Lunch, born 2 June 1959 in Rochester, New York, USA, is arguably one of the mostly quintessential artists of the early 80’s New York post-punk music scene.  Her musical output spans across endless genres, often taking more traditional styles and classic songs and reinterpreting them through her unmistakably absurdist lens.    She has shared the stage and recorded music with many influential contemporaries including James Chance and Nick Cave.",
     bioLink: BIOLINK_DISCOGS,
   },
   { 
@@ -79,7 +79,7 @@ export const rawArtistList_full = [
     ],
     discogsId: "5451-David-Axelrod",
     tags: [tags.HIP_HOP_SAMPLE_SOURCE],
-    bio: "David Axelrod (April 17, 1931 – February 5, 2017) was an American composer, arranger, and producer. After starting out as a staff producer for record companies specializing in jazz, Axelrod embarked on a solo career and released several albums during the 1970s that showcased his characteristic sound, which combined heavily microphoned drums and baroque orchestration, and avant garde themes ranging from the environment to heightened mental awareness. With his early solo projects, Axelrod was one of the first recording artists to fuse elements of jazz, rock, and R&B.",
+    bio: "David Axelrod (April 17, 1931 – February 5, 2017) was an American composer, arranger, and producer. After starting out as a staff producer for record companies specializing in jazz, Axelrod embarked on a solo career and released several albums during the 1970s that showcased his characteristic sound, which combined heavily microphoned drums and baroque orchestration, and avant garde themes ranging from the environment to heightened mental awareness. With his early solo projects, Axelrod was one of the first recording artists to fuse elements of jazz, rock, and R&B.  His work found a new audience decades later thanks to the sampling of his music by many notable hip hop producers including Dr. Dre and DJ Shadow.",
     bioLink: "https://en.wikipedia.org/wiki/David_Axelrod_(musician)",
   },
   { 
@@ -371,8 +371,8 @@ export const rawArtistList_full = [
     name: "Sun Ra",
     from: "Alabama",
     youtubeClips: [
-      { videoId: "uuirXgyT_-s" },
       { videoId: "gZwfxT19qWc" },
+      { videoId: "uuirXgyT_-s" },
       { videoId: "4rUix7ZFTTQ" },
       { videoId: "xz3o__1uAFo" },
       { videoId: "j2FnIzSf48k" },
@@ -393,10 +393,9 @@ export const rawArtistList_full = [
     tags: [
       tags.HOUSE_HEAD, 
       tags.DISCO,
-      tags.NO_WAVES,
     ],
     discogsId: "2686-Ron-Hardy",
-    bio: "Ron Hardy is the only man who can test Frankie Knuckles' status as Godfather of Chicago House Music.  Though he rarely recorded under his own name and left little evidence of his life, Hardy was the major name for Chicago's dance music from the late '70s to the mid-'80s.  While Knuckles was translating disco and the emerging house music to a straight, southside audience at the Power Plant, Hardy's 72-hour mix sessions and flamboyant party lifestyle fit in well with the uptown, mostly gay audience at the Muzic Box. A roll-call of major Chicago producers all debuted their compositions by pressing up acetates or reel-to-reel copies for Hardy to play during the mid-'80s.  Lingering problems with heroin addiction forced him to leave the Muzic Box around 1986 and though he continued to DJ around the area, wasn't around when Chicago became house music's mecca later in the decade.",
+    bio: "Ron Hardy is the only man who can test Frankie Knuckles' status as Godfather of Chicago House Music.  Though he rarely recorded under his own name and left little evidence of his life, Hardy was the major name for Chicago's dance music from the late '70s to the mid-'80s.  While Knuckles was translating disco and the emerging house music to a straight, southside audience at the Power Plant, Hardy's 72-hour mix sessions and flamboyant party lifestyle fit in well with the uptown, mostly gay audience at the Muzic Box. A roll-call of major Chicago producers all debuted their compositions by pressing up acetates or reel-to-reel copies for Hardy to play during the mid-'80s.  Lingering problems with heroin addiction forced him to leave the Muzic Box in 1986 and though he continued to DJ around the area, wasn't around when Chicago became house music's mecca later in the decade.",
     bioLink: BIOLINK_DISCOGS,
   },
   { 
@@ -899,6 +898,7 @@ export const rawArtistList_full = [
     from: "Chicago",
     youtubeClips: [
       { videoId: "8vsMh8sPwjI" },
+      { videoId: "d4CoDzIfF50" },
       { videoId: "3_5oRtBDtfg" },
       { videoId: "Kfwxz-SSmBM" },
       { videoId: "ajuz6u-nADY" },
@@ -909,7 +909,6 @@ export const rawArtistList_full = [
       // { videoId: "0gVJJgDFUvM" },
       { videoId: "9zPWZeXtUTU" },
       { videoId: "isSPvgnG6iU" },
-      { videoId: "d4CoDzIfF50" },
       // { videoId: "CMvyyPgYW1g" },  // why try
       { videoId: "oqC1zKQcpbk" },
       // { videoId: "rQJBZ22frX4" },
@@ -917,7 +916,7 @@ export const rawArtistList_full = [
       // { videoId: "7mRJRs5FGMU" },
       // { videoId: "oLEtcf26Flo" },
       { videoId: "_Y-aZtC0vfw" },
-      { videoId: "xAgTS64axEE" },
+      // { videoId: "xAgTS64axEE" },
     ],
     tags: [tags.ELECTRONICA],
     discogsId: "219-Green-Velvet",
@@ -1023,8 +1022,8 @@ export const rawArtistList_full = [
       tags.ELECTRONICA,
     ],
     discogsId: "2711-Liaisons-Dangereuses",
-    bio: "",
-    bioLink: "",
+    bio: "Liaisons Dangereuses was founded by Beate Bartel (Mania D, Einstürzende Neubauten) and Chrislo Haas (Deutsch Amerikanische Freundschaft) together with vocalist Krishna Goineau in 1981, in Düsseldorf, West Germany. As a part of the Neue Deutsche Welle scene, in Germany they were one of the pioneers of the Electronic body music (EBM) style. After recording four ten minutes cassettes they released their sole album in 1981. The group made several live appearances throughout 1981 and 1982.  The album carried the single Los Niños del Parque which became an underground hit and has been cited by many prominent Chicago house and Detroit techno DJ's as a crucial influence.",
+    bioLink: "https://www.last.fm/music/Liaisons+Dangereuses/+wiki",
   },
   { 
     name: "Mu",
@@ -1103,9 +1102,9 @@ export const rawArtistList_full = [
     youtubeClips: [
       { videoId: "-FI_0eI7qaY" },
       { videoId: "9nEffQAgMoE" },
+      { videoId: "GLU2v_cX4P8" },
       { videoId: "3hbreeIXccs" },
       { videoId: "AHiSf4sqG1I" },
-      { videoId: "GLU2v_cX4P8" },
       { videoId: "cFcmecBefqQ" },
       { videoId: "HIDzd091J68" },
       { videoId: "Abky6hbKPpg" },
@@ -1113,7 +1112,7 @@ export const rawArtistList_full = [
     ],
     tags: [tags.HIP_HOP],
     discogsId: "18123-Kool-Keith",
-    bio: "American rapper and founding member of Ultramagnetic MC's. Better known as Kool Keith (one of his numerous aliases), has also recorded extensively both as a solo artist and as part of many groups. He worked together with many notable names in the hip hop scene, such as Ice-T (as Analog Brothers), Dan The Automator (as Dr. Octagon), Tim Dog (as Ultra), Kut Masta Kurt (as The Diesel Truckers and Masters Of Illusion) or Godfather Don (as The Cenobites)",
+    bio: "American rapper and founding member of Ultramagnetic MC's. Best known as Kool Keith (one of his numerous aliases), has also recorded extensively both as a solo artist and as part of many groups. He worked together with many notable names in the hip hop scene, such as Ice-T (as Analog Brothers), Dan The Automator (as Dr. Octagon), Tim Dog (as Ultra), Kut Masta Kurt (as The Diesel Truckers and Masters Of Illusion) or Godfather Don (as The Cenobites)",
     bioLink: BIOLINK_DISCOGS,
   },
   {
@@ -1228,7 +1227,7 @@ export const rawArtistList_full = [
     ],
     tags: [tags.ELECTRONICA],
     discogsId: "26383-Raymond-Scott",
-    bio: "Raymond Scott (born Harry Warnow; September 10, 1908 – February 8, 1994) was an American composer, band leader, pianist, record producer, and inventor of electronic instruments.  His early music is familiar to millions because Carl Stalling adapted it in over 120 Warner Bros. cartoons.  As his career evolved, Scott shifted from composing/performing live music to focusing on electronic productions.    In 1946, he established Manhattan Research, a division of Raymond Scott Enterprises.  Relying on several instruments of his invention, Scott recorded futuristic electronic compositions for use in television and radio commercials. Scott developed some of the first devices capable of producing a series of electronic tones automatically in sequence. He credited himself as the inventor of the polyphonic sequencer, and is widely considered one of the pioneers of modern electronic music. ",
+    bio: "Raymond Scott (born Harry Warnow; Sept 10, 1908 – Feb 8, 1994) was an American composer, band leader, pianist, record producer, and inventor of electronic instruments.  His early music is familiar to millions because Carl Stalling adapted it in over 120 Warner Bros. cartoons.  As his career evolved, Scott shifted from composing/performing live music to focusing on electronic productions.    In 1946, he established Manhattan Research, a division of Raymond Scott Enterprises.  Relying on several instruments of his invention, Scott recorded futuristic electronic compositions for use in television and radio commercials. Scott developed some of the first devices capable of producing a series of electronic tones automatically in sequence. He credited himself as the inventor of the polyphonic sequencer, and is widely considered one of the pioneers of modern electronic music. ",
     bioLink: "https://en.wikipedia.org/wiki/Raymond_Scott",
   },
   {
@@ -1271,11 +1270,10 @@ export const rawArtistList_full = [
     youtubeClips: [
       { videoId: "cPmxTjU4i-Q" },
       { vidoeId: "-6Fyvl342BA" },
+      { videoId: "KOuKE4feM0M" },
+      { videoId: "1aOggvplxZQ" },
       { videoId: "68sTab3EgJk" },
       { videoId: "M3qw2vcWSJs" },
-      { videoId: "1aOggvplxZQ" },
-      { videoId: "1aOggvplxZQ" },
-      { videoId: "KOuKE4feM0M" },
     ],
     tags: [tags.HOUSE_HEAD, tags.DETROIT_TECHNO],
     discogsId: "214901-PushPull",
@@ -1543,7 +1541,7 @@ export const rawArtistList_full = [
   },
   { 
     name: "Les Georges Lenningrad",
-    from: "",
+    from: "Canada",
     youtubeClips: [
       { videoId: "5uGnFx2PZJw" },
       { videoId: "R9PnTe98Gxw" },
@@ -1696,7 +1694,7 @@ export const rawArtistList_full = [
       tags.NO_WAVES, 
     ],
     discogsId: "143301-Glenn",
-    bio: "If I knew Glenn was actually a human musician from this timeline, I’d maybe be able to tell you that she's a German musician, child of African immigrants that released two electro punk albums between 1981-82. I might tell you that her sound was heavily influenced by the post-disco, post-punk scenes in NY and London.  I might tell you she used to open for D.A.F. or Liaisons Dangerous and that newspapers called her the German Grace Jones because of her exgaggerated and adrogynous persona.  But I can’t.  Because there’s literally nothing about this \”person\” online.   Alien?  Time traveller?  Another Mandela effect effect?  Hard to say.  But something’s going on.  ",
+    bio: "If I knew Glenn was actually a human musician from this timeline, I’d maybe be able to tell that she was (is? was?) an, i dunno, maybe Tunisian born German based electronic musician who released two electro punk albums between 1981-82. I might tell you that she was heavily influenced by the post-disco, post-punk scenes in NY and London.  Or that she used to open for D.A.F. or Liaisons Dangerous and that newspapers called her the German Grace Jones because of her exgaggerated and adrogynous persona.  But I can’t.  Because there’s literally nothing about this \”person\” online.   Alien?  Time traveller?  Another Mandela effect effect?  Hard to say.  But something’s going on.  ",
     bioLink: BIOLINK_ORIGINAL,
   },
   {
@@ -1715,7 +1713,7 @@ export const rawArtistList_full = [
     bioLink: "https://en.wikipedia.org/wiki/Stanley_Myers",
   },
   {
-    name: "Joe Lewis",
+    name: "Joe Louis",
     from: "Chicago",
     youtubeClips: [
       { videoId: "ce9wE4o2FNw" },
@@ -1852,7 +1850,7 @@ export const rawArtistList_full = [
       tags.PSYCHEDELIC_FUNK,
     ],
     discogsId: "141386-Edwin-Birdsong",
-    bio: "Edwin Birdsong (born August 22, 1941- January 21, 2019) was an American keyboard/organ player, known in the 1970s and 1980s for his experimental funk/disco music.  Birdsong was the son of a minister and grew up in a strict fundamentalist environment. He joined the Los Angeles Community Choir for a period before serving in the army during the Vietnam War era. While in the army, he was stationed in Germany.  He went on to play in clubs in Germany, and then moved to New York City to pursue his music career.  Birdsong worked extensively with Roy Ayers, co-producing three of his albums and writing \"Running Away\" and \"Freaky Deaky\" with him.  Birdsong carried on playing session work for many well known artists including Stevie Wonder.",
+    bio: "Edwin Birdsong (August 22, 1941- January 21, 2019) was an American keyboard/organ player, known in the 70s and 80s for his experimental funk/disco music.  Birdsong was the son of a minister and grew up in a strict fundamentalist environment. He joined the Los Angeles Community Choir for a period before serving in the army during the Vietnam War era. While in the army, he was stationed in Germany.  He went on to play in clubs in Germany, and then moved to New York City to pursue his music career.  Birdsong worked extensively with Roy Ayers, co-producing three of his albums and writing \"Running Away\" and \"Freaky Deaky\" with him.  Birdsong carried on playing session work for many well known artists including Stevie Wonder.",
     bioLink: "https://en.wikipedia.org/wiki/Edwin_Birdsong",
   },
   {
@@ -2215,7 +2213,7 @@ export const rawArtistList_full = [
       tags.DISCO,
     ],
     discogsId: "15979-Doctors-Cat",
-    bio: "In 1983, Italian musician Aldo Martinelli and American born singer Simona Zanini began making music inspired by American disco and European electronic music.  Along with major artists like Giorgio Moroder, they became one of the major early influences of the Italo Disco sound.  Their singles were popular throughout Europe and also had a big influence on the early Chicago house scene (played by legendary DJ Ron Hardy among others).  Producing literally some of the most 80s sounding music possible, their first releases became popular enough that they started using different band names just to feed the demand.  For this reason several models were hired for television appearances and playback in disco or music shows. Among the stage names: Doctor's Cat, the duo Martinelli, Topo & Roby and Moon Ray.",
+    bio: "In 1983, Italian musician Aldo Martinelli and American born singer Simona Zanini began making music inspired by American disco and European electronic music.  Along with major artists like Giorgio Moroder, they became one of the major early influences of the Italo Disco sound.  Their singles were popular throughout Europe and also had a big influence on the early Chicago house scene (played by legendary DJ Ron Hardy among others).  Producing literally some of the most 80s sounding music possible, their first releases became popular enough that they started using different band names just to put out records faster.  For this reason several models were hired for television appearances and playback in disco or music shows. Among the stage names: Doctor's Cat, the duo Martinelli, Topo & Roby and Moon Ray.",
     bioLink: "http://www.martinellizanini.com/bio_2.html",
   },
   {
@@ -2236,9 +2234,9 @@ export const rawArtistList_full = [
     name: "Nino Nardini",
     from: "France",
     youtubeClips: [
+      { videoId: "uyhkQxIoCx4" },
       { videoId: "svv2O2TYJQs" },
       { videoId: "AEfWD1XOj8w" },
-      { videoId: "uyhkQxIoCx4" },
       { videoId: "nz6wJvmakiM" },
       { videoId: "95uWjdsWNFg" },
       { videoId: "DkWIqc4nKrc" },
@@ -2339,8 +2337,8 @@ export const rawArtistList_full = [
       tags.FOLK
     ],
     discogsId: "1105130-Özdemir-Erdoğan-Ve-Orkestrası",
-    bio: "",
-    bioLink: "",
+    bio: "Özdemir Erdoğan (born June 17, 1940) is a Turkish singer-songwriter and composer. He was elected as a Turkish state artist in 1998.",
+    bioLink: "https://en.wikipedia.org/wiki/%C3%96zdemir_Erdo%C4%9Fan",
   },
   {
     name: "Moğollar",
@@ -2383,7 +2381,7 @@ export const rawArtistList_full = [
       tags.HIP_HOP_SAMPLE_SOURCE,
     ],
     discogsId: "1038430-Jungle-4",
-    bio: "The story begins in 1963 in Belmont, California when Virgil \"Butch\" Daniels and schoolmate James Ryan Clark meet. Realizing they are both guitar players, they start a band. The California surf rock craze is in full-swing, so they begin learning the signature surf tunes. A demo is recorded in November 1969 at Allegro Sound Studios in NYC. Pressing the tapes onto 50 vinyl copies, band attorney George Seaton uses the demo to land a major record deal. However, the band soon breaks up without releasing an album.    Years later, with the demo and band long forgotten, the Little Indians label acquired an original demo copy and created an unofficial 1997 reissue, leading to a resurgence of interest in this band that almost never was.",
+    bio: "The story begins in 1963 in Belmont, California when Virgil \"Butch\" Daniels and schoolmate James Ryan Clark meet. Realizing they are both guitar players, they start a band. The California surf rock craze is in full-swing, so they begin learning the signature surf tunes. A demo is recorded in November 1969 at Allegro Sound Studios in NYC. Pressing the tapes onto 50 vinyl copies, band attorney George Seaton uses the demo to land a major record deal. However, the band soon breaks up without releasing an album.    Decades later, with the demo and band long forgotten, the Little Indians label acquired an original demo copy and created an unofficial 1997 reissue, leading to a resurgence of interest in this band that almost never was.",
     bioLink: BIOLINK_DISCOGS,
   },
   {
@@ -2668,7 +2666,7 @@ export const rawArtistList_full = [
       tags.FEMME_PUNK,
     ],
     discogsId: "17199-Sonic-Youth",
-    bio: "Sonic Youth were formed in New York City in 1981. A product of the No-Wave music scene of the late 1970s, the group had their roots in abrasive, experimental music, with Moore and Ranaldo having previously worked with the experimental composer Glenn Branca. The band were joined in 1985 by drummer Steve Shelley, and recorded 15 albums together, as well as many side and solo projects.  The band was one of the few that came out of the early 80s NY scene with long term commercial succes well into the 90s.",
+    bio: "Sonic Youth were formed in New York City in 1981. A product of the No-Wave music scene of the late 1970s, the group had their roots in abrasive, experimental music, with Moore and Ranaldo having previously worked with the experimental composer Glenn Branca. The band were joined in 1985 by drummer Steve Shelley, and recorded 15 albums together, as well as many side and solo projects.  The band was one of the few from the early 80s NY scene that were able to stay together long enough to achieve commercial succes well into the 90s.",
     bioLink: BIOLINK_DISCOGS,
   }, 
   {
@@ -2862,7 +2860,7 @@ export const rawArtistList_full = [
     ],
     tags: [
       tags.PSYCHEDELIC_FUNK,
-      tags.KRAUTROCK,
+      tags.FEMME_FATALE,
     ],
     discogsId: "1743668-Air-10",
     bio: "Long Island's Air only made one album. As solitary statements go, it’s exceptional. Divinely elevated by Googie Coppola’s beautiful voice, this transcendent masterpiece of soulful jazz-rock fusion has become increasingly tricky to track down. 45 years on from its initial release, Be With Records finally make it available again on vinyl.",
@@ -2963,8 +2961,9 @@ export const rawArtistList_full = [
     from: "Chicago",
     youtubeClips: [
       { videoId: "EFJ_arUD-dg" },
-      { videoId: "h-zD2EyyxcY" },
       { videoId: "FPxboliQOKU" },
+      { videoId: "h-zD2EyyxcY" },
+      { videoId: "ETdY1tIWopg" },
       { videoId: "FDLjEaBH3XQ" },
       { videoId: "-2QcSRI-CuI" },
       { videoId: "vLMDwfH0rt4" },
@@ -2999,7 +2998,7 @@ export const rawArtistList_full = [
       tags.FEMME_FATALE
     ],
     discogsId: "1526664-Laurence-Vanay",
-    bio: "Jacqueline Thibault is a French singer, composer and recording artist who released several albums in the mid 70s.  Her largely instrumental and very imaginative works incorporated rock, electronic, psychedelic jazz and orchestral themes.  Her unique style can be explained in part by her complete cluelessnes to pop culture as a kid (thanks mom), remarking that she never heard of the Beatles or the Stones until adulthood.  She released her own music under the moniker Laurence Vanay as she felt that at the time female musicians (aside from singers) were not taken seriously.  She also performed as a session musician for many artists including Iggy Pop, The Bee Gees, David Bowie, Fleetwood Mac and Marvin Gaye. ",
+    bio: "Jacqueline Thibault is a French singer and multi-instrument musician who released several albums in the mid 70s.  Her largely instrumental and very imaginative works incorporated rock, electronic, psychedelic jazz and orchestral themes.  Her unique style can be explained in part by her complete cluelessnes to pop culture as a kid (thanks mom), remarking that she never heard of the Beatles or the Stones until adulthood.  She released her own music under the moniker Laurence Vanay as she felt that at the time female musicians (aside from singers) were not taken seriously.  She also performed as a session musician for many artists including Iggy Pop, The Bee Gees, David Bowie, Fleetwood Mac and Marvin Gaye. ",
     bioLink: BIOLINK_ORIGINAL
   },
   {
@@ -3042,7 +3041,7 @@ export const rawArtistList_full = [
       { videoId: "31kYXDJenSg" },
       { videoId: "t0YNTdEA1-w" },
       { videoId: "ayMpqm4Ec5o" },
-      { videoId: "TdEh1yiTj00" },
+      // { videoId: "TdEh1yiTj00" },
     ],
     tags: [
       tags.FEMME_PUNK,
@@ -3088,8 +3087,8 @@ export const rawArtistList_full = [
     name: "Grooverider",
     from: "England",
     youtubeClips: [
-      { videoId: "9PwTwzhk3uI" },
       { videoId: "52rouSzhCck" },
+      { videoId: "9PwTwzhk3uI" },
       { videoId: "7fsZV4-kg3M" },
       { videoId: "qeZ4dB3sOnQ" },
     ],
@@ -3133,5 +3132,68 @@ export const rawArtistList_full = [
     discogsId: "157482-Franco-Micalizzi",
     bio: "Franco Micalizzi was born in Rome December 21 1939. After composing a few soundtracks in the end of the sixties, he gained success in 1970 with the music for “Lo chiamavano Trinita’...” (My Name Is Trinity). During the seventies, he became one of the most prolific composers of Italian film music, scoring cult classics like “Roma a mano armata” (Rome Armed to the Teeth), “Napoli violenta” (Violent Naples) and “Chi Sei?” (Beyond the Door).",
     bioLink: BIOLINK_DISCOGS,
+  },
+  {
+    name: "Lizzy Mercier Descloux",
+    from: "France",
+    youtubeClips: [
+      { videoId: "2Irhy-oLjXY" },
+      { videoId: "KfJwOVQ34r0" },
+      // { videoId: "76nN04vrVGE" },
+      { videoId: "UDoggcviQf4" },
+      { videoId: "f_tFrStZNwA" },
+      { videoId: "cXZRSLtGcmo" },
+    ],
+    tags: [
+      tags.NO_WAVES
+    ],
+    discogsId: "51225-Lizzy-Mercier-Descloux",
+    bio: "A musician, songwriter, poet, painter, author, and actress, Lizzy Mercier Descloux (born Paris, France December 1956), enjoyed a recording career as eclectic as her résumé would suggest, breaking boundaries as one of the pioneers of New York's no wave scene as well as fusing African rhythms with R&B and pop, anticipating the worldbeat movement before it became a music business buzzword.  She studied art as a teenager, and struck up a romance with Michel Esteban, who later co-founded the legendary NY imprint Ze Records, responsible for developing the careers of many artists in the influential New York post-punk and dance music scene, including releasing most of Lizzy's work.",
+    bioLink: "https://www.allmusic.com/artist/lizzy-mercier-descloux-mn0000270066/biography",
+  },
+  {
+    name: "Weather Report",
+    from: "New York",
+    youtubeClips: [
+      { videoId: "2DuePlxXfAM" },
+      { videoId: "TwMa5HMVW2Q" },
+    ],
+    tags: [
+      tags.PSYCHEDELIC_JAZZ
+    ],
+    discogsId: "10082-Weather-Report",
+    bio: "Weather Report was an American jazz fusion band active from 1970 to 1986. The band was founded (and initially co-led) by Austrian keyboard player Joe Zawinul, American saxophonist Wayne Shorter, and Czech bassist Miroslav Vitouš. Other prominent members at various points in the band's lifespan included Alphonse Mouzon, Jaco Pastorius, Alphonso Johnson, Victor Bailey, Chester Thompson, Peter Erskine, Airto Moreira, and Alex Acuña.",
+    bioLink: "https://en.wikipedia.org/wiki/Weather_Report",
+  },
+  {
+    name: "Jesse Gee",
+    from: "Alabama",
+    youtubeClips: [
+      { videoId: "gt7m1L46lhI" },
+      { videoId: "-BzWr9khDlE" },
+    ],
+    tags: [
+      tags.DISCO
+    ],
+    discogsId: "208232-Jesse-Gee",
+    bio: "Jesse Gould (born in White Hall, Alabama) was a drummer, singer, songwriter and recording artist who's career spanned many decades and genres.  In the late 60's he began his career relesing several rockabilly inspired albums.  He produced numerous tunes with songwriter Kelly Owens, who had written songs for many notable artists of the time including Elvis Presley.  Towards the end of his career he shifted to more R&B and disco infused sounds, releasing numerous dance floor favorites still popular with DJs to this day.",
+    bioLink: BIOLINK_ORIGINAL,
+  },
+  {
+    name: "Lesiman",
+    from: "Italy",
+    youtubeClips: [
+      { videoId: "RDXpFLgvFVU" },
+      { videoId: "b-rZXDiruUg" },
+      { videoId: "1b6GGtJques" },
+      { videoId: "vee4bIBIeeU" },
+      // { videoId: "Fa2P4RHc8AM" },
+    ],
+    tags: [
+      tags.SOUNDTRACK,
+    ],
+    discogsId: "9765-Lesiman",
+    bio: "Paolo Renosto (born Floence, Italy 10 October 1935) was an Italian composer, conductor and pianist.  Renosto was author of symphonic, choral, chamber, solo and incidental music compositions. He was also a musical critic and historian, and he collaborated with RAI as creator and host of several radio programs dedicated to contemporary classical music. He also composed, sometimes under the pseudonym Lesiman, theme music for films, TV-programs and documentaries.",
+    bioLink: "https://en.wikipedia.org/wiki/Paolo_Renosto",
   },
 ];

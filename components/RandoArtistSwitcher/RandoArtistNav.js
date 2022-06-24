@@ -28,7 +28,7 @@ export function RandoArtistNav (props) {
         <span 
           className="link" 
           onClick={setNewArtist}>
-            new thing
+            new orbit
         </span>
 
         {!!relatedArtistList.length && (
