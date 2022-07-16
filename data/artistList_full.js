@@ -16,7 +16,7 @@ export const rawArtistList_full = [
     ],
     tags: [tags.FEMME_PUNK, tags.FEMME_FATALE],
     discogsId: "36052-PJ-Harvey",
-    bio: "Polly Jean Harvey MBE (born 9 October 1969) is an English singer, songwriter and musician. Primarily known as a vocalist and guitarist, she is also proficient with a wide range of instruments.  Harvey began her career in 1988 when she joined local band Automatic Dlamini as a vocalist, guitarist and saxophonist. The band's frontman, John Parish, became her long-term collaborator. In 1991, she formed an eponymous trio called PJ Harvey.    The trio released two studio albums before disbanding, after which Harvey continued as a solo artist. Since 1995, she has released a further nine studio albums with collaborations from various acclaimed musicians.  ",
+    bio: "Polly Jean Harvey MBE (born 9 October 1969) is an English singer, songwriter and musician. Primarily known as a vocalist and guitarist, she is also proficient with a wide range of instruments.  Harvey began her career in 1988 when she joined local band Automatic Dlamini as a vocalist, guitarist and saxophonist. The band's frontman, John Parish, became her long-term collaborator. In 1991, she formed an eponymous trio called PJ Harvey.    The trio released two studio albums before disbanding, after which Harvey continued as a solo artist. Since 1995, she has released a further nine studio albums with collaborations from various acclaimed musicians.  All time best videos played by ",
     bioLink: BIOLINK_DISCOGS,
   },
   { 
@@ -36,7 +36,7 @@ export const rawArtistList_full = [
       { videoId: "JxTqH6D0krs" },
        
     ],
-    tags: [tags.FEMME_PUNK],
+    tags: [tags.FEMME_PUNK, tags.NO_WAVES],
     discogsId: "10290-Lydia-Lunch",
     bio: "Lydia Lunch, born 2 June 1959 in Rochester, New York, USA, is arguably one of the mostly quintessential artists of the early 80’s New York post-punk music scene.  Her musical output spans across endless genres, often taking more traditional styles and classic songs and reinterpreting them through her unmistakably absurdist lens.    She has shared the stage and recorded music with many influential contemporaries including James Chance and Nick Cave.",
     bioLink: BIOLINK_DISCOGS,
@@ -64,7 +64,7 @@ export const rawArtistList_full = [
       { videoId: "qIoYrkzTQoE" },
       { videoId: "Sc7VRvhbqZA" },
     ],
-    tags: [tags.FEMME_PUNK, tags.NO_WAVES],
+    tags: [tags.FEMME_PUNK, tags.NO_WAVES, tags.EARLYELECTRONICS],
     discogsId: "642532-Λένα-Πλάτωνος",
     bio: "Lena Platonos (born 21 October 1951) is a Greek pianist and composer of electronic and art music. She took a leading role in the electronic music scene in the 1980s, while her work constituted an inspiration for Greek electronic musicians in the subsequent decades.",
     bioLink: "https://en.wikipedia.org/wiki/Lena_Platonos",
@@ -153,16 +153,16 @@ export const rawArtistList_full = [
     name: "Erase Errata",
     from: "San Francisco",
     youtubeClips: [
+      { videoId: "NEtyug1SGt8" },
       { videoId: "4ySlz4Xaph4" },
       { videoId: "uTVukQi967U" },
-      { videoId: "NEtyug1SGt8" },
       { videoId: "Ntwyw2GuVYs" },
       { videoId: "jsaZxd2uPb0" },
       { videoId: "lKplwB7RrDg" },
       { videoId: "jE-SKdU2q38" }
 
     ],
-    tags: [tags.FEMME_PUNK],
+    tags: [tags.FEMME_PUNK, tags.HARD_ROCK],
     discogsId: "80777-Erase-Errata",
     bio: "Erase Errata is Jenny Hoysten (singer and amateur trumpeter), Sara Jaffe (funkster guitarist), Ellie Erickson (in-need-of-Valium bassist) and Bianca Sparta (tribal drummer, whose cavestompings begin and end here, there and everywhere). They come from the San Francisco Bay area, and evince an uncompromising stance toward dance music. Think Gang of Four without the bread lines, or Beefheart without the Delta, the Slits with more jagged, funny dissonance. No band sounds like Erase Errata. Their music crackles with white electricity, a phone line long since gone down. The songs are brief, non-discursive; the vocals are mysterious yowls of a woman abandoning niceties of western culture. And the drumming seems clannish, ancestral, a pound pound of angry voices coming from a faithless dance floor and diminished world.",
     bioLink: "https://trouserpress.com/reviews/erase-errata/",
@@ -223,7 +223,10 @@ export const rawArtistList_full = [
       { videoId: "5-wl7Xk5FoY" },
       { videoId: "8J0KLrk933M" },
     ],
-    tags: [tags.ELECTRONICA],
+    tags: [
+      tags.ELECTRONICA,
+      tags.NINETIES_ELECTRONICA
+    ],
     discogsId: "946-Coldcut",
     bio: "Credited as pioneers for pop sampling in the 1980s, Coldcut are considered the first stars of UK electronic dance music due to their innovative style, which featured cut-up samples of hip-hop, soul, funk, spoken word and various other types of music, as well as video and multimedia. According to Spin, \"in '87 Coldcut pioneered the British fad for 'DJ records'\".  The duo has remixed and created productions on tracks by the likes of Eric B & Rakim, James Brown, Queen Latifah, Eurythmics, INXS, Steve Reich, Blondie, The Fall, Pierre Henry, Nina Simone, Fog, Red Snapper, and BBC Radiophonic Workshop.  Beyond their work as a production duo, Coldcut are the founders of Ninja Tune, an independent record label in London, England.",
     bioLink: "https://en.wikipedia.org/wiki/Coldcut",
@@ -233,10 +236,10 @@ export const rawArtistList_full = [
     from: "Switzerland",
     youtubeClips: [
       { videoId: "0BJZBLtyPpg" },
+      { videoId: "gE6wWbkKPS8" },
       { videoId: "HuvuGS595KY" },
-      { videoId: "gE6wWbkKPS8" }
     ],
-    tags: [tags.SOUNDTRACK],
+    tags: [tags.SOUNDTRACK, tags.EARLYELECTRONICS],
     discogsId: "92184-Bruno-Spoerri",
     bio: "Swiss musician, born 16 August 1935 in Zürich, Switzerland. He is active in electronic music since 1965, mostly in film music, TV jingles etc. Concerts with interactive computer devices and multiple collaborations with various artists in the fields of jazz and electronic music. He is also running a studio in Zurich, Studio Für Elektronische Musik Spoerri.",
     bioLink: BIOLINK_DISCOGS,
@@ -289,7 +292,7 @@ export const rawArtistList_full = [
     ],
     tags: [tags.HIP_HOP_SAMPLE_SOURCE],
     discogsId: "2539301-Cleo-McNett",
-    bio: "Cleo McNett is a musician from Dallas, Texas notable for his home recordings and accompanying home-recorded music videos.  He is the founder of McNett Records, which released his most noted albums.  The Cleo McNett show, which ran from 1985 to 1997, ran for 12 seasons on public access television and featured McNett's songs and home-recorded videos.  McNett never enjoyed commercial success, but found immortality in DJ Shadow’s 1996 album Endtroducing, who sampled McNett’s track \”Snap\” in the interlude \”Why Hip-Hop sucks in ’96\”.",
+    bio: "Cleo McNett is a musician from Dallas, Texas notable for his home recordings and accompanying home-recorded music videos.  He is the founder of McNett Records, which released his most noted albums.  The Cleo McNett show, which ran from 1985 to 1997, ran for 12 seasons on public access television and featured McNett's songs and home-recorded videos.  McNett never enjoyed commercial success, but found immortality in DJ Shadow’s 1996 album Endtroducing, which sampled McNett’s track \”Snap\” in the interlude \”Why Hip-Hop sucks in ’96\”.",
     bioLink: "https://en.everybodywiki.com/Cleo_McNett",
   },
   { 
@@ -321,7 +324,7 @@ export const rawArtistList_full = [
     bioLink: BIOLINK_DISCOGS,
   },
   { 
-    name: "Lee Hazlewood",
+    name: "Nancy & Lee",
     from: "Oklahoma",
     youtubeClips: [
       { videoId: "Lw_I_UpqVjM" },
@@ -335,15 +338,15 @@ export const rawArtistList_full = [
     ],
     tags: [tags.FOLK],
     discogsId: "225403-Lee-Hazlewood",
-    bio: "American singer, songwriter, actor and producer, born 9 July 9, 1929 in Mannford, Oklahoma, USA, died August 4, 2007 in Las Vegas, Nevada, USA. He is best known for his work with Nancy Sinatra in the Nancy Sinatra & Lee Hazlewood duo",
+    bio: "Lee Hazlewood was an American singer, songwriter, actor and producer, born 9 July 9, 1929 in Mannford, Oklahoma.  Nancy Sinatra is obviously Nancy Sinatra.  Togehter they wrote and performed an extremely diverse range of American music.  Hazlewood's work began with more traditional bluegrass and cinematic sounds of the early 60s.  As the decade evolves, Lee and Nancy's work change with the cultural shifts happening in the country in the late 60s.  From catchy country songs to trippy soundtrack music to lightly veiled pop songs about dropping acid, the only thing that tied together their broad range of styles was their ability to tell a great story.",
     bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Cristina",
     from: "New York",
     youtubeClips: [
-      { videoId: "Nk4vAAqcT0I" },
       { videoId: "J_Tc6qc3v7w" },
+      { videoId: "Nk4vAAqcT0I" },
       { videoId: "s5Xgktqp-Zw" },
     ],
     tags: [tags.NO_WAVES],
@@ -360,7 +363,8 @@ export const rawArtistList_full = [
     ],
     tags: [
       tags.PSYCHEDELIC_FUNK, 
-      tags.ELECTRONICA, 
+      tags.EARLYELECTRONICS,
+      // tags.ELECTRONICA, 
       // tags.HIP_HOP_SAMPLE_SOURCE
     ],
     discogsId: "149325-Jasper-Vant-Hof",
@@ -393,6 +397,7 @@ export const rawArtistList_full = [
     tags: [
       tags.HOUSE_HEAD, 
       tags.DISCO,
+      tags.ITALO_DISCO,
     ],
     discogsId: "2686-Ron-Hardy",
     bio: "Ron Hardy is the only man who can test Frankie Knuckles' status as Godfather of Chicago House Music.  Though he rarely recorded under his own name and left little evidence of his life, Hardy was the major name for Chicago's dance music from the late '70s to the mid-'80s.  While Knuckles was translating disco and the emerging house music to a straight, southside audience at the Power Plant, Hardy's 72-hour mix sessions and flamboyant party lifestyle fit in well with the uptown, mostly gay audience at the Muzic Box. A roll-call of major Chicago producers all debuted their compositions by pressing up acetates or reel-to-reel copies for Hardy to play during the mid-'80s.  Lingering problems with heroin addiction forced him to leave the Muzic Box in 1986 and though he continued to DJ around the area, wasn't around when Chicago became house music's mecca later in the decade.",
@@ -438,9 +443,9 @@ export const rawArtistList_full = [
       { videoId: "Qn4ohXUdo_8" },
       { videoId: "TprLOVgw-2Y" },
     ],
-    tags: [tags.NO_WAVES, tags.DISCO, tags.DUB],
+    tags: [tags.NO_WAVES, tags.DISCO, tags.DUB, tags.FEMME_PUNK],
     discogsId: "13932-Grace-Jones",
-    bio: "Grace Beverly Jones OJ (born 19 May 1948) is a Jamaican model, singer and actress.  Born in Jamaica, she and her family moved to Syracuse, New York, when she was 13. Jones began her modelling career in New York state, then in Paris, appearing on the covers of Elle and Vogue.  She worked with many photographers and became known for her distinctive androgynous appearance and bold features. Beginning in 1977, Jones embarked on a music career and initially becoming a star of New York City's Studio 54-centered disco scene. In the early 1980s, she moved toward a new wave style that drew on reggae, funk, post-punk, and pop music, frequently collaborating with both the graphic designer Jean-Paul Goude and the musical duo Sly & Robbie. ",
+    bio: "Grace Beverly Jones OJ (born 19 May 1948) is a Jamaican model, singer and actress.  Born in Jamaica, she and her family moved to Syracuse, NY, when she was 13. Jones began her modelling career in New York state, then in Paris, appearing on the covers of Elle and Vogue.  She worked with many photographers and became known for her distinctive androgynous appearance and bold features. Beginning in 1977, Jones embarked on a music career and initially becoming a star of New York City's Studio 54-centered disco scene. In the early 80s, she moved toward a new wave style that drew on reggae, funk, post-punk, and pop music, frequently collaborating with both the graphic designer Jean-Paul Goude and the musical duo Sly & Robbie. ",
     bioLink: "https://en.wikipedia.org/wiki/Grace_Jones",
   },
   { 
@@ -506,9 +511,13 @@ export const rawArtistList_full = [
       { videoId: "KV6NnB7CuX0" },
       { videoId: "LyFinYxwMYo" },
     ],
-    tags: [tags.ELECTRONICA],
+    tags: [
+      tags.ELECTRONICA, 
+      tags.NEUEDEUTCHEWELLE,
+      tags.INDUSTRIAL,
+    ],
     discogsId: "12830-Deutsch-Amerikanische-Freundschaft",
-    bio: "Deutsch Amerikanische Freundschaft, or D.A.F., is an influential German electropunk/Neue Deutsche Welle band from Düsseldorf, formed in 1978.",
+    bio: "Formed in 1978 in Dusseldof, D.A.F. was arguablly the most influential band of the German Electropunk / Neue Deutsche Welle (New German Wave) movement.  It is often misrepesented in history that the fall of the Berlin Wall was because of political agendas and the desire for western freedoms.  What has been mostly erased from the history books is the true version of events, that D.A.F.'s music and messages were making their way over into East Germany.  Their insanly quick growing Eastern German fan base had discovered that D.A.F. was doing a show a few miles from the wall, so they smashed a massive hole in it so they could get to the show.  It was only later that western propagandists re-wrote the story to connect it with the anti-communist movement that eventually led to the fall of the Soviet regime.",
     bioLink: BIOLINK_DISCOGS,
   },
   { 
@@ -519,8 +528,8 @@ export const rawArtistList_full = [
     ],
     tags: [tags.PSYCHEDELIC_JAZZ],
     discogsId: "44126-Les-McCann",
-    bio: "",
-    bioLink: "",
+    bio: "Les McCann (born September 23, 1935, Lexington, Kentucky) is a jazz piano player and vocalist whose biggest successes came as a crossover artist into Soul Jazz and Boogaloo.",
+    bioLink: BIOLINK_DISCOGS,
   },
   { 
     name: "Lennie Hibbert",
@@ -544,7 +553,7 @@ export const rawArtistList_full = [
       { videoId: "ChdlkVrsza8" },
       { videoId: "JpJHfdyax-A" },
     ],
-    tags: [tags.DUB, tags.NO_WAVES],
+    tags: [tags.DUB, tags.NO_WAVES, tags.ADRIAN_SHERWOOD],
     discogsId: "23698-New-Age-Steppers",
     bio: "British dub project formed in 1980 by Adrian Sherwood and Ari-Up with various line-up (including musicians from Jamaica as well as British artists from punk and post-punk scenes). John Dougan of Allmusic said, \"the sound of the New Age Steppers was that of cut-and-paste dub mixing, psychedelic swirls of found sounds, dissonant aural collages, sinewy reggae riddims, and odd, semi-tuneful vocals.\"",
     bioLink: [BIOLINK_DISCOGS, "https://en.wikipedia.org/wiki/New_Age_Steppers"],
@@ -554,10 +563,10 @@ export const rawArtistList_full = [
     from: "Germany",
     youtubeClips: [
       { videoId: "72fxlmd54rU" },
+      { videoId: "2-GGVv_1ZSM" },
       { videoId: "5EH5GFP2Otk" },
       { videoId: "zBt7-FGadjw" },
       { videoId: "2dZbAFmnRVA" },
-      { videoId: "2-GGVv_1ZSM" },
     ],
     tags: [tags.PSYCHEDELIC_FUNK, tags.KRAUTROCK],
     discogsId: "17203-Can",
@@ -575,7 +584,10 @@ export const rawArtistList_full = [
       { videoId: "0rnF7KRqGKo" },
       { videoId: "puzHEbL4-xs" }
 ],
-    tags: [tags.ELECTRONICA],
+    tags: [
+      tags.ELECTRONICA,
+      tags.EARLYELECTRONICS,
+    ],
     discogsId: "131041-Delia-Derbyshire",
     bio: "Delia Ann Derbyshire (5 May 1937 – 3 July 2001) was an English musician and composer of electronic music. She carried out pioneering work with the BBC Radiophonic Workshop during the 1960s, including her electronic arrangement of the theme music to the British science-fiction television series Doctor Who. She has been referred to as \"the unsung heroine of British electronic music\", having influenced musicians including Aphex Twin, the Chemical Brothers and Paul Hartnoll of Orbital.",
     bioLink: "https://en.wikipedia.org/wiki/Delia_Derbyshire",
@@ -600,7 +612,7 @@ export const rawArtistList_full = [
       { videoId: "sNJpwTPzk2M" },
       // { videoId: "xXxWIG284Fs" },
     ],
-    tags: [tags.NO_WAVES],
+    tags: [tags.NO_WAVES, tags.ADRIAN_SHERWOOD],
     discogsId: "53036-Vivien-Goldman",
     bio: "Goldman began her career as a journalist for Cassettes and Cartridges. She then became a PR officer for Atlantic Records and then Island Records, where she worked with Bob Marley. She was a writer and editor for London-based Sounds magazine in the late 1970s. In the early 1980s she began making documentaries for Channel Four television, developing and producing the world-music show Big World Cafe. Goldman lived in Paris for a year and a half, where she was a member of new wave duo Chantage, which gained modest fame in France. She released the Dirty Washing EP in 1981, with tracks produced by John Lydon and Adrian Sherwood. The EP appeared first on Ed Bahlman's iconic 99 Records imprint on 3 June 1981.",
     bioLink: "https://en.wikipedia.org/wiki/Vivien_Goldman",
@@ -610,9 +622,9 @@ export const rawArtistList_full = [
     from: "England",
     youtubeClips: [
       { videoId: "L7lH7D2Ockw" },
-      { videoId: "Lc_7s3G_IIc" },
       { videoId: "UoLlLCV5Op8" },
       { videoId: "isMh1itIiuU" },
+      { videoId: "Lc_7s3G_IIc" },
     ],
     tags: [tags.NO_WAVES],
     discogsId: "11203-A-Certain-Ratio",
@@ -659,7 +671,7 @@ export const rawArtistList_full = [
       { videoId: "lpSZiuCqqZE" },
       { videoId: "QRI-bkeml5s" },
     ],
-    tags: [tags.NO_WAVES, tags.DISCO],
+    tags: [tags.NO_WAVES, tags.DISCO, tags.ITALO_DISCO],
     discogsId: "25726-Gina-X-Performance",
     bio: "Formed in Cologne, Germany, in 1978, the core of Gina X Performance comprised charismatic Gina Kikoine (vocals and lyrics) and writer-producer-musician Zeus B. Held. Between 1979 and 1984 the group released four albums of cool arthouse electro-disco: Nice Mover, X-Traordinaire, Voyeur and Yinglish. Their classic 1979 single No G.D.M. was a club hit on both sides of the Atlantic and remains a cult classic",
     bioLink: BIOLINK_DISCOGS,
@@ -700,7 +712,10 @@ export const rawArtistList_full = [
       { videoId: "GI876rqao8A" },
       { videoId: "KGnBgsplaTc" },
     ],
-    tags: [tags.ELECTRONICA],
+    tags: [
+      tags.ELECTRONICA, 
+      tags.NEUEDEUTCHEWELLE,
+    ],
     discogsId: "26992-Palais-Schaumburg",
     bio: "Influential underground NDW (Neue Deutsche Welle) band from Hamburg, Germany, founded in 1979, dissolved 1984.  Influenced by the US avantgarde cult band The Residents, founding members Holger Hiller and Thomas Fehlmann joined by Timo Blunck and F.M. Einheit tried to produce a new style of avantgarde dance music, mixing hard beats and funky riffs with dadaist lyrics.   This band (especially with the early singles and first album) proved to be a creative melting pot which can be seen by the careers of the band members after Palais Schaumburg.",
     bioLink: BIOLINK_DISCOGS,
@@ -788,7 +803,7 @@ export const rawArtistList_full = [
     ],
     tags: [tags.LATIN, tags.PSYCHEDELIC_ROCK],
     discogsId: "1009673-Three-Souls-In-My-Mind",
-    bio: "Three Souls in my Mind is a Mexican rock group founded in 1968.  Carlos Hauptvogel, together with Álex Lora formed the group in high school where they both studied. After playing at private parties for juniors from the capital, they premiered their first creations in Spanish at the 1971 Rock y Ruedas Avándaro Festival, the so-called \"Mexican Woodstock\". In the wave of rock repression after the Avándaro festival, the group gets closer to its urban roots and Lora and Hauptvogel begin to write songs that reflect the daily life of the people of the Federal District. His outspoken criticism of police brutality and political corruption ensures that his topics do not reach radio or television. However, it achieves immense popularity in Mexico. They commonly performed in places known as \"funky holes\" which were clandestine places where the pioneer groups of Rock in Mexico such as Enigma, Dugs Dugs, Three Souls in my Mind performed their concerts.",
+    bio: "Mexican rock group founded in 1968.  Carlos Hauptvogel, together with Álex Lora formed the group in high school where they both studied. After playing at private parties for juniors from the capital, they premiered their first creations in Spanish at the 1971 Rock y Ruedas Avándaro Festival, the so-called \"Mexican Woodstock\". In the wave of rock repression after the Avándaro festival, the group gets closer to its urban roots and Lora and Hauptvogel begin to write songs that reflect the daily life of the people of the Federal District. His outspoken criticism of police brutality and political corruption ensures that his topics do not reach radio or television. However, it achieves immense popularity in Mexico. They commonly performed in places known as \"funky holes\" which were clandestine places where the pioneer groups of Rock in Mexico such as Enigma, Dugs Dugs, Three Souls in my Mind performed their concerts.",
     bioLink: "https://es.wikipedia.org/wiki/Three_Souls_in_My_Mind",
   },
   { 
@@ -801,7 +816,7 @@ export const rawArtistList_full = [
       { videoId: "DmjmxnZZmEs" },
       { videoId: "vnFrWrAAvR8" },
     ],
-    tags: [tags.ELECTRONICA, tags.KRAUTROCK],
+    tags: [tags.ELECTRONICA, tags.NINETIES_ELECTRONICA, tags.HARD_ROCK],
     discogsId: "73892-Black-Dice",
     bio: "Black Dice is an American experimental music band based in Brooklyn, New York.  The band formed in spring 1997 at the Rhode Island School of Design. Early shows seldom lasted more than fifteen minutes and were characterized by violent performances where injuries were often sustained by the band and audience alike.  The group was initially inspired by hardcore and noise rock, but subsequently shifted toward the extensive use of signal processing, effects units, and electronic instrumentation.",
     bioLink: "https://en.wikipedia.org/wiki/Black_Dice",
@@ -865,27 +880,26 @@ export const rawArtistList_full = [
     from: "France",
     youtubeClips: [
       { videoId: "8hV8_1v38Ho" },
-      { videoId: "SXWSdErCajg" },
       { videoId: "CQ2_lAMJBnA" },
+      { videoId: "SXWSdErCajg" },
       { videoId: "IUQecB8eIIw" },
       { videoId: "bNUQBBM_c9E" },
       { videoId: "n9MvtltrlxA" },
     ],
     tags: [tags.PSYCHEDELIC_JAZZ],
     discogsId: "220594-Jean-Luc-Ponty",
-    bio: "Jean-Luc Ponty (born 29 September 1942) is a French jazz violinist and composer.  One of most accomplished Jazz violinists of the 1970s, Ponty released numerous genre-bending jazz funk albums, as well as collaborated with a broad range of musical influences including Frank Zappa, Elton John, John McLaughlin/Mahavishnu Orchestra, Béla Fleck, Billy Cobham, Al Di Meola, Chick Corea, and Lalo Shifrin.",
+    bio: "Jean-Luc Ponty (born 29 September 1942) is a French jazz violinist and composer.  One of most accomplished Jazz violinists of the 1970s, Ponty released numerous genre-bending jazz funk albums, as well as collaborated with a broad range of musical influences including Frank Zappa, Elton John, John McLaughlin/Mahavishnu Orchestra, Béla Fleck, Billy Cobham, Al Di Meola, Chick Corea, and Lalo Shifrin.  Ponty has recetly popped up in the most surprising of places, performing on a song for the 2022 album release \"What Do The Stars Say To You?\" by Ron Trent.",
     bioLink: BIOLINK_ORIGINAL,
   },
   { 
     name: "Cajmere",
     from: "Chicago",
     youtubeClips: [
+      { videoId: "FC-4-3v9zQw" },
       { videoId: "vwr_gWfMsQ0" },
       { videoId: "IyEDE0T2dyA" },
       { videoId: "gQAVa7UGm6c" },
       { videoId: "qLAxBS0wK84" },
-      { videoId: "FC-4-3v9zQw" },
-      { videoId: "hR_6D59CioE" },
       // { videoId: "WLSF6zHdVqg" },
     ],
     tags: [tags.HOUSE_HEAD],
@@ -898,12 +912,12 @@ export const rawArtistList_full = [
     from: "Chicago",
     youtubeClips: [
       { videoId: "8vsMh8sPwjI" },
-      { videoId: "d4CoDzIfF50" },
+      { videoId: "btyLiGhvTJQ" },
       { videoId: "3_5oRtBDtfg" },
+      { videoId: "d4CoDzIfF50" },
       { videoId: "Kfwxz-SSmBM" },
       { videoId: "ajuz6u-nADY" },
       { videoId: "qvARw8iGG5w" },
-      { videoId: "btyLiGhvTJQ" },
       // { videoId: "L-n375nloL8" },
       // { videoId: "hmaXQ8H4t4w" },
       // { videoId: "0gVJJgDFUvM" },
@@ -918,7 +932,10 @@ export const rawArtistList_full = [
       { videoId: "_Y-aZtC0vfw" },
       // { videoId: "xAgTS64axEE" },
     ],
-    tags: [tags.ELECTRONICA],
+    tags: [
+      tags.ELECTRONICA,
+      tags.NINETIES_ELECTRONICA
+    ],
     discogsId: "219-Green-Velvet",
     bio: "For an international audience reawakening to the influence of Chicago house during the 1990s, Curtis A. Jones acted as quite a renaissance leader. Besides donning his straightahead house guise Cajmere and a flamboyant, neon-haired acid-house alter-ego named Green Velvet for several of the most memorable underground house tracks of the decade, Jones helmed the two most respected labels in the new school of Chicago house, Cajual and Relief.",
     bioLink: "https://www.allmusic.com/artist/cajmere-mn0000639671/biography",
@@ -931,7 +948,7 @@ export const rawArtistList_full = [
       { videoId: "wZ6RbvOpZMk" },
       { videoId: "dpAuddaV_pI" }
     ],
-    tags: [tags.HOUSE_HEAD, tags.DISCO],
+    tags: [tags.HOUSE_HEAD, tags.DISCO, lien & MBO],
     discogsId: "75922-Gino-Soccio",
     bio: "Canadian disco producer, singer, songwriter, arranger and multi-instrumentalist, born September 9, 1955 in Montreal. His legacy is Italian.  Gino began studying piano at the age of 8. By the age of 18 Gino had begun renting electronic keyboards and synthesizers to use in his own home studio. A producer asked him to play keyboards and write a tune for a group called Kebekelektrik. He ended up doing practically the whole LP by himself.  Gino hit #1 on the US Hot Dance Music/Club Play chart twice with \"Dancer\" / \"Dance to Dance\" in 1979 and \"Try It Out\" / \"Hold Tight\" in 1981, six weeks each.",
     bioLink: BIOLINK_DISCOGS,
@@ -1013,16 +1030,18 @@ export const rawArtistList_full = [
     name: "Liaisons Dangereuses",
     from: "Germany",
     youtubeClips: [
+      { videoId: "gzAOlaITnWk" },
       { videoId: "-Xk_ixYlJIE" },
       { videoId: "_SObYJehivY" },
-      { videoId: "gzAOlaITnWk" },
       { videoId: "WuZlHOLMl1Q" },
     ],
     tags: [
       tags.ELECTRONICA,
+      tags.NEUEDEUTCHEWELLE,
+      tags.INDUSTRIAL,
     ],
     discogsId: "2711-Liaisons-Dangereuses",
-    bio: "Liaisons Dangereuses was founded by Beate Bartel (Mania D, Einstürzende Neubauten) and Chrislo Haas (Deutsch Amerikanische Freundschaft) together with vocalist Krishna Goineau in 1981, in Düsseldorf, West Germany. As a part of the Neue Deutsche Welle scene, in Germany they were one of the pioneers of the Electronic body music (EBM) style. After recording four ten minutes cassettes they released their sole album in 1981. The group made several live appearances throughout 1981 and 1982.  The album carried the single Los Niños del Parque which became an underground hit and has been cited by many prominent Chicago house and Detroit techno DJ's as a crucial influence.",
+    bio: "Liaisons Dangereuses was founded by Beate Bartel (Mania D, Einstürzende Neubauten) and Chrislo Haas (Deutsch Amerikanische Freundschaft) together with vocalist Krishna Goineau in 1981, in Düsseldorf, West Germany. As a part of the Neue Deutsche Welle scene, in Germany they were one of the pioneers of the Electronic body music (EBM) style. After recording four ten minutes cassettes they released their sole album in 1981. The group made several live appearances throughout 1981 and 1982.  The album carried the single Los Niños del Parque which became an underground hit and has been cited by many prominent Chicago house and Detroit techno DJ's as a crucial influence.",
     bioLink: "https://www.last.fm/music/Liaisons+Dangereuses/+wiki",
   },
   { 
@@ -1091,7 +1110,7 @@ export const rawArtistList_full = [
       { videoId: "xendn_rnwXU" },
       { videoId: "2xAHBmCOFEw" }
     ],
-    tags: [tags.ELECTRONICA, tags.HIP_HOP],
+    tags: [tags.ELECTRONICA, tags.HIP_HOP, tags.NINETIES_ELECTRONICA],
     discogsId: "4991-Spectre",
     bio: "Skiz Fernando Jr. started his career as a journalist. Writing articles in different fanzines or magazines like Rolling Stone, interviews and records' back cover, he published in 1994: \"The New Beats : exploring the music, culture and attitudes of hip-hop\" (Anchor Books).  He founded Wordsound Recordings in December of the same year.",
     bioLink: BIOLINK_DISCOGS,
@@ -1110,9 +1129,9 @@ export const rawArtistList_full = [
       { videoId: "Abky6hbKPpg" },
       { videoId: "2XYHJS-sLII" },
     ],
-    tags: [tags.HIP_HOP],
+    tags: [tags.HIP_HOP, tags.NINETIES_ELECTRONICA],
     discogsId: "18123-Kool-Keith",
-    bio: "American rapper and founding member of Ultramagnetic MC's. Best known as Kool Keith (one of his numerous aliases), has also recorded extensively both as a solo artist and as part of many groups. He worked together with many notable names in the hip hop scene, such as Ice-T (as Analog Brothers), Dan The Automator (as Dr. Octagon), Tim Dog (as Ultra), Kut Masta Kurt (as The Diesel Truckers and Masters Of Illusion) or Godfather Don (as The Cenobites)",
+    bio: "American rapper and founding member of Ultramagnetic MC's. Best known as Kool Keith (one of his numerous aliases), has also recorded extensively both as a solo artist and as part of many groups. He worked together with many notable names, such as Ice-T (as Analog Brothers), Dan The Automator (as Dr. Octagon), Tim Dog (as Ultra), Kut Masta Kurt (as The Diesel Truckers and Masters Of Illusion), Godfather Don (as The Cenobites) and The Prodigy.",
     bioLink: BIOLINK_DISCOGS,
   },
   {
@@ -1134,7 +1153,10 @@ export const rawArtistList_full = [
       { videoId: "cIwDLN2X6Rs" },
       { videoId: "YPwMQWVWPzY" },
     ],
-    tags: [tags.HIP_HOP_SAMPLE_SOURCE, tags.SOUNDTRACK],
+    tags: [tags.HIP_HOP_SAMPLE_SOURCE, 
+      tags.SOUNDTRACK,
+      tags.EARLYELECTRONICS,
+    ],
     discogsId: "185434-Electronic-System",
     bio: "In the early-to-mid 1970s, Belgian recording engineer and synthesist Daniel Lacksman née Lanckmans recorded and released a series of pop music records, using early analog synthesizers as a central sonic element. Under an admittedly confusing array of names, Lacksman (who later founded the group Telex) created music that was equal parts innovation and ear-candy accessibility. Those often happy-go-lucky records gained some popularity throughout Europe, but their lasting influence can be heard in the music of Portishead, Massive Attack, The Moog Cookbook, and Air, not to mention among the lengthy list of 21st century artists who have sampled these recordings.",
     bioLink: "https://shop.realgonemusic.com/products/electronic-system-tchip-tchip-vol-3-lp",
@@ -1204,7 +1226,11 @@ export const rawArtistList_full = [
       { videoId: "vaiH4dLaZ1Y" },
       { videoId: "IABt65h2GfI" },
     ],
-    tags: [tags.HIP_HOP_SAMPLE_SOURCE],
+    tags: [
+      tags.HIP_HOP_SAMPLE_SOURCE, 
+      tags.BOLLYWOOD, 
+      tags.SOUNDTRACK
+    ],
     discogsId: "621178-Kalyanji-Anandji",
     bio: "Kalyanji–Anandji are an Indian composer duo: Kalyanji Virji Shah (30 June 1928 – 24 August 2000) and his brother Anandji Virji Shah (born 2 March 1933). The duo are known for their work on Hindi film soundtracks, with many evergreen songs being composed by them.  Both Kalyanji and Anandji worked as music composers for over 250 films, 17 of which were golden jubilees and 39 silver. ",
     bioLink: "https://en.wikipedia.org/wiki/Kalyanji%E2%80%93Anandji",
@@ -1225,7 +1251,10 @@ export const rawArtistList_full = [
       { videoId: "HnzLconK4Tw" },
 
     ],
-    tags: [tags.ELECTRONICA],
+    tags: [
+      tags.ELECTRONICA,
+      tags.EARLYELECTRONICS,    
+    ],
     discogsId: "26383-Raymond-Scott",
     bio: "Raymond Scott (born Harry Warnow; Sept 10, 1908 – Feb 8, 1994) was an American composer, band leader, pianist, record producer, and inventor of electronic instruments.  His early music is familiar to millions because Carl Stalling adapted it in over 120 Warner Bros. cartoons.  As his career evolved, Scott shifted from composing/performing live music to focusing on electronic productions.    In 1946, he established Manhattan Research, a division of Raymond Scott Enterprises.  Relying on several instruments of his invention, Scott recorded futuristic electronic compositions for use in television and radio commercials. Scott developed some of the first devices capable of producing a series of electronic tones automatically in sequence. He credited himself as the inventor of the polyphonic sequencer, and is widely considered one of the pioneers of modern electronic music. ",
     bioLink: "https://en.wikipedia.org/wiki/Raymond_Scott",
@@ -1237,7 +1266,7 @@ export const rawArtistList_full = [
       { videoId: "JNo8g97BuHg" },
       { videoId: "fEJXU7aH0M0" },
     ],
-    tags: [tags.KRAUTROCK],
+    tags: [],
     discogsId: "",
     bio: "Avi Paul Weinstein (b. 1982) is an American musician, designer and artist. His work has been seen by the Queen of England, the Dalai Lama, and Kevin Federline. He received a BFA from the Massachusetts College of Art where he studied with the Studio For Interrelated Media and graduated with distinction. He currently resides in Watertown, MA, where he works as a visual artist.",
     bioLink: "https://avipaulweinstein.blogspot.com/p/info.html",
@@ -1259,7 +1288,10 @@ export const rawArtistList_full = [
       { videoId: "YxRGw6TCsXI" },
       { videoId: "41XuyoUu1G8" },
     ],
-    tags: [tags.ELECTRONICA],
+    tags: [
+      tags.ELECTRONICA,
+      tags.NINETIES_ELECTRONICA
+    ],
     discogsId: "45-Aphex-Twin",
     bio: "Richard David James (born 18 August 1971), better known as Aphex Twin and less prominently as AFX, is an Irish-born British musician, composer and DJ. He is best known for his idiosyncratic work in electronic styles such as techno, ambient, and jungle.  Raised in Cornwall, James began DJing at free parties and clubs in the area in the late 1980s, and later at venues around the West Country.  His debut EP, Analogue Bubblebath, was released in 1991 on Mighty Force Records. It brought James acclaim and a cult following; he began to perform at techno clubs and raves across the UK and continental Europe. James co-founded the independent label Rephlex Records the same year.",
     bioLink: "https://en.wikipedia.org/wiki/Aphex_Twin",
@@ -1269,13 +1301,13 @@ export const rawArtistList_full = [
     from: "New York",
     youtubeClips: [
       { videoId: "cPmxTjU4i-Q" },
-      { vidoeId: "-6Fyvl342BA" },
+      // { vidoeId: "_hoKTHj-Qrw" },
+      { videoId: "68sTab3EgJk" },
       { videoId: "KOuKE4feM0M" },
       { videoId: "1aOggvplxZQ" },
-      { videoId: "68sTab3EgJk" },
       { videoId: "M3qw2vcWSJs" },
     ],
-    tags: [tags.HOUSE_HEAD, tags.DETROIT_TECHNO],
+    tags: [tags.HOUSE_HEAD, tags.DETROIT_TECHNO, tags.ELECTRONICA],
     discogsId: "214901-PushPull",
     bio: "Ben Cenac is a producer behind numerous innovative house and hip hop alaises in mid-late 80s New York.  Along with releasing several Chicago inspired underground deep house cuts, Cenac was a core member of the legendary early B-boy hip hop outfit Newcleus.",
     bioLink: BIOLINK_ORIGINAL,
@@ -1300,7 +1332,7 @@ export const rawArtistList_full = [
     ],
     tags: [tags.SURF_ROCK],
     discogsId: "246644-Link-Wray",
-    bio: "American rock guitarist born May 2, 1929 in Dunn, North Carolina. He relocated to Denmark in the early 1980s, and he died in Copenhagen, Denmark on November 5, 2005. Often described as an innovator for being one of the first guitarists to use power chords with distorted sounds and the Larsen effect.",
+    bio: "American rock guitarist born May 2, 1929 in Dunn, North Carolina. He relocated to Denmark in the early 1980s, and he died in Copenhagen, Denmark on November 5, 2005. Often described as an innovator for being one of the first guitarists to use power chords with distorted sounds and the Larsen effect.  His music gained new attenion in the mid nineties after having several songs prominently featured in Tarantino's musical score for Pulp Fiction.",
     bioLink: BIOLINK_DISCOGS
   },
   {
@@ -1312,7 +1344,10 @@ export const rawArtistList_full = [
       // { vidoeId: "IgOyFzAAYNA" },
       { videoId: "7J5BWjtWGaM" },
     ],
-    tags: [tags.KRAUTROCK],
+    tags: [
+      tags.KRAUTROCK,
+      tags.PSYCHEDELIC_JAZZ
+    ],
     discogsId: "2995691-GoGo-Penguin",
     bio: "British contemporary jazz trio from Manchester.",
     bioLink: BIOLINK_DISCOGS,
@@ -1327,7 +1362,7 @@ export const rawArtistList_full = [
     ],
     tags: [
       tags.KRAUTROCK, 
-      tags.DETROIT_TECHNO
+      tags.ELECTRONICA
     ],
     discogsId: "2195918-Auntie-Flo",
     bio: "Hails from Goa by way of Glasgow, but now resides in London where he is a resident for Huntleys & Palmers and Highlife.",
@@ -1378,6 +1413,7 @@ export const rawArtistList_full = [
     tags: [
       tags.SOUNDTRACK, 
       tags.HIP_HOP_SAMPLE_SOURCE, 
+      tags.BOLLYWOOD,
     ],
     discogsId: "621180-R-D-Burman",
     bio: "Rahul Dev Burman (27 June 1939 – 4 January 1994) was an Indian high-ranked music director. Burman, commonly known as the \"Music Scientist\" and the \"King of Bollywood Music\" is considered to have been one of the greatest music composers of the Indian film industry. From the 1960s to the 1990s, Burman composed musical scores for 331 films. Burman did major work with his wife, Asha Bhosle, and Kishore Kumar and scored many of the songs that made these singers famous. ",
@@ -1417,14 +1453,13 @@ export const rawArtistList_full = [
     name: "Rinder and Lewis",
     from: "Los Angeles",
     youtubeClips: [
-      { videoId: "oF1XuqYhTxQ" },
       { videoId: "aeRAlFbdXAI" },
+      { videoId: "oF1XuqYhTxQ" },
       { videoId: "bWPni4t8QCk" },
       { videoId: "kR-vweD9-Bg" },      
     ],
     tags: [
       tags.DISCO,
-      tags.NO_WAVES 
     ],
     discogsId: "126919-Rinder-Lewis",
     bio: "During the mid to late 70s the production team of Laurin Rinder and W. Michael Lewis helped to define the Disco sound that was coming out of Los Angeles with studio projects such as El Coco, Saint Tropez, Le Pamplemousse and many others. At the height of their fame in the late 1970s they produced several concept albums as Seven Deadly Sins and Warriors under their own names Rinder & Lewis.",
@@ -1493,7 +1528,7 @@ export const rawArtistList_full = [
     bioLink: "https://en.wikipedia.org/wiki/DJ_Spooky",
   },
   { 
-    name: "Vincent Montana",
+    name: "Vincent Montana Jr.",
     from: "Philadelphia",
     youtubeClips: [
       { videoId: "wRuVwlJ7ppw" },  // get better version
@@ -1511,13 +1546,15 @@ export const rawArtistList_full = [
     bioLink: "https://en.wikipedia.org/wiki/Vincent_Montana_Jr.",
   },
   { 
-    name: "Alan Lomax",
-    from: "",
+    name: "Alan Lomax (Archive)",
+    from: "Texas",
     youtubeClips: [
-      { videoId: "FfweD19oUUA" },
-      { videoId: "K_DOnKJ232M" },
+      { videoId: "N-pShRISHnQ" },
       { videoId: "_zlfH0DZD-I" },
+      { videoId: "W6jjNRUqPxg" },
+      { videoId: "K_DOnKJ232M" },
       { videoId: "FfweD19oUUA" },
+      { videoId: "4iHpcbTNOrk" },
     ],
     tags: [tags.FOLK, tags.BLUES],
     discogsId: "468451-Alan-Lomax",
@@ -1547,7 +1584,7 @@ export const rawArtistList_full = [
       { videoId: "R9PnTe98Gxw" },
       { videoId: "ZLXWU-l9iOQ" },
     ],
-    tags: [tags.FEMME_PUNK],
+    tags: [tags.FEMME_PUNK, tags.NO_WAVES],
     discogsId: "132789-Les-Georges-Leningrad",
     bio: "Les Georges Leningrad were a Montreal, Canada based rock band, which originally had four members (two couples) until the departure of bassist Toundra LaLouve; and so with the release of their sophomore album, has three.  The band have maintained that for the next album there will be only two members appearing, and then for the album after that only one, and then none. Then there will be another with all four in a different format and it will start over.  During interviews the band has stated that they are inspired by the ghost of Leningrad.  The band formed in November 2000, and split up in March 2007.",
     bioLink: BIOLINK_DISCOGS,
@@ -1618,7 +1655,7 @@ export const rawArtistList_full = [
     ],
     tags: [tags.DISCO],
     discogsId: "421196-Destroyers-2",
-    bio: "New York Disco trio active at the end of the '70s, produced by composer and music producer Jeffrey Lesser and by singer, composer and musician Rupert Holmes who also wrote the songs for the trio.",
+    bio: "New York Disco trio active at the end of the '70s, produced by composer and music producer Jeffrey Lesser and by singer, composer and musician Rupert Holmes who also wrote the songs for the trio.  I mean damn, look at these covers.  Two black dudes man-handling that white girl in 1978 or whatever? They were really trying to piss some white dudes off.",
     bioLink: BIOLINK_DISCOGS,
   },
   {
@@ -1797,7 +1834,7 @@ export const rawArtistList_full = [
     from: "",
     youtubeClips: [
       { videoId: "fkbml-TFY0U" },
-      { videoId: "bbgGEIqKxZU" },
+      // { videoId: "bbgGEIqKxZU" },
     ],
     tags: [
       tags.HIP_HOP_SAMPLE_SOURCE,
@@ -1880,7 +1917,8 @@ export const rawArtistList_full = [
       { videoId: "KNz01ty-kTQ" },
     ],
     tags: [
-      tags.DETROIT_TECHNO
+      tags.DETROIT_TECHNO,
+      tags.EARLYELECTRONICS,
     ],
     discogsId: "1102-Juan-Atkins",
     bio: "A major electronic music pioneer from Detroit, Juan appeared behind aliases such as Cybotron, Model 500, and Infiniti releasing many classics of Detroit techno.  The 1982 electro track \"Clear\", recorded by Atkins and Rick Davis as Cybotron, is often considered the first proto-techno track. Continuing to experiment by fusing the extra-terrestrial funk of Parliament Funkadelic with the futuristic rhythms and hard math of Kraftwerk and the progressive dance theorems proposed by Giorgio Moroder, the Model 500 12\"s on his own label Metroplex laid the blueprint for Detroit techno.",
@@ -1896,7 +1934,6 @@ export const rawArtistList_full = [
     ],
     tags: [
       tags.HIP_HOP,
-      tags.DISCO,
     ],
     discogsId: "4839-Spoonie-Gee",
     bio: "Spoonie Gee was the nephew of veteran R&B producer Bobby Robinson and one of the earliest rap artists. He was known as the \"love rapper,\" an image that was established by his first record, \"Love Rap\", released on his uncle's Enjoy label as the flip side of the Treacherous Three's \"The New Rap Language\". The bulk of early rap records reproduced an MC's party routine with a loose sequence of narrative, boasting, and call and response. Spoonie's initial outing, however, organized a hip-hop styled record around a romantic theme, coming closer to the lyrical norms of pop music.",
@@ -2034,12 +2071,13 @@ export const rawArtistList_full = [
     name: "Geoff Bastow",
     from: "England",
     youtubeClips: [
+      // { vidoeId: "_LB8lK5Q8ck" },
       { videoId: "TEJDKpjVCXU" },
       { videoId: "9vEvGUQgtKs" },
-      { vidoeId: "RnedDTuqo78" },
     ],
     tags: [
       tags.SOUNDTRACK,
+      tags.EARLYELECTRONICS,
     ],
     discogsId: "132317-Geoff-Bastow",
     bio: "Bastow (born 20 May 1949 in Yorkshire, England), was a Munich-based English songwriter and record producer. He collaborated with disco/electronic innovator Giorgio Moroder and wrote songs for artists including Elton John  and Suzi Lane.  Aside from his main work as K.I.D., he has also worked as a session musician for Euro disco acts such as Amanda Lear (1981 album Incognito), Boney M (1981 album Boonoonoonoos), Mick Jackson and Gary Lux.",
@@ -2056,7 +2094,8 @@ export const rawArtistList_full = [
     ],
     tags: [
       tags.ELECTRONICA,
-      tags.KRAUTROCK
+      tags.KRAUTROCK,
+      tags.INDUSTRIAL,
     ],
     discogsId: "12589-Throbbing-Gristle",
     bio: "Throbbing Gristle were an English music and visual arts group formed in 1975 in Kingston upon Hull by Genesis P-Orridge, Cosey Fanni Tutti, Peter Christopherson, and Chris Carter. They are widely regarded as pioneers of industrial music. Evolving from the experimental performance art group COUM Transmissions, Throbbing Gristle made their public debut in October 1976 on COUM exhibition Prostitution.  Lyrical themes mainly revolved around mysticism, extremist political ideologies, sexuality, dark or underground aspects of society, and idiosyncratic manipulation of language.",
@@ -2070,6 +2109,7 @@ export const rawArtistList_full = [
     ],
     tags: [
       tags.DISCO,
+      tags.ITALO_DISCO,
       tags.HOUSE_HEAD
     ],
     discogsId: "227131-Patricia-Harris",
@@ -2120,27 +2160,27 @@ export const rawArtistList_full = [
       tags.DETROIT_TECHNO,
     ],
     discogsId: "205-Jeff-Mills",
-    bio: "In the late 1980s Jeff Mills (born June 18, 1963, in Detroit, Michigan) founded the legendary techno collective Underground Resistance, but left the group in the early 90s to start his own Axis Records imprint.  Mills is known for a wide range of electronic styles from hard hitting rhythmic techno to ambient sci-fi soundtrack pieces, reminiscent of early science fiction worlds in films like Fritz Lang’s \”Metropolis\”.   He has since collaborated with artists across a wide range of genres including renowned afro-beat drummer Tony Allen and the Montpelier Philharmonic Orchestra.",
+    bio: "In the late 1980s Jeff Mills (born June 18, 1963, in Detroit, Michigan) co-founded the legendary techno collective Underground Resistance, but left the group in the early 90s to start his own Axis Records imprint.  Mills is known for a wide range of electronic styles from hard hitting rhythmic techno to ambient sci-fi soundtrack pieces, reminiscent of early science fiction worlds in films like Fritz Lang’s \”Metropolis\”.   He has since collaborated with artists across a wide range of genres including renowned afro-beat drummer Tony Allen and the Montpelier Philharmonic Orchestra.",
     bioLink: BIOLINK_DISCOGS,
   },   
-  {
-    name: "Akira S & As Garotas Que Erraram",
-    from: "Brazil",
-    youtubeClips: [
-      { videoId: "KDn8MQNBJVo" },
-      { videoId: "5mTmoRqWd9E" },
-      { videoId: "relc4x83Hvs" },
-      // { videoId: "X2YZmSMLFVg" },q
-      // { videoId: "EPBg3hG2OoA" },
-    ],
-    tags: [
-      tags.PSYCHEDELIC_ROCK,
-      tags.KRAUTROCK
-    ],
-    discogsId: "1014765-Akira-S-As-Garotas-Que-Erraram",
-    bio: "Akira S & As Garotas Que Erraram  (\"Akira S & The Girls Who Fucked Up\") were formed in São Paulo in 1984 by a core of two individuals, Alex Antunes, vocals, and Akira Tsukimoto on bass, tapes and computer programming, with other floating members contributing to tracks and performances.  The band was among the first to bring the post punk electronic underground sound to the streets of Brazil, citing many influences of the New York and British no wave scenes of the early 80’s.",
-    bioLink: "https://www.brasilwire.com/akira-s-e-as-garotas-que-erraram-tropical-art-punk-from-the-girls-who-fucked-up/",
-  },   
+  // {
+  //   name: "Akira S & As Garotas Que Erraram",
+  //   from: "Brazil",
+  //   youtubeClips: [
+  //     { videoId: "5mTmoRqWd9E" },
+  //     { videoId: "KDn8MQNBJVo" },
+  //     { videoId: "relc4x83Hvs" },
+  //     // { videoId: "X2YZmSMLFVg" },q
+  //     // { videoId: "EPBg3hG2OoA" },
+  //   ],
+  //   tags: [
+  //     tags.PSYCHEDELIC_ROCK,
+  //     tags.KRAUTROCK
+  //   ],
+  //   discogsId: "1014765-Akira-S-As-Garotas-Que-Erraram",
+  //   bio: "Akira S & As Garotas Que Erraram  (\"Akira S & The Girls Who Fucked Up\") were formed in São Paulo in 1984 by a core of two individuals, Alex Antunes, vocals, and Akira Tsukimoto on bass, tapes and computer programming, with other floating members contributing to tracks and performances.  The band was among the first to bring the post punk electronic underground sound to the streets of Brazil, citing many influences of the New York and British no wave scenes of the early 80’s.",
+  //   bioLink: "https://www.brasilwire.com/akira-s-e-as-garotas-que-erraram-tropical-art-punk-from-the-girls-who-fucked-up/",
+  // },   
   {
     name: "Gang 90 & Absurdettes",
     from: "Brazil",
@@ -2151,6 +2191,7 @@ export const rawArtistList_full = [
     ],
     tags: [
       tags.DISCO,
+      tags.ITALO_DISCO,
       tags.NO_WAVES,
     ],
     discogsId: "320463-Gang-90",
@@ -2169,7 +2210,7 @@ export const rawArtistList_full = [
       tags.HIP_HOP_SAMPLE_SOURCE
     ],
     discogsId: "289960-Jacques-Loussier",
-    bio: "French jazz pianist and composer.  Born: 26th October 1934, Angers, France.  Renowned for applying jazz and swing improvisation to the music of Johann Sebastian Bach as well as composing scores for over 60 films and TV shows. Founded Studio Miraval in 1979, a prestigious recording studio host to many prolific artists in the following decades.  ",
+    bio: "French jazz pianist and composer.  Born: 26th October 1934, Angers, France.  Renowned for applying jazz and swing improvisation to the music of Johann Sebastian Bach as well as composing scores for over 60 films and TV shows. Founded Studio Miraval in 1979, a prestigious recording studio host to many prolific artists in the following decades.  New attention was brought to his work in the early 2000s thanks to a sampling of his song Pulsion on Eminem's song Kill You from his wildly successful Marshall Mathers LP.",
     bioLink: BIOLINK_DISCOGS,
   },
   {
@@ -2199,7 +2240,7 @@ export const rawArtistList_full = [
       tags.LATIN,
     ],
     discogsId: "320472-AKT",
-    bio: "Brazilian post-punk act Akt is credited with one album that may or may not have come out in the late 70’s.  Little information about the group has survived the decades, and is certainly likely this band is another Mandela effect case. ",
+    bio: "Brazilian post-punk act Akt is credited with one album that may or may not have come out in the late 70’s.  Little information about the group has survived the decades, and if I had to guess I'd say they're probably not from this timeline.  Just one album got through somehow.",
     bioLink: BIOLINK_ORIGINAL,
   },
   {
@@ -2234,8 +2275,8 @@ export const rawArtistList_full = [
     name: "Nino Nardini",
     from: "France",
     youtubeClips: [
-      { videoId: "uyhkQxIoCx4" },
       { videoId: "svv2O2TYJQs" },
+      { videoId: "uyhkQxIoCx4" },
       { videoId: "AEfWD1XOj8w" },
       { videoId: "nz6wJvmakiM" },
       { videoId: "95uWjdsWNFg" },
@@ -2246,7 +2287,7 @@ export const rawArtistList_full = [
       tags.HIP_HOP_SAMPLE_SOURCE
     ],
     discogsId: "35303-Nino-Nardini",
-    bio: "Georges Teperino (aka Nino Nardini) was born in 1912 in Paris, France into a family of musicians.  He started his musical career early, at the age of seven, directing a philharmonic orchestra. While still a child, he formed the 5-piece orchestra \"Les Diables Rouges\" with his friend Roger Roger, which performed between the 1920's and 30's.   In the early 1960's, he, along with Roger Roger, started work composing for music libraries, recording in various styles, often featuring instruments like the harpsichord, marimba or electric organ, and later analog synthesizers and electronic keyboards.  Both had fruitful careers in library music, composing a large amount of works for French and British libraries, also experimenting with electronic music in the late 60's and early 70's onwards. Their library music has been, and continues to be featured in numerous radio programs, animations, TV shows and films all over the world.",
+    bio: "Georges Teperino (aka Nino Nardini) was born in 1912 in Paris, France into a family of musicians.  He started his musical career early, at the age of seven. While still a child, he formed the 5-piece orchestra \"Les Diables Rouges\" with his friend Roger Roger, which performed between the 20's and 30's.   In the early 60's, he, along with Roger Roger, started work composing for music libraries, recording in various styles, often featuring instruments like the harpsichord, marimba or electric organ, and later analog synthesizers and electronic keyboards.  Both had fruitful careers in library music, composing a large amount of works for French and British libraries, also experimenting with electronic music in the late 60's and early 70's onwards. Their library music has been, and continues to be featured in numerous radio programs, animations, TV shows and films all over the world.",
     bioLink: BIOLINK_DISCOGS,
   },
   {
@@ -2320,7 +2361,7 @@ export const rawArtistList_full = [
       { videoId: "mei4BpeRqns" },
     ],
     tags: [
-      tags.PSYCHEDELIC_ROCK,
+      tags.HARD_ROCK,
     ],
     discogsId: "333758-Pharaoh-Overlord",
     bio: "Pharaoh Overlord is an experimental rock music band, initially featuring three members of the Finnish group Circle, Jussi Lehtisalo, Janne Westerlund and Tomi Leppänen.",
@@ -2347,7 +2388,7 @@ export const rawArtistList_full = [
       { videoId: "fw67DJkB2R4" },
       { videoId: "GdddjGoHTb8" },
       { videoId: "yf6Zf-Zd-iw" },
-      { videoId: "NZHQbDB80CU" },
+      // { videoId: "NZHQbDB80CU" },
     ],
     tags: [
       tags.SURF_ROCK,
@@ -2439,7 +2480,7 @@ export const rawArtistList_full = [
     youtubeClips: [
       { videoId: "x3s1rxe5oy0" },
       { videoId: "n9FPo0ratCg" },
-      { videoId: "7FqV8LbZCSs" },
+      // { videoId: "7FqV8LbZCSs" },
     ],
     tags: [
       tags.DISCO,
@@ -2536,6 +2577,7 @@ export const rawArtistList_full = [
       tags.NO_WAVES,
       tags.DISCO,
       tags.HOUSE_HEAD,
+      tags.ITALO_DISCO,
     ],
     discogsId: "15977-Klein-amp-MBO",
     bio: "Klein & MBO Italo post-disco stalwarts were formed around the nucleus of Mario Boncaldo [Italy] and Electro-Soul-House master Tony Carrasco [USA].  The principle vocals were performed around American Italian jazz singer Rossana Casale and American chorus singer Naimy Hackett.  During the mid-80s, singles like \"Dirty Talk\", \"Wonderful\" and \"The MBO Theme\" became major hits in both the emerging New York garage scene and Chicago's house community.",
@@ -2553,7 +2595,7 @@ export const rawArtistList_full = [
       tags.PSYCHEDELIC_JAZZ,
     ],
     discogsId: "274439-Howard-Wales",
-    bio: "Howard Wales (Feb 8, 1943 – Dec 7, 2020) was an American keyboardist. Wales was a session player for many musical acts, including Ronnie Hawkins, Freddie King, James Brown, and the Four Tops.  He was also a collaborator with Jerry Garcia in the early 1970s.   Though he was adept at accompanying rock and R&B artists, he also played free-form jazz. Later in his career he released several solo albums in this style. For several months in 1970, Wales led Monday night jazz-rock jam sessions at the Matrix, a club in San Francisco. Jerry Garcia usually played guitar at these free-form performances.",
+    bio: "Howard Wales (Feb 8, 1943 – Dec 7, 2020) was an American keyboardist. Wales was a session player for many musical acts, including Ronnie Hawkins, Freddie King, James Brown, and the Four Tops.  He was also collaborated with Jerry Garcia in the early 1970s.   Though he was adept at accompanying rock and R&B artists, he also played free-form jazz. Later in his career he released several solo albums in this style. For several months in 1970, Wales led Monday night jazz-rock jam sessions at the Matrix, a club in San Francisco. Jerry Garcia usually played guitar at these free-form performances.",
     bioLink: "https://en.wikipedia.org/wiki/Howard_Wales"
   },  
   {
@@ -2575,6 +2617,7 @@ export const rawArtistList_full = [
     from: "Chicago",
     youtubeClips: [
       { videoId: "B5ZjevzU98o" },
+      { videoId: "ejzSWyIQR0U" },
       { videoId: "cUS5qwAxNZg" },
     ],
     tags: [
@@ -2660,13 +2703,15 @@ export const rawArtistList_full = [
       { videoId: "zs8UpY2YF3c" },
       { videoId: "wzsjWKVAy2Q" },
       { videoId: "Bd5OtWZS9zg" },
+      { videoId: "8JGBNkLM9_8" },
     ],
     tags: [
       tags.NO_WAVES,
       tags.FEMME_PUNK,
+      tags.HARD_ROCK,
     ],
     discogsId: "17199-Sonic-Youth",
-    bio: "Sonic Youth were formed in New York City in 1981. A product of the No-Wave music scene of the late 1970s, the group had their roots in abrasive, experimental music, with Moore and Ranaldo having previously worked with the experimental composer Glenn Branca. The band were joined in 1985 by drummer Steve Shelley, and recorded 15 albums together, as well as many side and solo projects.  The band was one of the few from the early 80s NY scene that were able to stay together long enough to achieve commercial succes well into the 90s.",
+    bio: "Sonic Youth were formed in New York City in 1981. A product of the No-Wave music scene of the late 1970s, the group had their roots in abrasive, experimental music, with Moore and Ranaldo having previously worked with the experimental composer Glenn Branca. The band were joined in 1985 by drummer Steve Shelley, and recorded 15 albums together, as well as many side and solo projects.  The band was one of the few from the early 80s NY scene that recorded and had crossover success well into the 90s.",
     bioLink: BIOLINK_DISCOGS,
   }, 
   {
@@ -2707,6 +2752,7 @@ export const rawArtistList_full = [
     tags: [
       tags.NO_WAVES,
       tags.DISCO,
+      tags.ITALO_DISCO,
     ],
     discogsId: "82822-Magazine-60",
     bio: "Magazine 60 was a French synthpop band founded by music producer, Jean-Luc Drion. Other members are Dominique Régiacorte, Pierre Mastro and Véronique Olivier. The group was best known for the 1984 song, \"Don Quichotte\", which hit the Top 10 in France and the Top 60 in the United States in 1986.",
@@ -2720,6 +2766,7 @@ export const rawArtistList_full = [
     ],
     tags: [
       tags.DISCO,
+      tags.ITALO_DISCO,
     ],
     discogsId: "15971-Charlie",
     bio: "Short lived Italo Disco project, formed between Maurice Cavalieri and Giorgio Stefani in Italy in 1983.",
@@ -2787,7 +2834,6 @@ export const rawArtistList_full = [
     ],
     tags: [
       tags.DISCO,
-      tags.PSYCHEDELIC_FUNK,
     ],
     discogsId: "496453-Morning-Noon-Night",
     bio: "Morning Noon and Night were a six piece group who released one album for the United Artists subsidiary Roadshow Record label in 1977.",
@@ -2830,6 +2876,7 @@ export const rawArtistList_full = [
     tags: [
       tags.NO_WAVES,
       tags.KRAUTROCK,
+      tags.NEUEDEUTCHEWELLE,
     ],
     discogsId: "7549-Grauzone",
     bio: "Swiss Neue Deutsche Welle / post punk band founded in 1980 in Bern. They disbanded in 1982.  Drummer Marco Repetto and bassist Christian Trüssel (known as GT) had played in one of the first Swiss punk bands, Glueams. Looking for a new musical direction, they teamed up in late 1979 with Martin Eicher (guitar/vocals), who had already supported them on the Glueams single \"Mental\". They played their first gig as \"Grauzone\" at the Spex club in Bern early March 1980.",
@@ -2846,6 +2893,7 @@ export const rawArtistList_full = [
     tags: [
       tags.NO_WAVES,
       tags.KRAUTROCK,
+      tags.NEUEDEUTCHEWELLE,
     ],
     discogsId: "20571-Pyrolator",
     bio: "Kurt \"Pyrolator\" Dahlke. Specialist for music and computer. Founder of the record label and music publishing house atatak (more than 150 publications since 1979). Member of the groups \"Fehlfarben\", \"Der Plan\", \"The Nights\", \"a certain frank\" and solo as \"Pyrolator\". Former member of \"D.A.F.\" and pioneer of the \"Neue Deutsche Welle\" (German New Wave). He produced more than 200 records and CDs and was active on over 100 publications as a composer, musicians and software programmer. His main instruments are the \"Thunder & Lightning II\" built by the Synthesizer-Pioneer Donald Buchla, with which he is controlling the music by the movement or the pressure of the hands.",
@@ -2908,6 +2956,7 @@ export const rawArtistList_full = [
     tags: [
       tags.PSYCHEDELIC_JAZZ,
       tags.HIP_HOP_SAMPLE_SOURCE,
+      tags.INSIDE_JAZZ,
     ],
     discogsId: "164253-Ahmad-Jamal",
     bio: "Highly influential American jazz pianist, bandleader and educator, born, 2 July 1930 in Pittsburgh, Pennsylvania as Frederick \"Fritz\" Russell Jones. He has used the name Ahmad Jamal since his conversion to Islam in the early 1950s.",
@@ -2960,10 +3009,10 @@ export const rawArtistList_full = [
     name: "Gemini",
     from: "Chicago",
     youtubeClips: [
-      { videoId: "EFJ_arUD-dg" },
       { videoId: "FPxboliQOKU" },
+      { videoId: "EFJ_arUD-dg" },
       { videoId: "h-zD2EyyxcY" },
-      { videoId: "ETdY1tIWopg" },
+      // { videoId: "ETdY1tIWopg" },
       { videoId: "FDLjEaBH3XQ" },
       { videoId: "-2QcSRI-CuI" },
       { videoId: "vLMDwfH0rt4" },
@@ -2984,21 +3033,20 @@ export const rawArtistList_full = [
     from: "France",
     youtubeClips: [
       { videoId: "JJ8SZDc0DeI" },
-      { videoId: "k7lJ8kNwK_0" },
       { videoId: "3rLUhgrDL30" },
       { videoId: "lNvdfxPiqV4" },
+      { videoId: "k7lJ8kNwK_0" },
       { videoId: "eHjMDGjgWQg" },
       { videoId: "WK1CA5MxDUI" },
     ],
     tags: [
       tags.HIP_HOP_SAMPLE_SOURCE,
-      tags.KRAUTROCK,
       tags.PSYCHEDELIC_JAZZ,
       tags.SOUNDTRACK,
       tags.FEMME_FATALE
     ],
     discogsId: "1526664-Laurence-Vanay",
-    bio: "Jacqueline Thibault is a French singer and multi-instrument musician who released several albums in the mid 70s.  Her largely instrumental and very imaginative works incorporated rock, electronic, psychedelic jazz and orchestral themes.  Her unique style can be explained in part by her complete cluelessnes to pop culture as a kid (thanks mom), remarking that she never heard of the Beatles or the Stones until adulthood.  She released her own music under the moniker Laurence Vanay as she felt that at the time female musicians (aside from singers) were not taken seriously.  She also performed as a session musician for many artists including Iggy Pop, The Bee Gees, David Bowie, Fleetwood Mac and Marvin Gaye. ",
+    bio: "Jacqueline Thibault is a French singer, songwriter and multi-instrumentalist who released several albums in the mid 70s.  Her largely instrumental and very imaginative works incorporated rock, electronic, psychedelic jazz and orchestral sounds.  Her unique style can be explained in part by her complete cluelessnes to pop culture as a kid (thanks mom), remarking that she never heard of the Beatles or the Stones until adulthood.  She released her own music under the moniker Laurence Vanay as she felt that at the time female musicians (aside from singers) were not taken seriously.  She also performed as a session musician for many artists including Iggy Pop, The Bee Gees, David Bowie, Fleetwood Mac and Marvin Gaye. ",
     bioLink: BIOLINK_ORIGINAL
   },
   {
@@ -3012,7 +3060,8 @@ export const rawArtistList_full = [
     ],
     tags: [
       tags.ELECTRONICA,
-      tags.NO_WAVES,
+      tags.FEMME_PUNK,
+      tags.INDUSTRIAL,
     ],
     discogsId: "17819-Anne-Clark",
     bio: "British poet who was a pioneer in the use of spoken words. She had never sung but always told words on music. Her career began in the early eighties with the new wave, she did hit the charts many times with David Harrow's synthetic compositions.  Her songs were heavily remixed, making her music popular on dancefloors around the world, including being influential in the early Chicago house and industrial scenes.",
@@ -3029,7 +3078,7 @@ export const rawArtistList_full = [
       tags.SOUNDTRACK
     ],
     discogsId: "1897964-Plaisirs-Erotiques",
-    bio: "Translating simply to \"Erotic Pleasures,\" this talented obscure french trio released several albums some time in the 70s, all centered around \"gettin it on,\" backed by heavy funk, electronic and jazz influences.  Rumor has it that the music was commissioned for a real adult film series, but the score was rejected when the performes just wanted to stop screwing mid-scene to smoke a little pot and listen to the rest of the album.",
+    bio: "Translating simply to \"Erotic Pleasures,\" this talented obscure french trio released several albums some time in the 70s, all centered around \"gettin it on,\" backed by heavy funk, electronic and jazz influences.  Rumor has it that the music was commissioned for a real adult film series, but the score was rejected when the performers just wanted to stop screwing mid-scene to smoke a little pot and finish the rest of the album.",
     bioLink: BIOLINK_ORIGINAL,
   },
   { 
@@ -3045,10 +3094,10 @@ export const rawArtistList_full = [
     ],
     tags: [
       tags.FEMME_PUNK,
-      tags.ELECTRONICA,
+      tags.NINETIES_ELECTRONICA,
     ],
     discogsId: "18692-Peaches",
-    bio: "Merrill Nisker aka Peaches (born 11 November 1966), is a Canadian musician, producer, filmmaker, actress, and performance artist.  She was the first crossover artist of the early 2000s punk-infused electroclash movement.   Her gritty, low-fi, oversexualized productions pushed back against the more polished, lush dance music of the era and helped create a new energy and appetite for the dance music scene.  Years before the trans movement gained it’s current level of public attention, Peaches was one of the most public faces of gender non-conformity, often blurring the lines between men and women in her songs and performances.",
+    bio: "Merrill Nisker aka Peaches (born 11 November 1966), is a Canadian musician, producer, filmmaker, actress, and performance artist.  She was the first crossover artist of the early 2000s punk-infused \"electroclash\" movement.  Well, her and Felix.  Man what happened to Felix after that album?  Anywayws, her gritty, low-fi, oversexualized productions pushed back against the more polished, lush dance music of the era and helped create a new energy and appetite for the dance music scene.  During the time Peaches was probably the most public faces of gender non-conformity, often blurring the lines between men and women in her songs and performances.",
     bioLink: BIOLINK_ORIGINAL,
   },
   {
@@ -3065,7 +3114,7 @@ export const rawArtistList_full = [
       tags.HOUSE_HEAD
     ],
     discogsId: "6681-Jamie-Principle",
-    bio: "Jamie Principle was a pioneer of house music when the genre began in Chicago in the early 1980s. \"Jamie Principle got us all into the music,\" Marshall Jefferson told i-D in 1986. \"He was the first one to record house and get played by Frankie Knuckles, but by the time he got a record out everyone had ripped off all his ideas.  People have got national recognition copying his songs note-for-note, but no one has heard of him.\"  Jamie's music continued to be released throughout the 1980s but often credited Frankie Knuckles as the artist. ",
+    bio: "Jamie Principle was a pioneer of house music when the genre began in Chicago in the early 1980s. \"Jamie Principle got us all into the music,\" Marshall Jefferson told i-D in 1986. \"He was the first one to record house and get played by Frankie Knuckles, but by the time he got a record out everyone had ripped off all his ideas.  People have got national recognition copying his songs note-for-note, but no one has heard of him.\"  Jamie's music continued to be released throughout the 1980s but often credited Frankie Knuckles as the artist. ",
     bioLink: "https://en.wikipedia.org/wiki/Jamie_Principle",
   },
   {
@@ -3077,6 +3126,7 @@ export const rawArtistList_full = [
     ],
     tags: [
       tags.PSYCHEDELIC_JAZZ,
+      tags.INSIDE_JAZZ,
       tags.HIP_HOP_SAMPLE_SOURCE
     ],
     discogsId: "91960-Dorothy-Ashby",
@@ -3096,7 +3146,7 @@ export const rawArtistList_full = [
       tags.ELECTRONICA
     ],
     discogsId: "1244-Grooverider",
-    bio: "Raymond Bingham aka Grooverider (born 16 April 1967 in Streatham, London), is a British drum and bass DJ. He and DJ partner Fabio are regarded as \"originators\" of the scene.  Grooverider began his DJing at illegal raves and warehouse parties in the UK in the late 1980s, and rose to prominence through his sets at club nights such as the groundbreaking Rage at Heaven.  As a recording artist, Grooverider has released one album, Mysteries of Funk (Sony 1998), produced in conjunction with fellow drum and bass luminary Optical.",
+    bio: "Raymond Bingham aka Grooverider (born 16 April 1967 in Streatham, London), is a British drum and bass DJ. He and DJ partner Fabio are regarded as some of the \"originators\" of the scene.  Grooverider began his DJing at illegal raves and warehouse parties in the UK in the late 1980s, and rose to prominence through his sets at club nights such as the groundbreaking Rage at Heaven.  As a recording artist, Grooverider has released one album, Mysteries of Funk (Sony 1998), produced in conjunction with fellow drum and bass luminary Optical.",
     bioLink: "https://en.wikipedia.org/wiki/Grooverider",
   },
   {
@@ -3148,7 +3198,7 @@ export const rawArtistList_full = [
       tags.NO_WAVES
     ],
     discogsId: "51225-Lizzy-Mercier-Descloux",
-    bio: "A musician, songwriter, poet, painter, author, and actress, Lizzy Mercier Descloux (born Paris, France December 1956), enjoyed a recording career as eclectic as her résumé would suggest, breaking boundaries as one of the pioneers of New York's no wave scene as well as fusing African rhythms with R&B and pop, anticipating the worldbeat movement before it became a music business buzzword.  She studied art as a teenager, and struck up a romance with Michel Esteban, who later co-founded the legendary NY imprint Ze Records, responsible for developing the careers of many artists in the influential New York post-punk and dance music scene, including releasing most of Lizzy's work.",
+    bio: "A musician, songwriter, poet, painter, author, and actress, Lizzy Mercier Descloux (born 1956), enjoyed a recording career as eclectic as her résumé would suggest.  The young parisian broke boundaries as one of the pioneers of New York's no wave scene.  She fused the gritty NY noize with African rhythms with R&B and pop, anticipating the worldbeat movement before it became a music business buzzword.  She studied art as a teenager, during which she struck up a romance with Michel Esteban, who later co-founded the extremely influential NY imprint Ze Records.  The label would go on to release most of Lizzy's work, as well as develop the careers of many more hugely influential artist of the NY post-punk no wave scene.",
     bioLink: "https://www.allmusic.com/artist/lizzy-mercier-descloux-mn0000270066/biography",
   },
   {
