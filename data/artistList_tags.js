@@ -18,8 +18,18 @@ export const tags = {
   SURF_ROCK: "surfRock",
   DISCO: "disco",
   NO_WAVES: "noWaves",
-  FEMME_FATALE: "femmeFatale"
+  FEMME_FATALE: "femmeFatale",
+  NEUEDEUTCHEWELLE: "NeueDeutcheWelle",
+  EARLYELECTRONICS: "EarlyElectronics",
+  NINETIES_ELECTRONICA: "Nineties Electronica",
+  ITALO_DISCO: "Italo Disco",
+  ADRIAN_SHERWOOD: "Adrien Sherwood",
+  INDUSTRIAL: "Industrial",
+  BOLLYWOOD: "Bollywood",
+  INSIDE_JAZZ: "Inside Jazz",
+  HARD_ROCK: "Hard Rock"
 };
+
 
 export const BIOLINK_DISCOGS = 'discogs';
 export const BIOLINK_ORIGINAL = 'original';
