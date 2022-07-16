@@ -51,7 +51,7 @@ export const rawArtistList_full = [
       { videoId: "jrzxW0rsD1Q" },
       { videoId: "tPnoC3XHroU" },
     ],
-    tags: [tags.DISCO],
+    tags: [tags.DISCO, tags.CALYPSO_DISCO],
     discogsId: "88534-Dr-Buzzards-Original-Savannah-Band",
     bio: "Dr. Buzzard's Original Savannah Band was a big-band and swing influenced disco band that was formed in the Bronx, New York.   The band was conceived by half-brothers Stony Browder Jr. (February 7, 1949 – October 6, 2001) and Thomas Browder (born August 12, 1950).  Their music blended disco beats with rhythms from genres including calypso, rhumba, cha-cha-chá, and compas. The Browders, who were both multiracial, wrote songs embracing multiculturalism over stories about tragic mulattoes.  They were frequent performers at Studio 54. ",
     bioLink: "https://en.wikipedia.org/wiki/Dr._Buzzard%27s_Original_Savannah_Band",
@@ -365,7 +365,8 @@ export const rawArtistList_full = [
       tags.PSYCHEDELIC_FUNK, 
       tags.EARLYELECTRONICS,
       // tags.ELECTRONICA, 
-      // tags.HIP_HOP_SAMPLE_SOURCE
+      tags.HIP_HOP_SAMPLE_SOURCE,
+      tags.SOUNDTRACK
     ],
     discogsId: "149325-Jasper-Vant-Hof",
     bio: "Dutch jazz keyboardist and band leader, born 30 June 1947 in Enschede, The Netherlands. He was also a teacher at the music academy in Basel, Switzerland. In 1984 he founded the Afro-European formation Pili Pili.",
@@ -455,7 +456,7 @@ export const rawArtistList_full = [
       { videoId: "Nb_t42nQ-00" },
       { videoId: "gD6cPE2BHic" }
     ],
-    tags: [tags.HOUSE_HEAD, tags.DISCO],
+    tags: [tags.HOUSE_HEAD, tags.DISCO, tags.GAY_NIGHT],
     discogsId: "16794-Sylvester",
     bio: "Sylvester James Jr. (September 6, 1947 – December 16, 1988), known mononymously as Sylvester, was an American singer-songwriter. Primarily active in the genres of disco, rhythm and blues, and soul, he was known for his flamboyant and androgynous appearance, falsetto singing voice, and hit disco singles in the late 1970s and 1980s.  Sylvester was an activist who campaigned against the spread of HIV/AIDS. He died from complications arising from the virus in 1988, leaving all future royalties from his work to San Francisco-based HIV/AIDS charities.",
     bioLink: "https://en.wikipedia.org/wiki/Sylvester_(singer)",
@@ -902,7 +903,7 @@ export const rawArtistList_full = [
       { videoId: "qLAxBS0wK84" },
       // { videoId: "WLSF6zHdVqg" },
     ],
-    tags: [tags.HOUSE_HEAD],
+    tags: [tags.HOUSE_HEAD, tags.GAY_NIGHT],
     discogsId: "2474-Cajmere",
     bio: "For an international audience reawakening to the influence of Chicago house during the 1990s, Curtis A. Jones acted as quite a renaissance leader. Besides donning his straightahead house guise Cajmere and a flamboyant, neon-haired acid-house alter-ego named Green Velvet for several of the most memorable underground house tracks of the decade, Jones helmed the two most respected labels in the new school of Chicago house, Cajual and Relief.",
     bioLink: "https://www.allmusic.com/artist/cajmere-mn0000639671/biography",
@@ -2780,6 +2781,7 @@ export const rawArtistList_full = [
     ],
     tags: [
       tags.DISCO,
+      tags.GAY_NIGHT,
     ],
     discogsId: "623978-Jackey-Beavers",
     bio: "US soul singer, producer and songwriter, (born June 19, 1937, died October 28, 2008).  Born and raised in Cartersville, Georgia. Co-wrote the song \"Someday We'll Be Together\" (with Johnny Bristol and Harvey Fuqua), which when recorded by Diana Ross and The Supremes reached #1 on the Billboard pop charts in 1969. He recorded for many Detroit and Chicago labels before returning to Cartersville. He then recorded several Gospel albums for the Glory label in the 1980s.",
@@ -3105,13 +3107,14 @@ export const rawArtistList_full = [
     from: "Chicago",
     youtubeClips: [
       { videoId: "3PuP6lgah_M" },
-      { videoId: "T3ChyhbJ4oo" },
       { videoId: "c1NzlSOn0_U" },
+      { videoId: "T3ChyhbJ4oo" },
       // { videoId: "wmtWTfqvEQ0" },
       { videoId: "bu8hVn_0Lq4" },
     ],
     tags: [
-      tags.HOUSE_HEAD
+      tags.HOUSE_HEAD,
+      tags.GAY_NIGHT,
     ],
     discogsId: "6681-Jamie-Principle",
     bio: "Jamie Principle was a pioneer of house music when the genre began in Chicago in the early 1980s. \"Jamie Principle got us all into the music,\" Marshall Jefferson told i-D in 1986. \"He was the first one to record house and get played by Frankie Knuckles, but by the time he got a record out everyone had ripped off all his ideas.  People have got national recognition copying his songs note-for-note, but no one has heard of him.\"  Jamie's music continued to be released throughout the 1980s but often credited Frankie Knuckles as the artist. ",
