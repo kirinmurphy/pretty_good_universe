@@ -27,7 +27,9 @@ export const tags = {
   INDUSTRIAL: "Industrial",
   BOLLYWOOD: "Bollywood",
   INSIDE_JAZZ: "Inside Jazz",
-  HARD_ROCK: "Hard Rock"
+  HARD_ROCK: "Hard Rock",
+  CALYPSO_DISCO: "Calypso Disco",
+  GAY_NIGHT: "Gay Disco",
 };
 
 
