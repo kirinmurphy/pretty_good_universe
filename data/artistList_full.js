@@ -949,7 +949,7 @@ export const rawArtistList_full = [
       { videoId: "wZ6RbvOpZMk" },
       { videoId: "dpAuddaV_pI" }
     ],
-    tags: [tags.HOUSE_HEAD, tags.DISCO, lien & MBO],
+    tags: [tags.HOUSE_HEAD, tags.DISCO, tags.ITALO_DISCO],
     discogsId: "75922-Gino-Soccio",
     bio: "Canadian disco producer, singer, songwriter, arranger and multi-instrumentalist, born September 9, 1955 in Montreal. His legacy is Italian.  Gino began studying piano at the age of 8. By the age of 18 Gino had begun renting electronic keyboards and synthesizers to use in his own home studio. A producer asked him to play keyboards and write a tune for a group called Kebekelektrik. He ended up doing practically the whole LP by himself.  Gino hit #1 on the US Hot Dance Music/Club Play chart twice with \"Dancer\" / \"Dance to Dance\" in 1979 and \"Try It Out\" / \"Hold Tight\" in 1981, six weeks each.",
     bioLink: BIOLINK_DISCOGS,
@@ -2739,6 +2739,7 @@ export const rawArtistList_full = [
     ],
     tags: [
       tags.NO_WAVES,
+      tags.CALYPSO_DISCO,
     ],
     discogsId: "30097-Coati-Mundi",
     bio: "Andy Hernandez (born January 3, 1950), better known by his stage name Coati Mundi, is an American musician, percussionist, notably playing the vibraphone, and a member of Dr. Buzzard's Original Savannah Band, then of Kid Creole and the Coconuts. He scored the Top 40 UK hit \"Me No Pop I\" in 1981, just before the release of Tropical Gangsters.  In 1981 he and Jean-Michel Basquiat collaborated on the masterpeice \"Palabras con Ritmo\" for the epic Downtown 81 film score and sountrack.",
@@ -3248,5 +3249,19 @@ export const rawArtistList_full = [
     discogsId: "9765-Lesiman",
     bio: "Paolo Renosto (born Floence, Italy 10 October 1935) was an Italian composer, conductor and pianist.  Renosto was author of symphonic, choral, chamber, solo and incidental music compositions. He was also a musical critic and historian, and he collaborated with RAI as creator and host of several radio programs dedicated to contemporary classical music. He also composed, sometimes under the pseudonym Lesiman, theme music for films, TV-programs and documentaries.",
     bioLink: "https://en.wikipedia.org/wiki/Paolo_Renosto",
+  },
+  {
+    name: "Aural Exciters",
+    from: "New York",
+    youtubeClips: [
+      { videoId: "F97jeMMCMaQ" },
+    ],
+    tags: [
+      tags.DISCO,
+      tags.CALYPSO_DISCO,
+    ],
+    discogsId: "27661-Aural-Exciters",
+    bio: "Aural Exciters was a project by the No Wave and Mutant disco producer Bob Blank and August Darnell, who was one of the main composers. Aural Exciters released one album on ZE Records with vocals by NY Downtown scene stars likes of Lizzy Mercier Descloux, Andy Hernandez (Coati Mundi) and Taana Gardner, and Walter Steding on violin. Later some Aural Exciters material written by Darnell emerged on the Kid Creole's albums.",
+    bioLink: BIOLINK_DISCOGS,
   },
 ];
