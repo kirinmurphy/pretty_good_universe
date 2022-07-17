@@ -23,7 +23,7 @@ export function ArtistDetail ({ artist }) {
     
       <ArtistMarqueeWrapper>
         {bio && <div>{bio}</div>}
-        {!bio && discogsId && <DiscogsPreview discogsId={discogsId} />}
+        {/* {!bio && discogsId && <DiscogsPreview discogsId={discogsId} />} */}
       </ArtistMarqueeWrapper>
     </>
   )
