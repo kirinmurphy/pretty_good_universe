@@ -153,9 +153,9 @@ export const rawArtistList_full = [
     name: "Erase Errata",
     from: "San Francisco",
     youtubeClips: [
-      { videoId: "NEtyug1SGt8" },
       { videoId: "4ySlz4Xaph4" },
       { videoId: "uTVukQi967U" },
+      { videoId: "NEtyug1SGt8" },
       { videoId: "Ntwyw2GuVYs" },
       { videoId: "jsaZxd2uPb0" },
       { videoId: "lKplwB7RrDg" },
@@ -171,9 +171,9 @@ export const rawArtistList_full = [
     name: "Embryo",
     from: "Germany",
     youtubeClips: [
+      { videoId: "XsEIiHFiMV0" },
       { videoId: "fADRbiq3i2c" },
       { videoId: "SwvbigAV9n4" },
-      { videoId: "XsEIiHFiMV0" },
     ],
     tags: [
       tags.PSYCHEDELIC_FUNK, 
@@ -889,7 +889,7 @@ export const rawArtistList_full = [
     ],
     tags: [tags.PSYCHEDELIC_JAZZ],
     discogsId: "220594-Jean-Luc-Ponty",
-    bio: "Jean-Luc Ponty (born 29 September 1942) is a French jazz violinist and composer.  One of most accomplished Jazz violinists of the 1970s, Ponty released numerous genre-bending jazz funk albums, as well as collaborated with a broad range of musical influences including Frank Zappa, Elton John, John McLaughlin/Mahavishnu Orchestra, Béla Fleck, Billy Cobham, Al Di Meola, Chick Corea, and Lalo Shifrin.  Ponty has recetly popped up in the most surprising of places, performing on a song for the 2022 album release \"What Do The Stars Say To You?\" by Ron Trent.",
+    bio: "Jean-Luc Ponty (born 29 September 1942) is a French jazz violinist and composer.  One of most accomplished Jazz violinists of the 1970s, Ponty released numerous genre-bending jazz funk albums, as well as collaborated with a broad range of musical influences including Frank Zappa, Elton John, John McLaughlin/Mahavishnu Orchestra, Béla Fleck, Billy Cobham, Al Di Meola, Chick Corea, Lalo Shifrin and mostly recently with Ron Trent on his 2022 album \"What Do The Stars Say To You?\".",
     bioLink: BIOLINK_ORIGINAL,
   },
   { 
@@ -1551,11 +1551,11 @@ export const rawArtistList_full = [
     from: "Texas",
     youtubeClips: [
       { videoId: "N-pShRISHnQ" },
-      { videoId: "_zlfH0DZD-I" },
-      { videoId: "W6jjNRUqPxg" },
-      { videoId: "K_DOnKJ232M" },
-      { videoId: "FfweD19oUUA" },
       { videoId: "4iHpcbTNOrk" },
+      { videoId: "K_DOnKJ232M" },
+      { videoId: "W6jjNRUqPxg" },
+      { videoId: "FfweD19oUUA" },
+      { videoId: "_zlfH0DZD-I" },
     ],
     tags: [tags.FOLK, tags.BLUES],
     discogsId: "468451-Alan-Lomax",
@@ -1656,7 +1656,7 @@ export const rawArtistList_full = [
     ],
     tags: [tags.DISCO],
     discogsId: "421196-Destroyers-2",
-    bio: "New York Disco trio active at the end of the '70s, produced by composer and music producer Jeffrey Lesser and by singer, composer and musician Rupert Holmes who also wrote the songs for the trio.  I mean damn, look at these covers.  Two black dudes man-handling that white girl in 1978 or whatever? They were really trying to piss some white dudes off.",
+    bio: "New York Disco trio active at the end of the '70s, produced by composer and music producer Jeffrey Lesser and by singer, composer and musician Rupert Holmes who also wrote the songs for the trio.",
     bioLink: BIOLINK_DISCOGS,
   },
   {
@@ -2241,7 +2241,7 @@ export const rawArtistList_full = [
       tags.LATIN,
     ],
     discogsId: "320472-AKT",
-    bio: "Brazilian post-punk act Akt is credited with one album that may or may not have come out in the late 70’s.  Little information about the group has survived the decades, and if I had to guess I'd say they're probably not from this timeline.  Just one album got through somehow.",
+    bio: "Brazilian post-punk act Akt is credited with one album that may or may not have come out in the late 70’s.  Little information about the group has survived the decades, and if I had to guess I'd say they're probably from a different timeline, just one album got through somehow.",
     bioLink: BIOLINK_ORIGINAL,
   },
   {
@@ -3081,7 +3081,7 @@ export const rawArtistList_full = [
       tags.SOUNDTRACK
     ],
     discogsId: "1897964-Plaisirs-Erotiques",
-    bio: "Translating simply to \"Erotic Pleasures,\" this talented obscure french trio released several albums some time in the 70s, all centered around \"gettin it on,\" backed by heavy funk, electronic and jazz influences.  Rumor has it that the music was commissioned for a real adult film series, but the score was rejected when the performers just wanted to stop screwing mid-scene to smoke a little pot and finish the rest of the album.",
+    bio: "Translating simply to \"Erotic Pleasures,\" this talented obscure french trio released several albums some time in the 70s, all basically adult film soundtracks without the films.  Maybe there were films.  That would make sense.  Either way good stuff.",
     bioLink: BIOLINK_ORIGINAL,
   },
   { 
