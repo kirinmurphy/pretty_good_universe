@@ -3,7 +3,6 @@ import { tags, BIOLINK_DISCOGS, BIOLINK_ORIGINAL } from './artistList_tags';
 // BIOS FIX
 // wyndell long 
 // les mccann
-// DAF 
 // Roberto musici
 
 
