@@ -564,10 +564,10 @@ export const rawArtistList_full = [
     from: "Germany",
     youtubeClips: [
       { videoId: "72fxlmd54rU" },
-      { videoId: "2-GGVv_1ZSM" },
       { videoId: "5EH5GFP2Otk" },
       { videoId: "zBt7-FGadjw" },
       { videoId: "2dZbAFmnRVA" },
+      { videoId: "2-GGVv_1ZSM" },
     ],
     tags: [tags.PSYCHEDELIC_FUNK, tags.KRAUTROCK],
     discogsId: "17203-Can",
@@ -638,8 +638,8 @@ export const rawArtistList_full = [
     youtubeClips: [
       { videoId: "t1hhiEHLJUg" },
       { videoId: "OAQ2jq6vwsE" },
-      { videoId: "_CqXLpQ7SsM" },
       { videoId: "_x56yvReZBk" },
+      { videoId: "_CqXLpQ7SsM" },
       { videoId: "dDxYqJmtzKc" },
       { videoId: "Qn0_fDjvI_s" },
     ],
@@ -914,11 +914,11 @@ export const rawArtistList_full = [
     youtubeClips: [
       { videoId: "8vsMh8sPwjI" },
       { videoId: "btyLiGhvTJQ" },
+      { videoId: "ajuz6u-nADY" },
       { videoId: "3_5oRtBDtfg" },
       { videoId: "d4CoDzIfF50" },
       { videoId: "Kfwxz-SSmBM" },
-      { videoId: "ajuz6u-nADY" },
-      { videoId: "qvARw8iGG5w" },
+      // { videoId: "qvARw8iGG5w" },
       // { videoId: "L-n375nloL8" },
       // { videoId: "hmaXQ8H4t4w" },
       // { videoId: "0gVJJgDFUvM" },
@@ -1064,7 +1064,7 @@ export const rawArtistList_full = [
       tags.FEMME_PUNK
     ],
     discogsId: "75801-MU",
-    bio: "Almost certainly the best afro japanese electronic punk band ever conceived or created.  There is or never will be anything again like Mu.  It is only downhill from here.",
+    bio: "Almost certainly the best afro japanese electronic punk band in modern music history.",
     bioLink: BIOLINK_DISCOGS,
   },
   { 
@@ -1265,6 +1265,7 @@ export const rawArtistList_full = [
     from: "USA",
     youtubeClips: [
       { videoId: "JNo8g97BuHg" },
+      { videoId: "2SkG_61fef8" },
       { videoId: "fEJXU7aH0M0" },
     ],
     tags: [],
@@ -1301,9 +1302,9 @@ export const rawArtistList_full = [
     name: "Ben Cenac",
     from: "New York",
     youtubeClips: [
+      { videoId: "68sTab3EgJk" },
       { videoId: "cPmxTjU4i-Q" },
       // { vidoeId: "_hoKTHj-Qrw" },
-      { videoId: "68sTab3EgJk" },
       { videoId: "KOuKE4feM0M" },
       { videoId: "1aOggvplxZQ" },
       { videoId: "M3qw2vcWSJs" },
@@ -1455,9 +1456,9 @@ export const rawArtistList_full = [
     from: "Los Angeles",
     youtubeClips: [
       { videoId: "aeRAlFbdXAI" },
+      { videoId: "kR-vweD9-Bg" },      
       { videoId: "oF1XuqYhTxQ" },
       { videoId: "bWPni4t8QCk" },
-      { videoId: "kR-vweD9-Bg" },      
     ],
     tags: [
       tags.DISCO,
@@ -1486,12 +1487,13 @@ export const rawArtistList_full = [
     name: "Arthur Russell",
     from: "New York",
     youtubeClips: [
+      { videoId: "BdSL8GBfcXI" },
       { videoId: "ZN5yz2koiIA" },
       { videoId: "JHimm2j_rYY" },
       { videoId: "MUjspzbWNwo" },
       { videoId: "rTQXz7HnBZ8" },
       { videoId: "M3iiXncFo1Y" },
-      { videoId: "aVCY4nUC7oo" },
+      // { videoId: "aVCY4nUC7oo" },
       { videoId: "uNKwr1Ne9G8" },
       { videoId: "u-OZokZbaUs" },
       { videoId: "dD5TPgTvjts" },
@@ -1533,10 +1535,10 @@ export const rawArtistList_full = [
     from: "Philadelphia",
     youtubeClips: [
       { videoId: "wRuVwlJ7ppw" },  // get better version
+      { videoId: "3_eSfFMduoI" },
+      { videoId: "BlMfRL5bjVc" },
       { videoId: "fJX4F_eDbR4" },
       { videoId: "5o-5iRZKcRg" },
-      { videoId: "BlMfRL5bjVc" },
-      { videoId: "3_eSfFMduoI" },
       { videoId: "p6NV6NzBE5g" },
       // { videoId: "dfmNIGBt_Xo" },  instrumental? 
       { videoId: "axZpwetQUt0" },
@@ -1695,8 +1697,8 @@ export const rawArtistList_full = [
     name: "Danny Krivit",
     from: "New York",
     youtubeClips: [
-      { videoId: "2LAv4x6JQQk" },
       { videoId: "6FSq566xB-M" },
+      { videoId: "2LAv4x6JQQk" },
     ],
     tags: [
       tags.DISCO
@@ -1879,8 +1881,8 @@ export const rawArtistList_full = [
     name: "Edwin Birdsong",
     from: "Los Angeles",
     youtubeClips: [
-      { videoId: "2PgZLlaqSUg" },
       { videoId: "ygJrk12kTYE" },
+      { videoId: "2PgZLlaqSUg" },
     ],
     tags: [
       tags.DISCO,
@@ -2497,10 +2499,10 @@ export const rawArtistList_full = [
     from: "France",
     youtubeClips: [
       { videoId: "AoA0tNL_07w" },
+      { videoId: "lu3h0au28EY" },
+      { videoId: "x43UNUntEuo" },
       { videoId: "uGKjZ6LluU4" },
       { videoId: "57wRUl8tWvs" },
-      { videoId: "x43UNUntEuo" },
-      { videoId: "lu3h0au28EY" },
       // { videoId: "PVSdVEWVkVA" },
     ],
     tags: [
@@ -2544,7 +2546,7 @@ export const rawArtistList_full = [
       { videoId: "NjK-ZBtuvZs" },
       { videoId: "qY-NSYNXQQE" },
       { videoId: "n1lFSFx3G6w" },
-      { videoId: "NXe_NjlPqbs" },
+      // { videoId: "NXe_NjlPqbs" },
     ],
     tags: [
       tags.SURF_ROCK,
@@ -2618,7 +2620,7 @@ export const rawArtistList_full = [
     from: "Chicago",
     youtubeClips: [
       { videoId: "B5ZjevzU98o" },
-      { videoId: "ejzSWyIQR0U" },
+      // { videoId: "ejzSWyIQR0U" },
       { videoId: "cUS5qwAxNZg" },
     ],
     tags: [
@@ -2636,7 +2638,6 @@ export const rawArtistList_full = [
       { videoId: "8qK5NefYVb8" },
     ],
     tags: [
-      tags.SURF_ROCK,
       tags.BLUES,
     ],
     discogsId: "506604-Julia-Lee-Her-Boy-Friends",
@@ -2720,8 +2721,8 @@ export const rawArtistList_full = [
     from: "New York",
     youtubeClips: [
       { videoId: "l1E_X7UGFro" },
-      { videoId: "nKz9urG0aB8" },
       { videoId: "re6uN1lOTQw" },
+      { videoId: "nKz9urG0aB8" },
     ],
     tags: [
       tags.NO_WAVES,
@@ -3057,9 +3058,9 @@ export const rawArtistList_full = [
     from: "England",
     youtubeClips: [
       { videoId: "8rl8-Yo2W5U" },
-      { videoId: "b6ASPWIXSxk" },
       { videoId: "ELkoSXmosA4" },
-      { videoId: "OguHIyNNblM" },
+      { videoId: "b6ASPWIXSxk" },
+      { videoId: "3UMyiXzGFWE" },
     ],
     tags: [
       tags.ELECTRONICA,
