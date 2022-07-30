@@ -999,7 +999,7 @@ export const rawArtistList_full = [
     ],
     tags: [tags.SOUNDTRACK],
     discogsId: "990048-The-San-Sebastian-Strings",
-    bio: "A studio orchestra in collaboration with Anita Kerr and Rod McKuen in the 1960s",
+    bio: "A studio orchestra in collaboration with Anita Kerr and Rod McKuen in the 1960s.",
     bioLink: BIOLINK_DISCOGS,
   },
   { 
@@ -3278,7 +3278,7 @@ export const rawArtistList_full = [
       tags.ITALO_DISCO,
     ],
     discogsId: "102126-Mary-Jane-Girls",
-    bio: "In 1983, Rick James proposed to Motown Records that his backing vocalists Joanne \"Jojo\" McDuffie be offered a solo career, but miscommunication caused the label to sign an all-female group, which he determined would be the Mary Jane Girls.  James filled the positions behind McDuffie with Cheri Wells, Candice \"Candi\" Ghant and Kimberly \"Maxi\" Wuletich. He also wrote all the original songs and produced all the recordings. On the band, James said \"I wanted there to be a Black female group in the industry that could express more reality with relationships to men. I wanted there to be Black girls who could really speak about love, the pain, money, power, hate and everything. Originally there were going to be three girls in negligees doing the punk thing.\"",
+    bio: "In 1983, Rick James proposed to Motown Records that his backing vocalist Joanne \"Jojo\" McDuffie be offered a solo career, but miscommunication caused the label to sign an all-female group, which he determined would be the Mary Jane Girls.  James filled the positions behind McDuffie with Cheri Wells, Candice \"Candi\" Ghant and Kimberly \"Maxi\" Wuletich. He also wrote all the original songs and produced all the recordings. On the band, James said \"I wanted there to be a Black female group in the industry that could express more reality with relationships to men. I wanted there to be Black girls who could really speak about love, the pain, money, power, hate and everything.\"",
     bioLink: "https://en.wikipedia.org/wiki/Mary_Jane_Girls",
   },  
   {
