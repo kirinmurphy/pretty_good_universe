@@ -18,7 +18,6 @@ export function RandoArtistNav (props) {
       <MobileMenu
         title={<FontAwesomeIcon icon={faBars} />}
         content={<>
-          <Logo />
           <ContactLinks />          
         </>}
       />              
