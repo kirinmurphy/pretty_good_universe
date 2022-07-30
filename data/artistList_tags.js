@@ -29,7 +29,8 @@ export const tags = {
   INSIDE_JAZZ: "Inside Jazz",
   HARD_ROCK: "Hard Rock",
   CALYPSO_DISCO: "Calypso Disco",
-  GAY_NIGHT: "Gay Disco",
+  GAY_NIGHT: "Gay Night",
+  PIANO: "Piano"
 };
 
 

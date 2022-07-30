@@ -6,16 +6,17 @@ import { tags, BIOLINK_DISCOGS, BIOLINK_ORIGINAL } from './artistList_tags';
 // Roberto musici
 
 
+// Roberta Flack
+// Bustin surfboards The tornadoes 
+
 // The Marketts - out of limits 
 // the revels - comanche
 // Lee fields
-// Bustin surfboards The tornadoes 
 // The Statler Brothers
 // DAVID MANCUSO
 // Liquid Liquid 
 // https://www.youtube.com/watch?v=Xve3jcC_YnQ
 // davy dmx
-// Roberta Flack
 // Captain Beefhart
 // Lene Lovich
 // D.R. Hooker
@@ -24,26 +25,10 @@ import { tags, BIOLINK_DISCOGS, BIOLINK_ORIGINAL } from './artistList_tags';
 // Lee Oskar - Haunted House-4olADJEQn54
 // LUIS BACALOV - youtubedownloads
 // trevor bastow
-// Liquid Liquid 
 // portishead
 
 
 export const rawArtistList_onDeck = [
-  {
-    name: "Aural Exciters",
-    from: "New York",
-    youtubeClips: [
-      { videoId: "F97jeMMCMaQ" },
-    ],
-    tags: [
-      tags.DISCO,
-      tags.CALYPSO_DISCO,
-    ],
-    discogsId: "27661-Aural-Exciters",
-    bio: "Aural Exciters was a project by the No Wave and Mutant disco producer Bob Blank and August Darnell, who was one of the main composers. Aural Exciters released one album on ZE Records with vocals by NY Downtown scene stars likes of Lizzy Mercier Descloux, Andy Hernandez (Coati Mundi) and Taana Gardner, and Walter Steding on violin. Later some Aural Exciters material written by Darnell emerged on the Kid Creole's albums.",
-    bioLink: BIOLINK_DISCOGS,
-  },
-
   {
     name: "The Wrecking Crew",
     from: "",
@@ -87,21 +72,6 @@ export const rawArtistList_onDeck = [
     bioLink: "",
   },
   {
-    name: "Phillip Glass",
-    from: "Maryland",
-    youtubeClips: [
-      { videoId: "_2vRbNehGB0" },
-      { videoId: "u5qgOjnvIic" },
-      { videoId: "5N2wS3wDK-s" },
-    ],
-    tags: [
-      tags.PSYCHEDELIC_JAZZ
-    ],
-    discogsId: "20691-Philip-Glass",
-    bio: "Philip Morris Glass (born January 31, 1937) is an American composer and pianist. He is widely regarded as one of the most influential composers of the late 20th century.[] Glass's work has been associated with minimalism, being built up from repetitive phrases and shifting layers. Glass describes himself as a composer of \"music with repetitive structures\", which he has helped evolve stylistically.",
-    bioLink: "https://www.discogs.com/artist/20691-Philip-Glass",
-  },  
-  {
     name: "Steve Reich",
     from: "",
     youtubeClips: [
@@ -113,7 +83,7 @@ export const rawArtistList_onDeck = [
       tags.EARLYELECTRONICS,
       tags.PSYCHEDELIC_JAZZ,
     ],
-    discogsId: "20691-Philip-Glass",
+    discogsId: "",
     bio: "",
     bioLink: "",
   },
@@ -131,7 +101,23 @@ export const rawArtistList_onDeck = [
       tags.GAY_NIGHT,
       tags.ITALO_DISCO,
     ],
-    discogsId: "20691-Philip-Glass",
+    discogsId: "",
+    bio: "",
+    bioLink: "",
+  },
+
+  {
+    name: "Judy Roberts",
+    from: "",
+    youtubeClips: [
+      { videoId: "WMM-hGrzpu8" },
+      { videoId: "bAWblxn-3U8" },
+      { videoId: "" },
+      { videoId: "" },
+    ],
+    tags: [
+    ],
+    discogsId: "",
     bio: "",
     bioLink: "",
   },
@@ -147,26 +133,10 @@ export const rawArtistList_onDeck = [
       tags.DISCO,
       tags.ITALO_DISCO,
     ],
-    discogsId: "20691-Philip-Glass",
-    bio: "",
-    bioLink: "",
-  },
-  {
-    name: "Judy Roberts",
-    from: "",
-    youtubeClips: [
-      { videoId: "WMM-hGrzpu8" },
-      { videoId: "bAWblxn-3U8" },
-      { videoId: "" },
-      { videoId: "" },
-    ],
-    tags: [
-    ],
-    discogsId: "20691-Philip-Glass",
-    bio: "",
-    bioLink: "",
-  },
-
+    discogsId: "102126-Mary-Jane-Girls",
+    bio: "In 1983, Rick James proposed to Motown Records that his backing vocalists Joanne \"Jojo\" McDuffie be offered a solo career, but miscommunication caused the label to sign an all-female group, which he determined would be the Mary Jane Girls.  James filled the positions behind McDuffie with Cheri Wells, Candice \"Candi\" Ghant and Kimberly \"Maxi\" Wuletich. He also wrote all the original songs and produced all the recordings. On the band, James said \"I wanted there to be a Black female group in the industry that could express more reality with relationships to men. I wanted there to be Black girls who could really speak about love, the pain, money, power, hate and everything. Originally there were going to be three girls in negligees doing the punk thing.\"",
+    bioLink: "https://en.wikipedia.org/wiki/Mary_Jane_Girls",
+  },  
 ];
 
 const template = [
@@ -181,7 +151,7 @@ const template = [
     ],
     tags: [
     ],
-    discogsId: "20691-Philip-Glass",
+    discogsId: "",
     bio: "",
     bioLink: "",
   },

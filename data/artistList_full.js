@@ -3265,4 +3265,37 @@ export const rawArtistList_full = [
     bio: "Aural Exciters was a project by the No Wave and Mutant disco producer Bob Blank and August Darnell, who was one of the main composers. Aural Exciters released one album on ZE Records with vocals by NY Downtown scene stars likes of Lizzy Mercier Descloux, Andy Hernandez (Coati Mundi) and Taana Gardner, and Walter Steding on violin. Later some Aural Exciters material written by Darnell emerged on the Kid Creole's albums.",
     bioLink: BIOLINK_DISCOGS,
   },
+  {
+    name: "Mary Jane Girls",
+    from: "California",
+    youtubeClips: [
+      { videoId: "UF2iuZctLNs" },
+      { videoId: "PwTAGx1TNg4" },
+    ],
+    tags: [
+      tags.HIP_HOP_SAMPLE_SOURCE,
+      tags.DISCO,
+      tags.ITALO_DISCO,
+    ],
+    discogsId: "102126-Mary-Jane-Girls",
+    bio: "In 1983, Rick James proposed to Motown Records that his backing vocalists Joanne \"Jojo\" McDuffie be offered a solo career, but miscommunication caused the label to sign an all-female group, which he determined would be the Mary Jane Girls.  James filled the positions behind McDuffie with Cheri Wells, Candice \"Candi\" Ghant and Kimberly \"Maxi\" Wuletich. He also wrote all the original songs and produced all the recordings. On the band, James said \"I wanted there to be a Black female group in the industry that could express more reality with relationships to men. I wanted there to be Black girls who could really speak about love, the pain, money, power, hate and everything. Originally there were going to be three girls in negligees doing the punk thing.\"",
+    bioLink: "https://en.wikipedia.org/wiki/Mary_Jane_Girls",
+  },  
+  {
+    name: "Phillip Glass",
+    from: "Maryland",
+    youtubeClips: [
+      { videoId: "_2vRbNehGB0" },
+      { videoId: "5N2wS3wDK-s" },
+      { videoId: "u5qgOjnvIic" },
+    ],
+    tags: [
+      tags.PSYCHEDELIC_JAZZ,
+      tags.PIANO
+    ],
+    discogsId: "20691-Philip-Glass",
+    bio: "Philip Morris Glass (born January 31, 1937) is an American composer and pianist. He is widely regarded as one of the most influential composers of the late 20th century.[] Glass's work has been associated with minimalism, being built up from repetitive phrases and shifting layers. Glass describes himself as a composer of \"music with repetitive structures\", which he has helped evolve stylistically.",
+    bioLink: "https://www.discogs.com/artist/20691-Philip-Glass",
+  },  
+
 ];
