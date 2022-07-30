@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { RandoArtist } from './RandoArtist';
 import { getRandomArtist } from './utils';
+import { MobileNoticerThing } from '../MobileNoticerThing';
 
 const LOCAL_STORAGE_KEY = 'pgu_saved';
 
@@ -23,10 +24,13 @@ export function RandoArtistSwitcher ({ artistList }) {
   }, [])
 
   return !!catalogState.currentArtist ? (
-    <RandoArtist 
-      catalogState={catalogState}
-      updateCatalog={updateCatalog}
-    />
+    <>
+      <RandoArtist 
+        catalogState={catalogState}
+        updateCatalog={updateCatalog}
+      />
+      <MobileNoticerThing />    
+    </>
   ) : <></>;
 }
 

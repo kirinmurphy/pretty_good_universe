@@ -32,6 +32,5 @@ export function RandoArtistProfile ({ artist, onPlaylistEnd }) {
 }
 
 const SmallScreenBioWrapper = styled.div`
-  padding-top: 1rem;
-  margin-bottom: 3rem;
+  padding: 1rem 0;
 `;

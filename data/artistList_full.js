@@ -881,8 +881,8 @@ export const rawArtistList_full = [
     from: "France",
     youtubeClips: [
       { videoId: "8hV8_1v38Ho" },
-      { videoId: "CQ2_lAMJBnA" },
       { videoId: "SXWSdErCajg" },
+      { videoId: "CQ2_lAMJBnA" },
       { videoId: "IUQecB8eIIw" },
       { videoId: "bNUQBBM_c9E" },
       { videoId: "n9MvtltrlxA" },
@@ -2598,7 +2598,7 @@ export const rawArtistList_full = [
       tags.PSYCHEDELIC_JAZZ,
     ],
     discogsId: "274439-Howard-Wales",
-    bio: "Howard Wales (Feb 8, 1943 – Dec 7, 2020) was an American keyboardist. Wales was a session player for many musical acts, including Ronnie Hawkins, Freddie King, James Brown, and the Four Tops.  He was also collaborated with Jerry Garcia in the early 1970s.   Though he was adept at accompanying rock and R&B artists, he also played free-form jazz. Later in his career he released several solo albums in this style. For several months in 1970, Wales led Monday night jazz-rock jam sessions at the Matrix, a club in San Francisco. Jerry Garcia usually played guitar at these free-form performances.",
+    bio: "Howard Wales (Feb 8, 1943 – Dec 7, 2020) was an American keyboardist. Wales was a session player for many musical acts, including Ronnie Hawkins, Freddie King, James Brown, and the Four Tops.  He also collaborated with Jerry Garcia in the early 1970s.   Though he was adept at accompanying rock and R&B artists, he also played free-form jazz. Later in his career he released several solo albums in this style. For several months in 1970, Wales led Monday night jazz-rock jam sessions at the Matrix, a club in San Francisco. Jerry Garcia usually played guitar at these free-form performances.",
     bioLink: "https://en.wikipedia.org/wiki/Howard_Wales"
   },  
   {
