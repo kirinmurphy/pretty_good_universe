@@ -1752,22 +1752,22 @@ export const rawArtistList_full = [
     bio: "Stanley Myers (6 October 1930 = 9 November 1993) was an English composer and conductor, who scored over sixty films and television series, working closely with filmmakers Nicolas Roeg, Jerzy Skolimowski and Volker Schlöndorff. He is best known for his guitar piece \"Cavatina\", composed for the 1970 film The Walking Stick and later used as the theme for The Deer Hunter.",
     bioLink: "https://en.wikipedia.org/wiki/Stanley_Myers",
   },
-  {
-    name: "Joe Louis",
-    from: "Chicago",
-    youtubeClips: [
-      { videoId: "ce9wE4o2FNw" },
-      { videoId: "B4q7wVGeNUQ" },
-      { videoId: "GX_Qn6rodFM" },
-    ],
-    tags: [
-      tags.HOUSE_HEAD,
-      tags.DETROIT_TECHNO
-    ],
-    discogsId: "https://www.discogs.com/artist/2147-Joe-Lewis",
-    bio: "Produced many seminal Chicago underground deep house cuts in the late 80's and early 90's for infamous labels like Relief Records, Peacefrog and his own Target Records.  Subject of rumored accusations that he may have lifted much of his catalog from producer named Jamie Read.  I dunno.  Feels like it has to be said.  Either way some dope cuts.",
-    bioLink: BIOLINK_ORIGINAL,
-  },   
+  // {
+  //   name: "Joe Louis",
+  //   from: "Chicago",
+  //   youtubeClips: [
+  //     { videoId: "ce9wE4o2FNw" },
+  //     { videoId: "B4q7wVGeNUQ" },
+  //     { videoId: "GX_Qn6rodFM" },
+  //   ],
+  //   tags: [
+  //     tags.HOUSE_HEAD,
+  //     tags.DETROIT_TECHNO
+  //   ],
+  //   discogsId: "https://www.discogs.com/artist/2147-Joe-Lewis",
+  //   bio: "Produced many seminal Chicago underground deep house cuts in the late 80's and early 90's for infamous labels like Relief Records, Peacefrog and his own Target Records.  Subject of rumored accusations that he may have lifted much of his catalog from producer named Jamie Read.  I dunno.  Feels like it has to be said.  Either way some dope cuts.",
+  //   bioLink: BIOLINK_ORIGINAL,
+  // },   
   {
     name: "DJ Rush",
     from: "Chicago",

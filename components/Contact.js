@@ -2,38 +2,43 @@ import styled from "styled-components";
 
 export function Contact () {
   return (
-    <>
-      <ContactLinks>
-        {/* <h1>random orbits</h1> */}
-        <span>
-          For info/bookings contact <a href="#">some@where.com</a>
-        </span>
+    <ContactPaneWrapper>
 
-        <a target="_blank" href="//youtube.com/outsidesounds">
-          youtube.com/outsidesounds
-        </a>
+      <p>Hey there, <br/>
+      Thanks for checking out my music website thing.  
+      </p>
+      <p>
+      Hit me up if you’d like to collab on music website things.  <br/>
 
-        {/* <a target="_blank" href="//mixcloud.com/kirinmurphy">
-          mixcloud.com/kirinmurphy
-        </a> */}
-      </ContactLinks>
+      Or if you just wanna talk about music.<br/> Or websites. 
+      </p>
 
-      {/* <ListPane>
-        {mixes.map(({ section, list }) => (
-          <section key={section}>
-            <h2>{section}</h2>
-            <ul>
-              {list.map(mix => (
-                <li key={mix.title}>
-                  <a href={mix.link}>{mix.type} - {mix.title}</a></li>
-              ))}
-            </ul>
-          </section>
-        ))}
-      </ListPane> */}
-    </>
+      <p>
+      Sometimes also I go to places and play music. If you’ve got a place to play music let’s talk.  More party vibes <a href="//www.mixcloud.com/millenium_breakdown/">here</a>.
+      </p>
+      <p>
+        {/* <a href="//www.instagram.com/prettygooduniverse/">Instagram</a>
+        &nbsp;&nbsp;&middot;&nbsp;&nbsp; 
+        <a href="mailto: */}
+        codethingsdotnet@gmail.com
+        {/*">Email</a> */}
+
+      </p>
+    </ContactPaneWrapper>
   )
 }
+
+const ContactPaneWrapper = styled.div`
+  background: rgba(255, 255, 255, .1);
+  max-width:480px; 
+  margin: 10vh auto 2vh auto;
+  padding: 3rem;
+
+  p {
+    margin-bottom: 1.5rem; 
+    &:last-of-type { margin-bottom: 0; }
+  }
+`;
 
 export const ContactLinks = styled.div`
   display: flex;
