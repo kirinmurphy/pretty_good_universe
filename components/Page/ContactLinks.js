@@ -1,28 +1,44 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faYoutubeSquare } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faInstagram, faYoutubeSquare } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faHome, faList } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
+import { useRouter } from "next/router";
 
 export const CONTACT_PATH = '/contact';
+export const routes = {
+  contact: '/contact',
+  artistList: '/artists',
+  homepage: '/'
+}
+
 
 export function ContactLinks () {
+  const router = useRouter();
+  const onHomePage = router.pathname === '/';
+
   return (
     <ContactLinksWrapper>
+      {!onHomePage && (
+        <a className="link" href={routes.homepage}>
+          <FontAwesomeIcon icon={faHome} />
+        </a>
+      )}
+  
+      <a className="link" href={routes.artistList}>
+        <FontAwesomeIcon icon={faList} />
+      </a>
+
       <a className="link" target="_blank" href="//youtube.com/outsidesounds">
         <FontAwesomeIcon icon={faYoutubeSquare} />
       </a>
 
-      {/* <a className="link" target="_blank" href="//mixcloud.com/kirinmurphy">
-        <FontAwesomeIcon icon={faMixcloud} />
-      </a> */}
-
-      <a className="link" href={CONTACT_PATH}>
-        <FontAwesomeIcon icon={faEnvelope} />
+      <a className="link" target="_blank" href="//www.instagram.com/prettygooduniverse/">
+        <FontAwesomeIcon icon={faInstagram} />
       </a>      
 
-      {/* <a className="link" target="_blank" href="//discogs">
-        discogs
-      </a> */}        
+      <a className="link" href={routes.contact}>
+        <FontAwesomeIcon icon={faEnvelope} />
+      </a>      
     </ContactLinksWrapper>
   );  
 }
@@ -35,7 +51,7 @@ const ContactLinksWrapper = styled.nav`
   }
 
   .svg-inline--fa {
-    font-size: 1.5rem;
+    font-size: .75rem;
 
     &.fa-mixcloud {
       transform: scale(1.2) translate3d(2px, 0px, 0);

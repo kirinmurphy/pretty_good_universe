@@ -1,17 +1,14 @@
 import styled from "styled-components";
 import { useRouter } from 'next/router';
-import { ContactLinks, CONTACT_PATH } from "./ContactLinks";
+import { ContactLinks } from "./ContactLinks";
 import { breakpointMobile, breakpointTablet } from "./constants";
 
 
 export function Footer () {
-  const router = useRouter();
-
-  const onContactPath = router.pathname === CONTACT_PATH;
 
   return (
     <FooterWrapper>
-      {!onContactPath && <ContactLinks />}
+      <ContactLinks />
     </FooterWrapper>
   )
 }
@@ -33,7 +30,7 @@ const FooterWrapper = styled.div`
       display:inline-block;
       position:relative; 
       transform-origin:center center;
-      font-size: 2.5rem;
+      font-size: 1.75rem;
     }
   }
 
