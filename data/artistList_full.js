@@ -292,7 +292,7 @@ export const rawArtistList_full = [
     ],
     tags: [tags.HIP_HOP_SAMPLE_SOURCE],
     discogsId: "2539301-Cleo-McNett",
-    bio: "Cleo McNett is a musician from Dallas, Texas notable for his home recordings and accompanying home-recorded music videos.  He is the founder of McNett Records, which released his most noted albums.  The Cleo McNett show, which ran from 1985 to 1997, ran for 12 seasons on public access television and featured McNett's songs and home-recorded videos.  McNett never enjoyed commercial success, but found immortality in DJ Shadow’s 1996 album Endtroducing, which sampled McNett’s track \”Snap\” in the interlude \”Why Hip-Hop sucks in ’96\”.",
+    bio: "Cleo McNett is a musician from Dallas, Texas notable for his home recordings and accompanying home-recorded music videos.  He is the founder of McNett Records, which released his most noted albums.  The Cleo McNett show, which ran from 1985 to 1997, ran for 12 seasons on public access television and featured McNett's songs and home-recorded videos.  McNett never enjoyed commercial success, but found immortality in DJ Shadow’s legendary 1996 debut album Endtroducing, which sampled McNett’s track \”Snap\” in the interlude \”Why Hip-Hop sucks in ’96\”.",
     bioLink: "https://en.everybodywiki.com/Cleo_McNett",
   },
   { 
@@ -315,8 +315,8 @@ export const rawArtistList_full = [
     from: "Cleveland",
     youtubeClips: [
       { videoId: "6iRKetH_mdk" },
-      { videoId: "P8LM3OiWMJ8" },  
       { videoId: "6UJ0SSHlarc" },
+      { videoId: "P8LM3OiWMJ8" },  
     ],
     tags: [tags.SOUNDTRACK],
     discogsId: "10529-Henry-Mancini",
@@ -1031,9 +1031,9 @@ export const rawArtistList_full = [
     name: "Liaisons Dangereuses",
     from: "Germany",
     youtubeClips: [
-      { videoId: "gzAOlaITnWk" },
-      { videoId: "-Xk_ixYlJIE" },
       { videoId: "_SObYJehivY" },
+      { videoId: "-Xk_ixYlJIE" },
+      { videoId: "gzAOlaITnWk" },
       { videoId: "WuZlHOLMl1Q" },
     ],
     tags: [
@@ -1113,7 +1113,7 @@ export const rawArtistList_full = [
     ],
     tags: [tags.ELECTRONICA, tags.HIP_HOP, tags.NINETIES_ELECTRONICA],
     discogsId: "4991-Spectre",
-    bio: "Skiz Fernando Jr. started his career as a journalist. Writing articles in different fanzines or magazines like Rolling Stone, interviews and records' back cover, he published in 1994: \"The New Beats : exploring the music, culture and attitudes of hip-hop\" (Anchor Books).  He founded Wordsound Recordings in December of the same year.",
+    bio: "Skiz Fernando Jr. started his career as a journalist. Writing articles in different fanzines or magazines like Rolling Stone, interviews and records' back cover, he published in 1994: \"The New Beats : exploring the music, culture and attitudes of hip-hop\" (Anchor Books). With the help of Material's Bill Laswell, he founded Wordsound Recordings in December of the same year.",
     bioLink: BIOLINK_DISCOGS,
   },
   {
@@ -1129,10 +1129,11 @@ export const rawArtistList_full = [
       { videoId: "HIDzd091J68" },
       { videoId: "Abky6hbKPpg" },
       { videoId: "2XYHJS-sLII" },
+      { videoId: "Sya5rhtTJw8" }
     ],
     tags: [tags.HIP_HOP, tags.NINETIES_ELECTRONICA],
     discogsId: "18123-Kool-Keith",
-    bio: "American rapper and founding member of Ultramagnetic MC's. Best known as Kool Keith (one of his numerous aliases), has also recorded extensively both as a solo artist and as part of many groups. He worked together with many notable names, such as Ice-T (as Analog Brothers), Dan The Automator (as Dr. Octagon), Tim Dog (as Ultra), Kut Masta Kurt (as The Diesel Truckers and Masters Of Illusion), Godfather Don (as The Cenobites) and The Prodigy.",
+    bio: "American rapper and founding member of Ultramagnetic MC's. Best known as Kool Keith (one of his numerous aliases), has also recorded extensively both as a solo artist and as part of many groups. He worked together with many notable names, such as Ice-T (as Analog Brothers), Dan The Automator (as Dr. Octagon), Tim Dog (as Ultra), Kut Masta Kurt (as The Diesel Truckers and Masters Of Illusion), Godfather Don (as The Cenobites), DJ Spooky and The Prodigy.",
     bioLink: BIOLINK_DISCOGS,
   },
   {
@@ -1487,7 +1488,6 @@ export const rawArtistList_full = [
     name: "Arthur Russell",
     from: "New York",
     youtubeClips: [
-      { videoId: "BdSL8GBfcXI" },
       { videoId: "ZN5yz2koiIA" },
       { videoId: "JHimm2j_rYY" },
       { videoId: "MUjspzbWNwo" },
@@ -1497,6 +1497,7 @@ export const rawArtistList_full = [
       { videoId: "uNKwr1Ne9G8" },
       { videoId: "u-OZokZbaUs" },
       { videoId: "dD5TPgTvjts" },
+      { videoId: "BdSL8GBfcXI" },
     ],
     tags: [tags.NO_WAVES, tags.DISCO],
     discogsId: "23524-Arthur-Russell",
@@ -1865,8 +1866,8 @@ export const rawArtistList_full = [
     name: "Brian Bennett",
     from: "England",
     youtubeClips: [
-      { videoId: "Hs_nzDI0PuQ" },
       { videoId: "kY0i4bL9eSo" },
+      { videoId: "Hs_nzDI0PuQ" },
       { videoId: "Ao5uiWUzMx4" },
     ],
     tags: [
@@ -2278,8 +2279,8 @@ export const rawArtistList_full = [
     name: "Nino Nardini",
     from: "France",
     youtubeClips: [
-      { videoId: "svv2O2TYJQs" },
       { videoId: "uyhkQxIoCx4" },
+      { videoId: "svv2O2TYJQs" },
       { videoId: "AEfWD1XOj8w" },
       { videoId: "nz6wJvmakiM" },
       { videoId: "95uWjdsWNFg" },
@@ -2723,6 +2724,7 @@ export const rawArtistList_full = [
       { videoId: "l1E_X7UGFro" },
       { videoId: "re6uN1lOTQw" },
       { videoId: "nKz9urG0aB8" },
+      { videoId: "IbzvciFIvvk" }, 
     ],
     tags: [
       tags.NO_WAVES,
@@ -2807,6 +2809,7 @@ export const rawArtistList_full = [
     from: "South Carolina",
     youtubeClips: [
       { videoId: "FT--5iQA0GA" },
+      { videoId: "PJFtXq_79JU" }
     ],
     tags: [
       tags.DISCO,
@@ -3158,8 +3161,8 @@ export const rawArtistList_full = [
     name: "Mahavishnu Orchestra",
     from: "England",
     youtubeClips: [
-      { videoId: "GWT6xt6QMpQ" },
       { videoId: "ZSh0nmretso" },
+      { videoId: "GWT6xt6QMpQ" },
       { videoId: "5mdGCqZTres" },
       { videoId: "JtcRdEoGJ_I" },      
       { videoId: "oYz0E2qY100" },
@@ -3192,8 +3195,8 @@ export const rawArtistList_full = [
     name: "Lizzy Mercier Descloux",
     from: "France",
     youtubeClips: [
-      { videoId: "2Irhy-oLjXY" },
       { videoId: "KfJwOVQ34r0" },
+      { videoId: "2Irhy-oLjXY" },
       // { videoId: "76nN04vrVGE" },
       { videoId: "UDoggcviQf4" },
       { videoId: "f_tFrStZNwA" },
