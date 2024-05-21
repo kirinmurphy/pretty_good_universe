@@ -1051,6 +1051,7 @@ export const rawArtistList_full = [
     youtubeClips: [
       { videoId: "Io_qpWyk4RM" },
       { videoId: "Ylbu46WdO-w" },
+      { videoId: "1v-OJwM_YHA" }, 
       { videoId: "rGm1ukZRmlU" },
       { videoId: "M1gywpRgBpc" },
       { videoId: "cdWO7r6DnlE" },
@@ -2396,7 +2397,7 @@ export const rawArtistList_full = [
     ],
     tags: [
       tags.SURF_ROCK,
-      tags.HIP_HOP_SAMPLE_SOURCE,
+      tags.PSYCHEDELIC_ROCK
     ],
     discogsId: "1105126-Moğollar",
     bio: "Four young Turks from different Anatolian villages met and became friends during the 1960s, discovering in common their taste both for the traditional music of their land and for the new kind of music that Europe called \"pop\".  The Mogol (Mogollar in their own language) immediately leapt to the top place in the Turkish Hit Parade, an honour that had normally been reserved to British and American successes. Their kind of music, based on the exotic folklore heritage of Anatolia, enriched by modern rhythms merged with the impassioned strains of the Turkish national idioms, stimulated the formation of numerous other new groups. Even to the limits of the remotest Turkish villages, Anadolu (Anatolian) \"pop\" has achieved an immense public following.",
@@ -2925,7 +2926,7 @@ export const rawArtistList_full = [
     name: "Carioca",
     from: "Brazil",
     youtubeClips: [
-      { videoId: "Ddweqj6N5UA" },
+      // { videoId: "Ddweqj6N5UA" },
       { videoId: "uHpUMipOzcY" },
     ],
     tags: [
@@ -3300,5 +3301,159 @@ export const rawArtistList_full = [
     bio: "Philip Morris Glass (born January 31, 1937) is an American composer and pianist. He is widely regarded as one of the most influential composers of the late 20th century.[] Glass's work has been associated with minimalism, being built up from repetitive phrases and shifting layers. Glass describes himself as a composer of \"music with repetitive structures\", which he has helped evolve stylistically.",
     bioLink: "https://www.discogs.com/artist/20691-Philip-Glass",
   },  
-
+  {
+    "name": "The Wrecking Crew",
+    "from": "Los Angeles",
+    "youtubeClips": [
+      { "videoId": "-ZgBexrZvM0" }
+    ],
+    "tags": [tags.BLUES, tags.SURF_ROCK],
+    "discogsId": "244557-The-Wrecking-Crew",
+    "bio": "Music lovers will be astonished at the influence The Wrecking Crew wielded over rock and pop music in the 1960s and early 1970s. These unsung instrumentalists were the de-facto backing band on hit records by The Beach Boys, Phil Spector, Frank Sinatra, Nancy Sinatra, Sonny & Cher, Elvis, The Monkees and many more. These dedicated musicians brought the flair and musicianship that made the American “West Coast Sound” a dominant cultural force around the world.",
+    "bioLink": "https://en.wikipedia.org/wiki/The_Wrecking_Crew_(music)"
+  },
+  {
+    "name": "Steve Reich",
+    "from": "New York",
+    "youtubeClips": [
+      { "videoId": "i0345c6zNfM" },
+      { "videoId": "vugqRAX7xQE" },
+      { "videoId": "g0WVh1D0N50" }
+    ],
+    "tags": [tags.EARLYELECTRONICS, tags.PSYCHEDELIC_JAZZ],
+    "discogsId": "10365-Steve-Reich",
+    "bio": "Steve Reich, born in New York City on October 3, 1936, is a pioneering minimalist composer. His innovative techniques, such as \"phase\" and \"pulse\" music, transformed contemporary classical music. Reich studied at Juilliard and Mills College under Darius Milhaud and Luciano Berio. Early works like \"It's Gonna Rain\" and \"Come Out\" used tape loops to create phasing patterns. Influenced by jazz, Balinese gamelan, and African drumming, his notable compositions include \"Music for 18 Musicians\" and \"Different Trains.\" Reich's accolades include a Pulitzer Prize and multiple Grammys​.",
+    "bioLink": "https://en.wikipedia.org/wiki/Steve_Reich"
+  },
+  {
+    "name": "Yello",
+    "from": "Switzerland",
+    "youtubeClips": [
+      { "videoId": "6jJkdRaa04g" },
+      { "videoId": "COrHxDsaTJI" },
+      { "videoId": "qIAIHl3xEHM" }
+    ],
+    "tags": [tags.DISCO, tags.GAY_NIGHT, tags.ITALO_DISCO],
+    "discogsId": "14156-Yello",
+    "bio": "Yello, the Swiss electronic duo formed in 1979 by Dieter Meier and Boris Blank, emerged from Zurich's vibrant music scene, which was experiencing a late '60s-style cultural upheaval. Influenced by the experimental sounds of Kraftwerk, Brian Eno, and the British industrial scene, they carved out a unique niche with their eclectic blend of art rock, synthpop, and dance music. Their 1985 hit \"Oh Yeah,\" featured in \"Ferris Bueller's Day Off,\" cemented their place in pop culture. Albums like \"Stella\" and \"Flag\" showcased their innovative use of sampling and rhythm, with tracks like \"The Race\" achieving international acclaim.",
+    "bioLink": "https://en.wikipedia.org/wiki/Yello"
+  },
+  {
+    "name": "Roni Size Reprazent",
+    "from": "Bristol, UK",
+    "youtubeClips": [
+      { "videoId": "NVcKHYSevKU" },
+      { "videoId": "Vme9debvtOs" },
+      { "videoId": "NYU1Fzl4SIA" },
+      { "videoId": "NkvrletNuXM" }
+    ],
+    "tags": [tags.ELECTRONICA, tags.DUB, tags.NINETIES_ELECTRONICA],
+    "discogsId": "17464-Roni-Size-Reprazent",
+    "bio": "Roni Size Reprazent's sound was a sonic tapestry woven from Bristol's late 90’s Wild Bunch parties—events that spawned Massive Attack, Tricky, and more. Size and his cohorts—DJ Krust, DJ Die, and Suv—were alchemists, blending the frenetic energy of hip-hop with the deep grooves of reggae and the sophisticated cool of jazz. Their debut album, \"New Forms,\" wasn't just an album; it was a manifesto, a declaration that drum and bass could groove with the jazz legends like Miles Davis, pulse with the soul of James Brown, and echo the revolutionary spirit of Bob Marley and the Wailers. The result was an aural acid trip, a kaleidoscope of sound that split the drum and bass scene, challenging purists and captivating new fans.",
+    "bioLink": "https://en.wikipedia.org/wiki/Roni_Size"
+  },
+  {
+    "name": "Judy Roberts",
+    "from": "Chicago",
+    "youtubeClips": [
+      { "videoId": "WMM-hGrzpu8" },
+      { "videoId": "bAWblxn-3U8" },
+      { "videoId": "" },
+      { "videoId": "" }
+    ],
+    "tags": [tags.FEMME_FATALE, tags.PSYCHEDELIC_FUNK],
+    "discogsId": "317340-Judy-Roberts",
+    "bio": "Judy Roberts, the virtuoso jazz pianist and vocalist, emerged from the vibrant Chicago jazz scene. With a career spanning several decades, she has become a staple in the genre, known for her impeccable technique and emotive performances. Roberts' music blends traditional jazz with contemporary influences, creating a unique soundscape that has captivated audiences worldwide. Her work not only honors the greats of jazz but also pushes the boundaries of the genre, making her a significant figure in modern jazz history.",
+    "bioLink": "https://en.wikipedia.org/wiki/Judy_Roberts"
+  },
+  {
+    "name": "Perotá Chingó",
+    "from": "Argentina",
+    "youtubeClips": [
+      { "videoId": "_aIuna5a8Dc" },
+      { "videoId": "" },
+      { "videoId": "" }
+    ],
+    "tags": [tags.LATIN, tags.FOLK],
+    "discogsId": "5104048-Perotá-Chingó",
+    "bio": "Perotá Chingó is an Argentine duo formed by Dolores Aguirre and Julia Ortiz in 2011. They achieved early popularity with their viral performance of \"Rie Chinito\" in 2012. Their music incorporates traditional South American instruments and has been influenced by folk icons such as Mercedes Sosa and contemporary musicians like Jorge Drexler. Their discography includes the debut album \"Un viajecito\" (2012) and \"Aguas\" (2017), among others.",
+    "bioLink": "https://en.wikipedia.org/wiki/Perotá_Chingó"
+  },
+  {
+    "name": "Cruza",
+    "from": "Orlando, FL",
+    "youtubeClips": [
+      { "videoId": "CEFaXYk9TJ8" }
+    ],
+    "tags": [tags.HIP_HOP, tags.ELECTRONICA],
+    "discogsId": "826328-Cruza",
+    "bio": "Cruza emerged from Orlando in 2020, blending alternative R&B, psychedelic, and rock elements into a unique sound. The trio—AJ Roth, Charity Joy Brown, and Adam Kain—draws inspiration from Unknown Mortal Orchestra and King Krule, creating dreamy, multifaceted music. Their debut project, \"Cult Research,\" and latest EP, \"Paranoia Pack,\" showcase their ability to merge grunge aesthetics with melodic compositions. Their music reflects the complexities of young adulthood, exploring themes of love, heartbreak, and maturity.",
+    "bioLink": "https://www.instagram.com/cruza_music/"
+  },
+  {
+    "name": "Tashaki Miyaki",
+    "from": "Los Angeles",
+    "youtubeClips": [
+      { "videoId": "3vBrz3SeYmM" }
+    ],
+    "tags": [tags.ELECTRONICA],
+    "discogsId": "2528487-Tashaki-Miyaki",
+    "bio": "Tashaki Miyaki is a band from Los Angeles known for their dream pop sound. Influenced by artists like The Velvet Underground, they blend ethereal vocals with a lo-fi aesthetic.",
+    "bioLink": "https://en.wikipedia.org/wiki/Tashaki_Miyaki"
+  },
+  {
+    "name": "Minnie Riperton",
+    "from": "Chicago",
+    "youtubeClips": [
+      { "videoId": "g1kDd6yBQZ4" }
+    ],
+    "tags": [tags.PSYCHEDELIC_FUNK, tags.FEMME_FATALE],
+    "discogsId": "144725-Minnie-Riperton",
+    "bio": "Minnie Riperton was an American singer-songwriter from Chicago, celebrated for her five-octave vocal range. Influenced by jazz and soul, she is best known for her 1975 hit 'Lovin' You'.",
+    "bioLink": "https://en.wikipedia.org/wiki/Minnie_Riperton"
+  },
+  {
+    "name": "Laura",
+    "from": "Seattle",
+    "youtubeClips": [
+      { "videoId": "fRrGQcdqfTc" }
+    ],
+    "tags": [tags.FEMME_FATALE, tags.PSYCHEDELIC_ROCK],
+    "discogsId": "2986885-Laura-Love",
+    "bio": "Laura Love, born in Nebraska, is an American musician with a diverse style that includes Afro-Celtic and bluegrass influences. She started her career performing at a young age and has been active since the 1970s. Laura's music reflects her varied background and personal challenges, resonating with themes of social justice and personal struggle.",
+    "bioLink": "https://en.wikipedia.org/wiki/Laura_Love"
+  },
+  {
+    "name": "Little Simz",
+    "from": "London",
+    "youtubeClips": [
+      { "videoId": "tvY31eN3gtE" }
+    ],
+    "tags": [tags.DUB, tags.HIP_HOP, tags.AFRICAN],
+    "discogsId": "3467346-Little-Simz",
+    "bio": "Little Simz is a British rapper from London, known for her introspective lyrics and innovative sound. Her influences include Lauryn Hill and Kendrick Lamar.",
+    "bioLink": "https://en.wikipedia.org/wiki/Little_Simz"
+  },
+  {
+    "name": "Panteon Rococó",
+    "from": "Mexico City",
+    "youtubeClips": [
+      { "videoId": "BYk1sS329Mg" }
+    ],
+    "tags": [tags.LATIN, tags.PSYCHEDELIC_ROCK],
+    "discogsId": "473044-Panteon-Rococó",
+    "bio": "Panteon Rococó is a band from Mexico City known for their mix of rock, ska, and Mexican folk music. Influences include traditional Mexican music and ska pioneers like The Skatalites.",
+    "bioLink": "https://en.wikipedia.org/wiki/Panteon_Rococ%C3%B3"
+  },
+  {
+    "name": "Front 242",
+    "from": "Belgium",
+    "youtubeClips": [
+      { "videoId": "CEWBsnraGzM" }
+    ],
+    "tags": [tags.INDUSTRIAL, tags.ELECTRONICA, tags.NO_WAVES, tags.NEUEDEUTCHEWELLE],
+    "discogsId": "6760-Front-242",
+    "bio": "Front 242 is a pioneering Belgian group known for their influence on the electronic body music (EBM) genre, blending industrial sounds with electronic beats.",
+    "bioLink": "https://en.wikipedia.org/wiki/Front_242"
+  }
 ];
